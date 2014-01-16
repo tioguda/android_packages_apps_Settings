@@ -56,12 +56,14 @@ public class StatusBarPersonalizations extends SettingsPreferenceFragment
     private static final String NETWORK_TRAFFIC_PERIOD = "network_traffic_period";
     private static final String NETWORK_TRAFFIC_AUTOHIDE = "network_traffic_autohide";
     private static final String NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD = "network_traffic_autohide_threshold";
+    private static final String PREF_FONT_STYLE = "font_style";
         
     private ListPreference mNetTrafficState;
     private ListPreference mNetTrafficUnit;
     private ListPreference mNetTrafficPeriod;
     private SwitchPreference mNetTrafficAutohide;
     private SeekBarPreference mNetTrafficAutohideThreshold;
+    private ListPreference mFontStyle;
     
     private int mNetTrafficVal;
     private int MASK_UP;
@@ -122,6 +124,12 @@ public class StatusBarPersonalizations extends SettingsPreferenceFragment
             prefScreen.removePreference(findPreference(NETWORK_TRAFFIC_AUTOHIDE));
             prefScreen.removePreference(findPreference(NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD));
         }
+        mFontStyle = (ListPreference) findPreference(PREF_FONT_STYLE);
+        mFontStyle.setOnPreferenceChangeListener(this);
+        mFontStyle.setValue(Integer.toString(Settings.System.getInt(getActivity()
+                .getContentResolver(), Settings.System.STATUSBAR_CLOCK_FONT_STYLE,
+                4)));
+        mFontStyle.setSummary(mFontStyle.getEntry());
     }
     
     @Override
@@ -158,6 +166,13 @@ public class StatusBarPersonalizations extends SettingsPreferenceFragment
             int threshold = (Integer) newValue;
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD, threshold * 1);
+            return true;
+        } else if (preference == mFontStyle) {
+            int val = Integer.parseInt((String) newValue);
+            int index = mFontStyle.findIndexOfValue((String) newValue);
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.STATUSBAR_CLOCK_FONT_STYLE, val);
+            mFontStyle.setSummary(mFontStyle.getEntries()[index]);
             return true;
         }
         return false;

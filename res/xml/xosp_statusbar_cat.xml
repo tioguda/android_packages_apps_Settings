@@ -33,6 +33,13 @@
         android:summaryOff="@string/su_indicator_summary_off"
         android:defaultValue="true" />
     
+    <!-- Clock Font -->
+    <ListPreference
+        android:key="font_style"
+        android:entries="@array/clock_font_style_entries"
+        android:entryValues="@array/clock_font_style_values"
+        android:title="@string/clock_font_style_title" />
+
     <!-- Network traffic meter -->
      <PreferenceCategory
          android:key="category_network_traffic"
