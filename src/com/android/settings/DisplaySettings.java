@@ -104,7 +104,6 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private static final String KEY_FONT_SIZE = "font_size";
     private static final String KEY_SCREEN_SAVER = "screensaver";
     private static final String KEY_LIFT_TO_WAKE = "lift_to_wake";
-    private static final String KEY_DOZE = "doze";
     private static final String KEY_AUTO_BRIGHTNESS = "auto_brightness";
     private static final String KEY_AUTO_ROTATE = "auto_rotate";
     private static final String KEY_NIGHT_MODE = "night_mode";
@@ -114,6 +113,9 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private static final String KEY_NOTIFICATION_LIGHT = "notification_light";
     private static final String KEY_BATTERY_LIGHT = "battery_light";
     private static final String KEY_LIVEDISPLAY = "live_display";
+    private static final String KEY_DOZE_CATEGORY = "category_doze_options";
+    private static final String KEY_DOZE = "doze";
+    private static final String KEY_ADVANCED_DOZE_OPTIONS = "advanced_doze_options";
 
     private static final int DLG_GLOBAL_CHANGE_WARNING = 1;
 
@@ -129,7 +131,6 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private Preference mScreenSaverPreference;
     private SwitchPreference mAccelerometer;
     private SwitchPreference mLiftToWakePreference;
-    private SwitchPreference mDozePreference;
     private SwitchPreference mAutoBrightnessPreference;
     private SwitchPreference mWakeWhenPluggedOrUnplugged;
 
@@ -150,6 +151,9 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
         }
     };
     private SwitchPreference mCameraGesturePreference;
+    private PreferenceCategory mDozeCategory;
+    private SwitchPreference mDozePreference;
+    private PreferenceScreen mAdvancedDozeOptions;
 
     @Override
     protected int getMetricsCategory() {
@@ -257,15 +261,6 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
             }
         }
 
-        mDozePreference = (SwitchPreference) findPreference(KEY_DOZE);
-        if (mDozePreference != null && Utils.isDozeAvailable(activity)) {
-            mDozePreference.setOnPreferenceChangeListener(this);
-        } else {
-            if (displayPrefs != null && mDozePreference != null) {
-                displayPrefs.removePreference(mDozePreference);
-            }
-        }
-
         mCameraGesturePreference = (SwitchPreference) findPreference(KEY_CAMERA_GESTURE);
         if (mCameraGesturePreference != null && isCameraGestureAvailable(getResources())) {
             mCameraGesturePreference.setOnPreferenceChangeListener(this);
@@ -273,6 +268,15 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
             if (displayPrefs != null && mCameraGesturePreference != null) {
                 displayPrefs.removePreference(mCameraGesturePreference);
             }
+        }
+
+        mDozeCategory = (PreferenceCategory) findPreference(KEY_DOZE_CATEGORY);
+        if (Utils.isDozeAvailable(activity)) {
+            // Doze master switch
+            mDozePreference = (SwitchPreference) findPreference(KEY_DOZE);
+            mDozePreference.setOnPreferenceChangeListener(this);
+        } else {
+            removePreference(KEY_DOZE_CATEGORY);
         }
 
         mNightModePreference = (ListPreference) findPreference(KEY_NIGHT_MODE);
@@ -777,6 +781,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
                     }
                     if (!Utils.isDozeAvailable(context)) {
                         result.add(KEY_DOZE);
+                        result.add(KEY_ADVANCED_DOZE_OPTIONS);
                     }
                     if (!isCameraGestureAvailable(context.getResources())) {
                         result.add(KEY_CAMERA_GESTURE);
