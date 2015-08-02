@@ -192,5 +192,11 @@
      <string name="device_maintainers_title_summary">List of the official supported devices by the XOSP maintainers</string>
      <string name="maintainers_note_title">Note</string>
      <string name="maintainers_note_title_summary">If you compiled the ROM and the stuff are almost/all working and want to get the official status send a PM to \'Calin Neamtu\' on Hangouts containing also the link to the Thread on XDA</string>
+     
+     <!-- Lock screen settings -->
+    <string name="lockscreen_settings_title">Lockscreen wallpaper</string>
+    <string name="lockscreen_wallpaper_title">Wallpaper</string>
+    <string name="lockscreen_wallpaper_set_title">Set lock screen wallpaper</string>
+    <string name="lockscreen_wallpaper_clear_title">Clear lock screen wallpaper</string>
     
 </resources>
