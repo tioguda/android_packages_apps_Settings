@@ -40,6 +40,13 @@
         android:entryValues="@array/clock_font_style_values"
         android:title="@string/clock_font_style_title" />
 
+    <!-- Clock Font Size -->
+    <ListPreference
+        android:key="font_size"
+        android:entries="@array/clock_font_size_entries"
+        android:entryValues="@array/clock_font_size_values"
+        android:title="@string/clock_font_size_title" />
+
     <!-- Network traffic meter -->
      <PreferenceCategory
          android:key="category_network_traffic"

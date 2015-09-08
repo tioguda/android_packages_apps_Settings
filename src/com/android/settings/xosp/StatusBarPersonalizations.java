@@ -64,6 +64,7 @@ public class StatusBarPersonalizations extends SettingsPreferenceFragment
     private SwitchPreference mNetTrafficAutohide;
     private SeekBarPreference mNetTrafficAutohideThreshold;
     private ListPreference mFontStyle;
+    private ListPreference mFontSize;
     
     private int mNetTrafficVal;
     private int MASK_UP;
@@ -130,6 +131,13 @@ public class StatusBarPersonalizations extends SettingsPreferenceFragment
                 .getContentResolver(), Settings.System.STATUSBAR_CLOCK_FONT_STYLE,
                 0)));
         mFontStyle.setSummary(mFontStyle.getEntry());
+        
+        mFontSize = (ListPreference) findPreference(PREF_FONT_SIZE);
+        mFontSize.setOnPreferenceChangeListener(this);
+        mFontSize.setValue(Integer.toString(Settings.System.getInt(getActivity()
+                .getContentResolver(), Settings.System.STATUSBAR_CLOCK_FONT_SIZE, 
+                14)));
+        mFontSize.setSummary(mFontSize.getEntry());
     }
     
     @Override
@@ -173,6 +181,13 @@ public class StatusBarPersonalizations extends SettingsPreferenceFragment
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.STATUSBAR_CLOCK_FONT_STYLE, val);
             mFontStyle.setSummary(mFontStyle.getEntries()[index]);
+            return true;
+        } else if (preference == mFontSize) {
+            int val = Integer.parseInt((String) newValue);
+            int index = mFontSize.findIndexOfValue((String) newValue);
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.STATUSBAR_CLOCK_FONT_SIZE, val);
+            mFontSize.setSummary(mFontSize.getEntries()[index]);
             return true;
         }
         return false;
