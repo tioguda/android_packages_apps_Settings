@@ -57,6 +57,7 @@ public class StatusBarPersonalizations extends SettingsPreferenceFragment
     private static final String NETWORK_TRAFFIC_AUTOHIDE = "network_traffic_autohide";
     private static final String NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD = "network_traffic_autohide_threshold";
     private static final String PREF_FONT_STYLE = "font_style";
+    private static final String PREF_STATUS_BAR_CLOCK_FONT_SIZE  = "status_bar_clock_font_size";
         
     private ListPreference mNetTrafficState;
     private ListPreference mNetTrafficUnit;
@@ -64,7 +65,7 @@ public class StatusBarPersonalizations extends SettingsPreferenceFragment
     private SwitchPreference mNetTrafficAutohide;
     private SeekBarPreference mNetTrafficAutohideThreshold;
     private ListPreference mFontStyle;
-    private ListPreference mFontSize;
+    private ListPreference mStatusBarClockFontSize;    
     
     private int mNetTrafficVal;
     private int MASK_UP;
@@ -132,12 +133,12 @@ public class StatusBarPersonalizations extends SettingsPreferenceFragment
                 0)));
         mFontStyle.setSummary(mFontStyle.getEntry());
         
-        mFontSize = (ListPreference) findPreference(PREF_FONT_SIZE);
-        mFontSize.setOnPreferenceChangeListener(this);
-        mFontSize.setValue(Integer.toString(Settings.System.getInt(getActivity()
+        mStatusBarClockFontSize = (ListPreference) findPreference(PREF_STATUS_BAR_CLOCK_FONT_SIZE);
+        mStatusBarClockFontSize.setOnPreferenceChangeListener(this);
+        mStatusBarClockFontSize.setValue(Integer.toString(Settings.System.getInt(getActivity()
                 .getContentResolver(), Settings.System.STATUSBAR_CLOCK_FONT_SIZE, 
                 14)));
-        mFontSize.setSummary(mFontSize.getEntry());
+        mStatusBarClockFontSize.setSummary(mStatusBarClockFontSize.getEntry());
     }
     
     @Override
@@ -182,12 +183,12 @@ public class StatusBarPersonalizations extends SettingsPreferenceFragment
                     Settings.System.STATUSBAR_CLOCK_FONT_STYLE, val);
             mFontStyle.setSummary(mFontStyle.getEntries()[index]);
             return true;
-        } else if (preference == mFontSize) {
+        } else if (preference == mStatusBarClockFontSize) {
             int val = Integer.parseInt((String) newValue);
-            int index = mFontSize.findIndexOfValue((String) newValue);
+            int index = mStatusBarClockFontSize.findIndexOfValue((String) newValue);
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.STATUSBAR_CLOCK_FONT_SIZE, val);
-            mFontSize.setSummary(mFontSize.getEntries()[index]);
+            mStatusBarClockFontSize.setSummary(mStatusBarClockFontSize.getEntries()[index]);
             return true;
         }
         return false;
