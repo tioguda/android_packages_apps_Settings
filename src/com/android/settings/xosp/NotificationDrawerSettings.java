@@ -29,6 +29,7 @@ import android.preference.SwitchPreference;
 import android.provider.Settings;
 import com.android.internal.logging.MetricsLogger;
 import cyanogenmod.providers.CMSettings;
+import com.android.settings.util.Helpers;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
@@ -36,8 +37,11 @@ import com.android.settings.SettingsPreferenceFragment;
 public class NotificationDrawerSettings extends SettingsPreferenceFragment {
  
  private static final String PREF_ENABLE_TASK_MANAGER = "enable_task_manager";
+ private static final String PREF_CUSTOM_HEADER_DEFAULT = "status_bar_custom_header_default";
 
     private SwitchPreference mEnableTaskManager;
+    private SwitchPreference mCustomHeader;
+
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
@@ -50,6 +54,11 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment {
         mEnableTaskManager = (SwitchPreference) prefSet.findPreference(PREF_ENABLE_TASK_MANAGER);
         mEnableTaskManager.setChecked((Settings.System.getInt(getActivity().getContentResolver(),
                 Settings.System.ENABLE_TASK_MANAGER, 0) == 1));
+
+        //Custom Headers
+        mCustomHeader = (SwitchPreference) prefSet.findPreference(PREF_CUSTOM_HEADER_DEFAULT);
+        mCustomHeader.setChecked((Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.STATUS_BAR_CUSTOM_HEADER_DEFAULT, 0) == 1));
 
     }
 
@@ -66,11 +75,17 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment {
 
     @Override
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
-         if  (preference == mEnableTaskManager) {
+        if  (preference == mEnableTaskManager) {
             boolean enabled = ((SwitchPreference)preference).isChecked();
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.ENABLE_TASK_MANAGER, enabled ? 1:0);  
-	}    
+	    }
+        if (preference == mCustomHeader) {
+           boolean customHeader = ((SwitchPreference)preference).isChecked();
+           Settings.System.putInt(getActivity().getContentResolver(),
+                   Settings.System.STATUS_BAR_CUSTOM_HEADER_DEFAULT, customHeader ? 1:0);
+           Helpers.restartSystemUI();
+        }    
         return super.onPreferenceTreeClick(preferenceScreen, preference);
     }
 
