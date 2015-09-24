@@ -258,5 +258,10 @@
     <string name="status_bar_custom_header_title">Time Contextual Header</string>
     <string name="contextual_title">Contextual headers</string>
     <string name="status_bar_custom_header_summary">Enable notification panel header image</string>
+    <string name="status_bar_custom_header_default_summary">Default, modern and poly HD</string>
+    <string name="status_bar_custom_header_default_title">Select your images</string>
+    <string name="custom_header_image_0">Default</string>
+    <string name="custom_header_image_1">Modern</string>
+    <string name="custom_header_image_2">Poly HD</string>
     
 </resources>

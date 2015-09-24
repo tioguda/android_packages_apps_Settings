@@ -41,7 +41,7 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment imple
 
     private SwitchPreference mEnableTaskManager;
     private SwitchPreference mCustomHeader;
-    private SwitchPreference mCustomHeaderDefault;
+    private ListPreference mCustomHeaderDefault;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -57,16 +57,17 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment imple
                 Settings.System.ENABLE_TASK_MANAGER, 0) == 1));
 
         // Status bar custom header
-        mCustomHeader = (SwitchPreference) prefSet.findPreference(PREF_CUSTOM_HEADER);
+        mCustomHeader = (SwitchPreference) prefs.findPreference(PREF_CUSTOM_HEADER);
         mCustomHeader.setChecked((Settings.System.getInt(getActivity().getContentResolver(),
                 Settings.System.STATUS_BAR_CUSTOM_HEADER, 0) == 1));
         mCustomHeader.setOnPreferenceChangeListener(this);
 
         // Status bar custom header default
-        mCustomHeaderDefault = (SwitchPreference) prefSet.findPreference(PREF_CUSTOM_HEADER_DEFAULT);
-        mCustomHeaderDefault.setChecked((Settings.System.getInt(getActivity().getContentResolver(),
-                Settings.System.STATUS_BAR_CUSTOM_HEADER_DEFAULT, 0) == 1));
+        mCustomHeaderDefault = (ListPreference) findPreference(PREF_CUSTOM_HEADER_DEFAULT);
         mCustomHeaderDefault.setOnPreferenceChangeListener(this);
+        int customHeaderDefault = Settings.System.getInt(getContentResolver(),
+                Settings.System.STATUS_BAR_CUSTOM_HEADER_DEFAULT, 0);
+        mCustomHeaderDefault.setValue(String.valueOf(customHeaderDefault));
 
     }
 
@@ -88,9 +89,10 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment imple
                     (Boolean) newValue ? 1 : 0);
             return true;
         } else if (preference == mCustomHeaderDefault) {
-            Settings.System.putInt(getContentResolver(),
+            int customHeaderDefault = Integer.valueOf((String) newValue);
+            Settings.System.putIntForUser(getContentResolver(), 
                     Settings.System.STATUS_BAR_CUSTOM_HEADER_DEFAULT,
-                    (Boolean) newValue ? 1 : 0);
+                    customHeaderDefault, UserHandle.USER_CURRENT);
             Settings.System.putInt(getContentResolver(),
                     Settings.System.STATUS_BAR_CUSTOM_HEADER,
                     0);
@@ -109,12 +111,6 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment imple
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.ENABLE_TASK_MANAGER, enabled ? 1:0);  
 	    }
-        if (preference == mCustomHeader) {
-           boolean customHeader = ((SwitchPreference)preference).isChecked();
-           Settings.System.putInt(getActivity().getContentResolver(),
-                   Settings.System.STATUS_BAR_CUSTOM_HEADER_DEFAULT, customHeader ? 1:0);
-           Helpers.restartSystemUI();
-        }    
         return super.onPreferenceTreeClick(preferenceScreen, preference);
     }
 
