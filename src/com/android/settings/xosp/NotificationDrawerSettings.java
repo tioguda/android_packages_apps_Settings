@@ -29,18 +29,19 @@ import android.preference.SwitchPreference;
 import android.provider.Settings;
 import com.android.internal.logging.MetricsLogger;
 import cyanogenmod.providers.CMSettings;
-import com.android.settings.util.Helpers;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-public class NotificationDrawerSettings extends SettingsPreferenceFragment {
+public class NotificationDrawerSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
  
  private static final String PREF_ENABLE_TASK_MANAGER = "enable_task_manager";
  private static final String PREF_CUSTOM_HEADER_DEFAULT = "status_bar_custom_header_default";
+ private static final String PREF_CUSTOM_HEADER = "status_bar_custom_header";
 
     private SwitchPreference mEnableTaskManager;
     private SwitchPreference mCustomHeader;
+    private SwitchPreference mCustomHeaderDefault;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -55,10 +56,17 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment {
         mEnableTaskManager.setChecked((Settings.System.getInt(getActivity().getContentResolver(),
                 Settings.System.ENABLE_TASK_MANAGER, 0) == 1));
 
-        //Custom Headers
-        mCustomHeader = (SwitchPreference) prefSet.findPreference(PREF_CUSTOM_HEADER_DEFAULT);
+        // Status bar custom header
+        mCustomHeader = (SwitchPreference) prefSet.findPreference(PREF_CUSTOM_HEADER);
         mCustomHeader.setChecked((Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.STATUS_BAR_CUSTOM_HEADER, 0) == 1));
+        mCustomHeader.setOnPreferenceChangeListener(this);
+
+        // Status bar custom header default
+        mCustomHeaderDefault = (SwitchPreference) prefSet.findPreference(PREF_CUSTOM_HEADER_DEFAULT);
+        mCustomHeaderDefault.setChecked((Settings.System.getInt(getActivity().getContentResolver(),
                 Settings.System.STATUS_BAR_CUSTOM_HEADER_DEFAULT, 0) == 1));
+        mCustomHeaderDefault.setOnPreferenceChangeListener(this);
 
     }
 
@@ -72,6 +80,27 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment {
         super.onResume();
     }
 
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if (preference == mCustomHeader) {
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.STATUS_BAR_CUSTOM_HEADER,
+                    (Boolean) newValue ? 1 : 0);
+            return true;
+        } else if (preference == mCustomHeaderDefault) {
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.STATUS_BAR_CUSTOM_HEADER_DEFAULT,
+                    (Boolean) newValue ? 1 : 0);
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.STATUS_BAR_CUSTOM_HEADER,
+                    0);
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.STATUS_BAR_CUSTOM_HEADER,
+                    1);
+            return true;
+        }
+        return false;
+    }
 
     @Override
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
