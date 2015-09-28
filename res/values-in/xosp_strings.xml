@@ -31,7 +31,7 @@
     <string name="xosp_settings_title">Setelan XOSP</string>
     <!-- About XOSP -->
     <string name="about_xosp">Tentang XOSP</string>
-    <string name="about_xosp_summary">@nihil</string>
+    <string name="about_xosp_summary">@null</string>
     <string name="xosp_donate">Donasikan untuk pengembangan</string>
     <string name="xosp_donate_summary">Suka ROM ini? Berikan donasi!</string>
     <string name="app_name">XOSP</string>
