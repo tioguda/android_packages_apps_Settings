@@ -12,7 +12,7 @@
 -->
 
 <resources>
-    <color name="black">#000</color>
+
     <color name="red">#F00</color>
     <color name="blue">#00F</color>
     <color name="indigo">@color/theme_accent</color>

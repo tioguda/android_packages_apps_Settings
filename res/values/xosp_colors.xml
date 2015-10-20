@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Xperia Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Color of the hex input divider -->
+    <color name="divider">#1fffffff</color>
+    <drawable name="xosp_bg_blue_grey">@color/xosp_blue_grey</drawable>
+
+    <!-- XOSP Color Picker flat colors -->
+    <color name="black">@android:color/black</color>
+    <color name="white">@android:color/white</color>
+    <color name="xosp_flat_turquoise">#ff1abc9c</color>
+    <color name="xosp_flat_nephritis">#ff27ae60</color>
+    <color name="xosp_flat_pumpkin">#ffd35400</color>
+    <color name="xosp_flat_alizarin">#ffe74c3c</color>
+    <color name="xosp_flat_wisteria">#ff8e44ad</color>
+    <color name="xosp_flat_midnightblue">#ff2c3e50</color>
+    <color name="xosp_flat_wetasphalt">#ff34495e</color>
+    <color name="xosp_flat_belizehole">#ff2980b9</color>
+    <color name="xosp_bg_blue_grey">@color/xosp_flat_midnightblue</color>
+</resources>
