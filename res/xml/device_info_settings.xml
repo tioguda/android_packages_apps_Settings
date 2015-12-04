@@ -17,6 +17,12 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/about_settings">
 
+        <!-- XOSP Banner -->
+        <PreferenceScreen android:key="xosp_logo"
+            android:enabled="false"
+            android:selectable="false"
+            android:layout="@layout/xosp_banner" />
+
         <!-- Advanced mode -->
         <com.android.settings.cyanogenmod.CMSecureSettingSwitchPreference
             android:key="advanced_mode"
