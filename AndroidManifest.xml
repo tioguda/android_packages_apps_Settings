@@ -1137,6 +1137,9 @@
         <activity 
             android:name=".reborn.About" />
         
+        <activity
+            android:name=".reborn.FAQ" />
+        
         <!---Ended..........-->
         
         <activity android:name="Settings$AppOpsSummaryActivity"

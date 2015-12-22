@@ -50,6 +50,14 @@
              android:summary="@string/xosp_about5" />    
         
         </PreferenceCategory>
+ 
+        <!-- FAQ section -->
+        <PreferenceScreen
+            android:key="reborn_faq"
+            android:fragment="com.android.settings.reborn.FAQ"
+            android:title="@string/faq_title"
+            android:summary="@string/faq_summary"
+            />
         
 	<PreferenceCategory
 		android:key="links"
