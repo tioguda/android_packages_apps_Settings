@@ -1115,7 +1115,11 @@
                 <category android:name="android.intent.category.VOICE" />
             </intent-filter>
         </activity>
-
+        
+        <!--- S+ Reborn Stuff -->
+        
+        <activity android:name=".reborn.ChangeLog" />
+        
         <activity android:name="Settings$AppOpsSummaryActivity"
                 android:label="@string/app_ops_settings"
                 android:taskAffinity=""

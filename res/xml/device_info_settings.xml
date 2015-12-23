@@ -90,6 +90,14 @@
                 style="?android:preferenceInformationStyle"
                 android:title="@string/mod_api_level"
                 android:summary="@string/mod_api_level_default" />
+
+        <!-- Reborn ChangeLog -->
+
+        <PreferenceScreen 
+                android:key="changelog_reborn"
+                android:title="@string/reborn_changelog_title"
+                android:summary="@string/reborn_changelog_summary"
+                android:fragment="com.android.settings.reborn.ChangeLog" />
     
         <!-- Reborn Revision -->
         <Preference android:key="reborn_revsion"

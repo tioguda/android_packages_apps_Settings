@@ -25,5 +25,10 @@
     <!-- About phone screen, S+ Reborn Mod version -->
     <string name="mod_version">Mod Version</string>
     <string name="mod_version_default">Unknown</string>
+    
+    <!--S+ Reborn Changelog-->
+    <string name="reborn_changelog_title">ChangeLog</string>
+    <string name="reborn_changelog_summary">S+ Reborn ChangeLog</string>
+    <string name="reborn_changelog_error">ChangeLog could not be loaded!</string>
 
 </resources>
