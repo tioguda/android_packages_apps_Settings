@@ -106,6 +106,16 @@
                 android:fragment="com.android.settings.notification.SoundSettings"
                 android:icon="@drawable/ic_settings_sounds"
                 />
+        <dashboard-tile
+                android:id="@+id/viper"
+                android:title="ViperFX"
+                android:icon="@drawable/ic_viper_tint"
+                android:key="viperfx">
+        <intent android:targetPackage="com.vipercn.viper4android_v2" 
+		android:action="android.intent.action.MAIN" 
+		android:targetClass="com.vipercn.viper4android_v2.activity.ViPER4Android"/>
+        
+        </dashboard-tile> 
 
         <!-- Display & lights -->
         <dashboard-tile
