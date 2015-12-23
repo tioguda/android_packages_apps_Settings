@@ -69,4 +69,8 @@
     <string name="faq_title">F.A.Q</string>
     <string name="faq_summary">Got a question? check out the Reborn F.A.Q section</string>
     
+    <!-- Statusbar XOSP logo -->
+    <string name="status_bar_xosp_logo_title">XOSP logo</string>
+    <string name="status_bar_xosp_logo_summary">Enable to show the XOSP logo on statusbar</string>
+    
 </resources>
