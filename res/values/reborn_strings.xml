@@ -19,8 +19,11 @@
     <!-- Reborn Revision -->
     <string name="reborn_revision">Reborn Revision</string>
 
-    <!-- About phone screen, S+ Reborn Release -->
-    <string name="mod_version">S+ Reborn Release</string>
+    <!-- Reborn Release -->
+    <string name="reborn_release">Reborn Release</string>
+
+    <!-- About phone screen, S+ Reborn Mod version -->
+    <string name="mod_version">Mod Version</string>
     <string name="mod_version_default">Unknown</string>
 
 </resources>

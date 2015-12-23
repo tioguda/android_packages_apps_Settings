@@ -97,6 +97,12 @@
                 android:title="@string/reborn_revsion"
                 android:summary="@string/android_info_default" />
 
+        <!-- Reborn Release -->
+        <Preference android:key="reborn_release"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/reborn_release"
+                android:summary="@string/device_info_default" />
+
         <!-- Security patch level -->
         <Preference android:key="security_patch"
                 style="?android:preferenceInformationStyle"
