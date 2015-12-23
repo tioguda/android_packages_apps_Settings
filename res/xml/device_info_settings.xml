@@ -99,7 +99,14 @@
                 style="?android:preferenceInformationStyle"
                 android:title="@string/mod_api_level"
                 android:summary="@string/mod_api_level_default" />
-
+    
+        <!-- Reborn Revision -->
+        
+        <Preference android:key="reborn_revsion"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/reborn_revsion"
+                android:summary="@string/android_info_default" />
+        
         <!-- Security patch level -->
         <Preference android:key="security_patch"
                 style="?android:preferenceInformationStyle"
