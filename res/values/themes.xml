@@ -97,7 +97,7 @@
         <item name="@*android:preferenceFragmentListStyle">@style/PreferenceFragmentListSinglePane</item>
         <item name="@*android:preferenceFragmentStyle">@style/PreferenceFragmentStyle</item>
         <item name="@*android:preferenceFragmentPaddingSide">@dimen/settings_side_margin</item>
-
+        <item name="android:colorAccent">@color/theme_accent</item>
         <item name="apnPreferenceStyle">@style/ApnPreference</item>
 
         <item name="fingerprint_layout_theme">@style/FingerprintLayoutTheme</item>
@@ -107,7 +107,7 @@
         <item name="ic_menu_moreoverflow">@*android:drawable/ic_menu_moreoverflow_holo_dark</item>
         <item name="ic_wps">@drawable/ic_wps_light</item>
         <item name="wifi_signal">@drawable/wifi_signal_indigo</item>
-        <item name="wifi_no_signal">@drawable/wifi_no_signal_teal</item>
+        <item name="wifi_no_signal">@drawable/wifi_no_signal_indigo</item>
         <item name="side_margin">@dimen/settings_side_margin</item>
 
         <!-- Redefine the ActionBar style for contentInsetStart -->
@@ -130,8 +130,8 @@
     <style name="Theme.SubSettings" parent="Theme.Settings">
         <!-- Redefine the ActionBar style for contentInsetStart -->
         <item name="android:actionBarStyle">@style/Theme.ActionBar.SubSettings</item>
-
-        <item name="switchBarTheme">@style/ThemeOverlay.SwitchBar.SubSettings</item>
+        <item name="android:colorAccent">@color/theme_accent</item>
+        <item name="switchBarTheme">@style/Theme.SwitchBar.SubSettings</item>
     </style>
 
     <style name="Theme.ActionBar" parent="@android:style/Widget.Material.ActionBar.Solid">
@@ -145,11 +145,13 @@
     <style name="ThemeOverlay.SwitchBar.Settings" parent="@android:style/ThemeOverlay.Material.Dark.ActionBar">
         <item name="switchBarMarginStart">@dimen/switchbar_margin_start</item>
         <item name="switchBarMarginEnd">@dimen/switchbar_margin_end</item>
+        <item name="android:colorAccent">@color/theme_accent</item>
     </style>
 
     <style name="ThemeOverlay.SwitchBar.SubSettings" parent="@android:style/ThemeOverlay.Material.Dark.ActionBar">
         <item name="switchBarMarginStart">@dimen/switchbar_subsettings_margin_start</item>
         <item name="switchBarMarginEnd">@dimen/switchbar_subsettings_margin_end</item>
+        <item name="android:colorAccent">@color/theme_accent</item>
     </style>
 
     <style name="Theme.DialogWhenLarge" parent="@*android:style/Theme.Material.Settings.DialogWhenLarge">
@@ -174,7 +176,7 @@
     <style name="Theme.SubSettingsDialogWhenLarge" parent="Theme.DialogWhenLarge">
         <item name="android:actionBarWidgetTheme">@null</item>
         <item name="android:actionBarTheme">@android:style/ThemeOverlay.Material.Dark.ActionBar</item>
-
+        <item name="android:colorAccent">@color/theme_accent</item>
         <item name="preferenceBackgroundColor">@drawable/preference_background</item>
     </style>
 
@@ -196,7 +198,7 @@
     <!-- Used to color the switch bar controls -->
     <style name="ThemeOverlay.SwitchBar" parent="@android:style/ThemeOverlay">
         <!-- Used by controls, e.g. CheckBox, ProgressBar, etc. -->
-        <item name="android:colorAccent">@color/switch_accent_color</item>
+        <item name="android:colorAccent">@color/theme_accent</item>
     </style>
 
     <style name="Theme.ConfirmDeviceCredentials" parent="Theme.SubSettings">
