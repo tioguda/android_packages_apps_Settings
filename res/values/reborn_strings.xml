@@ -61,4 +61,8 @@
     <string name="xosp_about4">Eventually for the fact that LP on my Galaxy S+ became to be quite buggy i decided to stop the development and for about half of year the project was left in stanby.</string> 
     <string name="xosp_about5">Untill i decided to bring it back again on the Zenfone 2 devices. The ROM will now also feature a White Indigo theme for all the ROM and of course the newest Xperia Applications ported from the SystemDumps provided by the Sony community and as tradition the ROM name (S+ Reborn) will remain the same. </string>
     
+    <!-- Task Manager -->
+    <string name="enable_task_manager_title">Task Manager</string>
+    <string name="enable_task_manager_summary">Enable/Disable action for the task manager button in the expanded statusbar area</string>
+    
 </resources>
