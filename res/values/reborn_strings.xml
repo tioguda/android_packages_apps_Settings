@@ -34,5 +34,31 @@
     <!-- Reborn extra settings -->
     <string name="reborn_settings_header">Additional Settings</string>
     <string name="reborn_settings_title">Reborn Settings</string>
-
+    
+    <!-- About S+ Reborn -->
+    <string name="about_reborn">About S+ Reborn</string>
+    <string name="about_reborn_summary">@null</string>
+    <string name="reborn_donate">Donate to the Development</string>
+    <string name="reborn_donate_summary">Like the ROM? Make a small donation!</string>
+    <string name="app_name">S+ Reborn</string>
+    <string name="devs">Lead Developer</string>
+    <string name="github_nilac">https://github.com/nilac8991</string>
+    <string name="github_cm">https://github.com/CyanogenMod</string>
+    <string name="reborn">S+ Reborn</string>
+    <string name="reborn_source_title">S+ Reborn Sources</string>
+    <string name="reborn_source_summary">S+ Reborn sources on Github</string>
+    <string name="reborn_google_plus_title">Google+</string>
+    <string name="reborn_google_plus_summary">Join the community on Google+</string>
+    <string name="maincontributors_title">Developers</string>
+    <string name="sourcebase_title">Source Base</string>
+    <string name="share_reborn">Share the ROM</string>
+    <string name="share_reborn_summary">Let the people know that you are using S+ Reborn</string>
+    <string name="share_message">Try S+ Reborn! https://plus.google.com/u/0/communities/117671498272072664538 </string>
+    <string name="share_chooser_title">Share S+ Reborn via..</string>
+    <string name="xosp_about1">XOSP which stands for the Xperia Open Source Project was a project originally created by me for the Galaxy S+ and it was created like 2 years ago when that time XOSP did not even existed and it was just S+ Reborn.</string> 
+    <string name="xosp_about2">The main idea was to create a custom minimal Xperia based ROM, by including the essential things which a user would ever use from a ROM.The S+ Reborn became to be a big success because it was eventually ported on different Xperia Phones and some other Samsung devices and from there the XOSP project was founded.</string> 
+    <string name="xosp_about3">From the XOSP prject also the Reborn addons were created featuring with an Aroma Installer. I worked on the project for 2 years by trying always to improve it constantly.</string>
+    <string name="xosp_about4">Eventually for the fact that LP on my Galaxy S+ became to be quite buggy i decided to stop the development and for about half of year the project was left in stanby.</string> 
+    <string name="xosp_about5">Untill i decided to bring it back again on the Zenfone 2 devices. The ROM will now also feature a White Indigo theme for all the ROM and of course the newest Xperia Applications ported from the SystemDumps provided by the Sony community and as tradition the ROM name (S+ Reborn) will remain the same. </string>
+    
 </resources>

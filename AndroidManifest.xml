@@ -1131,7 +1131,13 @@
         <activity
              android:name=".reborn.RebornMain" />
         
-        <activity android:name=".reborn.ChangeLog" />
+        <activity 
+            android:name=".reborn.ChangeLog" />
+        
+        <activity 
+            android:name=".reborn.About" />
+        
+        <!---Ended..........-->
         
         <activity android:name="Settings$AppOpsSummaryActivity"
                 android:label="@string/app_ops_settings"

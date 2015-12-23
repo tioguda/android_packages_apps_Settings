@@ -76,4 +76,16 @@
                 android:icon="@drawable/ic_settings_privacy"
                 />
         </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:title="About">
+        
+        <!-- About S+ Reborn -->
+         <PreferenceScreen
+                android:id="@+id/about_rom"
+                android:fragment="com.android.settings.reborn.About"
+                android:title="@string/about_reborn" 
+                android:icon="@drawable/ic_reborn_about_tint"
+                />
+    </PreferenceCategory>
 </PreferenceScreen>

@@ -108,8 +108,11 @@ public class Settings extends SettingsActivity {
     public static class AppNotificationSettingsActivity extends SettingsActivity { /* empty */ }
     public static class OtherSoundSettingsActivity extends SettingsActivity { /* empty */ }
     public static class DomainsURLsAppListActivity extends SettingsActivity { /* empty */ }
+    //Reborn Stuff
     public static class ChangeLog extends SettingsActivity { /* empty */ }
     public static class RebornSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class About extends SettingsActivity { /* empty */ }
+    //
     public static class TopLevelSettings extends SettingsActivity { /* empty */ }
     public static class ApnSettingsActivity extends SettingsActivity { /* empty */ }
     public static class WifiCallingSettingsActivity extends SettingsActivity { /* empty */ }
