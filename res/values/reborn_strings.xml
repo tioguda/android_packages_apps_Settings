@@ -15,7 +15,12 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    
+
+    <!-- Reborn Revision -->
     <string name="reborn_revision">Reborn Revision</string>
-    
+
+    <!-- About phone screen, S+ Reborn Release -->
+    <string name="mod_version">S+ Reborn Release</string>
+    <string name="mod_version_default">Unknown</string>
+
 </resources>
