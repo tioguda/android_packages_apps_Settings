@@ -30,5 +30,9 @@
     <string name="reborn_changelog_title">ChangeLog</string>
     <string name="reborn_changelog_summary">S+ Reborn ChangeLog</string>
     <string name="reborn_changelog_error">ChangeLog could not be loaded!</string>
+    
+    <!-- Reborn extra settings -->
+    <string name="reborn_settings_header">Additional Settings</string>
+    <string name="reborn_settings_title">Reborn Settings</string>
 
 </resources>

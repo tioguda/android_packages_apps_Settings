@@ -134,6 +134,7 @@ import com.android.settings.wifi.AdvancedWifiSettings;
 import com.android.settings.wifi.SavedAccessPointsWifiSettings;
 import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
+import com.android.settings.reborn.RebornMain;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
@@ -291,6 +292,7 @@ public class SettingsActivity extends Activity
             R.id.accessibility_settings,
             R.id.print_settings,
             R.id.home_settings,
+            R.id.reborn_settings,
             R.id.dashboard,
             R.id.privacy_settings_cyanogenmod
     };
@@ -371,6 +373,7 @@ public class SettingsActivity extends Activity
             com.android.settings.cyanogenmod.DisplayRotation.class.getName(),
             com.android.settings.cyanogenmod.PrivacySettings.class.getName(),
             BlacklistSettings.class.getName(),
+            RebornMain.class.getName(),
             ProfilesSettings.class.getName(),
             NotificationManagerSettings.class.getName()
     };
