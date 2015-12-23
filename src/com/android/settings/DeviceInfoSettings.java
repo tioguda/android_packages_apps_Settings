@@ -283,13 +283,6 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
             }
         } else if (preference.getKey().equals(KEY_DEVICE_FEEDBACK)) {
             sendFeedback();
-        } else if(preference.getKey().equals(KEY_SYSTEM_UPDATE_SETTINGS)) {
-            CarrierConfigManager configManager =
-                    (CarrierConfigManager) getSystemService(Context.CARRIER_CONFIG_SERVICE);
-            PersistableBundle b = configManager.getConfig();
-            if (b.getBoolean(CarrierConfigManager.KEY_CI_ACTION_ON_SYS_UPDATE_BOOL)) {
-                ciActionOnSysUpdate(b);
-            }
         } else if (preference.getKey().equals(KEY_MOD_VERSION)) {
             System.arraycopy(mHits, 1, mHits, 0, mHits.length-1);
             mHits[mHits.length-1] = SystemClock.uptimeMillis();
@@ -305,28 +298,6 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
             }
          }
         return super.onPreferenceTreeClick(preferenceScreen, preference);
-    }
-
-    /**
-     * Trigger client initiated action (send intent) on system update
-     */
-    private void ciActionOnSysUpdate(PersistableBundle b) {
-        String intentStr = b.getString(CarrierConfigManager.
-                KEY_CI_ACTION_ON_SYS_UPDATE_INTENT_STRING);
-        if (!TextUtils.isEmpty(intentStr)) {
-            String extra = b.getString(CarrierConfigManager.
-                    KEY_CI_ACTION_ON_SYS_UPDATE_EXTRA_STRING);
-            String extraVal = b.getString(CarrierConfigManager.
-                    KEY_CI_ACTION_ON_SYS_UPDATE_EXTRA_VAL_STRING);
-
-            Intent intent = new Intent(intentStr);
-            if (!TextUtils.isEmpty(extra)) {
-                intent.putExtra(extra, extraVal);
-            }
-            Log.d(LOG_TAG, "ciActionOnSysUpdate: broadcasting intent " + intentStr +
-                    " with extra " + extra + ", " + extraVal);
-            getActivity().getApplicationContext().sendBroadcast(intent);
-        }
     }
 
     private void removePreferenceIfPropertyMissing(PreferenceGroup preferenceGroup,
