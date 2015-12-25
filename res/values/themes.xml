@@ -131,7 +131,7 @@
         <!-- Redefine the ActionBar style for contentInsetStart -->
         <item name="android:actionBarStyle">@style/Theme.ActionBar.SubSettings</item>
         <item name="android:colorAccent">@color/theme_accent</item>
-        <item name="switchBarTheme">@style/Theme.SwitchBar.SubSettings</item>
+        <item name="switchBarTheme">@style/ThemeOverlay.SwitchBar.SubSettings</item>
     </style>
 
     <style name="Theme.ActionBar" parent="@android:style/Widget.Material.ActionBar.Solid">

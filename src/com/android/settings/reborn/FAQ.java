@@ -27,6 +27,7 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
 import java.util.List;
+import com.android.internal.logging.MetricsLogger;
 
 public class FAQ extends SettingsPreferenceFragment {
 
@@ -35,5 +36,9 @@ public class FAQ extends SettingsPreferenceFragment {
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.reborn_faq);
+    }
+    protected int getMetricsCategory()
+    {
+	return MetricsLogger.APPLICATION;
     }
 }

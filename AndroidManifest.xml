@@ -6,6 +6,8 @@
 
     <uses-sdk
         android:minSdkVersion="21" />
+    
+    <uses-library android:name="org.apache.http.legacy" android:required="false" />
 
     <original-package android:name="com.android.settings" />
 
@@ -2276,20 +2278,6 @@
             <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
                        android:resource="@id/security_settings" />
         </activity-alias>
-
-        <activity android:name="Settings$ContributorsCloudActivity"
-                android:label="@string/contributors_cloud_fragment_title"
-                android:windowSoftInputMode="stateHidden|adjustNothing"
-                android:taskAffinity=""
-                android:excludeFromRecents="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <action android:name="android.settings.CONTRIBUTORS" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.contributors.ContributorsCloudFragment" />
-        </activity>
 
         <!-- CyanogenMod activities End -->
 

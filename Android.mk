@@ -6,13 +6,15 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
 	android-support-v4 \
 	android-support-v13 \
 	jsr305 \
-	org.cyanogenmod.platform.sdk
+	org.cyanogenmod.platform.internal
 
 LOCAL_MODULE_TAGS := optional
 
 LOCAL_SRC_FILES := \
         $(call all-java-files-under, src) \
         src/com/android/settings/EventLogTags.logtags
+        
+LOCAL_JAVA_LIBRARIES += org.apache.http.legacy 
 
 LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res
 

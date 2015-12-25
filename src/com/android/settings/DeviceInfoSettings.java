@@ -87,7 +87,6 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String KEY_MOD_VERSION = "mod_version";
     private static final String KEY_MOD_BUILD_DATE = "build_date";
     private static final String KEY_MOD_API_LEVEL = "mod_api_level";
-    private static final String KEY_REBORN_REVISION="reborn_revision"
     private static final String KEY_REBORN_REVISION="reborn_revision";
     private static final String KEY_REBORN_RELEASE="reborn_release";
 

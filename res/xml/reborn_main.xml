@@ -52,17 +52,15 @@
                 android:title="@string/status_bar_title"
                 android:fragment="com.android.settings.cyanogenmod.StatusBarSettings"
                 android:icon="@drawable/ic_settings_extdesk_hidenavbar"
-                settings:advanced="true"
                 />
 
-        <!-- Notification drawer -->
+     <!--  Notification drawer 
         <PreferenceScreen
                 android:id="@+id/notification_drawer_settings"
                 android:title="@string/notification_drawer_title"
                 android:fragment="com.android.settings.cyanogenmod.NotificationDrawerSettings"
                 android:icon="@drawable/ic_settings_notification_drawer"
-                settings:advanced="true"
-                />
+        /> -->
 </PreferenceCategory>
         
     <PreferenceCategory

@@ -29,6 +29,7 @@ import com.android.settings.R;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import com.android.internal.logging.MetricsLogger;
 
 public class ChangeLog extends Fragment {
     private static final String CHANGELOG_PATH = "/system/etc/Changelog.txt";

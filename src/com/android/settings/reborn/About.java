@@ -68,6 +68,7 @@ import java.util.Collections;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.R;
 import com.android.settings.Utils;
+import com.android.internal.logging.MetricsLogger;
     
 public class About extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
@@ -135,5 +136,9 @@ private static final String REBORN_ROM_SHARE = "share";
         Uri uriUrl = Uri.parse(url);
         Intent donate = new Intent(Intent.ACTION_VIEW, uriUrl);
         getActivity().startActivity(donate);
+    }
+    protected int getMetricsCategory()
+    {
+	return MetricsLogger.APPLICATION;
     }
 }
