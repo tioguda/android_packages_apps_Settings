@@ -133,6 +133,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private ListPreference mVolumeKeyCursorControl;
     private SwitchPreference mVolumeWakeScreen;
     private SwitchPreference mVolumeMusicControls;
+    private SwitchPreference mVolumeControlRingStream;
     private SwitchPreference mSwapVolumeButtons;
     private SwitchPreference mEnableNavigationBar;
     private SwitchPreference mNavigationBarLeftPref;
@@ -227,15 +228,6 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
                 Settings.System.NAVIGATION_BAR_SHOW, hasNavBarByDefault ? 1 : 0) == 1;
         mEnableNavigationBar.setChecked(enableNavigationBar);
         mEnableNavigationBar.setOnPreferenceChangeListener(this);
-
-        // Navigation bar button color
-        mNavbarButtonTint = (ColorPickerPreference) findPreference(NAVIGATION_BAR_TINT);
-        mNavbarButtonTint.setOnPreferenceChangeListener(this);
-        int intColor = Settings.System.getInt(getActivity().getContentResolver(),
-                Settings.System.NAVIGATION_BAR_TINT, 0xffffffff);
-        String hexColor = String.format("#%08x", (0xffffffff & intColor));
-        mNavbarButtonTint.setSummary(hexColor);
-        mNavbarButtonTint.setNewPreviewColor(intColor);
 
         if (hasPowerKey) {
             if (!Utils.isVoiceCapable(getActivity())) {
@@ -554,38 +546,6 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         boolean enableNavigationBar = Settings.System.getInt(getContentResolver(),
                 Settings.System.NAVIGATION_BAR_SHOW,
                 needsNavigationBar ? 1 : 0) == 1;
-
-	if (mDimNavButtons != null) {
-            mDimNavButtons.setChecked(Settings.System.getInt(getContentResolver(),
-                    Settings.System.DIM_NAV_BUTTONS, 0) == 1);
-        }
-
-        if (mDimNavButtonsTimeout != null) {
-            final int dimTimeout = Settings.System.getInt(getContentResolver(),
-                    Settings.System.DIM_NAV_BUTTONS_TIMEOUT, 3000);
-            // minimum 100 is 1 interval of the 100 multiplier
-            mDimNavButtonsTimeout.setInitValue((dimTimeout / 100) - 1);
-        }
-
-        if (mDimNavButtonsAlpha != null) {
-            int alphaScale = Settings.System.getInt(getContentResolver(),
-                    Settings.System.DIM_NAV_BUTTONS_ALPHA, 50);
-            mDimNavButtonsAlpha.setInitValue(alphaScale);
-        }
-
-        if (mDimNavButtonsAnimate != null) {
-            mDimNavButtonsAnimate.setChecked(Settings.System.getInt(getContentResolver(),
-                    Settings.System.DIM_NAV_BUTTONS_ANIMATE, 0) == 1);
-        }
-
-        if (mDimNavButtonsAnimateDuration != null) {
-            final int animateDuration = Settings.System.getInt(getContentResolver(),
-                    Settings.System.DIM_NAV_BUTTONS_ANIMATE_DURATION, 2000);
-            // minimum 100 is 1 interval of the 100 multiplier
-            mDimNavButtonsAnimateDuration.setInitValue((animateDuration / 100) - 1);
-        }
-
-        updateNavbarPreferences(enableNavigationBar);
     }
 
 
