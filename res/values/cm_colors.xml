@@ -16,7 +16,7 @@ limitations under the License.
 -->
 <resources>
     <color name="floating_action_button_touch_tint">#80ffffff</color>
-    <color name="theme_accent">#ff283593</color>
+    <color name="theme_accent">#ff009688</color>
 
     <color name="screencolor_background">#50000000</color>
     <drawable name="transparent_background">#00000000</drawable>
@@ -65,11 +65,11 @@ limitations under the License.
     <color name="screencolor_background">#50000000</color>
     <drawable name="transparent_background">#00000000</drawable>
     <!-- NFC hard colors -->
-    <color name="nfc_how_it_works_main_background">#FF5C6BC0</color>
-    <color name="nfc_how_it_works_background">#FF7986CB</color>
+    <color name="nfc_how_it_works_main_background">#FF80CBC4</color>
+    <color name="nfc_how_it_works_background">#FFB2DFDB</color>
     <color name="nfc_how_it_works_title_text_color">#FF263238</color>
     <color name="nfc_how_it_works_content_text_color">#FF263238</color>
-    <color name="nfc_how_it_works_footer_background">#FF7986CB</color>
+    <color name="nfc_how_it_works_footer_background">#FFB2DFDB</color>
     <color name="nfc_how_it_works_got_it_text_color">#263238</color>
     <!-- Permission Settings Hard colors-->
     <color name="security_settings_billing_desc_text_color">#ffffb060</color>

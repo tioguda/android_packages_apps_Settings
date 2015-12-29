@@ -54,7 +54,6 @@
         android:layout_marginBottom="8dp"
         android:visibility="gone"
         android:max="100"
-        android:fillColor="@color/theme_accent"
         style="?android:attr/progressBarStyleHorizontal" />
 
 </LinearLayout>
