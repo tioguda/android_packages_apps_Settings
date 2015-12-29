@@ -97,17 +97,6 @@
             android:id="@+id/customsetttings"
             android:title ="@string/reborn_settings_header" >
         
-        <!-- ViperFX -->
-        <dashboard-tile
-                android:id="@+id/viper"
-                android:title="ViperFX"
-                android:icon="@drawable/ic_viper_tint"
-                android:key="viperfx">
-        <intent android:targetPackage="com.vipercn.viper4android_v2" 
-		android:action="android.intent.action.MAIN" 
-		android:targetClass="com.vipercn.viper4android_v2.activity.ViPER4Android"/>
-        </dashboard-tile> 
-        
         <dashboard-tile
                 android:id="@+id/reborn_settings"
                 android:title="@string/reborn_settings_title"
