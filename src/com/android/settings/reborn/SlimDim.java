@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.crdroid;
+package com.android.settings.reborn;
 
 import android.content.ContentResolver;
 import android.database.ContentObserver;

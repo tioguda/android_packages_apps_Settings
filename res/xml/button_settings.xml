@@ -29,7 +29,7 @@
 
         <PreferenceScreen
             android:key="navbar_dimensions"
-            android:fragment="com.android.settings.crdroid.NavBarDimensions"
+            android:fragment="com.android.settings.reborn.NavBarDimensions"
             android:title="@string/navbar_style_dimen_title"
             android:dependency="enable_nav_bar" />
 
@@ -48,7 +48,7 @@
 
         <PreferenceScreen
             android:key="slim_dim"
-            android:fragment="com.android.settings.crdroid.SlimDim"
+            android:fragment="com.android.settings.reborn.SlimDim"
             android:title="@string/dim_nav_buttons_category"
             android:dependency="enable_nav_bar" />
 
