@@ -42,18 +42,12 @@
         
         <Preference
                 android:key="5q"
-                android:title="Are we gonna see a M based?"
-                android:summary="Yes,but only from January"
+                android:title="Can i apply mods on this ROM?"
+                android:summary="Depends if the mod is an audio mod then no for sure because we're using modified Viper engine and it is better to be left in this way but if the mod is other than audio then yes of course it can flashed"
                 />
         
         <Preference
                 android:key="6q"
-                android:title="When i apply a wallpaper the phone reboot"
-                android:summary="Yes, this is a known bug, but it's just soft rebooting and in the end the wallpaper is applied as well. For the M based this bug will be fixed"
-                />
-        
-        <Preference
-                android:key="7q"
                 android:title="If i set-up an allarm from the Clock app when the allarm should trigger the app force closes itself"
                 android:summary="Yes, that's another known bug but the bad thing here is that this is an unfixable bug for my knowledge so it will remain as it is for now,so if you use allarm just use a third party app"
                 />
