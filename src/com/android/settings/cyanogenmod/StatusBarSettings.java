@@ -61,6 +61,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment
     private static final String NETWORK_TRAFFIC_PERIOD = "network_traffic_period";
     private static final String NETWORK_TRAFFIC_AUTOHIDE = "network_traffic_autohide";
     private static final String NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD = "network_traffic_autohide_threshold";
+	private static final String STATUS_BAR_QUICK_QS_PULLDOWN = "qs_quick_pulldown";
 
     private static final int STATUS_BAR_BATTERY_STYLE_HIDDEN = 4;
     private static final int STATUS_BAR_BATTERY_STYLE_TEXT = 6;
@@ -80,6 +81,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment
     private int MASK_DOWN;
     private int MASK_UNIT;
     private int MASK_PERIOD;
+    private ListPreference mQuickPulldown;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -95,6 +97,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment
         mStatusBarBattery = (ListPreference) findPreference(STATUS_BAR_BATTERY_STYLE);
         mStatusBarBatteryShowPercent =
                 (ListPreference) findPreference(STATUS_BAR_SHOW_BATTERY_PERCENT);
+        mQuickPulldown = (ListPreference) findPreference(STATUS_BAR_QUICK_QS_PULLDOWN);
 
         int clockStyle = CMSettings.System.getInt(resolver,
                 CMSettings.System.STATUS_BAR_CLOCK, 1);
@@ -169,6 +172,11 @@ public class StatusBarSettings extends SettingsPreferenceFragment
             prefScreen.removePreference(findPreference(NETWORK_TRAFFIC_AUTOHIDE));
             prefScreen.removePreference(findPreference(NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD));
         }
+        int quickPulldown = CMSettings.System.getInt(resolver,
+                CMSettings.System.STATUS_BAR_QUICK_QS_PULLDOWN, 1);
+        mQuickPulldown.setValue(String.valueOf(quickPulldown));
+        updatePulldownSummary(quickPulldown);
+        mQuickPulldown.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -222,6 +230,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment
             mStatusBarBatteryShowPercent.setSummary(
                     mStatusBarBatteryShowPercent.getEntries()[index]);
             return true;
+<<<<<<< HEAD
         } else if (preference == mNetTrafficState) {
             int intState = Integer.valueOf((String)newValue);
             mNetTrafficVal = setBit(mNetTrafficVal, MASK_UP, getBit(intState, MASK_UP));
@@ -252,6 +261,11 @@ public class StatusBarSettings extends SettingsPreferenceFragment
             int threshold = (Integer) newValue;
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD, threshold * 1);
+        } else if (preference == mQuickPulldown) {
+            int quickPulldown = Integer.valueOf((String) newValue);
+            CMSettings.System.putInt(
+                    resolver, CMSettings.System.STATUS_BAR_QUICK_QS_PULLDOWN, quickPulldown);
+            updatePulldownSummary(quickPulldown);
             return true;
         }
         return false;
@@ -284,6 +298,18 @@ public class StatusBarSettings extends SettingsPreferenceFragment
 
     private boolean getBit(int intNumber, int intMask) {
         return (intNumber & intMask) == intMask;
+    private void updatePulldownSummary(int value) {
+        Resources res = getResources();
+
+        if (value == 0) {
+            // quick pulldown deactivated
+            mQuickPulldown.setSummary(res.getString(R.string.status_bar_quick_qs_pulldown_off));
+        } else {
+            String direction = res.getString(value == 2
+                    ? R.string.status_bar_quick_qs_pulldown_summary_left
+                    : R.string.status_bar_quick_qs_pulldown_summary_right);
+            mQuickPulldown.setSummary(res.getString(R.string.status_bar_quick_qs_pulldown_summary, direction));
+        }
     }
 
     public static final Indexable.SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
