@@ -230,7 +230,6 @@ public class StatusBarSettings extends SettingsPreferenceFragment
             mStatusBarBatteryShowPercent.setSummary(
                     mStatusBarBatteryShowPercent.getEntries()[index]);
             return true;
-<<<<<<< HEAD
         } else if (preference == mNetTrafficState) {
             int intState = Integer.valueOf((String)newValue);
             mNetTrafficVal = setBit(mNetTrafficVal, MASK_UP, getBit(intState, MASK_UP));
@@ -298,20 +297,22 @@ public class StatusBarSettings extends SettingsPreferenceFragment
 
     private boolean getBit(int intNumber, int intMask) {
         return (intNumber & intMask) == intMask;
+    }
+    
     private void updatePulldownSummary(int value) {
         Resources res = getResources();
-
+ 
         if (value == 0) {
             // quick pulldown deactivated
             mQuickPulldown.setSummary(res.getString(R.string.status_bar_quick_qs_pulldown_off));
         } else {
-            String direction = res.getString(value == 2
-                    ? R.string.status_bar_quick_qs_pulldown_summary_left
-                    : R.string.status_bar_quick_qs_pulldown_summary_right);
-            mQuickPulldown.setSummary(res.getString(R.string.status_bar_quick_qs_pulldown_summary, direction));
+             String direction = res.getString(value == 2
+             ? R.string.status_bar_quick_qs_pulldown_summary_left
+             : R.string.status_bar_quick_qs_pulldown_summary_right);
+             mQuickPulldown.setSummary(res.getString(R.string.status_bar_quick_qs_pulldown_summary, direction));
         }
     }
-
+    
     public static final Indexable.SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
             new BaseSearchIndexProvider() {
                 @Override
