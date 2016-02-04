@@ -17,6 +17,6 @@
 
 <selector xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-    <item settings:state_encrypted="true" android:drawable="@drawable/ic_wifi_lock_signal_0_indigo" />
-    <item settings:state_encrypted="false" android:drawable="@drawable/ic_wifi_signal_0_indigo" />
+    <item settings:state_encrypted="true" android:drawable="@drawable/wifi_signal_lock_teal" />
+    <item settings:state_encrypted="false" android:drawable="@drawable/wifi_signal_open_teal" />
 </selector>

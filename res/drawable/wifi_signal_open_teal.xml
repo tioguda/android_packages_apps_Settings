@@ -16,8 +16,8 @@
 -->
 
 <level-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:maxLevel="0" android:drawable="@drawable/ic_wifi_signal_1_indigo" />
-    <item android:maxLevel="1" android:drawable="@drawable/ic_wifi_signal_2_indigo" />
-    <item android:maxLevel="2" android:drawable="@drawable/ic_wifi_signal_3_indigo" />
-    <item android:maxLevel="3" android:drawable="@drawable/ic_wifi_signal_4_indigo" />
+    <item android:maxLevel="0" android:drawable="@drawable/ic_wifi_signal_1_teal" />
+    <item android:maxLevel="1" android:drawable="@drawable/ic_wifi_signal_2_teal" />
+    <item android:maxLevel="2" android:drawable="@drawable/ic_wifi_signal_3_teal" />
+    <item android:maxLevel="3" android:drawable="@drawable/ic_wifi_signal_4_teal" />
 </level-list>

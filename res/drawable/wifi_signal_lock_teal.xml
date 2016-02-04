@@ -15,8 +15,9 @@
      limitations under the License.
 -->
 
-<selector xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-    <item settings:state_encrypted="true" android:drawable="@drawable/wifi_signal_lock_indigo" />
-    <item settings:state_encrypted="false" android:drawable="@drawable/wifi_signal_open_indigo" />
-</selector>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:maxLevel="0" android:drawable="@drawable/ic_wifi_lock_signal_1_teal" />
+    <item android:maxLevel="1" android:drawable="@drawable/ic_wifi_lock_signal_2_teal" />
+    <item android:maxLevel="2" android:drawable="@drawable/ic_wifi_lock_signal_3_teal" />
+    <item android:maxLevel="3" android:drawable="@drawable/ic_wifi_lock_signal_4_teal" />
+</level-list>
