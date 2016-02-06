@@ -59,6 +59,12 @@
             android:summary="@string/faq_summary"
             />
         
+        <!-- Devices and Maintainers -->
+        <PreferenceScreen
+            android:key="devices"
+            android:title="@string/device_maintainers_title"
+            android:fragment="com.android.settings.reborn.Devices" />
+        
 	<PreferenceCategory
 		android:key="links"
 		android:title="@string/reborn">

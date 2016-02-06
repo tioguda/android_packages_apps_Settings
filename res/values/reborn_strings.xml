@@ -191,5 +191,11 @@
      <string name="dashboard_tileview_double_lines_title">Dashboard tile view title</string>
      <string name="dashboard_tileview_double_lines_summary_on">Show dashboard tile titles in 1 line</string>
      <string name="dashboard_tileview_double_lines_summary_off">Show dashboard tile titles in 2 lines</string>
+     
+     <!-- Devices and Maintainers -->
+     <string name="device_maintainers_title">Devices and Maintainers</string>
+     <string name="device_maintainers_title_summary">List of the official supported devices by the Reborn maintainers</string>
+     <string name="maintainers_note_title">Note</string>
+     <string name="maintainers_note_title_summary">If you compiled the ROM and the stuff are almost/all working and want to get the official status send a PM to \'Calin Neamtu\' on Hangouts containing also the link to the Thread on XDA</string>
     
 </resources>
