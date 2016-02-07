@@ -73,7 +73,7 @@
 
              <Preference
                  android:key="device_lg_g3"
-                 android:icon="@drawable/cr_devices"
+                 android:icon="@drawable/reborn_devices"
                  android:title="@string/device_lg_g3"
                  android:summary="@string/device_lg_g3_summary"
                  android:selectable="false" />
@@ -86,7 +86,7 @@
 
              <Preference
                  android:key="device_xiaomi_red"
-                 android:icon="@drawable/cr_devices"
+                 android:icon="@drawable/reborn_devices"
                  android:title="@string/device_xiaomi_red"
                  android:summary="@string/device_xiaomi_red_summary"
                  android:selectable="false" />

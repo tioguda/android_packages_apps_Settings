@@ -28,7 +28,7 @@
     <string name="device_category_htc_title">HTC</string>
     <string name="device_category_motorola_title">Motorola</string>
     <string name="device_category_oneplus_title">One Plus</string>
-    <string name="device_category_oneplus_title">Xiaomi</string>
+    <string name="device_category_xiaomi_title">Xiaomi</string>
 
     <!-- Devices and Maintainers -->
     
