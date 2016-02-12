@@ -75,6 +75,13 @@
         android:entries="@array/status_bar_date_format_entries_values"
         android:entryValues="@array/status_bar_date_format_entries_values" />
 
+    <!-- Clock Date Position -->
+    <ListPreference
+        android:key="clock_date_position"
+        android:title="@string/clock_date_position"
+        android:entries="@array/clock_date_position_entries"
+        android:entryValues="@array/clock_date_position_values" />
+
     <!-- Network traffic meter -->
      <PreferenceCategory
          android:key="category_network_traffic"
