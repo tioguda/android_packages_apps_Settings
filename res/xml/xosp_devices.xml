@@ -33,14 +33,14 @@
             
              <Preference
                  android:key="device_asus_z551ml"
-                 android:icon="@drawable/reborn_devices"
+                 android:icon="@drawable/ic_xosp_device_tint"
                  android:title="@string/device_asus_z551ml"
                  android:summary="@string/device_asus_z551ml_summary"
                  android:selectable="false" />            
     
              <Preference
                  android:key="device_asus_z550ml"
-                 android:icon="@drawable/reborn_devices"
+                 android:icon="@drawable/ic_xosp_device_tint"
                  android:title="@string/device_asus_z550ml"
                  android:summary="@string/device_asus_z550ml_summary"
                  android:selectable="false" />
@@ -53,14 +53,14 @@
 
              <Preference
                  android:key="device_google_ao"
-                 android:icon="@drawable/reborn_devices"
+                 android:icon="@drawable/ic_xosp_device_tint"
                  android:title="@string/device_google_ao"
                  android:summary="@string/device_google_ao_summary"
                  android:selectable="false" />
              
             <Preference
                  android:key="device_google_n4"
-                 android:icon="@drawable/reborn_devices"
+                 android:icon="@drawable/ic_xosp_device_tint"
                  android:title="@string/device_google_n4"
                  android:summary="@string/device_google_n4_summary"
                  android:selectable="false" />
@@ -73,7 +73,7 @@
 
              <Preference
                  android:key="device_lg_g3"
-                 android:icon="@drawable/reborn_devices"
+                 android:icon="@drawable/ic_xosp_device_tint"
                  android:title="@string/device_lg_g3"
                  android:summary="@string/device_lg_g3_summary"
                  android:selectable="false" />
@@ -86,7 +86,7 @@
 
              <Preference
                  android:key="device_xiaomi_red"
-                 android:icon="@drawable/reborn_devices"
+                 android:icon="@drawable/ic_xosp_device_tint"
                  android:title="@string/device_xiaomi_red"
                  android:summary="@string/device_xiaomi_red_summary"
                  android:selectable="false" />
