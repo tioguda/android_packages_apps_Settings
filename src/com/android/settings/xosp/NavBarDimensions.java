@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.reborn;
+package com.android.settings.xosp;
 
 import android.app.Activity;
 import android.app.AlertDialog;

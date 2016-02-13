@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.reborn;
+package com.android.settings.xosp;
 
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -29,13 +29,13 @@ import com.android.settings.SettingsPreferenceFragment;
 import java.util.List;
 import com.android.internal.logging.MetricsLogger;
 
-public class RebornMain extends SettingsPreferenceFragment {
+public class FAQ extends SettingsPreferenceFragment {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.reborn_main);
+        addPreferencesFromResource(R.xml.xosp_faq);
     }
     protected int getMetricsCategory()
     {

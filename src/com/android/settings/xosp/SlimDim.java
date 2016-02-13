@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.reborn;
+package com.android.settings.xosp;
 
 import android.content.ContentResolver;
 import android.database.ContentObserver;

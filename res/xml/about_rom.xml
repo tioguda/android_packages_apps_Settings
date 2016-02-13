@@ -16,45 +16,14 @@
 
 <PreferenceScreen
 	xmlns:android="http://schemas.android.com/apk/res/android"
-        android:title="@string/about_reborn"
-	xmlns:reborn="http://schemas.android.com/apk/res/com.android.settings">
+        android:title="@string/about_xosp"
+	xmlns:xosp="http://schemas.android.com/apk/res/com.android.settings">
 
-    
-        <PreferenceCategory
-                android:key="xosp_story"
-                android:title="Little story">
-    
-        <Preference 
-             android:key="xosp_story1"
-             android:title="What is it?"
-             android:summary="@string/xosp_about1" />
-        
-        <Preference 
-             android:key="xosp_story2"
-             android:title="The idea"
-             android:summary="@string/xosp_about2" />
-        
-        <Preference 
-             android:key="xosp_story3"
-             android:title="The Project"
-             android:summary="@string/xosp_about3" />
-            
-        <Preference 
-             android:key="xosp_story4"
-             android:title="The shutdown"
-             android:summary="@string/xosp_about4" />
-
-        <Preference 
-             android:key="xosp_story5"
-             android:title="The reborn"
-             android:summary="@string/xosp_about5" />    
-        
-        </PreferenceCategory>
  
         <!-- FAQ section -->
         <PreferenceScreen
-            android:key="reborn_faq"
-            android:fragment="com.android.settings.reborn.FAQ"
+            android:key="xosp_faq"
+            android:fragment="com.android.settings.xosp.FAQ"
             android:title="@string/faq_title"
             android:summary="@string/faq_summary"
             />
@@ -63,32 +32,32 @@
         <PreferenceScreen
             android:key="devices"
             android:title="@string/device_maintainers_title"
-            android:fragment="com.android.settings.reborn.Devices" />
+            android:fragment="com.android.settings.xosp.Devices" />
         
 	<PreferenceCategory
 		android:key="links"
-		android:title="@string/reborn">
+		android:title="@string/xosp">
 		
-        <!-- Share S+ Reborn -->
+        <!-- Share XOSP -->
          <Preference
              android:key="share"
-             android:title="@string/share_reborn"
-             android:summary="@string/share_reborn_summary" />
+             android:title="@string/share_xosp"
+             android:summary="@string/share_xosp_summary" />
 			
 		<Preference
-			android:key="reborn_source"
-			android:title="@string/reborn_source_title"
-			android:summary="@string/reborn_source_summary" />
+			android:key="xosp_source"
+			android:title="@string/xosp_source_title"
+			android:summary="@string/xosp_source_summary" />
 			
 		<Preference
-			android:key="reborn_google_plus"
-			android:title="@string/reborn_google_plus_title"
-			android:summary="@string/reborn_google_plus_summary" />
+			android:key="xosp_google_plus"
+			android:title="@string/xosp_google_plus_title"
+			android:summary="@string/xosp_google_plus_summary" />
 			
 		<Preference
-			android:key="reborn_donate"
-			android:title="@string/reborn_donate"
-			android:summary="@string/reborn_donate_summary" />
+			android:key="xosp_donate"
+			android:title="@string/xosp_donate"
+			android:summary="@string/xosp_donate_summary" />
 			
                 </PreferenceCategory>
           <PreferenceCategory
@@ -97,10 +66,10 @@
 
           <com.android.settings.widgets.DeveloperPreference
               android:title="Nilac"
-              reborn:nameDev="nilac8991"
-              reborn:googleHandle="+CălinNeamţu"
-              reborn:donateLink="@string/github_nilac"
-              reborn:emailDev="nilac8991@gmail.com"/>
+              xosp:nameDev="nilac8991"
+              xosp:googleHandle="+CălinNeamţu"
+              xosp:donateLink="@string/github_nilac"
+              xosp:emailDev="nilac8991@gmail.com"/>
 
           </PreferenceCategory>    
              
@@ -110,9 +79,9 @@
 				
           <com.android.settings.widgets.DeveloperPreference
               android:title="CyanogenMod"
-              reborn:nameDev="CyanogenMod"
-              reborn:donateLink="@string/github_cm"
-              reborn:emailDev="cyanogenmod18@yahoo.com"/>
+              xosp:nameDev="CyanogenMod"
+              xosp:donateLink="@string/github_cm"
+              xosp:emailDev="cyanogenmod18@yahoo.com"/>
 
 
 	</PreferenceCategory>

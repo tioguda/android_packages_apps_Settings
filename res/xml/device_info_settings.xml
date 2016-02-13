@@ -78,23 +78,23 @@
                 android:title="@string/mod_api_level"
                 android:summary="@string/mod_api_level_default" />
 
-        <!-- Reborn ChangeLog -->
+        <!-- XOSP ChangeLog -->
         <PreferenceScreen 
-                android:key="changelog_reborn"
-                android:title="@string/reborn_changelog_title"
-                android:summary="@string/reborn_changelog_summary"
-                android:fragment="com.android.settings.reborn.ChangeLog" />
+                android:key="changelog_xosp"
+                android:title="@string/xosp_changelog_title"
+                android:summary="@string/xosp_changelog_summary"
+                android:fragment="com.android.settings.xosp.ChangeLog" />
     
-        <!-- Reborn Revision -->
-        <Preference android:key="reborn_revision"
+        <!-- XOSP Revision -->
+        <Preference android:key="xosp_revision"
                 style="?android:preferenceInformationStyle"
-                android:title="@string/reborn_revision"
+                android:title="@string/xosp_revision"
                 android:summary="@string/device_info_default" />
 
-        <!-- Reborn Release -->
-        <Preference android:key="reborn_release"
+        <!-- XOSP Release -->
+        <Preference android:key="xosp_release"
                 style="?android:preferenceInformationStyle"
-                android:title="@string/reborn_release"
+                android:title="@string/xosp_release"
                 android:summary="@string/device_info_default" />
 
         <!-- Security patch level -->

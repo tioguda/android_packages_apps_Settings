@@ -20,7 +20,7 @@
  * 
  * 
  */
-package com.android.settings.reborn;
+package com.android.settings.xosp;
 
 import android.app.Activity;
 import android.app.ActivityManagerNative;
@@ -75,7 +75,7 @@ public class About extends SettingsPreferenceFragment implements
 			
 public static final String TAG = "About";
     
-private static final String REBORN_ROM_SHARE = "share";
+private static final String XOSP_ROM_SHARE = "share";
     
     Preference mSourceUrl;
     Preference mGoogleUrl;
@@ -87,9 +87,9 @@ private static final String REBORN_ROM_SHARE = "share";
         addPreferencesFromResource(R.xml.about_rom);
         PreferenceScreen prefSet = getPreferenceScreen();
         ContentResolver resolver = getContentResolver();
-        mSourceUrl = findPreference("reborn_source");
-        mGoogleUrl = findPreference("reborn_google_plus");
-        mDonateUrl = findPreference("reborn_donate");
+        mSourceUrl = findPreference("xosp_source");
+        mGoogleUrl = findPreference("xosp_google_plus");
+        mDonateUrl = findPreference("xosp_donate");
         PreferenceGroup devsGroup = (PreferenceGroup) findPreference("devs");
         ArrayList<Preference> devs = new ArrayList<Preference>();
         for (int i = 0; i < devsGroup.getPreferenceCount(); i++) {
@@ -119,7 +119,7 @@ private static final String REBORN_ROM_SHARE = "share";
             launchUrl("https://plus.google.com/u/0/communities/117671498272072664538");
         } else if (preference == mDonateUrl) {
             launchUrl("http://forum.xda-developers.com/donatetome.php?u=4968383");
-        } else if (preference.getKey().equals(REBORN_ROM_SHARE)) {
+        } else if (preference.getKey().equals(XOSP_ROM_SHARE)) {
             Intent intent = new Intent();
             intent.setAction(Intent.ACTION_SEND);
             intent.setType("text/plain");

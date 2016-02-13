@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.reborn;
+package com.android.settings.xosp;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -51,7 +51,7 @@ public class ChangeLog extends Fragment {
             }
             text = data.toString();
         } catch (IOException e) {
-            text = getString(R.string.reborn_changelog_error);
+            text = getString(R.string.xosp_changelog_error);
         } finally {
             try {
                 if (inputReader != null) {

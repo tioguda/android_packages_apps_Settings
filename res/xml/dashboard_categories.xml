@@ -95,13 +95,13 @@
     
     <dashboard-category 
             android:id="@+id/customsetttings"
-            android:title ="@string/reborn_settings_header" >
+            android:title ="@string/xosp_settings_header" >
         
         <dashboard-tile
-                android:id="@+id/reborn_settings"
-                android:title="@string/reborn_settings_title"
-                android:fragment="com.android.settings.reborn.RebornMain"
-                android:icon="@drawable/ic_reborn_main_tint" 
+                android:id="@+id/xosp_settings"
+                android:title="@string/xosp_settings_title"
+                android:fragment="com.android.settings.xosp.XOSPMain"
+                android:icon="@drawable/ic_xosp_main_tint" 
                 /> 
         
         <dashboard-tile

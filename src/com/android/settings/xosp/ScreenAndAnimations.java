@@ -1,4 +1,4 @@
-package com.android.settings.reborn;
+package com.android.settings.xosp;
 
 import android.os.Bundle;
 import android.content.ContentResolver;

@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.reborn;
+package com.android.settings.xosp;
 
 import android.os.Bundle;
 import android.content.res.Resources;
@@ -34,7 +34,7 @@ public class Devices extends SettingsPreferenceFragment implements
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-        addPreferencesFromResource(R.xml.reborn_devices);
+        addPreferencesFromResource(R.xml.xosp_devices);
     }
 
     @Override

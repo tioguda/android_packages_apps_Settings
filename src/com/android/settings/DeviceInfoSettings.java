@@ -87,8 +87,8 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String KEY_MOD_VERSION = "mod_version";
     private static final String KEY_MOD_BUILD_DATE = "build_date";
     private static final String KEY_MOD_API_LEVEL = "mod_api_level";
-    private static final String KEY_REBORN_REVISION="reborn_revision";
-    private static final String KEY_REBORN_RELEASE="reborn_release";
+    private static final String KEY_XOSP_REVISION="xosp_revision";
+    private static final String KEY_XOSP_RELEASE="xosp_release";
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
 
@@ -137,10 +137,10 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         findPreference(KEY_KERNEL_VERSION).setSummary(getFormattedKernelVersion());
         setValueSummary(KEY_MOD_VERSION, "ro.mod.version");
         findPreference(KEY_MOD_VERSION).setEnabled(true);
-        setValueSummary(KEY_REBORN_REVISION, "ro.reborn.revision");
-        findPreference(KEY_REBORN_REVISION).setEnabled(true);
-        setValueSummary(KEY_REBORN_RELEASE, "ro.reborn.release");
-        findPreference(KEY_REBORN_RELEASE).setEnabled(true);
+        setValueSummary(KEY_XOSP_REVISION, "ro.xosp.revision");
+        findPreference(KEY_XOSP_REVISION).setEnabled(true);
+        setValueSummary(KEY_XOSP_RELEASE, "ro.xosp.release");
+        findPreference(KEY_XOSP_RELEASE).setEnabled(true);
         setValueSummary(KEY_MOD_BUILD_DATE, "ro.build.date");
         setExplicitValueSummary(KEY_MOD_API_LEVEL, constructApiLevelString());
         findPreference(KEY_MOD_API_LEVEL).setEnabled(true);

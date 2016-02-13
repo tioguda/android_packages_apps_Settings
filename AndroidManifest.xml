@@ -1120,29 +1120,29 @@
             </intent-filter>
         </activity>
         
-        <!--- S+ Reborn Stuff -->
-        <activity android:name="Settings$RebornSettingsActivity"
-             android:label="@string/reborn_settings_title"
+        <!--- XOSP Stuff -->
+        <activity android:name="Settings$XOSPSettingsActivity"
+             android:label="@string/xosp_settings_title"
              android:taskAffinity="">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.reborn.RebornMain" />
+                android:value="com.android.settings.xosp.XOSPMain" />
         </activity>
  
         <activity
-             android:name=".reborn.RebornMain" />
+             android:name=".xosp.XOSPMain" />
         
         <activity 
-            android:name=".reborn.ChangeLog" />
+            android:name=".xosp.ChangeLog" />
         
         <activity 
-            android:name=".reborn.About" />
+            android:name=".xosp.About" />
         
         <activity
-            android:name=".reborn.FAQ" />
+            android:name=".xosp.FAQ" />
         
         <!---Ended..........-->
         

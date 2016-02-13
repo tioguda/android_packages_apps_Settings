@@ -16,50 +16,45 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- Reborn Revision -->
-    <string name="reborn_revision">Reborn Revision</string>
+    <!-- XOSP Revision -->
+    <string name="xosp_revision">XOSP Revision</string>
 
-    <!-- Reborn Release -->
-    <string name="reborn_release">Reborn Release</string>
+    <!-- XOSP Release -->
+    <string name="xosp_release">XOSP Release</string>
 
-    <!-- About phone screen, S+ Reborn Mod version -->
+    <!-- About phone screen, XOSP Mod version -->
     <string name="mod_version">Mod Version</string>
     <string name="mod_version_default">Unknown</string>
     
-    <!--S+ Reborn Changelog-->
-    <string name="reborn_changelog_title">ChangeLog</string>
-    <string name="reborn_changelog_summary">S+ Reborn ChangeLog</string>
-    <string name="reborn_changelog_error">ChangeLog could not be loaded!</string>
+    <!--XOSP Changelog-->
+    <string name="xosp_changelog_title">ChangeLog</string>
+    <string name="xosp_changelog_summary">XOSP ChangeLog</string>
+    <string name="xosp_changelog_error">ChangeLog could not be loaded!</string>
     
-    <!-- Reborn extra settings -->
-    <string name="reborn_settings_header">Additional Settings</string>
-    <string name="reborn_settings_title">Reborn Settings</string>
+    <!-- XOSP extra settings -->
+    <string name="xosp_settings_header">Additional Settings</string>
+    <string name="xosp_settings_title">XOSP Settings</string>
     
-    <!-- About S+ Reborn -->
-    <string name="about_reborn">About S+ Reborn</string>
-    <string name="about_reborn_summary">@null</string>
-    <string name="reborn_donate">Donate to the Development</string>
-    <string name="reborn_donate_summary">Like the ROM? Make a small donation!</string>
-    <string name="app_name">S+ Reborn</string>
+    <!-- About XOSP -->
+    <string name="about_xosp">About XOSP</string>
+    <string name="about_xosp_summary">@null</string>
+    <string name="xosp_donate">Donate to the Development</string>
+    <string name="xosp_donate_summary">Like the ROM? Make a small donation!</string>
+    <string name="app_name">XOSP</string>
     <string name="devs">Lead Developer</string>
     <string name="github_nilac">https://github.com/nilac8991</string>
     <string name="github_cm">https://github.com/CyanogenMod</string>
-    <string name="reborn">S+ Reborn</string>
-    <string name="reborn_source_title">S+ Reborn Sources</string>
-    <string name="reborn_source_summary">S+ Reborn sources on Github</string>
-    <string name="reborn_google_plus_title">Google+</string>
-    <string name="reborn_google_plus_summary">Join the community on Google+</string>
+    <string name="xosp">XOSP</string>
+    <string name="xosp_source_title">XOSP Sources</string>
+    <string name="xosp_source_summary">XOSP sources on Github</string>
+    <string name="xosp_google_plus_title">Google+</string>
+    <string name="xosp_google_plus_summary">Join the community on Google+</string>
     <string name="maincontributors_title">Developers</string>
     <string name="sourcebase_title">Source Base</string>
-    <string name="share_reborn">Share the ROM</string>
-    <string name="share_reborn_summary">Let the people know that you are using S+ Reborn</string>
-    <string name="share_message">Try S+ Reborn! https://plus.google.com/u/0/communities/117671498272072664538 </string>
-    <string name="share_chooser_title">Share S+ Reborn via..</string>
-    <string name="xosp_about1">XOSP which stands for the Xperia Open Source Project was a project originally created by me for the Galaxy S+ and it was created like 2 years ago when that time XOSP did not even existed and it was just S+ Reborn.</string> 
-    <string name="xosp_about2">The main idea was to create a custom minimal Xperia based ROM, by including the essential things which a user would ever use from a ROM.The S+ Reborn became to be a big success because it was eventually ported on different Xperia Phones and some other Samsung devices and from there the XOSP project was founded.</string> 
-    <string name="xosp_about3">From the XOSP prject also the Reborn addons were created featuring with an Aroma Installer. I worked on the project for 2 years by trying always to improve it constantly.</string>
-    <string name="xosp_about4">Eventually for the fact that LP on my Galaxy S+ became to be quite buggy i decided to stop the development and for about half of year the project was left in stanby.</string> 
-    <string name="xosp_about5">Untill i decided to bring it back again on the Zenfone 2 devices. The ROM will now also feature a White Indigo theme for all the ROM and of course the newest Xperia Applications ported from the SystemDumps provided by the Sony community and as tradition the ROM name (S+ Reborn) will remain the same. </string>
+    <string name="share_xosp">Share the ROM</string>
+    <string name="share_xosp_summary">Let the people know that you are using XOSP!</string>
+    <string name="share_message">Try XOSP! https://plus.google.com/u/0/communities/117671498272072664538 </string>
+    <string name="share_chooser_title">Share XOSP via..</string>
     
     <!-- Task Manager -->
     <string name="enable_task_manager_title">Task Manager</string>
@@ -67,7 +62,7 @@
     
     <!-- FAQ -->
     <string name="faq_title">F.A.Q</string>
-    <string name="faq_summary">Got a question? check out the Reborn F.A.Q section</string>
+    <string name="faq_summary">Got a question? check out the XOSP F.A.Q section</string>
     
     <!-- Statusbar XOSP logo -->
     <string name="status_bar_xosp_logo_title">XOSP logo</string>
@@ -194,7 +189,7 @@
      
      <!-- Devices and Maintainers -->
      <string name="device_maintainers_title">Devices and Maintainers</string>
-     <string name="device_maintainers_title_summary">List of the official supported devices by the Reborn maintainers</string>
+     <string name="device_maintainers_title_summary">List of the official supported devices by the XOSP maintainers</string>
      <string name="maintainers_note_title">Note</string>
      <string name="maintainers_note_title_summary">If you compiled the ROM and the stuff are almost/all working and want to get the official status send a PM to \'Calin Neamtu\' on Hangouts containing also the link to the Thread on XDA</string>
     
