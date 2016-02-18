@@ -263,6 +263,8 @@ public class SettingsActivity extends Activity
     private int mInitialTitleResId;
 
     private NFCProfileTagCallback mNfcProfileCallback;
+    
+    private static final String XOSP_OTA = "com.xosp.ota"
 
     // Show only these settings for restricted users
     private int[] SETTINGS_FOR_RESTRICTED = {
@@ -1326,6 +1328,10 @@ public class SettingsActivity extends Activity
                     boolean hasDeviceKeys = getResources().getInteger(
                             com.android.internal.R.integer.config_deviceHardwareKeys) != 0;
                     if (!hasDeviceKeys) {
+                        removeTile = true;
+                    }
+                } else if (id == R.id.xospota) {
+                    if (!Utils.isPackageInstalled(this, XOSP_OTA, false)) {
                         removeTile = true;
                     }
                 }

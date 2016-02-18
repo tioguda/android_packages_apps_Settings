@@ -112,7 +112,17 @@
         <intent android:targetPackage="com.vipercn.viper4android_v2" 
 		android:action="android.intent.action.MAIN" 
 		android:targetClass="com.vipercn.viper4android_v2.activity.ViPER4Android"/>
-        </dashboard-tile> 
+        </dashboard-tile>
+        
+        <dashboard-tile
+                android:id="@+id/xospota"
+                android:title="XOSPOTA"
+                android:icon="@drawable/ic_xospota"
+                android:key="xospota">
+        <intent android:targetPackage="com.xosp.ota" 
+		android:action="android.intent.action.MAIN" 
+		android:targetClass="com.xosp.ota.MainActivity"/>
+        </dashboard-tile>
         
         <!-- Gestures -->
         <dashboard-tile
