@@ -264,7 +264,7 @@ public class SettingsActivity extends Activity
 
     private NFCProfileTagCallback mNfcProfileCallback;
     
-    private static final String XOSP_OTA = "com.xosp.ota"
+    private static final String XOSP_OTA = "com.xosp.ota";
 
     // Show only these settings for restricted users
     private int[] SETTINGS_FOR_RESTRICTED = {
