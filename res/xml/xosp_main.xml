@@ -43,12 +43,6 @@
                 android:icon="@drawable/ic_settings_statusbar"
                 />
 
-        <PreferenceScreen
-                android:key="lock_screen_general_category"
-                android:fragment="com.android.settings.xosp.LockScreenSettings"
-                android:title="@string/lockscreen_settings_title" 
-                android:layout="@layout/preference_xosp_lockscreen"
-                />
 </PreferenceCategory>
         
     <PreferenceCategory
