@@ -56,7 +56,11 @@
                 android:icon="@drawable/ic_settings_privacy"
                 />
         </PreferenceCategory>
-    
+        
+        <!-- Misc Settings -->
+    <PreferenceCategory
+        android:title="Misc">
+        
         <!-- SystemApp Remover -->
         <PreferenceScreen
                 android:id="@+id/system_app_remover"
@@ -64,7 +68,8 @@
                 android:icon="@drawable/ic_settings_slim_sizer"
                 android:fragment="com.android.settings.xosp.SystemappRemover" 
                 />
-        
+        </PreferenceCategory>
+    
     <PreferenceCategory
         android:title="About">
         
