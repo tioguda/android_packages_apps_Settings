@@ -141,7 +141,7 @@
         <!-- Screen and animations -->
         <PreferenceScreen
                 android:key="screen_and_animations"
-                android:fragment="com.android.settings.reborn.ScreenAndAnimations"
+                android:fragment="com.android.settings.xosp.ScreenAndAnimations"
                 android:title="@string/screen_and_animations_title"/>
 
         <!-- RAM Memory bar -->
