@@ -227,4 +227,11 @@
     <string name="notification_drawer_title">Notification Drawer</string>
     <string name="header_cat">Notification Header</string>
     
+    <!-- Optional Dashboard Switches -->
+    <string name="dashboard_switches_title">Dashboard Switches</string>
+    <string name="dashboard_switches_off">Switches Off</string>
+    <string name="dashboard_switches_on">Switches On</string>
+    <string name="dashboard_switches_summary">Change the position of the dashboard switches</string>
+    <string name="dashboard_switches_dialog_title">Select switch state</string>
+    
 </resources>
