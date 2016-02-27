@@ -1140,10 +1140,7 @@
         
         <activity 
             android:name=".xosp.About" />
-        
-        <activity
-            android:name=".xosp.FAQ" />
-        
+
         <!---Ended..........-->
         
         <activity android:name="Settings$AppOpsSummaryActivity"

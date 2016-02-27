@@ -60,10 +60,6 @@
     <string name="enable_task_manager_title">Task Manager</string>
     <string name="enable_task_manager_summary">Enable/Disable action for the task manager button in the expanded statusbar area</string>
     
-    <!-- FAQ -->
-    <string name="faq_title">F.A.Q</string>
-    <string name="faq_summary">Got a question? check out the XOSP F.A.Q section</string>
-    
     <!-- Statusbar XOSP logo -->
     <string name="status_bar_xosp_logo_title">XOSP logo</string>
     <string name="status_bar_xosp_logo_summary">Enable to show the XOSP logo on statusbar</string>

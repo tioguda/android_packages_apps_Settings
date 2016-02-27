@@ -19,15 +19,7 @@
         android:title="@string/about_xosp"
 	xmlns:xosp="http://schemas.android.com/apk/res/com.android.settings">
 
- 
-        <!-- FAQ section -->
-        <PreferenceScreen
-            android:key="xosp_faq"
-            android:fragment="com.android.settings.xosp.FAQ"
-            android:title="@string/faq_title"
-            android:summary="@string/faq_summary"
-            />
-        
+
         <!-- Devices and Maintainers -->
         <PreferenceScreen
             android:key="devices"
