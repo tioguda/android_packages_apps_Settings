@@ -41,6 +41,8 @@
     <!-- Google devices -->
     <string name="device_google_ao">Android One</string>
     <string name="device_google_ao_summary">sprout4 \nMaintainer - Shreesha Murthy</string>
+    <string name="device_google_n5">Google Nexus 5</string>
+    <string name="device_google_n5_summary">hammerhead \nMaintainer - Vikrant Arya</string>
     <string name="device_google_n4">Google Nexus 4</string>
     <string name="device_google_n4_summary">Mako \nMaintainer - Nitinkumar Chobhe</string>
 
