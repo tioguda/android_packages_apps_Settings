@@ -222,4 +222,9 @@
     <string name="sizer_message_noselect">Nothing selected.</string>
     <string name="system_app_remover">System App Remover</string>
     
+    <!-- Notification Drawer -->
+    
+    <string name="notification_drawer_title">Notification Drawer</string>
+    <string name="header_cat">Notification Header</string>
+    
 </resources>

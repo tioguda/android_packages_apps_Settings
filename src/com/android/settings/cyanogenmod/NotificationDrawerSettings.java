@@ -27,14 +27,14 @@ import android.preference.PreferenceScreen;
 import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.SwitchPreference;
 import android.provider.Settings;
-import com.android.settings.util.Helpers;
-
 import com.android.internal.logging.MetricsLogger;
+import cyanogenmod.providers.CMSettings;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-public class NotificationDrawerSettings extends SettingsPreferenceFragment  implements Preference.OnPreferenceChangeListener{
+public class NotificationDrawerSettings extends SettingsPreferenceFragment {
+ 
  private static final String PREF_ENABLE_TASK_MANAGER = "enable_task_manager";
 
     private SwitchPreference mEnableTaskManager;
@@ -55,7 +55,7 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment  impl
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsLogger.NOTIFICATION_DRAWER_SETTINGS;
+        return MetricsLogger.APPLICATION;
     }
 
     @Override
