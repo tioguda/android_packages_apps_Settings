@@ -37,7 +37,7 @@
   <string name="root_access_adb">لـADB فقط</string>
   <string name="root_access_all">التطبيقات وADB</string>
   <string name="nfc_title_category">الاتصال بالحقل القريب</string>
-  <string name="mod_version">إصدار CyanogenMod</string>
+  <string name="mod_version">إصدار XOSP</string>
   <string name="mod_version_default">مجهول</string>
   <string name="device_model">طراز الجهاز</string>
   <string name="device_name">اسم الجهاز</string>

@@ -21,10 +21,6 @@
 
     <!-- XOSP Release -->
     <string name="xosp_release">XOSP freigabe</string>
-
-    <!-- About phone screen, XOSP Mod version -->
-    <string name="mod_version">Mod Version</string>
-    <string name="mod_version_default">Unbekannt</string>
     
     <!--XOSP Changelog-->
     <string name="xosp_changelog_title">Änderungsprotokoll</string>

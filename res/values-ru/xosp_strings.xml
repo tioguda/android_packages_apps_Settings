@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2015 The XOSP Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- XOSP Revision -->
+    <string name="xosp_revision">Ревизия XOSP</string>
+
+    <!-- XOSP Release -->
+    <string name="xosp_release">Релиз XOSP</string>
+
+    <!-- About phone screen, XOSP Mod version -->
+    <string name="mod_version">Версия мода</string>
+    <string name="mod_version_default">Неизвестно</string>
+    
+    <!--XOSP Changelog-->
+    <string name="xosp_changelog_title">История изменений</string>
+    <string name="xosp_changelog_summary">История изменений XOSP</string>
+    <string name="xosp_changelog_error">Невозможно загрузить историю изменений!</string>
+    
+    <!-- XOSP extra settings -->
+    <string name="xosp_settings_header">Дополнительные настройки</string>
+    <string name="xosp_settings_title">Настройки XOSP</string>
+    
+    <!-- About XOSP -->
+    <string name="about_xosp">О XOSP</string>
+    <string name="about_xosp_summary">@null</string>
+    <string name="xosp_donate">Пожертвовать разработчику</string>
+    <string name="xosp_donate_summary">Нравится прошивка? Сделайте небольшое пожертвование!</string>
+    <string name="app_name">XOSP</string>
+    <string name="devs">Ведущий разработчик</string>
+    <string name="github_nilac">https://github.com/nilac8991</string>
+    <string name="github_cm">https://github.com/CyanogenMod</string>
+    <string name="xosp">XOSP</string>
+    <string name="xosp_source_title">Источники XOSP</string>
+    <string name="xosp_source_summary">XИсточники XOSP на Github</string>
+    <string name="xosp_google_plus_title">Google+</string>
+    <string name="xosp_google_plus_summary">Присоединяйтесь к сообществу на Google+</string>
+    <string name="maincontributors_title">Разработчики</string>
+    <string name="sourcebase_title">База источника</string>
+    <string name="share_xosp">Поделиться прошивкой</string>
+    <string name="share_xosp_summary">Расскажите людям, что Вы используете XOSP!</string>
+    <string name="share_message">Попробуйте XOSP! https://plus.google.com/u/0/communities/117671498272072664538 </string>
+    <string name="share_chooser_title">Поделиться XOSP с помощью..</string>
+    
+    <!-- Task Manager -->
+    <string name="enable_task_manager_title">Менеджер задач</string>
+    <string name="enable_task_manager_summary">Вкл/откл действие кнопки менеджера задач в раскрываемой области строки состояния</string>
+    
+    <!-- FAQ -->
+    <string name="faq_title">F.A.Q</string>
+    <string name="faq_summary">Есть вопросы? Смотрите раздел F.A.Q XOSP</string>
+    
+    <!-- Statusbar XOSP logo -->
+    <string name="status_bar_xosp_logo_title">Логотип XOSP</string>
+    <string name="status_bar_xosp_logo_summary">Включить отображение логотипа XOSP в строке состояния</string>
+    
+    <!-- SlimDim -->
+    <string name="dim_nav_buttons_category">SlimDim</string>
+    <string name="dim_nav_buttons_title">Затемнять кнопки после бездействия</string>
+    <string name="dim_nav_buttons_summary">Затемнять кнопки навигации после бездействия панели в течение установленного времени</string>
+    <string name="dim_nav_buttons_timeout_title">Задержка перед затемнением</string>
+    <string name="dim_nav_buttons_timeout_summary">Время (в миллисекундах) ожидания до затемнения кнопок</string>
+    <string name="dim_nav_buttons_alpha_title">Прозрачность затеменения</string>
+    <string name="dim_nav_buttons_alpha_summary">Значение прозрачности затемнения кнопок</string>
+    <string name="dim_nav_buttons_animate_title">Затемнение анимации</string>
+    <string name="dim_nav_buttons_animate_summary">Анимация перехода прозрачности</string>
+    <string name="dim_nav_buttons_animate_duration_title">Длительность анимации</string>
+    <string name="dim_nav_buttons_animate_duration_summary">Время (в миллисекундах) анимации прозрачности</string>
+    <string name="dim_nav_buttons_touch_anywhere_title">Ожидание прикосновений на всем экране</string>
+    <string name="dim_nav_buttons_touch_anywhere_summary_on">Прикосновение в любом месте экрана отменит затемнение кнопок</string>
+    <string name="dim_nav_buttons_touch_anywhere_summary_off">Только прикосновение на панели навигации отменит затемнение кнопок</string>
+    
+    <!-- General strings -->
+    <string name="ok">ok</string>
+    <string name="reset">Сброс</string>
+    <string name="reset_message">Сбросить все пункты к умолчаниям?</string>
+    
+    <!-- Navigation bar -->
+    <string name="nav_bar_title">Панель навигации</string>
+    <string name="navbar_enable_bar_title">Вкл наэкранную панель навигации</string>
+    <string name="navbar_enable_bar_summary">Включить наэкранную панель навигации и отключить физические кнопки</string>
+    <string name="navbar_style_dimen_title">Размеры панели навигации</string>
+    <string name="navbar_dimensions_reset_message">Сбросить все размеры к умолчаниям</string>
+    <string name="navigation_bar_height_title">Высота панели</string>
+    <string name="navigation_bar_height_summary">Высота панели навигации в портретном режиме</string>
+    <string name="navigation_bar_width_title">Ширина панели</string>
+    <string name="navigation_bar_width_summary">Высота панели навигации при расположении сбоку</string>
+    <string name="navigation_bar_size_42_dp_default">42 dp (по умолч.)</string>
+    <string name="navigation_bar_size_36_dp">36 dp</string>
+    <string name="navigation_bar_size_30_dp">30 dp</string>
+    <string name="navigation_bar_size_24_dp">24 dp</string>
+    <string name="navigation_bar_size_48_dp_default">48 dp (по умолч.)</string>
+    <string name="navigation_bar_size_44_dp">44 dp</string>
+    <string name="navigation_bar_size_40_dp">40 dp</string>
+    <string name="navigation_bar_size_42_dp">42 dp</string>
+
+    <!-- Ability to disable hardware keys via nav bar settings -->
+    <string name="hw_keys_title">Физические кнопки</string>
+    <string name="hw_keys_summary">Включить физические кнопки</string>
+    
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Сетевой трафик</string>
+    <string name="show_network_traffic_state">Монитор трафика в строке состояния</string>
+    <string name="show_network_traffic_unit">Единица отображения</string>
+    <string name="show_network_traffic_frequency">Интервал обновления</string>
+    <string name="show_network_traffic_disable">Отключено</string>
+    <string name="show_network_traffic_up">Исходящий</string>
+    <string name="show_network_traffic_down">Входящий</string>
+    <string name="show_network_traffic_all">Исходящий и входящий</string>
+    <string name="show_network_traffic_bit">Бит в секунду</string>
+    <string name="show_network_traffic_byte">Байт в секунду</string>
+    <string name="show_network_traffic_500">500 мс</string>
+    <string name="show_network_traffic_1000">1000 мс</string>
+    <string name="show_network_traffic_1500">1500 мс</string>
+    <string name="show_network_traffic_2000">2000 мс</string>
+    <string name="network_traffic_autohide_title">Автоскрытие</string>
+    <string name="network_traffic_autohide_summary">Скрывать монитор трафика при бездействии</string>
+    <string name="network_traffic_autohide_threshold">Порог бездействия</string>
+    
+    <!-- Superuser indicator on status bar -->
+    <string name="su_indicator">Индикатор суперпользователя</string>
+    <string name="su_indicator_summary_on">Индикатор суперпользователя при активной сессии</string>
+    <string name="su_indicator_summary_off">Нажмите для отображения индикатора суперпользователя, когда сессия активна</string>
+    
+    <!-- long press back to kill configurable timeout -->
+    <string name="kill_app_longpress_timeout_title">Задержка удержания нажатия на кнопке Назад</string>
+    <string name="timeout_2000">2 с (по умолч.)</string>
+    <string name="timeout_1500">1,5 с</string>
+    <string name="timeout_1000">1 с</string>
+    <string name="timeout_500">0,5 с</string>
+    
+    <!-- RAM bar -->
+    <string name="recents_show_membar_title">Полоса опер. памяти</string>
+    <string name="recents_show_membar_summary_on">Полоса доступной RAM будет отображаться в окне недавних</string>
+    <string name="recents_show_membar_summary_off">Включение отображения доступной RAM в окне недавних</string>
+    
+    <!-- Toast animations -->
+    <string name="toast_animation_title">Всплывающая анимация</string>
+    <string name="toast_animation_summary">Выбор и просмотр системной всплывающей анимации</string>
+    <string name="toast_none_animation">Нет</string>
+    <string name="toast_default_animation">По умолчанию</string>
+    <string name="toast_fade_animation">Исчезновение</string>
+    <string name="toast_SlideRight_animation">Сдвиг вправо</string>
+    <string name="toast_SlideLeft_animation">Сдвиг влево</string>
+    <string name="toast_Xylon_animation">Xylon</string>
+    <string name="toast_Toko_animation">Toko</string>
+    <string name="toast_Tn_animation">Tn</string>
+    <string name="toast_Honami_animation">Honami</string>
+    <string name="toast_FastFade_animation">Быстрое исчезновение</string>
+    <string name="toast_GrowFade_animation">Нарастающее исчезновение</string>
+    <string name="toast_GrowFadeCenter_animation">Нарастающее по центру</string>
+    <string name="toast_GrowFadeBottom_animation">Нарастающее снизу</string>
+    <string name="toast_Translucent_animation">Прозрачная анимация</string>
+    <string name="toast_SlideLeftRight_animation">Сдвиг слева направо</string>
+    <string name="toast_SlideRightLeft_animation">Сдвиг справо налево</string>
+    <string name="screen_and_animations_title">Экраны и анимации</string>
+    
+    <!-- Double tap to sleep on lockscreen -->
+    <string name="double_tap_sleep_anywhere_title">Дв. нажатие для сна на экране блокировки</string>
+    <string name="double_tap_sleep_anywhere_summary">Дважды нажмите на экране блокировки для перехода устройства в сон</string>
+    
+    <!-- Dashboard columns -->
+     <string name="dashboard_columns_title">Столбцы инструментов</string>
+     <string name="dashboard_columns_summary">Изменение количества столбцов, отображаемых на панели инструментов</string>
+     <string name="dashboard_columns_dialog_title">Выберите столбцы инструментов</string>
+     <string name="dashboard_columns_default">Один (по умолч.)</string>
+     <string name="dashboard_columns_two">Два</string>
+     <string name="dashboard_columns_three">Три</string>
+     
+     <!-- Dashboard tileview double lines -->
+     <string name="dashboard_category">Настройки инструментов</string>
+     <string name="dashboard_tileview_double_lines_title">Заголовки плиток инструментов</string>
+     <string name="dashboard_tileview_double_lines_summary_on">Отображать заголовки в 1 строке</string>
+     <string name="dashboard_tileview_double_lines_summary_off">Отображать заголовки в 2 строках</string>
+     
+     <!-- Devices and Maintainers -->
+     <string name="device_maintainers_title">Устройства и поддержка</string>
+     <string name="device_maintainers_title_summary">Список официально поддерживаемых устройств XOSP</string>
+     <string name="maintainers_note_title">Примечание</string>
+     <string name="maintainers_note_title_summary">Если Вы собрали прошивку, все/почти все работает как надо, и Вы хотите получить официальный статус, отправьте личное сообщение \'Calin Neamtu\' в Hangouts, содержащее ссылку на тему в форуме XDA</string>
+     
+     <!-- Lock screen settings -->
+    <string name="lockscreen_settings_title">Обои экрана блокировки</string>
+    <string name="lockscreen_wallpaper_title">Обои</string>
+    <string name="lockscreen_wallpaper_set_title">Установить обои экр. блокировки</string>
+    <string name="lockscreen_wallpaper_clear_title">Очистить обои экр. блокировки</string>
+    
+    <!-- On-The-Go -->
+    <string name="power_menu_onthego_title">Режим On-The-Go</string>
+    
+    <!-- Double Tap Navbar to Sleep -->
+    <string name="double_tap_sleep_nav_bar_title">Дв. нажатие для сна</string>
+    <string name="double_tap_sleep_nav_bar_summary">Дважды нажмите на панели навигации для перехода устройства в сон</string>
+    
+    <!-- System App Remover  -->
+    <string name="listsystem">Список</string>
+    <string name="sizer_title">Удаление системных</string>
+    <string name="caution">Осторожно!</string>
+    <string name="sizer_message_startup">Инструмент позволяет удалять системные приложения. Используйте с осторожностью и удаляйте только те приложения, в безопасном удалении которых Вы уверены.</string>
+    <string name="cancel">Отмена</string>
+    <string name="sizer_message_delete">Уверены, что хотите удалить это приложение?</string>
+    <string name="btn_delete">Удалить выбранные приложения!</string>
+    <string name="delete_progress_title">Удаление</string>
+    <string name="delete_progress">Выбранные приложения XOSP удаляются...</string>
+    <string name="delete_success">Удалено</string>
+    <string name="delete_fail">Невозможно удалить</string>
+    <string name="btn_profile">Профиль</string>
+    <string name="sizer_message_sdnowrite">Невозможно записать на SD Card.</string>
+    <string name="sizer_message_sdnoread">Невозможно прочитать с SD Card.</string>
+    <string name="sizer_message_filesuccess">Профиль создан.</string>
+    <string name="sizer_message_filefail">Не удалось создать профиль.</string>
+    <string name="sizer_message_noselect">Ничего не выбрано.</string>
+    <string name="system_app_remover">Удаление системных</string>
+    
+</resources>
