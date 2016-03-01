@@ -84,4 +84,14 @@ limitations under the License.
 
     <!-- Action bar icons -->
     <color name="action_bar_icon_tint">@android:color/white</color>
+
+    <!-- Filter Spinner Text Color -->
+    <color name="filter_spinner_text_color">@color/text_color_white</color>
+
+    <!-- App Name Text Color -->
+    <color name="app_name_text_color">@color/text_color_white</color>
+
+    <!-- Dashboard Category Title Background Color -->
+    <color name="dashboard_category_title_bg_color">@android:color/transparent</color>
+
 </resources>
