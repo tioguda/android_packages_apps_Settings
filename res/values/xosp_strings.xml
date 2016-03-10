@@ -234,4 +234,11 @@
     <string name="dashboard_switches_summary">Change the position of the dashboard switches</string>
     <string name="dashboard_switches_dialog_title">Select switch state</string>
     
+    <!-- Device info Settings -->
+    <string name="device_info_xosp_category">XOSP Informations</string>
+    <string name="device_info_device_category">Device Informations</string>
+    <string name="device_info_android_category">OS Informations</string>
+    <string name="device_info_other_category">Other Informations</string>
+    
+    
 </resources>
