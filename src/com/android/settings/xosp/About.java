@@ -77,9 +77,12 @@ public static final String TAG = "About";
     
 private static final String XOSP_ROM_SHARE = "share";
     
+    Preference mSiteUrl;
     Preference mSourceUrl;
+    Preference mDevicesSourceUrl;
     Preference mGoogleUrl;
     Preference mDonateUrl;
+    Preference mTranslationsUrl;
     
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -87,9 +90,12 @@ private static final String XOSP_ROM_SHARE = "share";
         addPreferencesFromResource(R.xml.about_rom);
         PreferenceScreen prefSet = getPreferenceScreen();
         ContentResolver resolver = getContentResolver();
+        mSiteUrl = findPreference("xosp_site");
         mSourceUrl = findPreference("xosp_source");
+        mDevicesSourceUrl = findPreference("xosp_devices_source");
         mGoogleUrl = findPreference("xosp_google_plus");
         mDonateUrl = findPreference("xosp_donate");
+        mTranslationsUrl = findPreference("xosp_translations");
         PreferenceGroup devsGroup = (PreferenceGroup) findPreference("devs");
         ArrayList<Preference> devs = new ArrayList<Preference>();
         for (int i = 0; i < devsGroup.getPreferenceCount(); i++) {
@@ -113,12 +119,18 @@ private static final String XOSP_ROM_SHARE = "share";
     
     @Override
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
-        if (preference == mSourceUrl) {
+        if (preference == mSiteUrl) {
+            launchUrl("http://xosp-project.github.io/");
+        } else if (preference == mSourceUrl) {
             launchUrl("https://github.com/XOSP-Project");
+        } else if (preference == mDevicesSourceUrl) {
+            launchUrl("https://github.com/XOSP-Project-Devices");
         } else if (preference == mGoogleUrl) {
             launchUrl("https://plus.google.com/u/0/communities/117671498272072664538");
         } else if (preference == mDonateUrl) {
             launchUrl("http://forum.xda-developers.com/donatetome.php?u=4968383");
+        } else if (preference == mTranslationsUrl){
+            launchUrl("https://os4fvts.oneskyapp.com/admin/project/dashboard/project/136264");
         } else if (preference.getKey().equals(XOSP_ROM_SHARE)) {
             Intent intent = new Intent();
             intent.setAction(Intent.ACTION_SEND);

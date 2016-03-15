@@ -49,6 +49,12 @@
     <string name="xosp_source_summary">XOSP sources on Github</string>
     <string name="xosp_google_plus_title">Google+</string>
     <string name="xosp_google_plus_summary">Join the community on Google+</string>
+    <string name="xosp_site">XOSP Official Site</string>
+    <string name="xosp_site_summary">Visit the Official Site</string>
+    <string name="xosp_devices_source_title">XOSP Device Sources</string>
+    <string name="xosp_devices_source_summary">XOSP Devices sources on Github</string>
+    <string name="xosp_translations_title">XOSP Translations</string>
+    <string name="xosp_translations_summary">Contribute by translating our strings into your language!</string>
     <string name="maincontributors_title">Developers</string>
     <string name="sourcebase_title">Source Base</string>
     <string name="share_xosp">Share the ROM</string>

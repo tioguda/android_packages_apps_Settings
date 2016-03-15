@@ -15,9 +15,9 @@
 -->
 
 <PreferenceScreen
-	xmlns:android="http://schemas.android.com/apk/res/android"
-        android:title="@string/about_xosp"
-	xmlns:xosp="http://schemas.android.com/apk/res/com.android.settings">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/about_xosp"
+    xmlns:xosp="http://schemas.android.com/apk/res/com.android.settings">
 
 
         <!-- Devices and Maintainers -->
@@ -26,33 +26,49 @@
             android:title="@string/device_maintainers_title"
             android:fragment="com.android.settings.xosp.Devices" />
         
-	<PreferenceCategory
-		android:key="links"
-		android:title="@string/xosp">
-		
+        <PreferenceCategory
+            android:key="links"
+            android:title="@string/xosp">
+
         <!-- Share XOSP -->
          <Preference
              android:key="share"
              android:title="@string/share_xosp"
              android:summary="@string/share_xosp_summary" />
-			
-		<Preference
-			android:key="xosp_source"
-			android:title="@string/xosp_source_title"
-			android:summary="@string/xosp_source_summary" />
-			
-		<Preference
-			android:key="xosp_google_plus"
-			android:title="@string/xosp_google_plus_title"
-			android:summary="@string/xosp_google_plus_summary" />
-			
-		<Preference
-			android:key="xosp_donate"
-			android:title="@string/xosp_donate"
-			android:summary="@string/xosp_donate_summary" />
-			
-                </PreferenceCategory>
-          <PreferenceCategory
+
+            <Preference
+                    android:key="xosp_site"
+                    android:title="@string/xosp_site_title"
+                    android:summary="@string/xosp_site_summary" />
+         
+            <Preference
+                    android:key="xosp_source"
+                    android:title="@string/xosp_source_title"
+                    android:summary="@string/xosp_source_summary" />
+                
+            <Preference
+                    android:key="xosp_devices_source"
+                    android:title="@string/xosp_devices_source_title"
+                    android:summary="@string/xosp_devices_source_summary" />
+
+            <Preference
+                    android:key="xosp_google_plus"
+                    android:title="@string/xosp_google_plus_title"
+                    android:summary="@string/xosp_google_plus_summary" />
+                    
+            <Preference
+                    android:key="xosp_donate"
+                    android:title="@string/xosp_donate"
+                    android:summary="@string/xosp_donate_summary" />
+            
+            <Preference
+                    android:key="xosp_translations"
+                    android:title="@string/xosp_translations_title"
+                    android:summary="@string/xosp_translations_summary" />
+                    
+        </PreferenceCategory>
+          
+        <PreferenceCategory
               android:key="devs"
               android:title="@string/devs">
 
@@ -63,19 +79,18 @@
               xosp:donateLink="@string/github_nilac"
               xosp:emailDev="nilac8991@gmail.com"/>
 
-          </PreferenceCategory>    
+        </PreferenceCategory>    
              
-          <PreferenceCategory
+        <PreferenceCategory
               android:key="sourcebase"
               android:title="@string/sourcebase_title">
-				
+                            
           <com.android.settings.widgets.DeveloperPreference
               android:title="CyanogenMod"
               xosp:nameDev="CyanogenMod"
               xosp:donateLink="@string/github_cm"
               xosp:emailDev="cyanogenmod18@yahoo.com"/>
 
-
-	</PreferenceCategory>
+        </PreferenceCategory>
 </PreferenceScreen>
 
