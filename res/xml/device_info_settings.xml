@@ -93,12 +93,6 @@
             <PreferenceScreen android:key="device_feedback"
                 android:title="@string/device_feedback">
             </PreferenceScreen>
-            
-            <!-- Device FCC equipment id -->
-            <Preference android:key="fcc_equipment_id"
-                style="?android:preferenceInformationStyle"
-                android:title="@string/fcc_equipment_id"
-                android:summary="@string/device_info_default"/>
     
             <!-- Device Baseband version -->
             <Preference android:key="baseband_version"
@@ -132,7 +126,7 @@
         </PreferenceCategory>
             
         <PreferenceCategory
-            android:title="@string/device_info_android_category">
+            android:title="@string/device_info_other_category">
         
             <!-- Legal Information -->
             <PreferenceScreen
