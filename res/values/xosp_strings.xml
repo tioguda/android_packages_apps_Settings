@@ -34,6 +34,10 @@
     <!-- XOSP extra settings -->
     <string name="xosp_settings_header">Additional Settings</string>
     <string name="xosp_settings_title">XOSP Settings</string>
+    <string name="xosp_settings_statusbar_cat">Status Bar Personalizations</string>
+    <string name="xosp_settings_buttons_cat">Buttons Personalizations</string>
+    <string name="xosp_settings_misc_cat">Misc Personalizations</string>
+    
     
     <!-- About XOSP -->
     <string name="about_xosp">About XOSP</string>
@@ -49,7 +53,7 @@
     <string name="xosp_source_summary">XOSP sources on Github</string>
     <string name="xosp_google_plus_title">Google+</string>
     <string name="xosp_google_plus_summary">Join the community on Google+</string>
-    <string name="xosp_site">XOSP Official Site</string>
+    <string name="xosp_site_title">XOSP Official Site</string>
     <string name="xosp_site_summary">Visit the Official Site</string>
     <string name="xosp_devices_source_title">XOSP Device Sources</string>
     <string name="xosp_devices_source_summary">XOSP Devices sources on Github</string>
@@ -203,6 +207,7 @@
     
     <!-- On-The-Go -->
     <string name="power_menu_onthego_title">On-The-Go Mode</string>
+    <string name="power_menu_onthego_summary">The option will be available in Power Menu once activated</string>
     
     <!-- Double Tap Navbar to Sleep -->
     <string name="double_tap_sleep_nav_bar_title">Double-tap to sleep</string>

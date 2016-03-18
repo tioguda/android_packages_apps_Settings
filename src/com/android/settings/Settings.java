@@ -113,6 +113,9 @@ public class Settings extends SettingsActivity {
     public static class ChangeLog extends SettingsActivity { /* empty */ }
     public static class XOSPSettingsActivity extends SettingsActivity { /* empty */ }
     public static class About extends SettingsActivity { /* empty */ }
+    public static class StatusBarPersonalizations extends SettingsActivity { /* empty */ }
+    public static class ButtonsPersonalizations extends SettingsActivity { /* empty */ }
+    public static class MiscPersonalizations extends SettingsActivity { /* empty */ }
     //
     public static class TopLevelSettings extends SettingsActivity { /* empty */ }
     public static class ApnSettingsActivity extends SettingsActivity { /* empty */ }

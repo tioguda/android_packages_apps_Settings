@@ -64,32 +64,11 @@
                 android:title="@string/lift_to_wake_title"
                 android:persistent="false" />
 
-        <!-- Double tap to wake -->
-        <SwitchPreference
-                android:key="tap_to_wake"
-                android:title="@string/tap_to_wake"
-                android:summary="@string/tap_to_wake_summary"
-                android:persistent="false" />
-
-        <!-- Double tap to sleep -->
-        <com.android.settings.cyanogenmod.CMSystemSettingSwitchPreference
-                android:key="double_tap_sleep_gesture"
-                android:title="@string/double_tap_to_sleep_title"
-                android:summary="@string/double_tap_to_sleep_summary"
-                android:defaultValue="true" />
-
         <SwitchPreference
                 android:key="camera_gesture"
                 android:title="@string/camera_gesture_title"
                 android:summary="@string/camera_gesture_desc"
                 android:persistent="false" />
-
-        <!-- Prevent accidental wake-up -->
-        <com.android.settings.cyanogenmod.CMSystemSettingSwitchPreference
-                android:key="proximity_on_wake"
-                android:title="@string/proximity_wake_title"
-                android:summary="@string/proximity_wake_summary"
-                android:defaultValue="true" />
 
         <!-- Seconds before sleep -->
         <ListPreference
@@ -138,12 +117,6 @@
                 android:title="@string/lcd_density"
                 android:persistent="false" />
 
-        <!-- Screen and animations -->
-        <PreferenceScreen
-                android:key="screen_and_animations"
-                android:fragment="com.android.settings.xosp.ScreenAndAnimations"
-                android:title="@string/screen_and_animations_title"/>
-
         <!-- RAM Memory bar -->
             <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
                     android:key="systemui_recents_mem_display"
@@ -172,37 +145,6 @@
                 android:title="@string/recents_show_searchbar"
                 settings:keywords="@string/keywords_recents_show_searchbar"
                 android:defaultValue="true" />
-
-    </PreferenceCategory>
-
-    <PreferenceCategory
-            android:key="dashboard_category"
-            android:title="@string/dashboard_category">
-
-        <ListPreference
-                android:key="dashboard_columns"
-                android:title="@string/dashboard_columns_title"
-                android:dialogTitle="@string/dashboard_columns_dialog_title"
-                android:entries="@array/dashboard_columns_entries"
-                android:entryValues="@array/dashboard_columns_values"
-                android:summary="@string/dashboard_columns_summary"
-                android:persistent="false" />
-
-        <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
-                android:key="dashboard_tileview_double_lines"
-                android:title="@string/dashboard_tileview_double_lines_title"
-                android:summaryOn="@string/dashboard_tileview_double_lines_summary_on"
-                android:summaryOff="@string/dashboard_tileview_double_lines_summary_off"
-                android:defaultValue="false" />
-
- 	 <ListPreference
-                android:key="dashboard_switches"
-                android:title="@string/dashboard_switches_title"
-                android:dialogTitle="@string/dashboard_switches_dialog_title"
-                android:entries="@array/dashboard_switches_entries"
-                android:entryValues="@array/dashboard_switches_values"
-                android:summary="@string/dashboard_switches_summary"
-                android:persistent="false" />  
 
     </PreferenceCategory>
 

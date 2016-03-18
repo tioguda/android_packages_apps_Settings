@@ -1140,8 +1140,17 @@
         
         <activity 
             android:name=".xosp.About" />
+        
+        <activity 
+            android:name=".xosp.StatusBarPersonalizations" />
+        
+        <activity 
+            android:name=".xosp.ButtonsPersonalizations" />
+        
+        <activity 
+            android:name=".xosp.MiscPersonalizations" />
 
-        <!---Ended..........-->
+        <!-- Ended -->
         
         <activity android:name="Settings$AppOpsSummaryActivity"
                 android:label="@string/privacy_guard_manager_title"

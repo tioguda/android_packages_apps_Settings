@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2015 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    settings:keywords="@string/keywords_display">
+
+        <!-- SystemApp Remover -->
+        <PreferenceScreen
+            android:id="@+id/system_app_remover"
+            android:title="@string/system_app_remover"
+            android:icon="@drawable/ic_settings_slim_sizer"
+            android:fragment="com.android.settings.xosp.SystemappRemover" 
+            />
+    
+    <PreferenceCategory
+        android:key="display"
+        android:title="@string/display_label">
+
+        <!-- Double tap to wake -->
+        <SwitchPreference
+                android:key="tap_to_wake"
+                android:title="@string/tap_to_wake"
+                android:summary="@string/tap_to_wake_summary"
+                android:persistent="false" />
+
+        <!-- Double tap to sleep -->
+        <com.android.settings.cyanogenmod.CMSystemSettingSwitchPreference
+                android:key="double_tap_sleep_gesture"
+                android:title="@string/double_tap_to_sleep_title"
+                android:summary="@string/double_tap_to_sleep_summary"
+                android:defaultValue="true" />
+        
+        <!-- Double tap to sleep anywhere on the lockscreen -->
+        <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
+            android:key="double_tap_sleep_anywhere"
+            android:title="@string/double_tap_sleep_anywhere_title"
+            android:summary="@string/double_tap_sleep_anywhere_summary" />
+
+        <!-- Prevent accidental wake-up -->
+        <com.android.settings.cyanogenmod.CMSystemSettingSwitchPreference
+                android:key="proximity_on_wake"
+                android:title="@string/proximity_wake_title"
+                android:summary="@string/proximity_wake_summary"
+                android:defaultValue="true" />
+        
+        <!-- On-the Go Mode -->
+        <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
+                android:key="power_menu_onthego_enabled"
+                android:title="@string/power_menu_onthego_title"
+                android:summary="@string/power_menu_onthego_summary"
+                android:defaultValue="false" />
+        
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:key="interface"
+            android:title="@string/category_interface">
+
+        <!-- Screen and animations -->
+        <PreferenceScreen
+                android:key="screen_and_animations"
+                android:fragment="com.android.settings.xosp.ScreenAndAnimations"
+                android:title="@string/screen_and_animations_title"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:key="dashboard_category"
+            android:title="@string/dashboard_category">
+
+        <ListPreference
+                android:key="dashboard_columns"
+                android:title="@string/dashboard_columns_title"
+                android:dialogTitle="@string/dashboard_columns_dialog_title"
+                android:entries="@array/dashboard_columns_entries"
+                android:entryValues="@array/dashboard_columns_values"
+                android:summary="@string/dashboard_columns_summary"
+                android:persistent="false" />
+
+        <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
+                android:key="dashboard_tileview_double_lines"
+                android:title="@string/dashboard_tileview_double_lines_title"
+                android:summaryOn="@string/dashboard_tileview_double_lines_summary_on"
+                android:summaryOff="@string/dashboard_tileview_double_lines_summary_off"
+                android:defaultValue="false" />
+
+ 	 <ListPreference
+                android:key="dashboard_switches"
+                android:title="@string/dashboard_switches_title"
+                android:dialogTitle="@string/dashboard_switches_dialog_title"
+                android:entries="@array/dashboard_switches_entries"
+                android:entryValues="@array/dashboard_switches_values"
+                android:summary="@string/dashboard_switches_summary"
+                android:persistent="false" />  
+
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:key="lockscreen_wallpaper"
+        android:title="@string/lockscreen_wallpaper_title" >
+
+        <Preference
+            android:key="lockscreen_wallpaper_set"
+            android:title="@string/lockscreen_wallpaper_set_title"
+            android:persistent="false"/>
+
+        <Preference
+            android:key="lockscreen_wallpaper_clear"
+            android:title="@string/lockscreen_wallpaper_clear_title"
+            android:persistent="false"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

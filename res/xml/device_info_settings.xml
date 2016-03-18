@@ -88,11 +88,6 @@
                 style="?android:preferenceInformationStyle"
                 android:title="@string/device_model"
                 android:summary="@string/device_info_default"/>
-
-            <!-- Feedback on the device -->
-            <PreferenceScreen android:key="device_feedback"
-                android:title="@string/device_feedback">
-            </PreferenceScreen>
     
             <!-- Device Baseband version -->
             <Preference android:key="baseband_version"
@@ -122,6 +117,12 @@
                 style="?android:preferenceInformationStyle"
                 android:title="@string/security_patch"
                 android:summary="@string/device_info_default"/>
+            
+            <!-- SELinux status information -->
+            <Preference android:key="selinux_status"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/selinux_status"
+                android:summary="@string/selinux_status_enforcing"/>    
         
         </PreferenceCategory>
             
@@ -147,12 +148,6 @@
                     style="?android:preferenceInformationStyle"
                     android:title="@string/mod_api_level"
                     android:summary="@string/mod_api_level_default" />
-
-            <!-- SELinux status information -->
-            <Preference android:key="selinux_status"
-                    style="?android:preferenceInformationStyle"
-                    android:title="@string/selinux_status"
-                    android:summary="@string/selinux_status_enforcing"/>    
             
         </PreferenceCategory>
 

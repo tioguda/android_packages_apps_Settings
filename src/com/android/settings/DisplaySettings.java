@@ -104,19 +104,14 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private static final String KEY_SCREEN_SAVER = "screensaver";
     private static final String KEY_LIFT_TO_WAKE = "lift_to_wake";
     private static final String KEY_DOZE = "doze";
-    private static final String KEY_TAP_TO_WAKE = "tap_to_wake";
     private static final String KEY_AUTO_BRIGHTNESS = "auto_brightness";
     private static final String KEY_AUTO_ROTATE = "auto_rotate";
     private static final String KEY_NIGHT_MODE = "night_mode";
     private static final String KEY_CAMERA_GESTURE = "camera_gesture";
-    private static final String KEY_PROXIMITY_WAKE = "proximity_on_wake";
     private static final String KEY_DISPLAY_ROTATION = "display_rotation";
     private static final String KEY_WAKE_WHEN_PLUGGED_OR_UNPLUGGED = "wake_when_plugged_or_unplugged";
     private static final String KEY_NOTIFICATION_LIGHT = "notification_light";
     private static final String KEY_BATTERY_LIGHT = "battery_light";
-
-    private static final String DASHBOARD_COLUMNS = "dashboard_columns";
-    private static final String DASHBOARD_SWITCHES = "dashboard_switches";
 
     private static final int DLG_GLOBAL_CHANGE_WARNING = 1;
 
@@ -126,18 +121,14 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
 
     private final Configuration mCurConfig = new Configuration();
 
-    private ListPreference mDashboardSwitches;	
     private ListPreference mScreenTimeoutPreference;
     private ListPreference mNightModePreference;
     private Preference mScreenSaverPreference;
     private SwitchPreference mAccelerometer;
     private SwitchPreference mLiftToWakePreference;
     private SwitchPreference mDozePreference;
-    private SwitchPreference mTapToWakePreference;
-    private SwitchPreference mProximityCheckOnWakePreference;
     private SwitchPreference mAutoBrightnessPreference;
     private SwitchPreference mWakeWhenPluggedOrUnplugged;
-    private ListPreference mDashboardColumns;
 
     private ContentObserver mAccelerometerRotationObserver =
             new ContentObserver(new Handler()) {
@@ -195,13 +186,6 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
         updateTimeoutPreferenceDescription(currentTimeout);
         updateDisplayRotationPreferenceDescription();
 
-
- 	mDashboardSwitches = (ListPreference) findPreference(DASHBOARD_SWITCHES);
-        mDashboardSwitches.setValue(String.valueOf(Settings.System.getInt(
-                getContentResolver(), Settings.System.DASHBOARD_SWITCHES, 0)));
-        mDashboardSwitches.setSummary(mDashboardSwitches.getEntry());
-        mDashboardSwitches.setOnPreferenceChangeListener(this);
-
         mLcdDensityPreference = (ListPreference) findPreference(KEY_LCD_DENSITY);
         if (mLcdDensityPreference != null) {
             if (UserHandle.myUserId() != UserHandle.USER_OWNER) {
@@ -244,12 +228,6 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
         mFontSizePref = (FontDialogPreference) findPreference(KEY_FONT_SIZE);
         mFontSizePref.setOnPreferenceChangeListener(this);
         mFontSizePref.setOnPreferenceClickListener(this);
-
-        mDashboardColumns = (ListPreference) findPreference(DASHBOARD_COLUMNS);
-        mDashboardColumns.setValue(String.valueOf(Settings.System.getInt(
-                getContentResolver(), Settings.System.DASHBOARD_COLUMNS, DashboardContainerView.mDashboardValue)));
-        mDashboardColumns.setSummary(mDashboardColumns.getEntry());
-        mDashboardColumns.setOnPreferenceChangeListener(this);
 
         mAutoBrightnessPreference = (SwitchPreference) findPreference(KEY_AUTO_BRIGHTNESS);
         if (mAutoBrightnessPreference != null && isAutomaticBrightnessAvailable(getResources())) {
@@ -296,25 +274,6 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
             final int currentNightMode = uiManager.getNightMode();
             mNightModePreference.setValue(String.valueOf(currentNightMode));
             mNightModePreference.setOnPreferenceChangeListener(this);
-        }
-
-        mTapToWakePreference = (SwitchPreference) findPreference(KEY_TAP_TO_WAKE);
-        if (mTapToWakePreference != null && isTapToWakeAvailable(getResources())) {
-            mTapToWakePreference.setOnPreferenceChangeListener(this);
-        } else {
-            if (displayPrefs != null && mTapToWakePreference != null) {
-                displayPrefs.removePreference(mTapToWakePreference);
-            }
-        }
-
-        mProximityCheckOnWakePreference = (SwitchPreference) findPreference(KEY_PROXIMITY_WAKE);
-        boolean proximityCheckOnWake = getResources().getBoolean(
-                org.cyanogenmod.platform.internal.R.bool.config_proximityCheckOnWake);
-        if (!proximityCheckOnWake) {
-            if (displayPrefs != null && mProximityCheckOnWakePreference != null) {
-                displayPrefs.removePreference(mProximityCheckOnWakePreference);
-            }
-            CMSettings.System.putInt(getContentResolver(), CMSettings.System.PROXIMITY_ON_WAKE, 1);
         }
 
         mWakeWhenPluggedOrUnplugged =
@@ -572,12 +531,6 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
             mDozePreference.setChecked(value != 0);
         }
 
-        // Update tap to wake if it is available.
-        if (mTapToWakePreference != null) {
-            int value = Settings.Secure.getInt(getContentResolver(), DOUBLE_TAP_TO_WAKE, 0);
-            mTapToWakePreference.setChecked(value != 0);
-        }
-
         // Update camera gesture #1 if it is available.
         if (mCameraGesturePreference != null) {
             int value = Settings.Secure.getInt(getContentResolver(), CAMERA_GESTURE_DISABLED, 0);
@@ -725,21 +678,10 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
             boolean value = (Boolean) objValue;
             Settings.Secure.putInt(getContentResolver(), DOZE_ENABLED, value ? 1 : 0);
         }
-        if (preference == mTapToWakePreference) {
-            boolean value = (Boolean) objValue;
-            Settings.Secure.putInt(getContentResolver(), DOUBLE_TAP_TO_WAKE, value ? 1 : 0);
-        }
         if (preference == mCameraGesturePreference) {
             boolean value = (Boolean) objValue;
             Settings.Secure.putInt(getContentResolver(), CAMERA_GESTURE_DISABLED,
                     value ? 0 : 1 /* Backwards because setting is for disabling */);
-        }
-        if (preference == mDashboardColumns) {
-            Settings.System.putInt(getContentResolver(), Settings.System.DASHBOARD_COLUMNS,
-                    Integer.valueOf((String) objValue));
-            mDashboardColumns.setValue(String.valueOf(objValue));
-            mDashboardColumns.setSummary(mDashboardColumns.getEntry());
-            return true;
         }
         if (preference == mNightModePreference) {
             try {
@@ -750,12 +692,6 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
             } catch (NumberFormatException e) {
                 Log.e(TAG, "could not persist night mode setting", e);
             }
-        } if (preference == mDashboardSwitches) {
-            Settings.System.putInt(getContentResolver(), Settings.System.DASHBOARD_SWITCHES,
-                    Integer.valueOf((String) objValue));
-            mDashboardSwitches.setValue(String.valueOf(objValue));
-            mDashboardSwitches.setSummary(mDashboardSwitches.getEntry());
-            return true;
         }
         return true;
     }
@@ -837,13 +773,6 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
                     }
                     if (!Utils.isDozeAvailable(context)) {
                         result.add(KEY_DOZE);
-                    }
-                    if (!isTapToWakeAvailable(context.getResources())) {
-                        result.add(KEY_TAP_TO_WAKE);
-                    }
-                    if (!context.getResources().getBoolean(
-                            org.cyanogenmod.platform.internal.R.bool.config_proximityCheckOnWake)) {
-                        result.add(KEY_PROXIMITY_WAKE);
                     }
                     if (!isCameraGestureAvailable(context.getResources())) {
                         result.add(KEY_CAMERA_GESTURE);

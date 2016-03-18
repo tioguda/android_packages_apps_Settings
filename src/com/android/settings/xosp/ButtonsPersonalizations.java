@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings;
+package com.android.settings.xosp;
 
 import android.content.ComponentName;
 import android.content.ContentResolver;
@@ -60,7 +60,7 @@ import java.util.List;
 import static android.provider.Settings.Secure.CAMERA_DOUBLE_TAP_POWER_GESTURE_DISABLED;
 import com.android.internal.util.xosp.RebornUtils;
 
-public class ButtonSettings extends SettingsPreferenceFragment implements
+public class ButtonsPersonalizations extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
     private static final String TAG = "SystemSettings";
 
@@ -150,7 +150,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.button_settings);
+        addPreferencesFromResource(R.xml.xosp_buttons_cat);
 
         final Resources res = getResources();
         final ContentResolver resolver = getActivity().getContentResolver();
