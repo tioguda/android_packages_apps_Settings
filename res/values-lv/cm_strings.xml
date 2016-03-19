@@ -387,4 +387,9 @@
   <string name="maximum_body_level">Ķermenis: %1$s W/kg</string>
   <string name="live_lock_screen_settings_button">Iestatījumi</string>
   <string name="cmlicense_title">CyanogenMod atbildība</string>
+  <!-- Menu label for reset the battery stats -->
+  <!-- Reset stats confirmation dialog's message -->
+  <!-- Dock battery not present message -->
+  <!-- [CHAR_LIMIT=20] Battery use screen. Battery status shown in chart label when charging on Dock AC. -->
+  <!-- [CHAR_LIMIT=20] Battery use screen. Battery status shown in chart label when charging over Dock USB. -->
 </resources>

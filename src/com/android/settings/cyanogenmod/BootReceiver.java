@@ -20,6 +20,8 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import com.android.settings.xosp.ButtonsPersonalizations;
+import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
 import com.android.settings.R;
 import com.android.settings.Utils;
 import com.android.settings.DisplaySettings;
@@ -32,15 +34,30 @@ import com.android.settings.DevelopmentSettings;
 public class BootReceiver extends BroadcastReceiver {
 
     private static final String TAG = "BootReceiver";
+    private static final String ONE_TIME_TUNABLE_RESTORE = "hardware_tunable_restored";
 
     @Override
     public void onReceive(Context ctx, Intent intent) {
-        /* Restore the hardware tunable values */
-        ButtonsPersonalizations.restoreKeyDisabler(ctx);
-        DisplayGamma.restore(ctx);
-        VibratorIntensity.restore(ctx);
-        InputMethodAndLanguageSettings.restore(ctx);
+        if (!hasRestoredTunable(ctx)) {
+            /* Restore the hardware tunable values */
+            ButtonsPersonalizations.restoreKeyDisabler(ctx);
+            DisplayGamma.restore(ctx);
+            VibratorIntensity.restore(ctx);
+            InputMethodAndLanguageSettings.restore(ctx);
+            setRestoredTunable(ctx);
+        }
+
         LocationSettings.restore(ctx);
         DevelopmentSettings.initializeUpdateRecoveryOption();
+    }
+
+    private boolean hasRestoredTunable(Context context) {
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(context);
+        return preferences.getBoolean(ONE_TIME_TUNABLE_RESTORE, false);
+    }
+
+    private void setRestoredTunable(Context context) {
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(context);
+        preferences.edit().putBoolean(ONE_TIME_TUNABLE_RESTORE, true).apply();
     }
 }
