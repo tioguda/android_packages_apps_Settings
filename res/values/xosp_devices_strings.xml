@@ -47,8 +47,18 @@
     <string name="device_google_n4_summary">Mako \nMaintainer - Nitinkumar Chobhe</string>
 
     <!-- LG Devices -->
-    <string name="device_lg_g3">LG G3</string>
-    <string name="device_lg_g3_summary">vs985 \nMaintainer - Nitinkumar Chobhe</string>
+    <string name="device_lg_vs985">LG G3 VS985</string>
+    <string name="device_lg_vs985_summary">vs985 \nMaintainer - Nitinkumar Chobhe</string>
+    <string name="device_lg_d850">LG G3 D850</string>
+    <string name="device_lg_d850_summary">d850 \nMaintainer - Nitinkumar Chobhe</string>
+    <string name="device_lg_d851">LG G3 D851</string>
+    <string name="device_lg_d851_summary">d851 \nMaintainer - Nitinkumar Chobhe</string>
+    <string name="device_lg_d855">LG G3 D855</string>
+    <string name="device_lg_d855_summary">d855 \nMaintainer - Nitinkumar Chobhe</string>
+    <string name="device_lg_ls990">LG G3 LS990</string>
+    <string name="device_lg_ls990_summary">ls990 \nMaintainer - Nitinkumar Chobhe</string>
+    <string name="device_lg_f400">LG G3 F400</string>
+    <string name="device_lg_f400_summary">f400 \nMaintainer - Nitinkumar Chobhe</string>
     
     <!-- Xiaomi Devices -->
     <string name="device_xiaomi_red">Xiaomi Redmi 1S</string>

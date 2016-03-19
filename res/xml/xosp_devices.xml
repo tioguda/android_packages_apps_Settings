@@ -79,10 +79,45 @@
              android:title="@string/device_category_lg_title" >
 
              <Preference
-                 android:key="device_lg_g3"
+                 android:key="device_lg_vs985"
                  android:icon="@drawable/ic_xosp_device_tint"
-                 android:title="@string/device_lg_g3"
-                 android:summary="@string/device_lg_g3_summary"
+                 android:title="@string/device_lg_vs985"
+                 android:summary="@string/device_lg_vs985_summary"
+                 android:selectable="false" />
+             
+            <Preference
+                 android:key="device_lg_d850"
+                 android:icon="@drawable/ic_xosp_device_tint"
+                 android:title="@string/device_lg_d850"
+                 android:summary="@string/device_lg_d850_summary"
+                 android:selectable="false" />
+            
+            <Preference
+                 android:key="device_lg_d851"
+                 android:icon="@drawable/ic_xosp_device_tint"
+                 android:title="@string/device_lg_d851"
+                 android:summary="@string/device_lg_d851_summary"
+                 android:selectable="false" />
+            
+            <Preference
+                 android:key="device_lg_d855"
+                 android:icon="@drawable/ic_xosp_device_tint"
+                 android:title="@string/device_lg_d855"
+                 android:summary="@string/device_lg_d855_summary"
+                 android:selectable="false" />
+            
+            <Preference
+                 android:key="device_lg_ls990"
+                 android:icon="@drawable/ic_xosp_device_tint"
+                 android:title="@string/device_lg_ls990"
+                 android:summary="@string/device_lg_ls990_summary"
+                 android:selectable="false" />
+            
+            <Preference
+                 android:key="device_lg_f400"
+                 android:icon="@drawable/ic_xosp_device_tint"
+                 android:title="@string/device_lg_f400"
+                 android:summary="@string/device_lg_f400_summary"
                  android:selectable="false" />
              
         </PreferenceCategory>
