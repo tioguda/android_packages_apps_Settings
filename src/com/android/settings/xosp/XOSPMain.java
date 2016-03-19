@@ -42,6 +42,7 @@ import com.android.settings.xosp.About;
 import com.android.settings.xosp.ButtonsPersonalizations;
 import com.android.settings.xosp.MiscPersonalizations;
 import com.android.settings.xosp.StatusBarPersonalizations;
+import com.android.settings.xosp.NotificationDrawerSettings;
 
 
 import com.android.settings.R;
@@ -102,7 +103,8 @@ public class XOSPMain extends SettingsPreferenceFragment {
             frags[0] = new StatusBarPersonalizations();
             frags[1] = new ButtonsPersonalizations();
             frags[2] = new MiscPersonalizations();
-            frags[3] = new About();
+            frags[3] = new NotificationDrawerSettings();
+            frags[4] = new About();
         }
 
         @Override
@@ -127,6 +129,7 @@ public class XOSPMain extends SettingsPreferenceFragment {
                     getString(R.string.xosp_settings_statusbar_cat),
                     getString(R.string.xosp_settings_buttons_cat),
                     getString(R.string.xosp_settings_misc_cat),
+                    getString(R.string.notification_drawer_title),
                     getString(R.string.about_xosp)
                     };
         return titleString;

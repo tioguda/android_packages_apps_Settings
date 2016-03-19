@@ -235,7 +235,7 @@
     
     <!-- Notification Drawer -->
     
-    <string name="notification_drawer_title">Notification Drawer</string>
+    <string name="notification_drawer_title">Notification Drawer Personalizations</string>
     <string name="header_cat">Notification Header</string>
     
     <!-- Optional Dashboard Switches -->
