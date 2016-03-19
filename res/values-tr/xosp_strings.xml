@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--
+     Copyright (C) 2015 The XOSP Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- XOSP Revision -->
+    <string name="xosp_revision">XOSP Revizyon</string>
+    <!-- XOSP Release -->
+    <string name="xosp_release">XOSP Yayınlanma</string>
+    <!-- About phone screen, XOSP Mod version -->
+    <string name="mod_version">Mod Version</string>
+    <string name="mod_version_default">Bilinmeyen</string>
+    <!--XOSP Changelog-->
+    <string name="xosp_changelog_title">Değişenler</string>
+    <string name="xosp_changelog_summary">XOSP değişenler</string>
+    <string name="xosp_changelog_error">Değişen Listesi yüklenemedi</string>
+    <!-- XOSP extra settings -->
+    <string name="xosp_settings_header">Extra Seçenekler</string>
+    <string name="xosp_settings_title">Xosp Ayarları</string>
+    <!-- About XOSP -->
+    <string name="about_xosp">Xosp Hakkında</string>
+    <string name="about_xosp_summary">Boş</string>
+    <string name="xosp_donate">Geliştirmeye Bağış yap</string>
+    <string name="xosp_donate_summary">Romu Sevdin mİ?Küçük bir bağış yap</string>
+    <string name="app_name">XOSP</string>
+    <string name="devs">Asıl Geliştirici</string>
+    <string name="github_nilac">https://github.com/nilac8991</string>
+    <string name="github_cm">https://github.com/CyanogenMod</string>
+    <string name="xosp">XOSP</string>
+    <string name="xosp_source_title">Xosp Kaynak Kodları</string>
+    <string name="xosp_source_summary">Githubdaki XOSP Kaynak Kodları</string>
+    <string name="xosp_google_plus_title">Google+</string>
+    <string name="xosp_google_plus_summary">Google+ da Bulunan Topluluğa katıl</string>
+    <string name="maincontributors_title">Geliştiriciler</string>
+    <string name="sourcebase_title">Kaynak Kodu Tabanı</string>
+    <string name="share_xosp">Romu Paylaş</string>
+    <string name="share_xosp_summary">İnsanların senin XOSP kullandığnı bilmesine izin ver</string>
+    <string name="share_message">Xosp Dene https://plus.google.com/u/0/communities/117671498272072664538</string>
+    <string name="share_chooser_title">Xosp yi şunun aracılığıyla paylaş</string>
+    <!-- Task Manager -->
+    <string name="enable_task_manager_title">Görev Yöneticisi</string>
+    <string name="enable_task_manager_summary">"Durum çubuğundaki görev yöneticisi tuşunu Etkinleştir/Devre dışı bırak "</string>
+    <!-- FAQ -->
+    <string name="faq_title">S.S.S</string>
+    <string name="faq_summary">Bir sorun mu var?XOSP\'nin S.S.S Yi Kontrol et</string>
+    <!-- Statusbar XOSP logo -->
+    <string name="status_bar_xosp_logo_title">XOSP Logosu</string>
+    <string name="status_bar_xosp_logo_summary">XOSP logosunu durum çubuğunda göstermeye izin ver</string>
+    <!-- SlimDim -->
+    <string name="dim_nav_buttons_category">İnceDİm</string>
+    <string name="dim_nav_buttons_title">hareketsizlik sonrası Dim düğmeleri</string>
+    <string name="dim_nav_buttons_summary">Belirlenen zamanda navigasyon tuşlarıyla etkileşim olmadıysa karart</string>
+    <string name="dim_nav_buttons_timeout_title">Karartma Zaman aşımı</string>
+    <string name="dim_nav_buttons_timeout_summary">Butonları karartırken beklenecek süre(Milisaniye)</string>
+    <string name="dim_nav_buttons_alpha_title">Karartma Animasyonları</string>
+    <string name="dim_nav_buttons_alpha_summary">Dim Butonlarının Alfa degeri</string>
+    <string name="dim_nav_buttons_animate_title">Karartma Animasyonları</string>
+    <string name="dim_nav_buttons_animate_summary">Alfa Karartmasını Animasyonlaştır</string>
+    <string name="dim_nav_buttons_animate_duration_title">Animasyon Süresi</string>
+    <string name="dim_nav_buttons_animate_duration_summary">Alfa animasyonun Süresi(Milisaniye)</string>
+    <string name="dim_nav_buttons_touch_anywhere_title">Tüm Ekrandaki Dokunuslari Dinle</string>
+    <string name="dim_nav_buttons_touch_anywhere_summary_on">Ekranda herhangi bir yere dokunmak kararmaya sebep olacaktir</string>
+    <string name="dim_nav_buttons_touch_anywhere_summary_off">Sadece Navigasyon tuslarina dokunmak kararmaya sebep olacaktir</string>
+    <!-- General strings -->
+    <string name="ok">Tamam</string>
+    <string name="reset">Eski Haline Dondur</string>
+    <string name="reset_message">Tum ayarlari Varsayilana sifirlamak istiyor musunuz?</string>
+    <!-- Navigation bar -->
+    <string name="nav_bar_title">Navigasyon Tuslari</string>
+    <string name="navbar_enable_bar_title">Navigasyon Tuslarini Ac</string>
+    <string name="navbar_enable_bar_summary">Navigasyon Tuslarini Aktiflestir Ve donanim tuslarini devre disi birak</string>
+    <string name="navbar_style_dimen_title">Navigasyon Bari Karanligi</string>
+    <string name="navbar_dimensions_reset_message">Hepsini varsayılaan dondurmek istiyormusun?</string>
+    <string name="navigation_bar_height_title">Navigasyon Barı Uzunluğu</string>
+    <string name="navigation_bar_height_summary">Dikey durumdayken navigasyon barı uzunluğu</string>
+    <string name="navigation_bar_width_title">Navigasyon barı genişliği</string>
+    <string name="navigation_bar_width_summary">Navigasyon Barının Alt kısmın tamamını kapadığı zamanki uzunluğu</string>
+    <string name="navigation_bar_size_42_dp_default">42Dp(Varsayılan)</string>
+    <string name="navigation_bar_size_36_dp">36Dp</string>
+    <string name="navigation_bar_size_30_dp">30Dp</string>
+    <string name="navigation_bar_size_24_dp">24Dp</string>
+    <string name="navigation_bar_size_48_dp_default">48Dp(varsayılan)</string>
+    <string name="navigation_bar_size_44_dp">44Dp</string>
+    <string name="navigation_bar_size_40_dp">40Dp</string>
+    <string name="navigation_bar_size_42_dp">42Dp</string>
+    <!-- Ability to disable hardware keys via nav bar settings -->
+    <string name="hw_keys_title">Donanım Tuşları</string>
+    <string name="hw_keys_summary">Donanım Tuşarını Aç</string>
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Ağ Trafiği</string>
+    <string name="show_network_traffic_state">Durum çubuğu ağ monitörü</string>
+    <string name="show_network_traffic_unit">Ekran Ünitesi</string>
+    <string name="show_network_traffic_frequency">Aralığı Güncelle</string>
+    <string name="show_network_traffic_disable">Devre Dışı Bırakıldı</string>
+    <string name="show_network_traffic_up">Giden</string>
+    <string name="show_network_traffic_down">gelen</string>
+    <string name="show_network_traffic_all">gelen ve giden</string>
+    <string name="show_network_traffic_bit">Saniye başına bit</string>
+    <string name="show_network_traffic_byte">Saniye Başına Bit</string>
+    <string name="show_network_traffic_500">500Ms</string>
+    <string name="show_network_traffic_1000">1000Ms</string>
+    <string name="show_network_traffic_1500">1500ms</string>
+    <string name="show_network_traffic_2000">2000ms</string>
+    <string name="network_traffic_autohide_title">Otomatik Gizle</string>
+    <string name="network_traffic_autohide_summary">Eğer bir aktivite yoksaTraffic mönitörünü gizle</string>
+    <string name="network_traffic_autohide_threshold">Hareketsizlik eşiği</string>
+    <!-- Superuser indicator on status bar -->
+    <string name="su_indicator">Root erşimi</string>
+    <string name="su_indicator_summary_on">Bir oturum aktiften root eriiişimini gizle</string>
+    <string name="su_indicator_summary_off">Bir oturum aktiften root erişimini göster</string>
+    <!-- long press back to kill configurable timeout -->
+    <string name="kill_app_longpress_timeout_title">geri tuşuna uzun basma zaman aşımı</string>
+    <string name="timeout_2000">2Sn(varsayılan)</string>
+    <string name="timeout_1500">1.5sn</string>
+    <string name="timeout_1000">1sn</string>
+    <string name="timeout_500">0.5sn</string>
+    <!-- RAM bar -->
+    <string name="recents_show_membar_title">Ram göstergesi</string>
+    <string name="recents_show_membar_summary_on">Son Uygulamalarda Ram Göster</string>
+    <string name="recents_show_membar_summary_off">Son Uygulamalarda ram göstermeyi aç</string>
+    <!-- Toast animations -->
+    <string name="toast_animation_title">Bildirim Animasyonu</string>
+    <string name="toast_animation_summary">Bilidirim animasyonu seç ve göster</string>
+    <string name="toast_none_animation">Boş</string>
+    <string name="toast_default_animation">Varsayılan</string>
+    <string name="toast_fade_animation">Karartma Animayonu</string>
+    <string name="toast_SlideRight_animation">Sağa Kaydır</string>
+    <string name="toast_SlideLeft_animation">Sola Kaydır</string>
+    <string name="toast_Xylon_animation">Xylon Animasyonu</string>
+    <string name="toast_Toko_animation">Toko Animasyonu</string>
+    <string name="toast_Tn_animation">Tn animasyonu</string>
+    <string name="toast_Honami_animation">Honami animasyonu</string>
+    <string name="toast_FastFade_animation">Hızlı Karartma</string>
+    <string name="toast_GrowFade_animation">Yavaş Karartma</string>
+    <string name="toast_GrowFadeCenter_animation">Oratadn yavaş Karat</string>
+    <string name="toast_GrowFadeBottom_animation">Alttan yavaş kaydır</string>
+    <string name="toast_Translucent_animation">Saydam animasyon</string>
+    <string name="toast_SlideLeftRight_animation">Soldan ağa kaydır</string>
+    <string name="toast_SlideRightLeft_animation">Sağdan Sola Kaydır</string>
+    <string name="screen_and_animations_title">Ekran ve animasyonlar</string>
+    <!-- Double tap to sleep on lockscreen -->
+    <string name="double_tap_sleep_anywhere_title">Kilit Ekranında çift dokunuşla uyut</string>
+    <string name="double_tap_sleep_anywhere_summary">Kilit ekranına çift dokunarak uyut</string>
+    <!-- Dashboard columns -->
+    <string name="dashboard_columns_title">Kontrol Paneli Sütunları</string>
+    <string name="dashboard_columns_summary">Kontrol panelinde gösterilen sütün sayısını değiştir</string>
+    <string name="dashboard_columns_dialog_title">Kontol Paneli sütunlarını seç</string>
+    <string name="dashboard_columns_default">1(varsayılan)</string>
+    <string name="dashboard_columns_two">2</string>
+    <string name="dashboard_columns_three">3</string>
+    <!-- Dashboard tileview double lines -->
+    <string name="dashboard_category">Kontrol Paneli Seçenekleri</string>
+    <string name="dashboard_tileview_double_lines_title">Kontrol Paneli Butonlarının Gorünüm Başlığı</string>
+    <string name="dashboard_tileview_double_lines_summary_on">Kontrol Panelini Tekli Göster</string>
+    <string name="dashboard_tileview_double_lines_summary_off">Kontrol Paneli İkili Göster</string>
+    <!-- Devices and Maintainers -->
+    <string name="device_maintainers_title">Cihazlar Ve Rom Yapımcıları</string>
+    <string name="device_maintainers_title_summary">"XOSP Yapımcılari Tarafindan Resmi Olarak Desteklenen Cihazlar "</string>
+    <string name="maintainers_note_title">Not</string>
+    <string name="maintainers_note_title_summary">Eger bu romu Cihaziniz icin calisir hale getirdiyseniz ve resmi olarak destek vermek istiyorsaniz \"Calin Neamtu\' ya Xda bulunan Hangouts linki uzerinden ÖM Atin</string>
+    <!-- Lock screen settings -->
+    <string name="lockscreen_settings_title">Kilitekrani Duvar Kagidi</string>
+    <string name="lockscreen_wallpaper_title">Duvar Kagidi</string>
+    <string name="lockscreen_wallpaper_set_title">Kilit ekrani Duvar Kagidini ayarla</string>
+    <string name="lockscreen_wallpaper_clear_title">Kilit ekrani duvar kagidini temizle</string>
+    <!-- On-The-Go -->
+    <string name="power_menu_onthego_title">OTG</string>
+    <!-- Double Tap Navbar to Sleep -->
+    <string name="double_tap_sleep_nav_bar_title">Cift Tikla Uyutma</string>
+    <string name="double_tap_sleep_nav_bar_summary">Navigasyon Tuslarina Cift tiklayarak uyut</string>
+    <!-- System App Remover  -->
+    <string name="listsystem">Liste</string>
+    <string name="sizer_title">Sistem uygulama kaldırıcısı</string>
+    <string name="caution">Dikkat!</string>
+    <string name="sizer_message_startup">Bu araç size sistem uygulamalarını kaldırmanıza izin verir.Dikkatli ve ne yaptığınızı bilerek kullanın!!</string>
+    <string name="cancel">İptal</string>
+    <string name="sizer_message_delete">Bu uygulamayı silmek istediğine eminmisin?</string>
+    <string name="btn_delete">Seçilen uygulamaları şimdi sil</string>
+    <string name="delete_progress_title">Siliniyor</string>
+    <string name="delete_progress">Seçilen XOSP uygulamaları silinecektir</string>
+    <string name="delete_success">Silindi</string>
+    <string name="delete_fail">Silinemedi</string>
+    <string name="btn_profile">Profil</string>
+    <string name="sizer_message_sdnowrite">Sd Karta yazılamıyor</string>
+    <string name="sizer_message_sdnoread">Sd kart okunamıyor</string>
+    <string name="sizer_message_filesuccess">Oluşturulan Profil</string>
+    <string name="sizer_message_filefail">Profil Oluşturma başarısız</string>
+    <string name="sizer_message_noselect">Hiçbir şey seçilmedi</string>
+    <string name="system_app_remover">Sistem uygulama silici</string>
+</resources>
