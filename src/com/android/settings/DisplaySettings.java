@@ -35,7 +35,6 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
 
 import static android.provider.Settings.Secure.CAMERA_GESTURE_DISABLED;
-import static android.provider.Settings.Secure.DOUBLE_TAP_TO_WAKE;
 import static android.provider.Settings.Secure.DOZE_ENABLED;
 import static android.provider.Settings.Secure.WAKE_GESTURE_ENABLED;
 import static android.provider.Settings.System.SCREEN_BRIGHTNESS_MODE;
@@ -311,10 +310,6 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private static boolean isLiftToWakeAvailable(Context context) {
         SensorManager sensors = (SensorManager) context.getSystemService(Context.SENSOR_SERVICE);
         return sensors != null && sensors.getDefaultSensor(Sensor.TYPE_WAKE_GESTURE) != null;
-    }
-
-    private static boolean isTapToWakeAvailable(Resources res) {
-        return res.getBoolean(com.android.internal.R.bool.config_supportDoubleTapWake);
     }
 
     private static boolean isAutomaticBrightnessAvailable(Resources res) {

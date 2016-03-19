@@ -157,6 +157,12 @@ public class MiscPersonalizations extends SettingsPreferenceFragment implements
     }
     
     @Override
+    public void onResume() {
+        super.onResume();
+        updateState();
+    }
+    
+    @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
         
         if (preference == mTapToWakePreference) {
