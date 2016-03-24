@@ -57,7 +57,7 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment imple
                 Settings.System.ENABLE_TASK_MANAGER, 0) == 1));
 
         // Status bar custom header
-        mCustomHeader = (SwitchPreference) prefs.findPreference(PREF_CUSTOM_HEADER);
+        mCustomHeader = (SwitchPreference) prefSet.findPreference(PREF_CUSTOM_HEADER);
         mCustomHeader.setChecked((Settings.System.getInt(getActivity().getContentResolver(),
                 Settings.System.STATUS_BAR_CUSTOM_HEADER, 0) == 1));
         mCustomHeader.setOnPreferenceChangeListener(this);
