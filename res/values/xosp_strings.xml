@@ -250,6 +250,8 @@
     <string name="device_info_device_category">Device Informations</string>
     <string name="device_info_android_category">OS Informations</string>
     <string name="device_info_other_category">Other Informations</string>
-    
+
+    <!-- Battery icon -->
+    <string name="status_bar_battery_style_xperia_text">Xperia Text Battery Prototype</string>
     
 </resources>
