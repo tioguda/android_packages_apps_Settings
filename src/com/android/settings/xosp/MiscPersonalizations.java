@@ -43,6 +43,9 @@ import static android.provider.Settings.System.SCREEN_BRIGHTNESS_MODE_AUTOMATIC;
 import static android.provider.Settings.System.SCREEN_BRIGHTNESS_MODE_MANUAL;
 import static android.provider.Settings.System.SCREEN_OFF_TIMEOUT;
 
+import android.app.WallpaperManager;
+import android.content.Intent;
+import android.net.Uri;
 import android.app.Activity;
 import android.app.ActivityManagerNative;
 import android.app.Dialog;
@@ -97,7 +100,13 @@ public class MiscPersonalizations extends SettingsPreferenceFragment implements
         private static final String DASHBOARD_SWITCHES = "dashboard_switches";
         private static final String DASHBOARD_COLUMNS = "dashboard_columns";
         private static final String KEY_CATEGORY_MISC = "misc";
-        
+        public static final int IMAGE_PICK = 1;
+
+        private static final String KEY_WALLPAPER_SET = "lockscreen_wallpaper_set";
+        private static final String KEY_WALLPAPER_CLEAR = "lockscreen_wallpaper_clear";
+
+        private Preference mSetWallpaper;
+        private Preference mClearWallpaper;
         private SwitchPreference mTapToWakePreference;
         private SwitchPreference mProximityCheckOnWakePreference;
         private ListPreference mDashboardSwitches;
@@ -110,8 +119,9 @@ public class MiscPersonalizations extends SettingsPreferenceFragment implements
         final ContentResolver resolver = activity.getContentResolver();
         addPreferencesFromResource(R.xml.xosp_misc_cat);
         
-        PreferenceCategory miscPrefs = (PreferenceCategory)
-                findPreference(KEY_CATEGORY_MISC);
+        PreferenceCategory miscPrefs = (PreferenceCategory) findPreference(KEY_CATEGORY_MISC);
+        mSetWallpaper = (Preference) findPreference(KEY_WALLPAPER_SET);
+        mClearWallpaper = (Preference) findPreference(KEY_WALLPAPER_CLEAR);
         
         mDashboardSwitches = (ListPreference) findPreference(DASHBOARD_SWITCHES);
         mDashboardSwitches.setValue(String.valueOf(Settings.System.getInt(
@@ -162,6 +172,45 @@ public class MiscPersonalizations extends SettingsPreferenceFragment implements
         updateState();
     }
     
+    @Override
+    public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
+        if (preference == mSetWallpaper) {
+            setKeyguardWallpaper();
+            return true;
+        } else if (preference == mClearWallpaper) {
+            clearKeyguardWallpaper();
+            return true;
+        }
+        return super.onPreferenceTreeClick(preferenceScreen, preference);
+    }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (requestCode == IMAGE_PICK && resultCode == Activity.RESULT_OK) {
+            if (data != null && data.getData() != null) {
+                Uri uri = data.getData();
+                Intent intent = new Intent();
+                intent.setClassName("com.android.wallpapercropper", "com.android.wallpapercropper.WallpaperCropActivity");
+                intent.putExtra("keyguardMode", "1");
+                intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+                intent.setData(uri);
+                startActivity(intent);
+            }
+        }
+    }
+
+    private void setKeyguardWallpaper() {
+        Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
+        intent.setType("image/*");
+        startActivityForResult(intent, IMAGE_PICK);
+    }
+
+    private void clearKeyguardWallpaper() {
+        WallpaperManager wallpaperManager = null;
+        wallpaperManager = WallpaperManager.getInstance(getActivity());
+        wallpaperManager.clearKeyguardWallpaper();
+    }
+
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
         
