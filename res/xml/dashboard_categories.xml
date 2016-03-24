@@ -126,26 +126,6 @@
         
         </dashboard-category>
         
-        <!-- Themes -->
-        <!-- NOTE: Intent.parseIntent looks for "categories" tag and not "category" -->
-        <dashboard-tile
-                android:id="@+id/theme_settings"
-                android:title="@string/themes_settings_title"
-                android:icon="@drawable/ic_settings_themes">
-        <intent
-                android:action="android.intent.action.MAIN" >
-            <categories android:name="cyanogenmod.intent.category.APP_THEMES" />
-        </intent>
-        </dashboard-tile>
-        
-        <!-- Notification manager -->
-        <dashboard-tile
-                android:id="@+id/notification_manager"
-                android:title="@string/notification_manager"
-                android:fragment="com.android.settings.notification.NotificationManagerSettings"
-                android:icon="@drawable/ic_settings_notifications"
-                />
-        
         <!-- DEVICE -->
     <dashboard-category
             android:id="@+id/device_section"
@@ -168,6 +148,25 @@
                 android:icon="@drawable/ic_settings_display"
                 />
 
+        <!-- Themes -->
+        <!-- NOTE: Intent.parseIntent looks for "categories" tag and not "category" -->
+        <dashboard-tile
+                android:id="@+id/theme_settings"
+                android:title="@string/themes_settings_title"
+                android:icon="@drawable/ic_settings_themes">
+        <intent
+                android:action="android.intent.action.MAIN" >
+            <categories android:name="cyanogenmod.intent.category.APP_THEMES" />
+        </intent>
+        </dashboard-tile>
+
+        <!-- Notification manager -->
+        <dashboard-tile
+                android:id="@+id/notification_manager"
+                android:title="@string/notification_manager"
+                android:fragment="com.android.settings.notification.NotificationManagerSettings"
+                android:icon="@drawable/ic_settings_notifications"
+                />
 
         <!-- Lock screen -->
         <dashboard-tile
