@@ -253,5 +253,9 @@
 
     <!-- Battery icon -->
     <string name="status_bar_battery_style_xperia_text">Xperia Text Battery Prototype</string>
+
+    <!-- Time Contextual Headers -->
+    <string name="status_bar_custom_header_title">Time Contextual Header</string>
+    <string name="status_bar_custom_header_summary">Enable notification panel header image</string>
     
 </resources>
