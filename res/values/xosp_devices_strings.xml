@@ -39,8 +39,10 @@
     <string name="device_asus_z550ml_summary">Z008 \nMaintainer - Calin Neamtu</string>
     
     <!-- Google devices -->
-    <string name="device_google_ao">Android One</string>
-    <string name="device_google_ao_summary">sprout4 \nMaintainer - Shreesha Murthy</string>
+    <string name="device_google_ao4">Android One (4 GB)</string>
+    <string name="device_google_ao4_summary">sprout4 \nMaintainer - Shreesha Murthy</string>
+    <string name="device_google_ao8">Android One (8 GB)</string>
+    <string name="device_google_ao8_summary">sprout8 \nMaintainer - Shreesha Murthy</string>
     <string name="device_google_n5">Google Nexus 5</string>
     <string name="device_google_n5_summary">hammerhead \nMaintainer - Vikrant Arya</string>
     <string name="device_google_n4">Google Nexus 4</string>
@@ -59,7 +61,13 @@
     <string name="device_lg_ls990_summary">ls990 \nMaintainer - Nitinkumar Chobhe</string>
     <string name="device_lg_f400">LG G3 F400</string>
     <string name="device_lg_f400_summary">f400 \nMaintainer - Nitinkumar Chobhe</string>
+    <string name="device_lg_h811">LG G4</string>
+    <string name="device_lg_h811_summary">h811 \nMaintainer - Nitinkumar Chobhe</string>
     
+    <!-- OnePlus devices -->
+    <string name="device_oneplus_bacon">OnePlus One </string>
+    <string name="device_oneplus_bacon_summary">bacon \nMaintainer - Tushar Jain</string>
+
     <!-- Xiaomi Devices -->
     <string name="device_xiaomi_red">Xiaomi Redmi 1S</string>
     <string name="device_xiaomi_red_summary">armani \nMaintainer - Nitinkumar Chobhe</string>
