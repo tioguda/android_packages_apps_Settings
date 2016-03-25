@@ -134,14 +134,6 @@
                 android:key="container"
                 android:title="@string/legal_information"
                 android:fragment="com.android.settings.LegalSettings" />
-        
-            <!-- Regulatory Info -->
-            <PreferenceScreen
-                    android:key="regulatory_info"
-                    android:title="@string/regulatory_information">
-                <intent android:action="android.settings.SHOW_REGULATORY_INFO" />
-            </PreferenceScreen>
-
 
             <!-- CyanogenMod API Version -->
             <Preference android:key="mod_api_level"
