@@ -131,5 +131,7 @@ public class Settings extends SettingsActivity {
     public static class LockScreenSettingsActivity extends SettingsActivity { /* empty */ }
     public static class LiveDisplayActivity extends SettingsActivity { /* empty */ }
     public static class DisplayRotationActivity extends SettingsActivity { /* empty */ }
+    public static class LiveLockScreenSettingsActivity extends SettingsActivity { /* empty */ }
     public static class NotificationManagerActivity extends SettingsActivity { /* empty */ }
+    public static class WeatherProviderServicesActivity extends SettingsActivity { /* empty */ }
 }
