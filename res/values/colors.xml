@@ -71,9 +71,9 @@
     <color name="running_processes_free_ram">#ffced7db</color>
 
     <!-- Palette colors referenced by top-level themes. -->
-    <color name="theme_primary">#ff263238</color>
-    <color name="theme_primary_dark">#ff21272b</color>
-    <color name="theme_accent">#283593</color>
+    <color name="theme_primary">#ff34495e</color>
+    <color name="theme_primary_dark">#ff2c3e50</color>
+    <color name="theme_accent">#ffd35400</color>
 
 
     <color name="switchbar_background_color">#ff37474f</color>
