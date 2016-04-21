@@ -114,6 +114,8 @@ public class MiscPersonalizations extends SettingsPreferenceFragment implements
         private SwitchPreference mProximityCheckOnWakePreference;
         private ListPreference mDashboardSwitches;
         private ListPreference mDashboardColumns;
+        private SwitchPreference mRecentsClearAll;
+        private ListPreference mRecentsClearAllLocation;
     
     @Override
     public void onCreate(Bundle icicle) {
@@ -253,15 +255,15 @@ public class MiscPersonalizations extends SettingsPreferenceFragment implements
         }
 
         if (preference == mRecentsClearAll) {
-            boolean show = (Boolean) newValue;
+            boolean show = (Boolean) objValue;
             Settings.System.putIntForUser(getActivity().getContentResolver(),
                     Settings.System.SHOW_CLEAR_ALL_RECENTS, show ? 1 : 0, UserHandle.USER_CURRENT);
             return true;
         }
 
         if (preference == mRecentsClearAllLocation) {
-            int location = Integer.valueOf((String) newValue);
-            int index = mRecentsClearAllLocation.findIndexOfValue((String) newValue);
+            int location = Integer.valueOf((String) objValue);
+            int index = mRecentsClearAllLocation.findIndexOfValue((String) objValue);
             Settings.System.putIntForUser(getActivity().getContentResolver(),
                     Settings.System.RECENTS_CLEAR_ALL_LOCATION, location, UserHandle.USER_CURRENT);
             mRecentsClearAllLocation.setSummary(mRecentsClearAllLocation.getEntries()[index]);
