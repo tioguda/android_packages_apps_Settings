@@ -333,4 +333,17 @@
     <string name="xospapps_title">XOSPApps are not installed!</string>
     <string name="xospapps_warning">Hey there!, it seems that XOSPApps are not installed, if you want a complete Xperia experience, please follow the links from the community on G+ to download the right XOSPApps package for your device</string>
 
+    <!-- Clear all -->
+    <string name="recents_panel_category">Recents panel</string>
+    <string name="show_clear_all_recents_button_title">Clear all button</string>
+    <string name="show_clear_all_recents_button_summary">Show clear all button</string>
+    <string name="recents_clear_all_location_title">Clear all location</string>
+    <string name="recents_clear_all_location_top_right">Top right</string>
+    <string name="recents_clear_all_location_top_left">Top left</string>
+    <string name="recents_clear_all_location_top_center">Top center</string>
+    <string name="recents_clear_all_location_bottom_right">Bottom right</string>
+    <string name="recents_clear_all_location_bottom_left">Bottom left</string>
+    <string name="recents_clear_all_location_bottom_center">Bottom center</string>
+    <string name="recents_clear_all_dismiss_all_title">Clear all tasks</string>
+    <string name="recents_clear_all_dismiss_all_summary">Include foreground task when clearing all</string>
 </resources>

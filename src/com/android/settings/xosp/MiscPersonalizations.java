@@ -66,6 +66,7 @@ import android.os.Build;
 import android.database.ContentObserver;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.UserHandle;
 import android.os.RemoteException;
 import android.os.ServiceManager;
 import android.os.SystemProperties;
@@ -101,6 +102,8 @@ public class MiscPersonalizations extends SettingsPreferenceFragment implements
         private static final String DASHBOARD_COLUMNS = "dashboard_columns";
         private static final String KEY_CATEGORY_MISC = "misc";
         public static final int IMAGE_PICK = 1;
+        private static final String SHOW_CLEAR_ALL_RECENTS = "show_clear_all_recents";
+        private static final String RECENTS_CLEAR_ALL_LOCATION = "recents_clear_all_location";
 
         private static final String KEY_WALLPAPER_SET = "lockscreen_wallpaper_set";
         private static final String KEY_WALLPAPER_CLEAR = "lockscreen_wallpaper_clear";
@@ -113,11 +116,12 @@ public class MiscPersonalizations extends SettingsPreferenceFragment implements
         private ListPreference mDashboardColumns;
     
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    public void onCreate(Bundle icicle) {
+        super.onCreate(icicle);
         final Activity activity = getActivity();
         final ContentResolver resolver = activity.getContentResolver();
         addPreferencesFromResource(R.xml.xosp_misc_cat);
+        PreferenceScreen prefSet = getPreferenceScreen();
         
         PreferenceCategory miscPrefs = (PreferenceCategory) findPreference(KEY_CATEGORY_MISC);
         mSetWallpaper = (Preference) findPreference(KEY_WALLPAPER_SET);
@@ -153,6 +157,18 @@ public class MiscPersonalizations extends SettingsPreferenceFragment implements
             }
             CMSettings.System.putInt(getContentResolver(), CMSettings.System.PROXIMITY_ON_WAKE, 1);
         }
+
+        mRecentsClearAll = (SwitchPreference) prefSet.findPreference(SHOW_CLEAR_ALL_RECENTS);
+        mRecentsClearAll.setChecked(Settings.System.getIntForUser(resolver,
+            Settings.System.SHOW_CLEAR_ALL_RECENTS, 1, UserHandle.USER_CURRENT) == 1);
+        mRecentsClearAll.setOnPreferenceChangeListener(this);
+
+        mRecentsClearAllLocation = (ListPreference) prefSet.findPreference(RECENTS_CLEAR_ALL_LOCATION);
+        int location = Settings.System.getIntForUser(resolver,
+                Settings.System.RECENTS_CLEAR_ALL_LOCATION, 3, UserHandle.USER_CURRENT);
+        mRecentsClearAllLocation.setValue(String.valueOf(location));
+        mRecentsClearAllLocation.setSummary(mRecentsClearAllLocation.getEntry());
+        mRecentsClearAllLocation.setOnPreferenceChangeListener(this);
 
     }
     
@@ -213,6 +229,7 @@ public class MiscPersonalizations extends SettingsPreferenceFragment implements
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
         
         if (preference == mTapToWakePreference) {
             boolean value = (Boolean) objValue;
@@ -234,7 +251,23 @@ public class MiscPersonalizations extends SettingsPreferenceFragment implements
             mDashboardSwitches.setSummary(mDashboardSwitches.getEntry());
             return true;
         }
-        
+
+        if (preference == mRecentsClearAll) {
+            boolean show = (Boolean) newValue;
+            Settings.System.putIntForUser(getActivity().getContentResolver(),
+                    Settings.System.SHOW_CLEAR_ALL_RECENTS, show ? 1 : 0, UserHandle.USER_CURRENT);
+            return true;
+        }
+
+        if (preference == mRecentsClearAllLocation) {
+            int location = Integer.valueOf((String) newValue);
+            int index = mRecentsClearAllLocation.findIndexOfValue((String) newValue);
+            Settings.System.putIntForUser(getActivity().getContentResolver(),
+                    Settings.System.RECENTS_CLEAR_ALL_LOCATION, location, UserHandle.USER_CURRENT);
+            mRecentsClearAllLocation.setSummary(mRecentsClearAllLocation.getEntries()[index]);
+            return true;
+        }
+
         return true;
     }
     
