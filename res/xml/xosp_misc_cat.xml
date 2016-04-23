@@ -130,6 +130,12 @@
 
     </PreferenceCategory>
     
+        <SwitchPreference
+            android:key="lock_screen_show_current"
+            android:title="@string/lock_screen_show_current"
+            android:summary="@string/lock_screen_show_current_summary"
+            android:defaultValue="false" />
+
    <!-- <PreferenceCategory
         android:key="lockscreen_wallpaper"
         android:title="@string/lockscreen_wallpaper_title" >
