@@ -81,7 +81,7 @@
         android:entryValues="@array/clock_date_position_values" />
     
     <!-- Clock Seconds -->
-    <SwitchPreference
+    <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
         android:key="clock_use_second"
         android:title="@string/status_bar_show_clock_second_title"
         android:defaultValue="false" />
