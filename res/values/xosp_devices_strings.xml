@@ -65,7 +65,11 @@
     <string name="device_lg_f400_summary">f400 \nMaintainer - Nitinkumar Chobhe</string>
     <string name="device_lg_h811">LG G4</string>
     <string name="device_lg_h811_summary">h811 \nMaintainer - Nitinkumar Chobhe</string>
-    
+
+    <!-- Motorola devices -->
+    <string name="device_motorola_osprey">Moto G3 </string>
+    <string name="device_motorola_osprey_summary">osprey \nMaintainer - FireLord</string>
+
     <!-- OnePlus devices -->
     <string name="device_oneplus_bacon">OnePlus One </string>
     <string name="device_oneplus_bacon_summary">bacon \nMaintainer - Tushar Jain</string>

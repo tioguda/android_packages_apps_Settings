@@ -142,7 +142,19 @@
                  android:selectable="false" />
              
         </PreferenceCategory>
-        
+
+        <PreferenceCategory
+             android:key="device_category_motorola"
+             android:title="@string/device_category_motorola_title" > 
+
+            <Preference
+                 android:key="device_motorola_osprey"
+                 android:icon="@drawable/ic_xosp_device_tint"
+                 android:title="@string/device_motorola_osprey"
+                 android:summary="@string/device_motorola_osprey_summary"
+                 android:selectable="false" />
+
+        </PreferenceCategory>        
 
         <PreferenceCategory
              android:key="device_category_oneplus"
