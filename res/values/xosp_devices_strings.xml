@@ -72,7 +72,7 @@
 
     <!-- OnePlus devices -->
     <string name="device_oneplus_bacon">OnePlus One </string>
-    <string name="device_oneplus_bacon_summary">bacon \nMaintainer - Tushar Jain</string>
+    <string name="device_oneplus_bacon_summary">bacon \nMaintainer - Mihir M</string>
 
     <!-- Xiaomi Devices -->
     <string name="device_xiaomi_red">Xiaomi Redmi 1S</string>
