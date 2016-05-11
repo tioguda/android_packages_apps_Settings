@@ -29,6 +29,7 @@
     <string name="device_category_motorola_title">Motorola</string>
     <string name="device_category_oneplus_title">One Plus</string>
     <string name="device_category_xiaomi_title">Xiaomi</string>
+    <string name="device_category_yu_title">YU</string>    
 
     <!-- Devices and Maintainers -->
     
@@ -69,13 +70,28 @@
     <!-- Motorola devices -->
     <string name="device_motorola_osprey">Moto G3 </string>
     <string name="device_motorola_osprey_summary">osprey \nMaintainer - FireLord</string>
+    <string name="device_motorola_lux">Moto X Play </string>
+    <string name="device_motorola_lux_summary">lux \nMaintainer - Vatsal</string>
+    <string name="device_motorola_surnia">Moto E 2015 4G </string>
+    <string name="device_motorola_surnia_summary">surnia \nMaintainer - Vatsal</string>    
+    <string name="device_motorola_titan">Moto G 2014 </string>
+    <string name="device_motorola_titan_summary">titan \nMaintainer - Vatsal</string>
 
     <!-- OnePlus devices -->
     <string name="device_oneplus_bacon">OnePlus One </string>
     <string name="device_oneplus_bacon_summary">bacon \nMaintainer - Mihir M</string>
-
+    <string name="device_oneplus_oneplus2">OnePlus Two </string>
+    <string name="device_oneplus_oneplus2_summary">oneplus2 \nMaintainer - Nik</string>
+   
     <!-- Xiaomi Devices -->
     <string name="device_xiaomi_red">Xiaomi Redmi 1S</string>
     <string name="device_xiaomi_red_summary">armani \nMaintainer - Nitinkumar Chobhe</string>
+   
+    <!-- YU Devices -->
+    <string name="device_yu_lettuce">Yu Yuphoria</string>
+    <string name="device_yu_lettuce_summary">lettuce \nMaintainer - Nitinkumar Chobhe</string>
     
+    <string name="device_yu_tomato">Yu Yureka</string>
+    <string name="device_yu_tomato_summary">tomato \nMaintainer - Nitinkumar Chobhe</string>
+
 </resources>
