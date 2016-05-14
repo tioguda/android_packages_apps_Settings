@@ -331,8 +331,8 @@
     <string name="clock_date_left">Left of time</string>
 
     <!-- XOSPApps -->
-    <string name="xospapps_title">XOSPApps are not installed!</string>
-    <string name="xospapps_warning">Hey there!, it seems that XOSPApps are not installed, if you want a complete Xperia experience, please follow the links from the community on G+ to download the right XOSPApps package for your device</string>
+    <string name="xospapps_title">XOSPApps</string>
+    <string name="xospapps_default_string">Not installed</string>
 
     <!-- Clear all -->
     <string name="recents_panel_category">Recents panel</string>

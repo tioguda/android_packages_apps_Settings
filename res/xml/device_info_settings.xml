@@ -50,6 +50,12 @@
                 style="?android:preferenceInformationStyle"
                 android:title="@string/xosp_release"
                 android:summary="@string/device_info_default" />
+
+            <!-- XOSPApps -->
+            <Preference android:key="xosp_apps"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/xospapps_title"
+                android:summary="@string/xospapps_default_string" />
             
             <!-- Build date -->
             <Preference android:key="build_date"

@@ -64,7 +64,6 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.SearchView;
-import android.widget.Toast;
 
 import com.android.internal.logging.MetricsLogger;
 import com.android.internal.util.ArrayUtils;
@@ -166,7 +165,6 @@ public class SettingsActivity extends Activity
     private static final String SAVE_KEY_SHOW_HOME_AS_UP = ":settings:show_home_as_up";
     private static final String SAVE_KEY_SHOW_SEARCH = ":settings:show_search";
     private static final String SAVE_KEY_HOME_ACTIVITIES_COUNT = ":settings:home_activities_count";
-    private static final String XOSPAPPS = "com.sonyericsson.album";
 
     /**
      * When starting this activity, the invoking Intent can contain this extra
@@ -492,8 +490,6 @@ public class SettingsActivity extends Activity
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
         return false;
     }
-
-
 
     private void invalidateCategories(boolean forceRefresh) {
         if (!mHandler.hasMessages(MSG_BUILD_CATEGORIES)) {
@@ -1336,16 +1332,6 @@ public class SettingsActivity extends Activity
                     if (!Utils.isPackageInstalled(this, XOSP_OTA, false)) {
                         removeTile = true;
                     }
-                } else if (id == R.id.xospapps) {
-                	if(Utils.isPackageInstalled(this, XOSPAPPS, false)) {
-                		removeTile = true;
-                	}
-                	else 
-                	{
-                		Toast xospapps_warning = null;
-                		Toast.makeText(getApplicationContext(),R.string.xospapps_warning,
-                			Toast.LENGTH_LONG).show();
-                	}
                 } else if (id == R.id.weather_settings) {
                     if (!getPackageManager().hasSystemFeature(
                             CMContextConstants.Features.WEATHER_SERVICES)) {

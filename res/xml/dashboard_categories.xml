@@ -94,13 +94,7 @@
     <dashboard-category 
             android:id="@+id/customsetttings"
             android:title ="@string/xosp_settings_header" >
-
-        <dashboard-tile
-                android:id="@+id/xospapps"
-                android:title="@string/xospapps_title"
-                android:icon="@drawable/ic_xosp_main_tint" 
-                /> 
-
+        
         <dashboard-tile
                 android:id="@+id/xosp_settings"
                 android:title="@string/xosp_settings_title"
