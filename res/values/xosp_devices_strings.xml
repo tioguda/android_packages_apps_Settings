@@ -29,16 +29,16 @@
     <string name="device_category_motorola_title">Motorola</string>
     <string name="device_category_oneplus_title">One Plus</string>
     <string name="device_category_xiaomi_title">Xiaomi</string>
-    <string name="device_category_yu_title">YU</string>    
+    <string name="device_category_yu_title">YU</string>
 
     <!-- Devices and Maintainers -->
-    
+
     <!-- Asus Devices -->
     <string name="device_asus_z551ml">Asus Zenfone 2 Z551ML</string>
     <string name="device_asus_z551ml_summary">Z00A \nMaintainer - Calin Neamtu</string>
     <string name="device_asus_z550ml">Asus Zenfone 2 Z550ML</string>
     <string name="device_asus_z550ml_summary">Z008 \nMaintainer - Calin Neamtu</string>
-    
+
     <!-- Google devices -->
     <string name="device_google_ao4">Android One (4 GB)</string>
     <string name="device_google_ao4_summary">sprout4 \nMaintainer - Shreesha Murthy</string>
@@ -48,6 +48,8 @@
     <string name="device_google_n5_summary">hammerhead \nMaintainer - Vikrant Arya</string>
     <string name="device_google_n4">Google Nexus 4</string>
     <string name="device_google_n4_summary">Mako \nMaintainer - Nitinkumar Chobhe</string>
+    <string name="device_google_n6p">Google Nexus 6P</string>
+    <string name="device_google_n6p_summary">Angler \nMaintainer - Nicholas Pace</string>
 
     <!-- LG Devices -->
     <string name="device_lg_vs985">LG G3 VS985</string>
@@ -73,7 +75,7 @@
     <string name="device_motorola_lux">Moto X Play </string>
     <string name="device_motorola_lux_summary">lux \nMaintainer - Vatsal</string>
     <string name="device_motorola_surnia">Moto E 2015 4G </string>
-    <string name="device_motorola_surnia_summary">surnia \nMaintainer - Vatsal</string>    
+    <string name="device_motorola_surnia_summary">surnia \nMaintainer - Vatsal</string>
     <string name="device_motorola_titan">Moto G 2014 </string>
     <string name="device_motorola_titan_summary">titan \nMaintainer - Vatsal</string>
 
@@ -86,15 +88,15 @@
    <!-- Samsung devices -->
     <string name="device_samsung_i9100">Samsung Galaxy S2 </string>
     <string name="device_samsung_i9100_summary">i9100 \nMaintainer - GreekDragon</string>
-      
+
     <!-- Xiaomi Devices -->
     <string name="device_xiaomi_red">Xiaomi Redmi 1S</string>
     <string name="device_xiaomi_red_summary">armani \nMaintainer - Nitinkumar Chobhe</string>
-   
+
     <!-- YU Devices -->
     <string name="device_yu_lettuce">Yu Yuphoria</string>
     <string name="device_yu_lettuce_summary">lettuce \nMaintainer - Nitinkumar Chobhe</string>
-    
+
     <string name="device_yu_tomato">Yu Yureka</string>
     <string name="device_yu_tomato_summary">tomato \nMaintainer - Nik</string>
 
