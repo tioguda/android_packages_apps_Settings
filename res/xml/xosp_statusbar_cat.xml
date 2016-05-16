@@ -85,8 +85,13 @@
         android:key="clock_use_second"
         android:title="@string/status_bar_show_clock_second_title"
         android:defaultValue="false" />
-
     </PreferenceCategory>
+
+    <!-- Custom carrier label -->
+    <PreferenceScreen
+        android:key="carrierlabel"
+        android:fragment="com.android.settings.xosp.CarrierLabel"
+        android:title="@string/carrier_options" />
 
     <!-- Network traffic meter -->
      <PreferenceCategory
