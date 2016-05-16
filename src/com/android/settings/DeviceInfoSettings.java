@@ -86,7 +86,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String KEY_MOD_API_LEVEL = "mod_api_level";
     private static final String KEY_XOSP_REVISION="xosp_revision";
     private static final String KEY_XOSP_RELEASE="xosp_release";
-    private static finale String KEY_XOSP_APPS="xosp_apps";
+    private static final String KEY_XOSP_APPS="xosp_apps";
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
 
