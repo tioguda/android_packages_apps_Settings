@@ -199,7 +199,7 @@
         </PreferenceCategory>
 
 	<PreferenceCategory
-             android:key="device_category_samsung"
+             android:key="device_category_samsung
              android:title="@string/device_category_samsung_title" >
 
             <Preference
