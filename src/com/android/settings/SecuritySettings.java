@@ -125,6 +125,7 @@ public class SecuritySettings extends SettingsPreferenceFragment
     private static final String KEY_SMS_SECURITY_CHECK_PREF = "sms_security_check_limit";
     private static final String KEY_GENERAL_CATEGORY = "general_category";
     private static final String KEY_LIVE_LOCK_SCREEN = "live_lock_screen";
+    private static final String KEY_LOCK_SCREEN_BLUR = CMSettings.Secure.LOCK_SCREEN_BLUR_ENABLED;
 
     // These switch preferences need special handling since they're not all stored in Settings.
     private static final String SWITCH_PREFERENCE_KEYS[] = { KEY_LOCK_AFTER_TIMEOUT,
@@ -348,7 +349,7 @@ public class SecuritySettings extends SettingsPreferenceFragment
             // Add live lock screen preference if supported
             PreferenceGroup generalCategory = (PreferenceGroup)
                     root.findPreference(KEY_GENERAL_CATEGORY);
-            if (pm.hasSystemFeature(LIVE_LOCK_SCREEN_FEATURE) && generalCategory != null) {
+            if (pm.hasSystemFeature(LIVE_LOCK_SCREEN_FEATURE) && generalCategory != null && Utils.isUserOwner()) {
                 boolean moveToTop = getResources().getBoolean(
                         R.bool.config_showLiveLockScreenSettingsFirst);
 
@@ -358,6 +359,14 @@ public class SecuritySettings extends SettingsPreferenceFragment
                 liveLockPreference.setOrder(-1);
                 setLiveLockScreenPreferenceTitleAndSummary(liveLockPreference);
                 groupToAddTo.addPreference(liveLockPreference);
+            }
+
+            // only show blur setting for devices that support it
+            boolean blurSupported = getResources().getBoolean(
+                    com.android.internal.R.bool.config_ui_blur_enabled);
+            if (!blurSupported) {
+                Preference blurEnabledPref = root.findPreference(KEY_LOCK_SCREEN_BLUR);
+                if (blurEnabledPref != null) root.removePreference(blurEnabledPref);
             }
         }
 
