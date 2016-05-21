@@ -20,7 +20,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/device_maintainers_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-    
+
     <Preference
          style="?android:preferenceInformationStyle"
          android:title="@string/maintainers_note_title"
@@ -29,24 +29,24 @@
 
         <PreferenceCategory
              android:key="device_category_asus"
-             android:title="@string/device_category_asus_title" >    
-            
+             android:title="@string/device_category_asus_title" >
+
              <Preference
                  android:key="device_asus_z551ml"
                  android:icon="@drawable/ic_xosp_device_tint"
                  android:title="@string/device_asus_z551ml"
                  android:summary="@string/device_asus_z551ml_summary"
-                 android:selectable="false" />            
-    
+                 android:selectable="false" />
+
              <Preference
                  android:key="device_asus_z550ml"
                  android:icon="@drawable/ic_xosp_device_tint"
                  android:title="@string/device_asus_z550ml"
                  android:summary="@string/device_asus_z550ml_summary"
                  android:selectable="false" />
-        
+
         </PreferenceCategory>
-             
+
         <PreferenceCategory
              android:key="device_category_google"
              android:title="@string/device_category_google_title" >
@@ -64,14 +64,14 @@
                  android:title="@string/device_google_ao8"
                  android:summary="@string/device_google_ao8_summary"
                  android:selectable="false" />
-             
+
             <Preference
                  android:key="device_google_n4"
                  android:icon="@drawable/ic_xosp_device_tint"
                  android:title="@string/device_google_n4"
                  android:summary="@string/device_google_n4_summary"
                  android:selectable="false" />
-            
+
             <Preference
                  android:key="device_google_n5"
                  android:icon="@drawable/ic_xosp_device_tint"
@@ -79,6 +79,12 @@
                  android:summary="@string/device_google_n5_summary"
                  android:selectable="false" />
 
+           <Preference
+                 android:key="device_google_n6p"
+                 android:icon="@drawable/ic_xosp_device_tint"
+                 android:title="@string/device_google_n6p"
+                 android:summary="@string/device_google_n6p_summary"
+                 android:selectable="false" />
         </PreferenceCategory>
 
         <PreferenceCategory
@@ -91,42 +97,42 @@
                  android:title="@string/device_lg_vs985"
                  android:summary="@string/device_lg_vs985_summary"
                  android:selectable="false" />
-             
+
             <Preference
                  android:key="device_lg_d850"
                  android:icon="@drawable/ic_xosp_device_tint"
                  android:title="@string/device_lg_d850"
                  android:summary="@string/device_lg_d850_summary"
                  android:selectable="false" />
-            
+
             <Preference
                  android:key="device_lg_d851"
                  android:icon="@drawable/ic_xosp_device_tint"
                  android:title="@string/device_lg_d851"
                  android:summary="@string/device_lg_d851_summary"
                  android:selectable="false" />
-            
+
             <Preference
                  android:key="device_lg_d852"
                  android:icon="@drawable/ic_xosp_device_tint"
                  android:title="@string/device_lg_d852"
                  android:summary="@string/device_lg_d852_summary"
                  android:selectable="false" />
-            
+
             <Preference
                  android:key="device_lg_d855"
                  android:icon="@drawable/ic_xosp_device_tint"
                  android:title="@string/device_lg_d855"
                  android:summary="@string/device_lg_d855_summary"
                  android:selectable="false" />
-            
+
             <Preference
                  android:key="device_lg_ls990"
                  android:icon="@drawable/ic_xosp_device_tint"
                  android:title="@string/device_lg_ls990"
                  android:summary="@string/device_lg_ls990_summary"
                  android:selectable="false" />
-            
+
             <Preference
                  android:key="device_lg_f400"
                  android:icon="@drawable/ic_xosp_device_tint"
@@ -140,12 +146,12 @@
                  android:title="@string/device_lg_h811"
                  android:summary="@string/device_lg_h811_summary"
                  android:selectable="false" />
-             
+
         </PreferenceCategory>
 
         <PreferenceCategory
              android:key="device_category_motorola"
-             android:title="@string/device_category_motorola_title" > 
+             android:title="@string/device_category_motorola_title" >
 
             <Preference
                  android:key="device_motorola_osprey"
@@ -175,12 +181,12 @@
                  android:summary="@string/device_motorola_titan_summary"
                  android:selectable="false" />
 
-	
-        </PreferenceCategory>        
+
+        </PreferenceCategory>
 
         <PreferenceCategory
              android:key="device_category_oneplus"
-             android:title="@string/device_category_oneplus_title" > 
+             android:title="@string/device_category_oneplus_title" >
 
             <Preference
                  android:key="device_oneplus_bacon"
@@ -223,11 +229,11 @@
                  android:selectable="false" />
 
         </PreferenceCategory>
-	
+
 	<PreferenceCategory
              android:key="device_category_yu"
-             android:title="@string/device_category_yu_title" >	             
-	
+             android:title="@string/device_category_yu_title" >
+
 	    <Preference
                  android:key="device_yu_lettuce"
                  android:icon="@drawable/ic_xosp_device_tint"
@@ -244,4 +250,4 @@
 
 	</PreferenceCategory>
 
-</PreferenceScreen> 
+</PreferenceScreen>
