@@ -18,8 +18,8 @@
     <item android:id="@+id/reset_android"
         android:title="@string/reset_android_title"
         />
-    <item android:id="@+id/reset_own"
-        android:title="@string/reset_own_title"
+    <item android:id="@+id/reset_xosp"
+        android:title="@string/reset_xosp_title"
         />
 </menu>
 
