@@ -136,7 +136,7 @@
             android:summary="@string/lock_screen_show_current_summary"
             android:defaultValue="false" />
 
-   <!-- <PreferenceCategory
+    <PreferenceCategory
         android:key="lockscreen_wallpaper"
         android:title="@string/lockscreen_wallpaper_title" >
 
@@ -150,6 +150,6 @@
             android:title="@string/lockscreen_wallpaper_clear_title"
             android:persistent="false"/>
 
-    </PreferenceCategory> -->
+    </PreferenceCategory>
 
 </PreferenceScreen>
