@@ -268,7 +268,7 @@ public class SettingsActivity extends Activity
 
     private NFCProfileTagCallback mNfcProfileCallback;
     
-    private static final String XOSP_OTA = "com.xosp.ota";
+    private static final String XOSP_DELTA = "delta.out386.xosp";
 
     // Show only these settings for restricted users
     private int[] SETTINGS_FOR_RESTRICTED = {
@@ -1328,8 +1328,8 @@ public class SettingsActivity extends Activity
                             UserManager.DISALLOW_DEBUGGING_FEATURES)) {
                         removeTile = true;
                     }
-                } else if (id == R.id.xospota) {
-                    if (!Utils.isPackageInstalled(this, XOSP_OTA, false)) {
+                } else if (id == R.id.xospdelta) {
+                    if (!Utils.isPackageInstalled(this, XOSP_DELTA, false)) {
                         removeTile = true;
                     }
                 } else if (id == R.id.weather_settings) {
