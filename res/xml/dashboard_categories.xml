@@ -99,7 +99,7 @@
                 android:id="@+id/xosp_settings"
                 android:title="@string/xosp_settings_title"
                 android:fragment="com.android.settings.xosp.XOSPMain"
-                android:icon="@drawable/ic_xosp_main_tint" 
+                android:icon="@drawable/ic_xosp_main" 
                 /> 
         
         <dashboard-tile
