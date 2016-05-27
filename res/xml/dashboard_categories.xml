@@ -105,7 +105,7 @@
         <dashboard-tile
                 android:id="@+id/viper"
                 android:title="ViperFX"
-                android:icon="@drawable/ic_viper_tint"
+                android:icon="@drawable/ic_settings_viper"
                 android:key="viperfx">
         <intent android:targetPackage="com.vipercn.viper4android_v2" 
 		android:action="android.intent.action.MAIN" 
