@@ -85,10 +85,6 @@
     <string name="device_oneplus_oneplus2">OnePlus Two </string>
     <string name="device_oneplus_oneplus2_summary">oneplus2 \nMaintainer - Nik</string>
 
-   <!-- Samsung devices -->
-    <string name="device_samsung_i9100">Samsung Galaxy S2 </string>
-    <string name="device_samsung_i9100_summary">i9100 \nMaintainer - GreekDragon</string>
-
     <!-- Xiaomi Devices -->
     <string name="device_xiaomi_red">Xiaomi Redmi 1S</string>
     <string name="device_xiaomi_red_summary">armani \nMaintainer - Nitinkumar Chobhe</string>
