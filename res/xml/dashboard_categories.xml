@@ -119,7 +119,7 @@
                 android:key="xospdelta">
         <intent android:targetPackage="delta.out386.xosp" 
 		android:action="android.intent.action.MAIN" 
-		android:targetClass="com.xosp.ota.MainActivity"/>
+		android:targetClass="delta.out386.xosp.MainActivity"/>
         </dashboard-tile>
         
         </dashboard-category>
