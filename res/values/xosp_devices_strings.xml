@@ -54,20 +54,14 @@
     <!-- LG Devices -->
     <string name="device_lg_vs985">LG G3 VS985</string>
     <string name="device_lg_vs985_summary">vs985 \nMaintainer - Nitinkumar Chobhe</string>
-    <string name="device_lg_d850">LG G3 D850</string>
-    <string name="device_lg_d850_summary">d850 \nMaintainer - Nitinkumar Chobhe</string>
     <string name="device_lg_d851">LG G3 D851</string>
     <string name="device_lg_d851_summary">d851 \nMaintainer - Nitinkumar Chobhe</string>
-    <string name="device_lg_d852">LG G3 D852</string>
-    <string name="device_lg_d852_summary">d852 \nMaintainer - Nitinkumar Chobhe</string>
     <string name="device_lg_d855">LG G3 D855</string>
     <string name="device_lg_d855_summary">d855 \nMaintainer - Nitinkumar Chobhe</string>
-    <string name="device_lg_ls990">LG G3 LS990</string>
-    <string name="device_lg_ls990_summary">ls990 \nMaintainer - Nitinkumar Chobhe</string>
-    <string name="device_lg_f400">LG G3 F400</string>
-    <string name="device_lg_f400_summary">f400 \nMaintainer - Nitinkumar Chobhe</string>
-    <string name="device_lg_h811">LG G4</string>
+    <string name="device_lg_h811">LG G4 T-Mobile</string>
     <string name="device_lg_h811_summary">h811 \nMaintainer - Nitinkumar Chobhe</string>
+    <string name="device_lg_h815">LG G4</string>
+    <string name="device_lg_h815_summary">h815 \nMaintainer - Nitinkumar Chobhe</string>
 
     <!-- Motorola devices -->
     <string name="device_motorola_osprey">Moto G3 </string>
@@ -78,6 +72,8 @@
     <string name="device_motorola_surnia_summary">surnia \nMaintainer - Vatsal</string>
     <string name="device_motorola_titan">Moto G 2014 </string>
     <string name="device_motorola_titan_summary">titan \nMaintainer - Vatsal</string>
+    <string name="device_motorola_falcon">Moto G </string>
+    <string name="device_motorola_falcon_summary">falcon \nMaintainer - Vatsal</string>
 
     <!-- OnePlus devices -->
     <string name="device_oneplus_bacon">OnePlus One </string>
