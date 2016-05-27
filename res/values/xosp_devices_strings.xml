@@ -71,7 +71,7 @@
 
     <!-- Motorola devices -->
     <string name="device_motorola_osprey">Moto G3 </string>
-    <string name="device_motorola_osprey_summary">osprey \nMaintainer - FireLord</string>
+    <string name="device_motorola_osprey_summary">osprey \nMaintainer - Vatsal</string>
     <string name="device_motorola_lux">Moto X Play </string>
     <string name="device_motorola_lux_summary">lux \nMaintainer - Vatsal</string>
     <string name="device_motorola_surnia">Moto E 2015 4G </string>
