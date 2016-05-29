@@ -42,6 +42,8 @@ import static android.provider.Settings.System.SCREEN_BRIGHTNESS_MODE;
 import static android.provider.Settings.System.SCREEN_BRIGHTNESS_MODE_AUTOMATIC;
 import static android.provider.Settings.System.SCREEN_BRIGHTNESS_MODE_MANUAL;
 import static android.provider.Settings.System.SCREEN_OFF_TIMEOUT;
+import static android.provider.Settings.System.SCREENSHOT_CROP_AND_SHARE;
+import static android.provider.Settings.System.SCREENSHOT_CROP_BEHAVIOR;
 
 import android.app.WallpaperManager;
 import android.content.Intent;
@@ -103,6 +105,9 @@ public class MiscPersonalizations extends SettingsPreferenceFragment implements
         private static final String KEY_CATEGORY_MISC = "misc";
         private static final String SHOW_CLEAR_ALL_RECENTS = "show_clear_all_recents";
         private static final String RECENTS_CLEAR_ALL_LOCATION = "recents_clear_all_location";
+        private static final String KEY_CATEGORY_SCREENSHOT = "screenshot";
+        private static final String KEY_SCREENSHOT_CROP_AND_SHARE = "screenshot_crop_and_share";
+        private static final String KEY_SCREENSHOT_CROP_BEHAVIOR = "screenshot_crop_behavior";
 
         private SwitchPreference mTapToWakePreference;
         private SwitchPreference mProximityCheckOnWakePreference;
@@ -110,6 +115,8 @@ public class MiscPersonalizations extends SettingsPreferenceFragment implements
         private ListPreference mDashboardColumns;
         private SwitchPreference mRecentsClearAll;
         private ListPreference mRecentsClearAllLocation;
+        private SwitchPreference mScreenshotCropAndSharePreference;
+        private SwitchPreference mScreenshotCropBehaviorPreference;
     
     @Override
     public void onCreate(Bundle icicle) {
@@ -164,6 +171,27 @@ public class MiscPersonalizations extends SettingsPreferenceFragment implements
         mRecentsClearAllLocation.setSummary(mRecentsClearAllLocation.getEntry());
         mRecentsClearAllLocation.setOnPreferenceChangeListener(this);
 
+        PreferenceCategory screenshotPrefs = (PreferenceCategory)
+                findPreference(KEY_CATEGORY_SCREENSHOT);
+
+        mScreenshotCropAndSharePreference = (SwitchPreference) findPreference(KEY_SCREENSHOT_CROP_AND_SHARE);
+        if (mScreenshotCropAndSharePreference != null) {
+            mScreenshotCropAndSharePreference.setOnPreferenceChangeListener(this);
+        } else {
+            if (screenshotPrefs != null && mScreenshotCropAndSharePreference != null) {
+                screenshotPrefs.removePreference(mScreenshotCropAndSharePreference);
+            }
+        }
+
+        mScreenshotCropBehaviorPreference = (SwitchPreference) findPreference(KEY_SCREENSHOT_CROP_BEHAVIOR);
+        if (mScreenshotCropBehaviorPreference != null) {
+            mScreenshotCropBehaviorPreference.setOnPreferenceChangeListener(this);
+        } else {
+            if (screenshotPrefs != null && mScreenshotCropBehaviorPreference != null) {
+                screenshotPrefs.removePreference(mScreenshotCropBehaviorPreference);
+            }
+        }
+
     }
     
     private void updateState() {
@@ -172,6 +200,17 @@ public class MiscPersonalizations extends SettingsPreferenceFragment implements
         if (mTapToWakePreference != null) {
             int value = Settings.Secure.getInt(getContentResolver(), DOUBLE_TAP_TO_WAKE, 0);
             mTapToWakePreference.setChecked(value != 0);
+        }
+
+        // Update crop and share if it is available.
+        if (mScreenshotCropAndSharePreference != null) {
+            int value = Settings.System.getInt(getContentResolver(), SCREENSHOT_CROP_AND_SHARE, 1);
+            mScreenshotCropAndSharePreference.setChecked(value != 0);
+        }
+
+        if (mScreenshotCropBehaviorPreference != null) {
+            int value = Settings.System.getInt(getContentResolver(), SCREENSHOT_CROP_BEHAVIOR, 1);
+            mScreenshotCropBehaviorPreference.setChecked(value != 0);
         }
         
     }
@@ -221,6 +260,15 @@ public class MiscPersonalizations extends SettingsPreferenceFragment implements
                     Settings.System.RECENTS_CLEAR_ALL_LOCATION, location, UserHandle.USER_CURRENT);
             mRecentsClearAllLocation.setSummary(mRecentsClearAllLocation.getEntries()[index]);
             return true;
+        }
+
+        if (preference == mScreenshotCropAndSharePreference) {
+            boolean value = (Boolean) objValue;
+            Settings.System.putInt(getContentResolver(), SCREENSHOT_CROP_AND_SHARE, value ? 1 : 0);
+        }
+        if (preference == mScreenshotCropBehaviorPreference) {
+            boolean value = (Boolean) objValue;
+            Settings.System.putInt(getContentResolver(), SCREENSHOT_CROP_BEHAVIOR, value ? 1 : 0);
         }
 
         return true;
