@@ -37,6 +37,7 @@
     <string name="xosp_settings_statusbar_cat">Status Bar Personalizations</string>
     <string name="xosp_settings_buttons_cat">Buttons Personalizations</string>
     <string name="xosp_settings_misc_cat">Misc Personalizations</string>
+    <string name="xosp_settings_lockscreen_cat">LockScreen Personalizations</string>
     
     
     <!-- About XOSP -->

@@ -101,15 +101,9 @@ public class MiscPersonalizations extends SettingsPreferenceFragment implements
         private static final String DASHBOARD_SWITCHES = "dashboard_switches";
         private static final String DASHBOARD_COLUMNS = "dashboard_columns";
         private static final String KEY_CATEGORY_MISC = "misc";
-        public static final int IMAGE_PICK = 1;
         private static final String SHOW_CLEAR_ALL_RECENTS = "show_clear_all_recents";
         private static final String RECENTS_CLEAR_ALL_LOCATION = "recents_clear_all_location";
 
-        private static final String KEY_WALLPAPER_SET = "lockscreen_wallpaper_set";
-        private static final String KEY_WALLPAPER_CLEAR = "lockscreen_wallpaper_clear";
-
-        private Preference mSetWallpaper;
-        private Preference mClearWallpaper;
         private SwitchPreference mTapToWakePreference;
         private SwitchPreference mProximityCheckOnWakePreference;
         private ListPreference mDashboardSwitches;
@@ -126,8 +120,6 @@ public class MiscPersonalizations extends SettingsPreferenceFragment implements
         PreferenceScreen prefSet = getPreferenceScreen();
         
         PreferenceCategory miscPrefs = (PreferenceCategory) findPreference(KEY_CATEGORY_MISC);
-        mSetWallpaper = (Preference) findPreference(KEY_WALLPAPER_SET);
-        mClearWallpaper = (Preference) findPreference(KEY_WALLPAPER_CLEAR);
         
         mDashboardSwitches = (ListPreference) findPreference(DASHBOARD_SWITCHES);
         mDashboardSwitches.setValue(String.valueOf(Settings.System.getInt(
@@ -188,45 +180,6 @@ public class MiscPersonalizations extends SettingsPreferenceFragment implements
     public void onResume() {
         super.onResume();
         updateState();
-    }
-    
-    @Override
-    public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
-        if (preference == mSetWallpaper) {
-            setKeyguardWallpaper();
-            return true;
-        } else if (preference == mClearWallpaper) {
-            clearKeyguardWallpaper();
-            return true;
-        }
-        return super.onPreferenceTreeClick(preferenceScreen, preference);
-    }
-
-    @Override
-    public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if (requestCode == IMAGE_PICK && resultCode == Activity.RESULT_OK) {
-            if (data != null && data.getData() != null) {
-                Uri uri = data.getData();
-                Intent intent = new Intent();
-                intent.setClassName("com.android.wallpapercropper", "com.android.wallpapercropper.WallpaperCropActivity");
-                intent.putExtra("keyguardMode", "1");
-                intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
-                intent.setData(uri);
-                startActivity(intent);
-            }
-        }
-    }
-
-    private void setKeyguardWallpaper() {
-        Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
-        intent.setType("image/*");
-        startActivityForResult(intent, IMAGE_PICK);
-    }
-
-    private void clearKeyguardWallpaper() {
-        WallpaperManager wallpaperManager = null;
-        wallpaperManager = WallpaperManager.getInstance(getActivity());
-        wallpaperManager.clearKeyguardWallpaper();
     }
 
     @Override
