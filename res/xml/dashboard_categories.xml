@@ -29,7 +29,7 @@
                 android:id="@+id/wifi_settings"
                 android:title="@string/wifi_settings_title"
                 android:fragment="com.android.settings.wifi.WifiSettings"
-                android:icon="@drawable/ic_settings_wireless"
+                android:icon="@drawable/ic_settings_wireless_tint"
                 settings:switchClass="com.android.settings.wifi.WifiEnabler"
                 />
 
@@ -143,7 +143,7 @@
                 android:id="@+id/display_and_lights_settings"
                 android:title="@string/display_and_lights"
                 android:fragment="com.android.settings.DisplaySettings"
-                android:icon="@drawable/ic_settings_display"
+                android:icon="@drawable/ic_settings_display_tint"
                 />
 
         <!-- Themes -->
