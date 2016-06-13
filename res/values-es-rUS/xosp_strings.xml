@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--
+     Copyright (C) 2015 The XOSP Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- XOSP Revision -->
+    <!-- XOSP Release -->
+    <!-- About phone screen, XOSP Mod version -->
+    <string name="mod_version_default">Desconocido</string>
+    <!--XOSP Changelog-->
+    <string name="xosp_changelog_title">Cambios</string>
+    <!-- XOSP extra settings -->
+    <string name="xosp_settings_header">Ajustes Adicionales</string>
+    <string name="xosp_settings_title">Ajustes de XOSP</string>
+    <string name="xosp_settings_statusbar_cat">Personalización de la Barra de Estado</string>
+    <!-- About XOSP -->
+    <string name="about_xosp">Acerca de XOSP</string>
+    <string name="about_xosp_summary">@null</string>
+    <string name="xosp_donate">Donar al Desarrolador</string>
+    <string name="xosp_donate_summary">Te gusta la ROM? Haz una pequeña donación!</string>
+    <string name="app_name">XOSP</string>
+    <string name="github_nilac">https://github.com/nilac8991</string>
+    <string name="github_cm">https://github.com/CyanogenMod</string>
+    <string name="xosp">XOSP</string>
+    <string name="xosp_google_plus_title">Google+</string>
+    <string name="xosp_google_plus_summary">Únete a la comunidad en Google+</string>
+    <string name="xosp_site_title">Sitio oficial de XOSP</string>
+    <string name="xosp_site_summary">Visita el Sitio Oficial</string>
+    <string name="xosp_translations_title">Traducciones de XOSP</string>
+    <string name="xosp_translations_summary">Contribuir mediante la traducción de nuestras cadenas en su idioma!</string>
+    <string name="maincontributors_title">Desarrolladores</string>
+    <string name="share_message">Prueba XOSP!
+https://plus.google.com/u/0/communities/117671498272072664538</string>
+    <!-- Task Manager -->
+    <string name="enable_task_manager_title">Administrador de Tareas</string>
+    <!-- Statusbar XOSP logo -->
+    <string name="status_bar_xosp_logo_title">Logo de XOSP</string>
+    <!-- SlimDim -->
+    <string name="dim_nav_buttons_alpha_title">Dim</string>
+    <string name="dim_nav_buttons_animate_duration_title">Duracion de la Animacion</string>
+    <string name="dim_nav_buttons_animate_duration_summary">"Duración (en milisegundos) de la animación "</string>
+    <!-- General strings -->
+    <string name="reset">Reiniciar</string>
+    <string name="reset_message">Restablecer todas las entradas por defecto?</string>
+    <!-- Navigation bar -->
+    <string name="nav_bar_title">"Barra de navegación "</string>
+    <string name="navbar_style_dimen_title">"Dimensiones de la barra de navegación  "</string>
+    <string name="navigation_bar_width_title">"Anchura de la Barra de Navegación "</string>
+    <string name="navigation_bar_size_42_dp_default">42 dp (Por Defecto)</string>
+    <!-- Ability to disable hardware keys via nav bar settings -->
+    <!-- Network traffic -->
+    <string name="show_network_traffic_frequency">"Intervalo de Actualización "</string>
+    <!-- Superuser indicator on status bar -->
+    <string name="su_indicator">Indicador de Superusuario</string>
+    <string name="su_indicator_summary_on">"El indicador de Superusuario es visible cuando una sesión esté activa "</string>
+    <!-- long press back to kill configurable timeout -->
+    <string name="timeout_2000">2 segundos (por defecto)</string>
+    <string name="timeout_1500">1,5 segundos</string>
+    <string name="timeout_1000">1 segundo</string>
+    <string name="timeout_500">0,5 segundos</string>
+    <!-- Toast animations -->
+    <string name="toast_none_animation">Ninguno</string>
+    <string name="toast_default_animation">Por Defecto</string>
+    <!-- Double tap to sleep on lockscreen -->
+    <!-- Dashboard columns -->
+    <string name="dashboard_columns_two">Dos</string>
+    <string name="dashboard_columns_three">Tres</string>
+    <!-- Dashboard tileview double lines -->
+    <string name="dashboard_category">Dashboard settings</string>
+    <!-- Devices and Maintainers -->
+    <string name="device_maintainers_title_summary">Lista Oficial de dispositivos que soportan XOSP</string>
+    <string name="maintainers_note_title">Nota</string>
+    <!-- Lock screen settings -->
+    <string name="lockscreen_settings_title">"Fondo de Pantalla de Bloqueo "</string>
+    <string name="lockscreen_wallpaper_title">Fondo de Pantalla</string>
+    <string name="lockscreen_wallpaper_set_title">Definir fondo de pantalla de bloqueo</string>
+    <!-- On-The-Go -->
+    <string name="power_menu_onthego_summary">Esta opción esta disponible cuando el Menú de Apagado esta activado</string>
+    <!-- Double Tap Navbar to Sleep -->
+    <string name="double_tap_sleep_nav_bar_title">Doble toque para dormir</string>
+    <string name="double_tap_sleep_nav_bar_summary">"Doble toque en la barra de navegación para poner el dispositivo en reposo "</string>
+    <!-- System App Remover  -->
+    <string name="listsystem">Lista</string>
+    <string name="sizer_title">Removedor de Apps del Sistema</string>
+    <string name="caution">Precaución!</string>
+    <string name="cancel">Cancelar</string>
+    <string name="sizer_message_delete">¿Está seguro que desea desinstalar esta Aplicación?</string>
+    <string name="delete_fail">No se puede borrar</string>
+    <string name="btn_profile">Perfil</string>
+    <string name="system_app_remover">Removedor de Aplicaciones del Sistema</string>
+    <!-- Notification Drawer -->
+    <!-- Optional Dashboard Switches -->
+    <!-- Device info Settings -->
+    <string name="device_info_device_category">Información sobre el Dispositivo</string>
+    <!-- Battery icon -->
+    <!-- Time Contextual Headers -->
+    <string name="custom_header_image_0">Por Defecto</string>
+    <!-- Status bar - Clock -->
+    <string name="clock_font_style_title">Fuente</string>
+    <string name="clock_font_normal">Normal</string>
+    <string name="clock_font_light">Luz</string>
+    <string name="clock_font_medium">Mediano</string>
+    <string name="clock_font_black">Negro</string>
+    <string name="clock_font_comingsoon">Proximamente</string>
+    <string name="clock_font_size_title">Tamaño de Fuente</string>
+    <!--Status bar date -->
+    <string name="status_bar_clock_category">Reloj</string>
+    <string name="status_bar_date_title">Fecha</string>
+    <string name="status_bar_date_small">Pequeño</string>
+    <string name="status_bar_date_normal">Normal</string>
+    <string name="status_bar_date_format_title">Formato de Fecha</string>
+    <!-- Date position -->
+    <string name="clock_date_position">Posición de la Fecha</string>
+    <!-- XOSPApps -->
+    <string name="xospapps_title">XOSPApps</string>
+    <string name="xospapps_default_string">No Instalado</string>
+    <!-- Clear all -->
+    <string name="recents_panel_category">Panel de Recientes</string>
+    <string name="show_clear_all_recents_button_title">Botón de Borrar Todo</string>
+    <string name="show_clear_all_recents_button_summary">"Mostrar el Botón de Borrar Todo "</string>
+    <!-- Current on Lockscreen -->
+    <!-- Show carrier label and custom -->
+    <string name="carrier_options">Nombre de la Operadora</string>
+    <!-- Color picker -->
+    <!-- Doze options -->
+    <string name="display_category_doze_options_title">Pantalla Ambiente</string>
+    <string name="doze_settings_title">Opciones avanzadas de Doze</string>
+    <!-- RAM bar -->
+    <string name="recents_show_membar_title">Barra de Memoria RAM</string>
+</resources>

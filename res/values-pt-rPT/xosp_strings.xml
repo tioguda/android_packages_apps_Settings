@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--
+     Copyright (C) 2015 The XOSP Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- XOSP Revision -->
+    <string name="xosp_revision">Revisão XOSP</string>
+    <!-- XOSP Release -->
+    <string name="xosp_release">XOSP lançamento</string>
+    <!-- About phone screen, XOSP Mod version -->
+    <string name="mod_version">Versão MOD</string>
+    <string name="mod_version_default">"Desconhecido "</string>
+    <!--XOSP Changelog-->
+    <string name="xosp_changelog_title">"Novidades "</string>
+    <string name="xosp_changelog_summary">Novidades XOSP</string>
+    <string name="xosp_changelog_error">Novidades não pôde ser carregado!</string>
+    <!-- XOSP extra settings -->
+    <string name="xosp_settings_header">"Configurações adicionais "</string>
+    <string name="xosp_settings_title">Configurações XOSP</string>
+    <string name="xosp_settings_statusbar_cat">Personalização da barra de status</string>
+    <string name="xosp_settings_buttons_cat">Personalizar botões</string>
+    <string name="xosp_settings_misc_cat">Miscelânea Personalizações</string>
+    <!-- About XOSP -->
+    <string name="about_xosp">"Sobre XOSP "</string>
+    <string name="about_xosp_summary">@null</string>
+    <string name="xosp_donate">Doações para o Desenvolvimento</string>
+    <string name="xosp_donate_summary">Gostou da ROM? Faça uma pequena doação!</string>
+    <string name="app_name">XOSP</string>
+    <string name="devs">Desenvolvedor-chefe</string>
+    <string name="github_nilac">Site:https://github.com/nilac8991</string>
+    <string name="github_cm">Site:https://github.com/CyanogenMod</string>
+    <string name="xosp">"XOSP "</string>
+    <string name="xosp_source_title">"Fontes XOSP "</string>
+    <string name="xosp_source_summary">Fontes XOSP Github</string>
+    <string name="xosp_google_plus_title">Google Plus</string>
+    <string name="xosp_google_plus_summary">"Siga a comunidade no Google Plus "</string>
+    <string name="xosp_site_title">Site oficial XOSP</string>
+    <string name="xosp_site_summary">Visite o site oficial</string>
+    <string name="xosp_devices_source_title">Fontes de dispositivos XOSP</string>
+    <string name="xosp_devices_source_summary">fontes AOSP dispositivos no Github</string>
+    <string name="xosp_translations_title">XOSP traduções</string>
+    <string name="xosp_translations_summary">Contribuir, traduzindo nossas cordas em sua língua!
+
+Por favor, forneça o</string>
+    <string name="maincontributors_title">"Desenvolvedores "</string>
+    <string name="sourcebase_title">base de dados de fonte</string>
+    <string name="share_xosp">"Compartilhar a ROM "</string>
+    <string name="share_xosp_summary">Deixe que as pessoas saibam que você está usando XOSP!</string>
+    <string name="share_message">tente XOSPhttps://plus.google.com/u/0/communities/117671498272072664538</string>
+    <string name="share_chooser_title">Compartilhar XOSP via</string>
+    <!-- Task Manager -->
+    <string name="enable_task_manager_title">Gerenciador de tarefas</string>
+    <string name="enable_task_manager_summary">Activar / Desactivar ação do botão gerenciador de tarefas na área da barra de status expandido</string>
+    <!-- Statusbar XOSP logo -->
+    <string name="status_bar_xosp_logo_title">Logo XOSP</string>
+    <string name="status_bar_xosp_logo_summary">Activar para mostrar o logotipo XOSP na barra de status</string>
+    <!-- SlimDim -->
+    <string name="dim_nav_buttons_category">SlimDim</string>
+    <string name="dim_nav_buttons_title">Apagar botões após inatividade</string>
+    <string name="dim_nav_buttons_summary">Dim botões da barra de navegação Depois de não interagir com barra de navegação por um tempo especificado</string>
+    <string name="dim_nav_buttons_timeout_title">Tempo antes de apagar</string>
+    <string name="dim_nav_buttons_timeout_summary">Tempo (em milissegundos) a aguardar antes de escurecimento botões</string>
+    <string name="dim_nav_buttons_alpha_title">DIM alfa</string>
+    <string name="dim_nav_buttons_alpha_summary">Valor alpha para escurecer botões para</string>
+    <string name="dim_nav_buttons_animate_title">Animação ao escurecer</string>
+    <string name="dim_nav_buttons_animate_summary">Animar o alpha fade</string>
+    <string name="dim_nav_buttons_animate_duration_title">Duração da animação</string>
+    <string name="dim_nav_buttons_animate_duration_summary">Duração (em milissegundos) da animação alpha</string>
+    <string name="dim_nav_buttons_touch_anywhere_title">Ouvir os toques em todo tela</string>
+    <string name="dim_nav_buttons_touch_anywhere_summary_on">Tocar em qualquer lugar na tela fará com que os botões acendem</string>
+    <string name="dim_nav_buttons_touch_anywhere_summary_off">Apenas tocando na barra de navegação os botões acendam</string>
+    <!-- General strings -->
+    <string name="ok">Aceitar</string>
+    <string name="reset">Reiniciar</string>
+    <string name="reset_message">Resetar todas configurações para o padrão?</string>
+    <!-- Navigation bar -->
+    <string name="nav_bar_title">Barra de navegação</string>
+    <string name="navbar_enable_bar_title">Habilitar barra de navegação</string>
+    <string name="navbar_enable_bar_summary">Habilitar barra de navegação na tela e desativar botões físicos</string>
+    <string name="navbar_style_dimen_title">Dimensões da barra de navegação</string>
+    <string name="navbar_dimensions_reset_message">Resetar todas dimensões para o padrão?</string>
+    <string name="navigation_bar_height_title">Altura da barra de navegação</string>
+    <string name="navigation_bar_height_summary">Altura da barra de navegação no modo retrato</string>
+    <string name="navigation_bar_width_title">Largura da barra de navegação</string>
+    <string name="navigation_bar_width_summary">Altura da barra de navegação de lado</string>
+    <string name="navigation_bar_size_42_dp_default">42 DP (padrão)</string>
+    <string name="navigation_bar_size_36_dp">36 DP</string>
+    <string name="navigation_bar_size_30_dp">30 DP</string>
+    <string name="navigation_bar_size_24_dp">24 DP</string>
+    <string name="navigation_bar_size_48_dp_default">48 DP (padrão)</string>
+    <string name="navigation_bar_size_44_dp">44 DP</string>
+    <string name="navigation_bar_size_40_dp">40 DP</string>
+    <string name="navigation_bar_size_42_dp">42 DP</string>
+    <!-- Ability to disable hardware keys via nav bar settings -->
+    <string name="hw_keys_title">Teclas físicas</string>
+    <string name="hw_keys_summary">Habilitar botões físicos</string>
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Tráfego de rede</string>
+    <string name="show_network_traffic_state">"Monitor de tráfego na barra de status "</string>
+    <string name="show_network_traffic_unit">Unidade de exibição</string>
+    <string name="show_network_traffic_frequency">"Intervalo de Atualização "</string>
+    <string name="show_network_traffic_disable">"Desativado "</string>
+    <string name="show_network_traffic_up">"Extrovertido "</string>
+    <string name="show_network_traffic_down">"Entrada "</string>
+    <string name="show_network_traffic_all">"Saída de entrada "</string>
+    <string name="show_network_traffic_bit">"Bits por segundo "</string>
+    <string name="show_network_traffic_byte">"Bytes por segundo "</string>
+    <string name="show_network_traffic_500">500 MS</string>
+    <string name="show_network_traffic_1000">1000 MS</string>
+    <string name="show_network_traffic_1500">1500 MS</string>
+    <string name="show_network_traffic_2000">2000 MS</string>
+    <string name="network_traffic_autohide_title">"Ocultar automaticamente "</string>
+    <string name="network_traffic_autohide_summary">Ocultar o monitor de tráfego, quando não há nenhuma atividade</string>
+    <string name="network_traffic_autohide_threshold">"Limite de inatividade "</string>
+    <!-- Superuser indicator on status bar -->
+    <string name="su_indicator">"Indicador de Super Usuário "</string>
+    <string name="su_indicator_summary_on">Indicador de superusuário é visível quando uma sessão está ativa</string>
+    <string name="su_indicator_summary_off">Alternar para mostrar indicador de superusuário quando uma sessão está ativa</string>
+    <!-- long press back to kill configurable timeout -->
+    <string name="kill_app_longpress_timeout_title">Pressão longa volta botão de tempo limite</string>
+    <string name="timeout_2000">2 segundos (padrão)</string>
+    <string name="timeout_1500">"1,5 segundos "</string>
+    <string name="timeout_1000">"1 segundo "</string>
+    <string name="timeout_500">"0,5 segundos "</string>
+    <!-- Toast animations -->
+    <string name="toast_animation_title">Animações toast</string>
+    <string name="toast_animation_summary">"Seleccionar e pré-visualização sistema de animação toast "</string>
+    <string name="toast_none_animation">"Nenhum "</string>
+    <string name="toast_default_animation">"Padrão "</string>
+    <string name="toast_fade_animation">Animações fade</string>
+    <string name="toast_SlideRight_animation">Deslize para a direita</string>
+    <string name="toast_SlideLeft_animation">Deslize para a esquerda</string>
+    <string name="toast_Xylon_animation">Animações Xylon</string>
+    <string name="toast_Toko_animation">Animação toko</string>
+    <string name="toast_Tn_animation">Animação Tn</string>
+    <string name="toast_Honami_animation">Animação Honami</string>
+    <string name="toast_FastFade_animation">desvanece-se rapidamente</string>
+    <string name="toast_GrowFade_animation">crescer desbotamento</string>
+    <string name="toast_GrowFadeCenter_animation">Crescer centro de fade</string>
+    <string name="toast_GrowFadeBottom_animation">Crescer inferior desbotamento</string>
+    <string name="toast_Translucent_animation">"Animação translúcida "</string>
+    <string name="toast_SlideLeftRight_animation">Deslize para a esquerda para a direita</string>
+    <string name="toast_SlideRightLeft_animation">Deslize direita para a esquerda</string>
+    <string name="screen_and_animations_title">Tela e animações</string>
+    <!-- Double tap to sleep on lockscreen -->
+    <string name="double_tap_sleep_anywhere_title">"DT2S na tela de bloqueio "</string>
+    <string name="double_tap_sleep_anywhere_summary">"Toque duas vezes na tela de bloqueio para colocar o dispositivo para dormir "</string>
+    <!-- Dashboard columns -->
+    <string name="dashboard_columns_title">Colunas do painel</string>
+    <string name="dashboard_columns_summary">Alterar o número de colunas exibidas no painel de instrumentos</string>
+    <string name="dashboard_columns_dialog_title">escolher o número de colunas</string>
+    <string name="dashboard_columns_default">"um (padrão) "</string>
+    <string name="dashboard_columns_two">Duas</string>
+    <string name="dashboard_columns_three">"Três "</string>
+    <!-- Dashboard tileview double lines -->
+    <string name="dashboard_category">Painel de configuração</string>
+    <string name="dashboard_tileview_double_lines_title">Ver título do painel</string>
+    <string name="dashboard_tileview_double_lines_summary_on">Ver painel em 1 linha</string>
+    <string name="dashboard_tileview_double_lines_summary_off">Exibir o título do painel em 2 linhas</string>
+    <!-- Devices and Maintainers -->
+    <string name="device_maintainers_title">Dispositivos e Mantenedores</string>
+    <string name="device_maintainers_title_summary">Lista oficial de dispositivos suportados pelo XOSP mantedores</string>
+    <string name="maintainers_note_title">Nota</string>
+    <string name="maintainers_note_title_summary">você compilar o ROM e as coisas estão quase / totalmente funcional e quer obter o status oficial para enviar uma PM \'Neamtu Calin\' em Hangouts, que inclui o link para o XDA</string>
+    <!-- Lock screen settings -->
+    <string name="lockscreen_settings_title">Papel de parede da tela de bloqueio</string>
+    <string name="lockscreen_wallpaper_title">Papel de Parede</string>
+    <string name="lockscreen_wallpaper_set_title">Definir papel de parede da tela de bloqueio</string>
+    <string name="lockscreen_wallpaper_clear_title">Remover fundo da tela de bloqueio</string>
+    <!-- On-The-Go -->
+    <string name="power_menu_onthego_title">Modo OTG</string>
+    <string name="power_menu_onthego_summary">A opção estará disponível no menu de energia uma vez ativado</string>
+    <!-- Double Tap Navbar to Sleep -->
+    <string name="double_tap_sleep_nav_bar_title">Toque duplo para dormir</string>
+    <string name="double_tap_sleep_nav_bar_summary">Toque duplo na Nav bar para adormecer o dispositivo</string>
+    <!-- System App Remover  -->
+    <string name="listsystem">Lista</string>
+    <string name="sizer_title">Remover App do sistema</string>
+    <string name="caution">Cuidado!</string>
+    <string name="sizer_message_startup">Esta ferramenta permite que você apague os aplicativos do sistema. Use com cuidado e só excluir aplicativos que você sabe que são seguros para ser removido.</string>
+    <string name="cancel">Cancelar</string>
+    <string name="sizer_message_delete">Tem certeza de que deseja excluir este aplicativo?</string>
+    <string name="btn_delete">Excluir APPs selecionados agora!</string>
+    <string name="delete_progress_title">Excluindo</string>
+    <string name="delete_progress">Aplicativos XOSPApps estão sendo excluídos...</string>
+    <string name="delete_success">Excluído</string>
+    <string name="delete_fail">Não é possível excluir</string>
+    <string name="btn_profile">Perfil</string>
+    <string name="sizer_message_sdnowrite">Não é possível gravar no SD Card.</string>
+    <string name="sizer_message_sdnoread">"Não é possível ler o SD Card "</string>
+    <string name="sizer_message_filesuccess">Criar perfil.</string>
+    <string name="sizer_message_filefail">Falha ao criar perfil.</string>
+    <string name="sizer_message_noselect">Nada selecionado.</string>
+    <string name="system_app_remover">"Remover aplicativos do sistema "</string>
+    <!-- Notification Drawer -->
+    <!-- Optional Dashboard Switches -->
+    <!-- Device info Settings -->
+    <!-- Battery icon -->
+    <!-- Time Contextual Headers -->
+    <!-- Status bar - Clock -->
+    <string name="clock_font_black">Preto</string>
+    <string name="clock_font_black_italic">Itálico preto</string>
+    <string name="clock_font_dancingscript">Script dança</string>
+    <string name="clock_font_dancingscript_bold">Dança Script Negrito</string>
+    <string name="clock_font_comingsoon">Em breve</string>
+    <string name="clock_font_notoserif">Noto Serif normal</string>
+    <string name="clock_font_notoserif_italic">NotoSerif Itálico</string>
+    <string name="clock_font_notoserif_bold">NotoSerif Negrito</string>
+    <string name="clock_font_notoserif_bold_italic">NotoSerif  Negrito Itálico</string>
+    <string name="clock_font_size_title">Tamanho da fonte</string>
+    <!--Status bar date -->
+    <string name="status_bar_clock_category">Relógio</string>
+    <string name="status_bar_date_title">Data</string>
+    <string name="status_bar_date_none">Oculto (padrão)</string>
+    <string name="status_bar_date_small">Pequeno</string>
+    <string name="status_bar_date_normal">Normal</string>
+    <string name="status_bar_date_format_title">Formato da data</string>
+    <string name="status_bar_date_style">Estilo da data</string>
+    <string name="status_bar_date_style_normal">Normal</string>
+    <string name="status_bar_date_style_lowercase">Minúsculas</string>
+    <string name="status_bar_date_style_uppercase">Maiúsculas</string>
+    <string name="status_bar_date_format_custom">Formato java costume</string>
+    <string name="status_bar_date_string_edittext_title">Deve estar no formato de data como. MM / dd / aa</string>
+    <string name="status_bar_date_string_edittext_summary">Entra em seqüência</string>
+    <!-- Date position -->
+    <string name="clock_date_position">Posição da data</string>
+    <string name="clock_date_right">Certo de tempo</string>
+    <string name="clock_date_left">Tempo na esquerda</string>
+    <!-- XOSPApps -->
+    <string name="xospapps_title">Aplicativos XOSP</string>
+    <string name="xospapps_default_string">Não instalado</string>
+    <!-- Clear all -->
+    <string name="recents_panel_category">Painel recentes</string>
+    <string name="show_clear_all_recents_button_title">Botão limpar</string>
+    <string name="show_clear_all_recents_button_summary">Mostrar botão Limpar tudo</string>
+    <string name="recents_clear_all_location_title">Limpar localização</string>
+    <string name="recents_clear_all_location_top_right">Canto superior direito</string>
+    <string name="recents_clear_all_location_top_left">Superior esquerdo</string>
+    <string name="recents_clear_all_location_top_center">Superior central</string>
+    <string name="recents_clear_all_location_bottom_right">"Canto inferior direito "</string>
+    <string name="recents_clear_all_location_bottom_left">Inferior esquerdo</string>
+    <string name="recents_clear_all_location_bottom_center">inferior central</string>
+    <string name="recents_clear_all_dismiss_all_title">Limpar todas as tarefas</string>
+    <string name="recents_clear_all_dismiss_all_summary">Incluir tarefa de primeiro plano ao limpar tudo</string>
+    <!-- Current on Lockscreen -->
+    <string name="lock_screen_show_current">Corrente de carregamento</string>
+    <string name="lock_screen_show_current_summary">Mostrar carregamento taxa atual na tela de bloqueio</string>
+    <!-- Show carrier label and custom -->
+    <string name="carrier_options">Título da operadora</string>
+    <string name="custom_carrier_label_title">Nome da operadora personalizada</string>
+    <string name="custom_carrier_label_explain">Por favor, indique um novo rótulo. Deixe em branco para reverter a etiqueta de estoque.</string>
+    <string name="custom_carrier_label_notset">costume rótulo atualmente não conjunto</string>
+    <string name="status_bar_carrier_color">Cor do nome da operadora</string>
+    <string name="show_carrier_title">Nome da operadora</string>
+    <string name="show_carrier_disabled">Desativado</string>
+    <string name="show_carrier_keyguard">Operadora Keyguard</string>
+    <string name="show_carrier_statusbar">Nome na barra de status</string>
+    <string name="show_carrier_enabled">Ativado</string>
+    <!-- Color picker -->
+    <string name="dialog_color_picker_title">Cor do separador</string>
+    <string name="press_color_to_apply">Pressione na cor para aplicady</string>
+    <string name="palette_xosp_title">XOSP plano</string>
+    <string name="palette_material_title">Material</string>
+    <string name="palette_rgb_title">RGB</string>
+    <string name="reset_android_title">Android padrão</string>
+    <string name="reset_xosp_title">Padrão XOSP</string>
+    <!-- Doze options -->
+    <string name="display_category_doze_options_title">Exposição à temperatura ambiente</string>
+    <string name="doze_settings_title">Opções avançadas do Doze</string>
+    <string name="doze_timeout_title">Doze tempo limite de pulso</string>
+    <string name="doze_timeout_summary">Tempo em que a tela permanece acesa por pulso notificação</string>
+    <string name="doze_trigger_pickup_summary_off">Sensor de captação gesto não será utilizado como um mecanismo de disparo</string>
+    <!-- FAQ -->
+    <string name="faq_title">F.A.Q</string>
+    <string name="faq_summary">Tem uma pergunta? confira a seção XOSP F.A.Q</string>
+    <!-- RAM bar -->
+    <string name="recents_show_membar_title">"Barra de memória RAM "</string>
+    <string name="recents_show_membar_summary_on">Barra de memória RAM  disponível será exibido no menu recentes</string>
+    <string name="recents_show_membar_summary_off">Alternar para exibir a barra de memória RAM disponível em vista Recentes</string>
+</resources>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--
+     Copyright (C) 2015 The XOSP Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- XOSP Revision -->
+    <string name="xosp_revision">XOSP ਦੁਹਰਾਈ</string>
+    <!-- XOSP Release -->
+    <string name="xosp_release">XOSP ਜਾਰੀ</string>
+    <!-- About phone screen, XOSP Mod version -->
+    <string name="mod_version">ਮੰਤਰਾਲੇ ਵਰਜਨ</string>
+    <string name="mod_version_default">"
+ਅਣਜਾਣ"</string>
+    <!--XOSP Changelog-->
+    <string name="xosp_changelog_error">ChangeLog ਨੂੰ ਲੋਡ ਨਹੀ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ</string>
+    <!-- XOSP extra settings -->
+    <string name="xosp_settings_header">ਵਧੀਕ ਸੈਟਿੰਗ</string>
+    <!-- About XOSP -->
+    <string name="about_xosp">XOSP ਬਾਰੇ</string>
+    <!-- Task Manager -->
+    <!-- Statusbar XOSP logo -->
+    <!-- SlimDim -->
+    <string name="dim_nav_buttons_alpha_title">ਡਿਮ ਅਲਫ਼ਾ</string>
+    <string name="dim_nav_buttons_alpha_summary">ਅਲਫ਼ਾ ਮੁੱਲ ਨੂੰ ਬਟਨ ਨੂੰ ਡਿਮ ਕਰਨ ਲਈ</string>
+    <string name="dim_nav_buttons_animate_title">ਡਿਮ ਐਨੀਮੇਸ਼ਨ</string>
+    <string name="dim_nav_buttons_animate_summary">ਅਲਫ਼ਾ ਫੇਡ ਐਨੀਮੇਟ</string>
+    <string name="dim_nav_buttons_animate_duration_title">ਐਨੀਮੇਸ਼ਨ ਅੰਤਰਾਲ</string>
+    <string name="dim_nav_buttons_animate_duration_summary">ਅਲਫ਼ਾ ਐਨੀਮੇਸ਼ਨ ਦੇ ਅੰਤਰਾਲ (ਮਿਲੀਸਕਿੰਟ ਵਿੱਚ)</string>
+    <string name="dim_nav_buttons_touch_anywhere_title">ਪੂਰੀ ਸਕਰੀਨ \'ਤੇ ਛੋਹ ਲਈ ਸੁਣੋ</string>
+    <string name="dim_nav_buttons_touch_anywhere_summary_on">ਸਕਰੀਨ \'ਤੇ ਕਿਤੇ ਵੀ ਛੂਹਣ ਨਾ-ਡਿਮ ਕਰਨ ਲਈ ਬਟਨ ਕਾਰਨ ਬਣ ਜਾਵੇਗਾ</string>
+    <string name="dim_nav_buttons_touch_anywhere_summary_off">ਕੇਵਲ ਨੇਵੀਗੇਸ਼ਨ ਪੱਟੀ \'ਤੇ ਛੂਹ ਨਾ-ਡਿਮ ਕਰਨ ਲਈ ਬਟਨ ਕਾਰਨ ਬਣ ਜਾਵੇਗਾ</string>
+    <!-- General strings -->
+    <string name="ok">ਠੀਕ ਹੈ</string>
+    <string name="reset">"
+ਰੀਸੈਟ"</string>
+    <string name="reset_message">"
+ਸਭ ਇੰਦਰਾਜ਼ ਰੀਸੈੱਟ ਮੂਲ ਹੈ?"</string>
+    <!-- Navigation bar -->
+    <string name="nav_bar_title">"
+ਨੇਵੀਗੇਸ਼ਨ ਪੱਟੀ"</string>
+    <string name="navbar_enable_bar_title">"
+ਆਨ-ਸਕਰੀਨ NAV ਪੱਟੀ ਨੂੰ ਸਮਰੱਥ"</string>
+    <string name="navbar_enable_bar_summary">ਆਨ-ਸਕਰੀਨ NAV ਪੱਟੀ ਨੂੰ ਸਮਰੱਥ ਅਤੇ ਹਾਰਡਵੇਅਰ ਬਟਨ ਨੂੰ ਅਯੋਗ</string>
+    <string name="navbar_style_dimen_title">NAV ਪੱਟੀ ਮਾਪ</string>
+    <string name="navbar_dimensions_reset_message">"
+ਸਾਰੇ ਮਾਪ ਇੰਦਰਾਜ਼ ਰੀਸੈੱਟ ਮੂਲ ਹੈ?"</string>
+    <string name="navigation_bar_height_title">"
+ਨੇਵੀਗੇਸ਼ਨ ਪੱਟੀ ਦੀ ਉਚਾਈ"</string>
+    <string name="navigation_bar_height_summary">"
+ਨੇਵੀਗੇਸ਼ਨ ਪੱਟੀ ਦੀ ਉਚਾਈ ਪੋਰਟਰੇਟ ਵਿੱਚ "</string>
+    <string name="navigation_bar_width_title">"
+ਨੇਵੀਗੇਸ਼ਨ ਪੱਟੀ ਦੀ ਚੌੜਾਈ"</string>
+    <string name="navigation_bar_width_summary">"
+ਨੇਵੀਗੇਸ਼ਨ ਪੱਟੀ ਦੀ ਉਚਾਈ , ਜੇਕਰ ਪੱਟੀ ਨੂੰ ਇੱਕ ਪਾਸੇ ਦੇ ਨਾਲ-ਨਾਲ ਹੈ"</string>
+    <!-- Ability to disable hardware keys via nav bar settings -->
+    <!-- Network traffic -->
+    <string name="network_traffic_autohide_title">ਆਟੋ ਓਹਲੇ</string>
+    <string name="network_traffic_autohide_summary">ਆਵਾਜਾਈ ਮਾਨੀਟਰ ਓਹਲੇ , ਜਦ ਕੋਈ ਵੀ ਗਤੀਵਿਧੀ ਹੈ</string>
+    <string name="network_traffic_autohide_threshold">"
+ਨਾ-ਸਰਗਰਮੀ ਥਰੈਸ਼ਹੋਲਡ"</string>
+    <!-- Superuser indicator on status bar -->
+    <string name="su_indicator">ਸੁਪਰ ਸੂਚਕ</string>
+    <string name="su_indicator_summary_on">ਸੁਪਰ ਸੂਚਕ ਉਪਲੱਬਧ ਹੈ , ਜਦ ਕਿ ਇੱਕ ਸ਼ੈਸ਼ਨ ਸਰਗਰਮ ਹੈ</string>
+    <string name="su_indicator_summary_off">ਸੁਪਰ ਸੰਕੇਤਕ ਨੂੰ ਦਿਖਾਉਣ ਲਈ ਇੱਕ ਸ਼ੈਸ਼ਨ ਸਰਗਰਮ ਹੈ ਬਦਲੋ</string>
+    <!-- long press back to kill configurable timeout -->
+    <string name="kill_app_longpress_timeout_title">ਲੰਮੇ ਪ੍ਰੈਸ ਪਿੱਛੇ ਬਟਨ ਅੰਤਰਾਲ</string>
+    <!-- Toast animations -->
+    <!-- Double tap to sleep on lockscreen -->
+    <!-- Dashboard columns -->
+    <!-- Dashboard tileview double lines -->
+    <string name="dashboard_category">ਡੈਸ਼ਬੋਰਡ ਸੈਟਿੰਗ</string>
+    <string name="dashboard_tileview_double_lines_title">ਡੈਸ਼ਬੋਰਡ ਟਾਇਲ ਝਲਕ ਦਾ ਸਿਰਲੇਖ</string>
+    <string name="dashboard_tileview_double_lines_summary_on">1 ਲਾਈਨ ਵਿਚ ਡੈਸ਼ਬੋਰਡ ਵੇਖੋ ਟਾਇਲ ਖ਼ਿਤਾਬ</string>
+    <string name="dashboard_tileview_double_lines_summary_off">2 ਲਾਈਨ ਵਿਚ ਡੈਸ਼ਬੋਰਡ ਵੇਖੋ ਟਾਇਲ ਖ਼ਿਤਾਬ</string>
+    <!-- Devices and Maintainers -->
+    <string name="device_maintainers_title">ਜੰਤਰ ਅਤੇ ਪਰਬੰਧਕ</string>
+    <string name="device_maintainers_title_summary">ਅਧਿਕਾਰੀ ਦੀ ਸੂਚੀ XOSP ਪਰਬੰਧਕ ਦੁਆਰਾ ਜੰਤਰ ਨੂੰ ਸਹਿਯੋਗ</string>
+    <string name="maintainers_note_title">ਸੂਚਨਾ</string>
+    <string name="maintainers_note_title_summary">If you compiled the ROM and the stuff are almost/all working and want to get the official status send a PM to \'Calin Neamtu\' on Hangouts containing also the link to the Thread on XDA</string>
+    <!-- Lock screen settings -->
+    <string name="lockscreen_settings_title">ਲਾਕ ਸਕਰੀਨ ਨੂੰ ਵਾਲਪੇਪਰ</string>
+    <string name="lockscreen_wallpaper_title">ਵਾਲਪੇਪਰ</string>
+    <string name="lockscreen_wallpaper_set_title">ਲਾਕ ਸਕਰੀਨ ਨੂੰ ਵਾਲਪੇਪਰ ਤੇ ਸੈੱਟ ਕਰੋ</string>
+    <!-- On-The-Go -->
+    <string name="power_menu_onthego_title">"
+'ਤੇ - - ਜਾਓ ਮੋਡ"</string>
+    <!-- Double Tap Navbar to Sleep -->
+    <string name="double_tap_sleep_nav_bar_title">ਸਲੀਪ ਲਈ ਦੋ-ਵਾਰ ਟੈਪ</string>
+    <string name="double_tap_sleep_nav_bar_summary">ਡਬਲ ਟੈਪ ਨੇਵੀਗੇਸ਼ਨ ਪੱਟੀ ਸੌਣ ਜੰਤਰ ਪਾ ਲਈ</string>
+    <!-- System App Remover  -->
+    <string name="listsystem">"
+ਸੂਚੀ"</string>
+    <string name="sizer_title">ਸਿਸਟਮ ਐਪ remover</string>
+    <string name="caution">ਸਾਵਧਾਨ !</string>
+    <string name="sizer_message_startup">"
+ਇਹ ਸੰਦ ਤੁਹਾਨੂੰ ਸਿਸਟਮ ਐਪਸ ਨੂੰ ਹਟਾਉਣ ਲਈ ਸਹਾਇਕ ਹੈ. ਸਾਵਧਾਨੀ ਨਾਲ ਵਰਤਣ ਅਤੇ ਸਿਰਫ਼ ਨੂੰ ਹਟਾਉਣ ਐਪਸ ਹੈ, ਜੋ ਕਿ ਤੁਹਾਨੂੰ ਨੂੰ ਹਟਾਇਆ ਜਾ ਲਈ ਸੁਰੱਖਿਅਤ ਹਨ."</string>
+    <string name="cancel">ਰੱਦ</string>
+    <string name="sizer_message_delete">"
+ਤੁਹਾਨੂੰ ਇਸ ਐਪਲੀਕੇਸ਼ ਨੂੰ ਹਟਾਉਣਾ ਚਾਹੁੰਦੇ ਤੁਹਾਨੂੰ ਯਕੀਨ ਹੈ?"</string>
+    <string name="btn_delete">ਹੁਣ ਚੁਣਿਆ ਐਪਸ ਹਟਾਓ</string>
+    <string name="delete_progress_title">ਹਟਾਉਣ</string>
+    <string name="delete_progress">"
+ਚੁਣੇ XOSPApps ਹਟਾਇਆ ਜਾ ਰਹੇ ਹਨ ..."</string>
+    <string name="delete_success">ਹਟਾਉਣ</string>
+    <!-- Notification Drawer -->
+    <!-- Optional Dashboard Switches -->
+    <!-- Device info Settings -->
+    <!-- Battery icon -->
+    <!-- Time Contextual Headers -->
+    <!-- Status bar - Clock -->
+    <!--Status bar date -->
+    <!-- Date position -->
+    <!-- XOSPApps -->
+    <!-- Clear all -->
+    <!-- Current on Lockscreen -->
+    <!-- Show carrier label and custom -->
+    <!-- Color picker -->
+    <!-- Doze options -->
+    <!-- RAM bar -->
+    <string name="recents_show_membar_title">ਰੈਮ ਮੈਮੋਰੀ ਪੱਟੀ</string>
+</resources>

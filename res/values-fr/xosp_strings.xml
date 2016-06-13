@@ -52,9 +52,6 @@ https://plus.google.com/u/0/communities/117671498272072664538</string>
     <string name="share_chooser_title">Partager XOSP via...</string>
     <!-- Task Manager -->
     <string name="enable_task_manager_title">Gestionnaire de tâches</string>
-    <!-- FAQ -->
-    <string name="faq_title">F.A.Q</string>
-    <string name="faq_summary">Vous avez une question ? Regardez la section F.A.Q D\'XOSP</string>
     <!-- Statusbar XOSP logo -->
     <string name="status_bar_xosp_logo_title">Logo XOSP</string>
     <string name="status_bar_xosp_logo_summary">Activer le logo XOSP sur la barre de statue</string>
@@ -115,10 +112,6 @@ https://plus.google.com/u/0/communities/117671498272072664538</string>
     <string name="timeout_1500">1,5 secondes</string>
     <string name="timeout_1000">1 seconde</string>
     <string name="timeout_500">0,5 seconde</string>
-    <!-- RAM bar -->
-    <string name="recents_show_membar_title">Barre de mémoire RAM</string>
-    <string name="recents_show_membar_summary_on">La quantité de mémoire ram disponible sera affiché dans les applications récentes</string>
-    <string name="recents_show_membar_summary_off">Basculer pour afficher la quantité de mémoire RAM Disponible dans les applications récentes</string>
     <!-- Toast animations -->
     <string name="toast_none_animation">Aucun</string>
     <string name="toast_default_animation">Défaut</string>
@@ -186,4 +179,25 @@ https://plus.google.com/u/0/communities/117671498272072664538</string>
     <string name="sizer_message_filefail">Impossible de créer le profil</string>
     <string name="sizer_message_noselect">Rien de sélectionné</string>
     <string name="system_app_remover">Désinstallateur d\'Application Système</string>
+    <!-- Notification Drawer -->
+    <!-- Optional Dashboard Switches -->
+    <!-- Device info Settings -->
+    <!-- Battery icon -->
+    <!-- Time Contextual Headers -->
+    <!-- Status bar - Clock -->
+    <!--Status bar date -->
+    <!-- Date position -->
+    <!-- XOSPApps -->
+    <!-- Clear all -->
+    <!-- Current on Lockscreen -->
+    <!-- Show carrier label and custom -->
+    <!-- Color picker -->
+    <!-- Doze options -->
+    <!-- FAQ -->
+    <string name="faq_title">F.A.Q</string>
+    <string name="faq_summary">Vous avez une question ? Regardez la section F.A.Q D\'XOSP</string>
+    <!-- RAM bar -->
+    <string name="recents_show_membar_title">Barre de mémoire RAM</string>
+    <string name="recents_show_membar_summary_on">La quantité de mémoire ram disponible sera affiché dans les applications récentes</string>
+    <string name="recents_show_membar_summary_off">Basculer pour afficher la quantité de mémoire RAM Disponible dans les applications récentes</string>
 </resources>

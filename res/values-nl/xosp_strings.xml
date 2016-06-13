@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--
+     Copyright (C) 2015 The XOSP Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- XOSP Revision -->
+    <string name="xosp_revision">XOSP Revisie</string>
+    <!-- XOSP Release -->
+    <string name="xosp_release">XOSP Release</string>
+    <!-- About phone screen, XOSP Mod version -->
+    <string name="mod_version">Mod Versie</string>
+    <string name="mod_version_default">Onbekend</string>
+    <!--XOSP Changelog-->
+    <string name="xosp_changelog_title">ChangeLog</string>
+    <string name="xosp_changelog_summary">XOSP ChangeLog</string>
+    <string name="xosp_changelog_error">ChangeLog kan niet worden ingeladen</string>
+    <!-- XOSP extra settings -->
+    <string name="xosp_settings_header">Additionele instellingen</string>
+    <string name="xosp_settings_title">XOSP Instellingen</string>
+    <string name="xosp_settings_statusbar_cat">Status Balk Personalisatie</string>
+    <string name="xosp_settings_buttons_cat">Knoppen Personalisatie</string>
+    <string name="xosp_settings_misc_cat">Diverse Personalisatie</string>
+    <!-- About XOSP -->
+    <string name="about_xosp">Over XOSP</string>
+    <string name="app_name">XOSP</string>
+    <string name="xosp_site_title">XOSP officiële website</string>
+    <string name="xosp_site_summary">Bezoek officiële website</string>
+    <string name="xosp_devices_source_title">XOSP Apparaat bronnen</string>
+    <string name="xosp_devices_source_summary">XOSP Apparaat bronnen op Github</string>
+    <string name="xosp_translations_title">XOSP vertalingen</string>
+    <!-- Task Manager -->
+    <!-- Statusbar XOSP logo -->
+    <!-- SlimDim -->
+    <string name="dim_nav_buttons_alpha_title">Dim alpha</string>
+    <string name="dim_nav_buttons_alpha_summary">"Alpha waardes "</string>
+    <string name="dim_nav_buttons_animate_title">Dim animatie</string>
+    <string name="dim_nav_buttons_animate_summary">Animeer alpha verloop</string>
+    <string name="dim_nav_buttons_animate_duration_title">Animatie duratie</string>
+    <string name="dim_nav_buttons_animate_duration_summary">Duratie (in milliseconden) van alpha animatie</string>
+    <string name="dim_nav_buttons_touch_anywhere_title">Reageer bij aanrakening op gehele scherm</string>
+    <string name="dim_nav_buttons_touch_anywhere_summary_on">Raak het scherm om knoppen zichtbaar te maken</string>
+    <string name="dim_nav_buttons_touch_anywhere_summary_off">Alleen bij scherm aanrakingen de knoppen weergeven.</string>
+    <!-- General strings -->
+    <string name="ok">ok</string>
+    <string name="reset">Terugzetten</string>
+    <string name="reset_message">Terug naar standaardwaarden?</string>
+    <!-- Navigation bar -->
+    <string name="nav_bar_title">Navigatie bar</string>
+    <string name="navbar_enable_bar_title">Schakel scherm navigatie balk in</string>
+    <string name="navbar_enable_bar_summary">Schakel scherm navigatie balk in en schakel hardwarematige knoppen uit</string>
+    <string name="navbar_style_dimen_title">Navigatie balk dimensies</string>
+    <string name="navbar_dimensions_reset_message">Terugzetten dimensies naar standaardwaarden?</string>
+    <string name="navigation_bar_height_title">Navigatiebar hoogte</string>
+    <string name="navigation_bar_height_summary">Navigatiebar hoogte in portret stand</string>
+    <string name="navigation_bar_width_title">Navigatiebar breedte</string>
+    <string name="navigation_bar_size_42_dp_default">42 dp (standaard)</string>
+    <string name="navigation_bar_size_36_dp">36 dp</string>
+    <string name="navigation_bar_size_30_dp">30 dp</string>
+    <string name="navigation_bar_size_24_dp">24 dp</string>
+    <string name="navigation_bar_size_48_dp_default">48 dp (standaard)</string>
+    <string name="navigation_bar_size_44_dp">44 dp</string>
+    <string name="navigation_bar_size_40_dp">40 dp</string>
+    <string name="navigation_bar_size_42_dp">42 dp</string>
+    <!-- Ability to disable hardware keys via nav bar settings -->
+    <string name="hw_keys_title">Hardware knoppen</string>
+    <string name="hw_keys_summary">Schakel hardware knoppen in</string>
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Netwerk verkeer</string>
+    <string name="show_network_traffic_state">Status balk netwerk verkeer monitor</string>
+    <string name="show_network_traffic_unit">Weergave eenheid</string>
+    <string name="show_network_traffic_frequency">Vernieuwingsfrequentie</string>
+    <string name="show_network_traffic_disable">Uitgeschakeld</string>
+    <string name="show_network_traffic_up">Uitgaand</string>
+    <string name="show_network_traffic_down">Binnenkomend</string>
+    <string name="show_network_traffic_all">Uitgaand en binnenkomend</string>
+    <string name="show_network_traffic_bit">Bits per seconde</string>
+    <string name="show_network_traffic_byte">Bytes per seconde</string>
+    <string name="show_network_traffic_500">500 ms</string>
+    <string name="show_network_traffic_1000">1000 ms</string>
+    <string name="show_network_traffic_1500">1500 ms</string>
+    <string name="show_network_traffic_2000">2000 ms</string>
+    <string name="network_traffic_autohide_title">Automatisch verbergen</string>
+    <string name="network_traffic_autohide_summary">Verberg netwerk verkeers monitor bij geen activiteit</string>
+    <!-- Superuser indicator on status bar -->
+    <string name="su_indicator">Superuser indicatie</string>
+    <string name="su_indicator_summary_on">Superuser indicatie is zichtbaar bij actieve sessie</string>
+    <string name="su_indicator_summary_off">Activeer om Superuser indicatie weer te geven bij actieve sessie</string>
+    <!-- long press back to kill configurable timeout -->
+    <string name="kill_app_longpress_timeout_title">Indrukperiode terug knop</string>
+    <string name="timeout_2000">2 seconde (standaard)</string>
+    <string name="timeout_1500">1,5 seconde</string>
+    <string name="timeout_1000">1 seconde</string>
+    <string name="timeout_500">0,5 seconde</string>
+    <!-- Toast animations -->
+    <!-- Double tap to sleep on lockscreen -->
+    <!-- Dashboard columns -->
+    <!-- Dashboard tileview double lines -->
+    <string name="dashboard_category">Meldingen instellingen</string>
+    <string name="dashboard_tileview_double_lines_title">Meldingen tegels titel</string>
+    <string name="dashboard_tileview_double_lines_summary_on">Weergave van meldingen tegel titels in één regel</string>
+    <string name="dashboard_tileview_double_lines_summary_off">Weergave van meldingen tegel titels in tweeregels</string>
+    <!-- Devices and Maintainers -->
+    <string name="device_maintainers_title">Apparaten en beheerders</string>
+    <string name="device_maintainers_title_summary">Lijst van officieel ondersteunende apparaten bij XOSP beheerders.</string>
+    <string name="maintainers_note_title">Notitie</string>
+    <!-- Lock screen settings -->
+    <string name="lockscreen_settings_title">Vergrendelingsscherm achtergrond</string>
+    <string name="lockscreen_wallpaper_title">Achtergrond</string>
+    <string name="lockscreen_wallpaper_set_title">Stel vergrendelingsscherm achtergrond in</string>
+    <string name="lockscreen_wallpaper_clear_title">Wis vergrendelingsscherm achtergrond</string>
+    <!-- On-The-Go -->
+    <string name="power_menu_onthego_title">On-The-Go Modus</string>
+    <string name="power_menu_onthego_summary">De option komt zichtbaar in de Power menu zodra geactiveerd</string>
+    <!-- Double Tap Navbar to Sleep -->
+    <string name="double_tap_sleep_nav_bar_title">Dubbel-tap om te slapen</string>
+    <string name="double_tap_sleep_nav_bar_summary">Dubbel-tap op navigatie balk voor slaapstand</string>
+    <!-- System App Remover  -->
+    <string name="listsystem">Lijst</string>
+    <string name="sizer_title">Systeem App Verwijderaar</string>
+    <string name="caution">Waarschuwing!</string>
+    <string name="cancel">Annuleer</string>
+    <string name="sizer_message_delete">Weet u zeker dat u deze App wilt verwijderen?</string>
+    <string name="btn_delete">Verwijder alle geselecteerde APPs!</string>
+    <string name="delete_progress_title">Verwijderen</string>
+    <string name="delete_progress">Geselecteerde XOSPApps zullen worden verwijderd ...</string>
+    <string name="delete_success">Verwijderd</string>
+    <string name="delete_fail">Kan niet verwijderen</string>
+    <string name="btn_profile">Profiel</string>
+    <string name="sizer_message_sdnowrite">Kan niet schrijven naar SD-kaart</string>
+    <string name="sizer_message_sdnoread">Kan niet lezen van SD-kaart</string>
+    <string name="sizer_message_filesuccess">Profiel aangemaakt</string>
+    <string name="sizer_message_filefail">Kan geen profiel aanmaken</string>
+    <string name="sizer_message_noselect">Geen selectie</string>
+    <string name="system_app_remover">Systeem App Verwijderaar</string>
+    <!-- Notification Drawer -->
+    <!-- Optional Dashboard Switches -->
+    <string name="dashboard_switches_off">Schakelaars uit</string>
+    <!-- Device info Settings -->
+    <!-- Battery icon -->
+    <!-- Time Contextual Headers -->
+    <!-- Status bar - Clock -->
+    <string name="clock_font_black">Zwart</string>
+    <string name="clock_font_black_italic">Zwart cursief</string>
+    <string name="clock_font_dancingscript">DancingScript</string>
+    <string name="clock_font_dancingscript_bold">DancingScript Vet</string>
+    <string name="clock_font_comingsoon">BInnenkort</string>
+    <string name="clock_font_notoserif">NotoSerif normaal</string>
+    <string name="clock_font_notoserif_italic">NotoSerif cursief</string>
+    <string name="clock_font_notoserif_bold">NotoSerif Vet</string>
+    <string name="clock_font_notoserif_bold_italic">NotoSerif Vet cursief</string>
+    <string name="clock_font_size_title">Lettergrootte</string>
+    <!--Status bar date -->
+    <string name="status_bar_clock_category">Klok</string>
+    <string name="status_bar_date_title">Datum</string>
+    <string name="status_bar_date_none">Verborgen (standaard)</string>
+    <string name="status_bar_date_small">Smal</string>
+    <string name="status_bar_date_normal">Normaal</string>
+    <string name="status_bar_date_format_title">Datum formaat</string>
+    <string name="status_bar_date_style">Datum stijl</string>
+    <string name="status_bar_date_style_normal">Normaal</string>
+    <string name="status_bar_date_style_lowercase">Kleine letters</string>
+    <string name="status_bar_date_style_uppercase">Hoofdletters</string>
+    <string name="status_bar_date_format_custom">Eigen java formaat</string>
+    <string name="status_bar_date_string_edittext_title">Specificeer correct datum formaat vb. dd-MM-yy</string>
+    <string name="status_bar_date_string_edittext_summary">Enter string</string>
+    <!-- Date position -->
+    <string name="clock_date_position">Datum positie</string>
+    <string name="clock_date_right">Rechts van tijd</string>
+    <string name="clock_date_left">Links van tijd</string>
+    <!-- XOSPApps -->
+    <string name="xospapps_title">XOSPApps</string>
+    <string name="xospapps_default_string">Niet geïnstalleerd</string>
+    <!-- Clear all -->
+    <string name="recents_panel_category">Recente paneel</string>
+    <string name="show_clear_all_recents_button_title">Wis Alles Knop</string>
+    <string name="show_clear_all_recents_button_summary">Schakel Wissen Alles Knop in.</string>
+    <string name="recents_clear_all_location_title">Wis alle locaties</string>
+    <string name="recents_clear_all_location_top_right">Rechts boven</string>
+    <string name="recents_clear_all_location_top_left">Links boven</string>
+    <string name="recents_clear_all_location_top_center">Boven</string>
+    <string name="recents_clear_all_location_bottom_right">Rechts onder</string>
+    <string name="recents_clear_all_location_bottom_left">Links onder</string>
+    <string name="recents_clear_all_location_bottom_center">Onder</string>
+    <string name="recents_clear_all_dismiss_all_title">Wis alle taken</string>
+    <string name="recents_clear_all_dismiss_all_summary">Inclusief actieve taken bij alles wissen</string>
+    <!-- Current on Lockscreen -->
+    <string name="lock_screen_show_current">Laadstroom</string>
+    <string name="lock_screen_show_current_summary">Laat laadstroom zien op vergrendelingsscherm</string>
+    <!-- Show carrier label and custom -->
+    <string name="carrier_options">Mobiele netwerk label</string>
+    <string name="custom_carrier_label_title">Eigen mobiele netwerk label</string>
+    <string name="custom_carrier_label_explain">Voer nieuwe labelnaam in. Bij blanco zal het standaard labelnaam weergeven worden.</string>
+    <string name="custom_carrier_label_notset">Eigen label niet ingesteld</string>
+    <string name="status_bar_carrier_color">Mobiele netwerk label kleur</string>
+    <string name="show_carrier_title">Mobiele netwerk label</string>
+    <string name="show_carrier_disabled">Uitgeschakeld</string>
+    <string name="show_carrier_keyguard">Toetsenblokkering mobiele provider</string>
+    <string name="show_carrier_statusbar">Status balk mobiele provider</string>
+    <string name="show_carrier_enabled">Ingeschakeld</string>
+    <!-- Color picker -->
+    <string name="dialog_color_picker_title">Kleurenpikker</string>
+    <string name="press_color_to_apply">Druk op onderstaande kleur om te bevestigen</string>
+    <string name="palette_xosp_title">XOSP Vlak</string>
+    <string name="palette_material_title">Material</string>
+    <string name="palette_rgb_title">RGB</string>
+    <string name="reset_android_title">Android standaard</string>
+    <string name="reset_xosp_title">XOSP standaard</string>
+    <!-- Doze options -->
+    <string name="display_category_doze_options_title">ambient-display</string>
+    <string name="doze_settings_title">Geadvanceerde dommel opties</string>
+    <string name="doze_timeout_summary">Tijd dat scherm actief blijft bij notificatie melding</string>
+    <string name="doze_trigger_pickup_title">Reageer bij oppakken</string>
+    <!-- RAM bar -->
+    <string name="recents_show_membar_title">Werkgeheugen balk</string>
+</resources>

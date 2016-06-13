@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--
+     Copyright (C) 2015 The XOSP Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- XOSP Revision -->
+    <string name="xosp_revision">XOSP 리비전</string>
+    <!-- XOSP Release -->
+    <string name="xosp_release">XOSP 릴리즈</string>
+    <!-- About phone screen, XOSP Mod version -->
+    <string name="mod_version">모드 버전</string>
+    <string name="mod_version_default">알수없음</string>
+    <!--XOSP Changelog-->
+    <string name="xosp_changelog_title">체인지로그</string>
+    <string name="xosp_changelog_summary">XOSP 체인지로그</string>
+    <string name="xosp_changelog_error">체인지로그를 불러올 수 없습니다.</string>
+    <!-- XOSP extra settings -->
+    <string name="xosp_settings_header">추가 설정</string>
+    <string name="xosp_settings_title">XOSP 설정</string>
+    <!-- About XOSP -->
+    <string name="about_xosp">XOSP에 대하여</string>
+    <string name="about_xosp_summary">@null</string>
+    <string name="xosp_donate">개발자에게 기부하기!</string>
+    <string name="xosp_donate_summary">롬이 마음에 드셨나요? 작은 기부를 부탁드립니다!</string>
+    <string name="app_name">XOSP</string>
+    <string name="devs">최종 개발자</string>
+    <string name="github_nilac">https://github.com/nilac8991</string>
+    <string name="github_cm">https://github.com/CyanogenMod</string>
+    <string name="xosp">XOSP</string>
+    <string name="xosp_source_title">XOSP 소스</string>
+    <string name="xosp_source_summary">Github 에서 XOSP 소스 보기</string>
+    <string name="xosp_google_plus_title">Google+</string>
+    <string name="xosp_google_plus_summary">Google+ 커뮤니티 가입하기</string>
+    <string name="maincontributors_title">개발자</string>
+    <string name="sourcebase_title">기반 소스</string>
+    <string name="share_xosp">이 롬을 공유하기</string>
+    <string name="share_xosp_summary">사람들에게 사용중인 XOSP를 알려줍니다!</string>
+    <string name="share_message">XOSP를 사용해보세요!
+https://plus.google.com/u/0/communities/117671498272072664538</string>
+    <string name="share_chooser_title">XOSP를 공유하기...</string>
+    <!-- Task Manager -->
+    <string name="enable_task_manager_title">작업 관리자</string>
+    <string name="enable_task_manager_summary">확장 상단바 영역에 작업 관리자 버튼을 활성 또는 비활성 합니다.</string>
+    <!-- Statusbar XOSP logo -->
+    <string name="status_bar_xosp_logo_title">XOSP 로고</string>
+    <string name="status_bar_xosp_logo_summary">XOSP 로고를 상단바에 보여줍니다.</string>
+    <!-- SlimDim -->
+    <string name="dim_nav_buttons_category">SlimDim</string>
+    <string name="dim_nav_buttons_title">활동하지 않는다면 버튼을 어둡게합니다.</string>
+    <string name="dim_nav_buttons_summary">일정 시간동안 네비바를 사용하지않는다면 네비바를 어둡게 하기</string>
+    <string name="dim_nav_buttons_timeout_title">어둡게하기전 시간설정</string>
+    <string name="dim_nav_buttons_timeout_summary">버튼이 어두워지기 까지 기다릴 시간 (단위 밀리초)</string>
+    <string name="dim_nav_buttons_alpha_title">어두운 정도</string>
+    <string name="dim_nav_buttons_alpha_summary">버튼 끄기시 어두운 정도</string>
+    <string name="dim_nav_buttons_animate_title">어두워지는 애니메이션</string>
+    <string name="dim_nav_buttons_animate_summary">투명 페이드 애니메이션</string>
+    <string name="dim_nav_buttons_animate_duration_title">애니메이션 길이</string>
+    <string name="dim_nav_buttons_animate_duration_summary">투명해지는 애니메이션 길이 (단위 밀리초)</string>
+    <string name="dim_nav_buttons_touch_anywhere_title">전체화면에서 터치 입력</string>
+    <string name="dim_nav_buttons_touch_anywhere_summary_on">화면을 아무곳이나 터치해 버튼 대기 해제</string>
+    <string name="dim_nav_buttons_touch_anywhere_summary_off">네비바만을 터치해 버튼 절전 해제</string>
+    <!-- General strings -->
+    <string name="ok">확인</string>
+    <string name="reset">초기화</string>
+    <string name="reset_message">모든 설정을 기본값으로 초기화 하시겠습니까?</string>
+    <!-- Navigation bar -->
+    <string name="nav_bar_title">네비게이션 바</string>
+    <string name="navbar_enable_bar_title">화면위의 네비바 활성화</string>
+    <string name="navbar_enable_bar_summary">네비바를 활성시키고, 하드웨어 버튼 비활성</string>
+    <string name="navbar_style_dimen_title">네비바 크기</string>
+    <string name="navbar_dimensions_reset_message">모든 크기를 기본값으로 초기화하시겠습니까?</string>
+    <string name="navigation_bar_height_title">네비게이션바 높이</string>
+    <string name="navigation_bar_height_summary">세로화면에서의 네비바 높이</string>
+    <string name="navigation_bar_width_title">네비바 너비</string>
+    <string name="navigation_bar_width_summary">측면에 바가 있는경우의 네비게이션바 높이</string>
+    <string name="navigation_bar_size_42_dp_default">42 dp (기본값)</string>
+    <string name="navigation_bar_size_36_dp">36 dp</string>
+    <string name="navigation_bar_size_30_dp">30 dp</string>
+    <string name="navigation_bar_size_24_dp">24 dp</string>
+    <string name="navigation_bar_size_48_dp_default">48 dp (기본값)</string>
+    <string name="navigation_bar_size_44_dp">44 dp</string>
+    <string name="navigation_bar_size_40_dp">40 dp</string>
+    <string name="navigation_bar_size_42_dp">42 dp</string>
+    <!-- Ability to disable hardware keys via nav bar settings -->
+    <string name="hw_keys_title">하드웨어 키</string>
+    <string name="hw_keys_summary">하드웨어 버튼 활성화</string>
+    <!-- Network traffic -->
+    <string name="network_traffic_title">네트워크 트레픽</string>
+    <string name="show_network_traffic_state">상태바 트레픽 모니터</string>
+    <string name="show_network_traffic_unit">디스플레이 장치</string>
+    <string name="show_network_traffic_frequency">간격 새로고침</string>
+    <string name="show_network_traffic_disable">비활성화</string>
+    <string name="show_network_traffic_up">나가는 통신</string>
+    <string name="show_network_traffic_down">들어오는 통신</string>
+    <string name="show_network_traffic_all">모든 통신</string>
+    <string name="show_network_traffic_bit">Bits / 초</string>
+    <string name="show_network_traffic_byte">Bytes / 초</string>
+    <string name="show_network_traffic_500">500 ms</string>
+    <string name="show_network_traffic_1000">1000 ms</string>
+    <string name="show_network_traffic_1500">1500 ms</string>
+    <string name="show_network_traffic_2000">2000 ms</string>
+    <string name="network_traffic_autohide_title">자동 숨김</string>
+    <string name="network_traffic_autohide_summary">네트워크 트레픽 모니터가 활동하지 않을때 숨깁니다.</string>
+    <string name="network_traffic_autohide_threshold">비활성 임계값</string>
+    <!-- Superuser indicator on status bar -->
+    <string name="su_indicator">수퍼유저 표시기</string>
+    <string name="su_indicator_summary_on">수퍼유저 표시기가 세션이 활성되었을때 보여집니다.</string>
+    <string name="su_indicator_summary_off">세션이 활성되었을때 수퍼유저 표시기를 토글</string>
+    <!-- long press back to kill configurable timeout -->
+    <string name="kill_app_longpress_timeout_title">뒤로키 길게 누르기 시간</string>
+    <string name="timeout_2000">2초 (기본값)</string>
+    <string name="timeout_1500">1.5초</string>
+    <string name="timeout_1000">1초</string>
+    <string name="timeout_500">0.5초</string>
+    <!-- Toast animations -->
+    <string name="toast_animation_title">토스트 애니메이션</string>
+    <string name="toast_animation_summary">선택하고 시스템 토스 애니메이션 미리보기</string>
+    <string name="toast_none_animation">없음</string>
+    <string name="toast_default_animation">기본값</string>
+    <string name="toast_fade_animation">페이드 애니메이션</string>
+    <string name="toast_SlideRight_animation">오른쪽으로 슬라이드</string>
+    <string name="toast_SlideLeft_animation">왼쪽으로 슬라이드</string>
+    <string name="toast_Xylon_animation">자일론 애니메이션</string>
+    <string name="toast_Toko_animation">Toko 애니메이션</string>
+    <string name="toast_Tn_animation">Tn 애니메이션</string>
+    <string name="toast_Honami_animation">Honami 애니메이션</string>
+    <string name="toast_FastFade_animation">빠른 페이드</string>
+    <string name="toast_GrowFade_animation">글로우 페이드</string>
+    <string name="toast_GrowFadeCenter_animation">중앙 글로우 페이드</string>
+    <string name="toast_GrowFadeBottom_animation">하단 글로우 페이드</string>
+    <string name="toast_Translucent_animation">투명 애니메이션</string>
+    <string name="toast_SlideLeftRight_animation">왼쪽에서 오른쪽으로 슬라이드</string>
+    <string name="toast_SlideRightLeft_animation">오른쪽에서 왼쪽으로 슬라이드</string>
+    <string name="screen_and_animations_title">화면과 애니메이션</string>
+    <!-- Double tap to sleep on lockscreen -->
+    <string name="double_tap_sleep_anywhere_title">잠금화면 DT2S</string>
+    <string name="double_tap_sleep_anywhere_summary">잠금화면을 두번 터치해 화면을 끕니다.</string>
+    <!-- Dashboard columns -->
+    <string name="dashboard_columns_title">설정창 열</string>
+    <string name="dashboard_columns_summary">설정창에 보여지는 열의 수를 바꿉니다.</string>
+    <string name="dashboard_columns_dialog_title">설정창 열 선택</string>
+    <string name="dashboard_columns_default">1줄 (기본값)</string>
+    <string name="dashboard_columns_two">2줄</string>
+    <string name="dashboard_columns_three">3줄</string>
+    <!-- Dashboard tileview double lines -->
+    <string name="dashboard_category">설정창 설정</string>
+    <string name="dashboard_tileview_double_lines_title">설정창 타일 제목 표시</string>
+    <string name="dashboard_tileview_double_lines_summary_on">설정타일 제목을 1줄에 표시</string>
+    <string name="dashboard_tileview_double_lines_summary_off">설정 타일 제목을 2줄에 표시</string>
+    <!-- Devices and Maintainers -->
+    <string name="device_maintainers_title">지원기기와 메인테이너</string>
+    <string name="device_maintainers_title_summary">XOSP 메인테이너 공식 지원 기기 목록</string>
+    <string name="maintainers_note_title">알림노트</string>
+    <string name="maintainers_note_title_summary">만약 컴파일하신 롬이 대부분이나 모든 기능이 동작하신다면 행아웃 \"Calin Neamtu\" 씨에게 연락해주세요. XDA  스레드 링크에도있습니다.</string>
+    <!-- Lock screen settings -->
+    <string name="lockscreen_settings_title">잠금화면 배경</string>
+    <string name="lockscreen_wallpaper_title">배경화면</string>
+    <string name="lockscreen_wallpaper_set_title">잠금화면 배경 설정</string>
+    <string name="lockscreen_wallpaper_clear_title">잠금화면 배경 지우기</string>
+    <!-- On-The-Go -->
+    <string name="power_menu_onthego_title">On-The-Go 모드</string>
+    <!-- Double Tap Navbar to Sleep -->
+    <string name="double_tap_sleep_nav_bar_title">두번 터치하여 잠금</string>
+    <string name="double_tap_sleep_nav_bar_summary">네비바를 두번 터치하시면 화면이 꺼집니다</string>
+    <!-- System App Remover  -->
+    <string name="listsystem">목록</string>
+    <string name="sizer_title">시스템 앱 삭제기</string>
+    <string name="caution">주의!</string>
+    <string name="sizer_message_startup">이 메뉴는 시스템앱을 지울수 있습니다. 조심해서 사용하시고, 지워도 안전하다고 확실하게 아시는 앱만 지워주세요.</string>
+    <string name="cancel">취소</string>
+    <string name="sizer_message_delete">정말 이 앱을 지웁니까?</string>
+    <string name="btn_delete">선택된 앱을 당장 지우기!</string>
+    <string name="delete_progress_title">삭제중</string>
+    <string name="delete_progress">선택된 XOSP앱이 지워지고있습니다...</string>
+    <string name="delete_success">삭제완료</string>
+    <string name="delete_fail">삭제할 수 없습니다.</string>
+    <string name="btn_profile">프로파일</string>
+    <string name="sizer_message_sdnowrite">SD카드에 쓸 수 없습니다.</string>
+    <string name="sizer_message_sdnoread">SD카드를 읽을 수 없습니다.</string>
+    <string name="sizer_message_filesuccess">프로필을 만들었습니다.</string>
+    <string name="sizer_message_filefail">프로필 만들기에 실패했습니다.</string>
+    <string name="sizer_message_noselect">아무것도 선택되지 않았습니다.</string>
+    <string name="system_app_remover">시스템 앱 지우기</string>
+    <!-- Notification Drawer -->
+    <!-- Optional Dashboard Switches -->
+    <!-- Device info Settings -->
+    <!-- Battery icon -->
+    <!-- Time Contextual Headers -->
+    <!-- Status bar - Clock -->
+    <!--Status bar date -->
+    <!-- Date position -->
+    <!-- XOSPApps -->
+    <!-- Clear all -->
+    <!-- Current on Lockscreen -->
+    <!-- Show carrier label and custom -->
+    <!-- Color picker -->
+    <!-- Doze options -->
+    <!-- FAQ -->
+    <string name="faq_title">질문과 답변</string>
+    <string name="faq_summary">질뭉이있나요? XOSP 질문과 답변을 확인해보세요</string>
+    <!-- RAM bar -->
+    <string name="recents_show_membar_title">RAM 메모리 바</string>
+    <string name="recents_show_membar_summary_on">최근앱 창에 이용가능 RAM 메모리바가 표시됩니다.</string>
+    <string name="recents_show_membar_summary_off">최근앱 창에 이용가능 RAM 메모리바 토글</string>
+</resources>
