@@ -81,6 +81,7 @@ private static final String XOSP_ROM_SHARE = "share";
     Preference mSourceUrl;
     Preference mDevicesSourceUrl;
     Preference mGoogleUrl;
+    Preference mFacebookUrl;
     Preference mDonateUrl;
     Preference mTranslationsUrl;
     
@@ -94,6 +95,7 @@ private static final String XOSP_ROM_SHARE = "share";
         mSourceUrl = findPreference("xosp_source");
         mDevicesSourceUrl = findPreference("xosp_devices_source");
         mGoogleUrl = findPreference("xosp_google_plus");
+        mFacebookUrl = findPreference("xosp_facebook");
         mDonateUrl = findPreference("xosp_donate");
         mTranslationsUrl = findPreference("xosp_translations");
         PreferenceGroup devsGroup = (PreferenceGroup) findPreference("devs");
@@ -127,6 +129,8 @@ private static final String XOSP_ROM_SHARE = "share";
             launchUrl("https://github.com/XOSP-Project-Devices");
         } else if (preference == mGoogleUrl) {
             launchUrl("https://plus.google.com/u/0/communities/117671498272072664538");
+        } else if (preference == mFacebookUrl) {
+            launchUrl("https://www.facebook.com/xosprom/");
         } else if (preference == mDonateUrl) {
             launchUrl("http://forum.xda-developers.com/donatetome.php?u=4968383");
         } else if (preference == mTranslationsUrl){

@@ -54,6 +54,8 @@
     <string name="xosp_source_summary">XOSP sources on Github</string>
     <string name="xosp_google_plus_title">Google+</string>
     <string name="xosp_google_plus_summary">Join the community on Google+</string>
+    <string name="xosp_facebook_title">Facebook</string>
+    <string name="xosp_facebook_summary">Follow us also on our official page on FB</string>
     <string name="xosp_site_title">XOSP Official Site</string>
     <string name="xosp_site_summary">Visit the Official Site</string>
     <string name="xosp_devices_source_title">XOSP Device Sources</string>

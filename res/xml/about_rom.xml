@@ -57,6 +57,11 @@
                     android:summary="@string/xosp_google_plus_summary" />
                     
             <Preference
+                    android:key="xosp_facebook"
+                    android:title="@string/xosp_facebook_title"
+                    android:summary="@string/xosp_facebook_summary" />
+
+            <Preference
                     android:key="xosp_donate"
                     android:title="@string/xosp_donate"
                     android:summary="@string/xosp_donate_summary" />
