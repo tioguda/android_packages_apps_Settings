@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--
+     Copyright (C) 2015 The XOSP Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- XOSP Revision -->
+    <string name="xosp_revision">XOSP 版本</string>
+    <!-- XOSP Release -->
+    <string name="xosp_release">XOSP 發行</string>
+    <!-- About phone screen, XOSP Mod version -->
+    <string name="mod_version">修正版本</string>
+    <string name="mod_version_default">未知</string>
+    <!--XOSP Changelog-->
+    <string name="xosp_changelog_title">版本日誌</string>
+    <string name="xosp_changelog_summary">XOSP 版本日誌</string>
+    <string name="xosp_changelog_error">無法載入版本日誌！</string>
+    <!-- XOSP extra settings -->
+    <string name="xosp_settings_header">其他設定</string>
+    <string name="xosp_settings_title">XOSP 設定</string>
+    <string name="xosp_settings_statusbar_cat">狀態列個人化</string>
+    <string name="xosp_settings_buttons_cat">按鈕個人化</string>
+    <string name="xosp_settings_misc_cat">其他個人化</string>
+    <!-- About XOSP -->
+    <string name="about_xosp">關於 XOSP</string>
+    <string name="xosp_donate">愛心捐款</string>
+    <string name="xosp_donate_summary">喜歡XOSP嗎？需要您的愛心捐款！</string>
+    <string name="app_name">XOSP</string>
+    <string name="devs">主要開發者</string>
+    <string name="github_nilac">https://github.com/nilac8991</string>
+    <string name="github_cm">https://github.com/CyanogenMod</string>
+    <string name="xosp">XOSP</string>
+    <string name="xosp_source_title">XOSP 原始碼</string>
+    <string name="xosp_source_summary">XOSP 在Github上的原始碼</string>
+    <string name="xosp_google_plus_title">Google+</string>
+    <string name="xosp_google_plus_summary">請加入我們的Google+社群</string>
+    <string name="xosp_site_title">XOSP 官方網站</string>
+    <string name="xosp_site_summary">連結官方網站</string>
+    <string name="xosp_devices_source_title">XOSP 設備清單</string>
+    <string name="xosp_devices_source_summary">XOSP 在Github上的設備清單</string>
+    <string name="xosp_translations_title">XOSP 翻譯計劃</string>
+    <string name="xosp_translations_summary">請協助翻譯成您的母語！</string>
+    <string name="maincontributors_title">開發者</string>
+    <string name="sourcebase_title">原始碼</string>
+    <string name="share_xosp">分享XOSP</string>
+    <string name="share_xosp_summary">讓大家知道您在使用XOSP！</string>
+    <string name="share_message">試試XOSP! https://plus.google.com/u/0/communities/117671498272072664538</string>
+    <string name="share_chooser_title">分享XOSP...</string>
+    <!-- Task Manager -->
+    <string name="enable_task_manager_title">工作管理員</string>
+    <string name="enable_task_manager_summary">啓用/取消擴增狀態列上方的工作管理員按鈕</string>
+    <!-- Statusbar XOSP logo -->
+    <string name="status_bar_xosp_logo_title">XOSP 圖示</string>
+    <string name="status_bar_xosp_logo_summary">在狀態列上啓用顯示XOSP圖示</string>
+    <!-- SlimDim -->
+    <string name="dim_nav_buttons_category">SlimDim</string>
+    <string name="dim_nav_buttons_alpha_title">繁體中文(台灣)</string>
+    <!-- General strings -->
+    <!-- Navigation bar -->
+    <!-- Ability to disable hardware keys via nav bar settings -->
+    <!-- Network traffic -->
+    <!-- Superuser indicator on status bar -->
+    <!-- long press back to kill configurable timeout -->
+    <!-- Toast animations -->
+    <!-- Double tap to sleep on lockscreen -->
+    <!-- Dashboard columns -->
+    <!-- Dashboard tileview double lines -->
+    <!-- Devices and Maintainers -->
+    <!-- Lock screen settings -->
+    <!-- On-The-Go -->
+    <!-- Double Tap Navbar to Sleep -->
+    <!-- System App Remover  -->
+    <!-- Notification Drawer -->
+    <!-- Optional Dashboard Switches -->
+    <!-- Device info Settings -->
+    <!-- Battery icon -->
+    <!-- Time Contextual Headers -->
+    <!-- Status bar - Clock -->
+    <string name="clock_font_black">黑色</string>
+    <!--Status bar date -->
+    <!-- Date position -->
+    <!-- XOSPApps -->
+    <!-- Clear all -->
+    <!-- Current on Lockscreen -->
+    <!-- Show carrier label and custom -->
+    <!-- Color picker -->
+    <!-- Doze options -->
+</resources>

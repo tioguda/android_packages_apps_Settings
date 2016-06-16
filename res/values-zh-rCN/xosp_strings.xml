@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--
+     Copyright (C) 2015 The XOSP Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- XOSP Revision -->
+    <!-- XOSP Release -->
+    <string name="xosp_release">XOSP 正式版</string>
+    <!-- About phone screen, XOSP Mod version -->
+    <string name="mod_version">Mod 版</string>
+    <string name="mod_version_default">未知</string>
+    <!--XOSP Changelog-->
+    <string name="xosp_changelog_title">更新日志</string>
+    <string name="xosp_changelog_summary">XOSP 更新日志</string>
+    <string name="xosp_changelog_error">无法加载更新日志！</string>
+    <!-- XOSP extra settings -->
+    <string name="xosp_settings_header">其他设置</string>
+    <string name="xosp_settings_title">XOSP 设置</string>
+    <!-- About XOSP -->
+    <string name="about_xosp">关于 XOSP</string>
+    <string name="xosp_donate_summary">喜欢这个ROM？那就去给我们捐赠吧！</string>
+    <string name="app_name">XOSP</string>
+    <string name="github_nilac">https://github.com/nilac8991</string>
+    <string name="github_cm">https://github.com/CyanogenMod</string>
+    <string name="xosp">XOSP</string>
+    <string name="xosp_source_title">XOSP 源码</string>
+    <string name="xosp_source_summary">在Github上获取XOSP源码</string>
+    <string name="xosp_google_plus_title">Google+</string>
+    <string name="maincontributors_title">开发者们</string>
+    <string name="share_xosp">分享ROM</string>
+    <string name="share_xosp_summary">让大家知道你正在使用XOSP！</string>
+    <!-- Task Manager -->
+    <!-- Statusbar XOSP logo -->
+    <string name="status_bar_xosp_logo_title">XOSP 标志</string>
+    <string name="status_bar_xosp_logo_summary">在状态栏上显示XOSP标志</string>
+    <!-- SlimDim -->
+    <string name="dim_nav_buttons_animate_duration_title">动画间隔</string>
+    <!-- General strings -->
+    <string name="ok">好的</string>
+    <string name="reset">重置</string>
+    <string name="reset_message">重置所有项为默认？</string>
+    <!-- Navigation bar -->
+    <string name="nav_bar_title">导航栏</string>
+    <string name="navbar_enable_bar_title">启用屏幕导航栏</string>
+    <string name="navbar_enable_bar_summary">启用屏幕导航栏并禁用实体按键</string>
+    <string name="navbar_style_dimen_title">导航栏尺寸</string>
+    <string name="navbar_dimensions_reset_message">重置所有尺寸项为预设？</string>
+    <string name="navigation_bar_height_title">导航栏高度</string>
+    <string name="navigation_bar_width_title">导航栏宽度</string>
+    <string name="navigation_bar_size_42_dp_default">42 dp（预设）</string>
+    <string name="navigation_bar_size_36_dp">36 dp</string>
+    <string name="navigation_bar_size_30_dp">30 dp</string>
+    <string name="navigation_bar_size_24_dp">24 dp</string>
+    <string name="navigation_bar_size_48_dp_default">48 dp（预设）</string>
+    <string name="navigation_bar_size_44_dp">44 dp</string>
+    <string name="navigation_bar_size_40_dp">40 dp</string>
+    <string name="navigation_bar_size_42_dp">42 dp</string>
+    <!-- Ability to disable hardware keys via nav bar settings -->
+    <string name="hw_keys_title">设备密钥</string>
+    <string name="hw_keys_summary">启用设备密钥</string>
+    <!-- Network traffic -->
+    <string name="network_traffic_title">网络流量</string>
+    <string name="show_network_traffic_state">状态栏流量监测</string>
+    <string name="show_network_traffic_unit">显示单位</string>
+    <string name="show_network_traffic_frequency">更新间隔</string>
+    <string name="show_network_traffic_disable">禁用</string>
+    <string name="show_network_traffic_up">上传</string>
+    <string name="show_network_traffic_down">来电</string>
+    <string name="show_network_traffic_all">去电和来电</string>
+    <string name="show_network_traffic_bit">每秒位数</string>
+    <string name="show_network_traffic_byte">每秒字节数</string>
+    <string name="show_network_traffic_500">500 毫秒</string>
+    <string name="show_network_traffic_1000">1000 毫秒</string>
+    <string name="show_network_traffic_1500">1500 毫秒</string>
+    <string name="show_network_traffic_2000">2000 毫秒</string>
+    <string name="network_traffic_autohide_title">自动隐藏</string>
+    <string name="network_traffic_autohide_summary">无网络活动时隐藏流量监测</string>
+    <!-- Superuser indicator on status bar -->
+    <!-- long press back to kill configurable timeout -->
+    <string name="timeout_2000">2 秒（预设）</string>
+    <string name="timeout_1500">1,5 秒</string>
+    <string name="timeout_1000">1 秒</string>
+    <string name="timeout_500">0,5 秒</string>
+    <!-- Toast animations -->
+    <string name="toast_animation_title">吐司动画</string>
+    <string name="toast_animation_summary">选择并预览系统预设的吐死动画</string>
+    <string name="toast_none_animation">没有</string>
+    <string name="toast_default_animation">预设</string>
+    <string name="toast_SlideRight_animation">向右滑动</string>
+    <string name="toast_SlideLeft_animation">向左滑动</string>
+    <string name="toast_SlideRightLeft_animation">从右到左滑动</string>
+    <string name="screen_and_animations_title">屏幕和动画</string>
+    <!-- Double tap to sleep on lockscreen -->
+    <string name="double_tap_sleep_anywhere_title">锁屏状态下双击熄屏</string>
+    <!-- Dashboard columns -->
+    <string name="dashboard_columns_default">一个（预设）</string>
+    <string name="dashboard_columns_two">二个</string>
+    <string name="dashboard_columns_three">三个</string>
+    <!-- Dashboard tileview double lines -->
+    <!-- Devices and Maintainers -->
+    <string name="device_maintainers_title">设备及维护者</string>
+    <string name="maintainers_note_title">注意</string>
+    <!-- Lock screen settings -->
+    <string name="lockscreen_settings_title">锁屏壁纸</string>
+    <string name="lockscreen_wallpaper_title">壁纸</string>
+    <string name="lockscreen_wallpaper_set_title">设置锁屏壁纸</string>
+    <string name="lockscreen_wallpaper_clear_title">清除锁屏壁纸</string>
+    <!-- On-The-Go -->
+    <string name="power_menu_onthego_title">On-The-Go 模式</string>
+    <!-- Double Tap Navbar to Sleep -->
+    <string name="double_tap_sleep_nav_bar_title">双击熄屏</string>
+    <string name="double_tap_sleep_nav_bar_summary">双击导航栏以熄屏</string>
+    <!-- System App Remover  -->
+    <string name="listsystem">列表</string>
+    <string name="sizer_title">移除系统应用</string>
+    <string name="caution">警告！</string>
+    <string name="cancel">取消</string>
+    <string name="sizer_message_delete">你确定要删除这个应用程序？</string>
+    <string name="btn_delete">现在删除所选定的应用程序！</string>
+    <string name="delete_progress_title">正在删除</string>
+    <string name="delete_progress">正在删除已选择的XOSPApps...</string>
+    <string name="delete_success">已删除</string>
+    <string name="delete_fail">无法删除</string>
+    <string name="btn_profile">配置文件</string>
+    <string name="sizer_message_sdnowrite">无法写入SD卡。</string>
+    <string name="sizer_message_sdnoread">无法读取SD卡。</string>
+    <string name="sizer_message_filesuccess">创建配置文件。</string>
+    <string name="sizer_message_filefail">无法创建配置文件。</string>
+    <string name="sizer_message_noselect">未选中。</string>
+    <string name="system_app_remover">移除系统应用</string>
+    <!-- Notification Drawer -->
+    <!-- Optional Dashboard Switches -->
+    <!-- Device info Settings -->
+    <!-- Battery icon -->
+    <!-- Time Contextual Headers -->
+    <!-- Status bar - Clock -->
+    <!--Status bar date -->
+    <!-- Date position -->
+    <!-- XOSPApps -->
+    <!-- Clear all -->
+    <!-- Current on Lockscreen -->
+    <!-- Show carrier label and custom -->
+    <!-- Color picker -->
+    <!-- Doze options -->
+</resources>

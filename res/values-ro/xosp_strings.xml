@@ -18,59 +18,33 @@
     <!-- XOSP Revision -->
     <!-- XOSP Release -->
     <!-- About phone screen, XOSP Mod version -->
-    <string name="mod_version_default">Neznámý</string>
     <!--XOSP Changelog-->
     <!-- XOSP extra settings -->
-    <string name="xosp_settings_title">Nastavení XOSP</string>
     <!-- About XOSP -->
-    <string name="about_xosp">O XOSP</string>
-    <string name="app_name">XOSP</string>
-    <string name="xosp">XOSP</string>
-    <string name="xosp_google_plus_title">Google+</string>
-    <string name="maincontributors_title">Vývojáři</string>
-    <string name="share_xosp">Sdílejte ROM</string>
-    <string name="share_chooser_title">Sdílet XOSP přes...</string>
     <!-- Task Manager -->
     <!-- Statusbar XOSP logo -->
-    <string name="status_bar_xosp_logo_title">XOSP logo</string>
     <!-- SlimDim -->
-    <string name="dim_nav_buttons_category">SlimDim</string>
-    <string name="dim_nav_buttons_animate_duration_title">Trvání animace</string>
+    <string name="dim_nav_buttons_animate_duration_title">Durată animaţie</string>
+    <string name="dim_nav_buttons_touch_anywhere_title">Ascultă pentru atingeri pe tot ecranul</string>
     <!-- General strings -->
-    <string name="ok">Ok</string>
-    <string name="reset">Restartovat</string>
+    <string name="reset">Resetare</string>
     <!-- Navigation bar -->
+    <string name="nav_bar_title">Bară navigaţie</string>
     <!-- Ability to disable hardware keys via nav bar settings -->
     <!-- Network traffic -->
-    <string name="show_network_traffic_500">500 ms</string>
-    <string name="show_network_traffic_1000">1000 ms</string>
-    <string name="show_network_traffic_1500">1500 ms</string>
-    <string name="show_network_traffic_2000">2000 ms</string>
     <!-- Superuser indicator on status bar -->
     <!-- long press back to kill configurable timeout -->
-    <string name="timeout_2000">2 sekundy (výchozí)</string>
-    <string name="timeout_1500">1,5 sekundy</string>
-    <string name="timeout_1000">1 sekunda</string>
-    <string name="timeout_500">0,5 sekundy</string>
     <!-- Toast animations -->
     <!-- Double tap to sleep on lockscreen -->
     <!-- Dashboard columns -->
-    <string name="dashboard_columns_default">Jeden (výchozí)</string>
-    <string name="dashboard_columns_two">Dva</string>
-    <string name="dashboard_columns_three">Tři</string>
     <!-- Dashboard tileview double lines -->
     <!-- Devices and Maintainers -->
-    <string name="maintainers_note_title">Poznámka</string>
+    <string name="maintainers_note_title">Notă</string>
     <!-- Lock screen settings -->
-    <string name="lockscreen_settings_title">Tapeta zamykací obrazovky</string>
-    <string name="lockscreen_wallpaper_title">Tapeta</string>
+    <string name="lockscreen_wallpaper_title">Imagine de fundal</string>
     <!-- On-The-Go -->
     <!-- Double Tap Navbar to Sleep -->
     <!-- System App Remover  -->
-    <string name="btn_delete">Odstranit vybrané aplikace!</string>
-    <string name="delete_progress_title">Mazání</string>
-    <string name="delete_fail">Nelze odstranit</string>
-    <string name="sizer_message_sdnowrite">Nelze zapsat na SD kartu</string>
     <!-- Notification Drawer -->
     <!-- Optional Dashboard Switches -->
     <!-- Device info Settings -->

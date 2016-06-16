@@ -31,7 +31,6 @@
     <string name="xosp_settings_title">Paramètres d\'XOSP</string>
     <!-- About XOSP -->
     <string name="about_xosp">A propos d\'XOSP</string>
-    <string name="about_xosp_summary">@null</string>
     <string name="xosp_donate">Donner pour le développement</string>
     <string name="xosp_donate_summary">Vous aimez la ROM ? Faites une petite donation !</string>
     <string name="app_name">XOSP</string>
@@ -193,11 +192,4 @@ https://plus.google.com/u/0/communities/117671498272072664538</string>
     <!-- Show carrier label and custom -->
     <!-- Color picker -->
     <!-- Doze options -->
-    <!-- FAQ -->
-    <string name="faq_title">F.A.Q</string>
-    <string name="faq_summary">Vous avez une question ? Regardez la section F.A.Q D\'XOSP</string>
-    <!-- RAM bar -->
-    <string name="recents_show_membar_title">Barre de mémoire RAM</string>
-    <string name="recents_show_membar_summary_on">La quantité de mémoire ram disponible sera affiché dans les applications récentes</string>
-    <string name="recents_show_membar_summary_off">Basculer pour afficher la quantité de mémoire RAM Disponible dans les applications récentes</string>
 </resources>

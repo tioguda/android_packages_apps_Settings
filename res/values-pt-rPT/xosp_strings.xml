@@ -34,7 +34,6 @@
     <string name="xosp_settings_misc_cat">Miscelânea Personalizações</string>
     <!-- About XOSP -->
     <string name="about_xosp">"Sobre XOSP "</string>
-    <string name="about_xosp_summary">@null</string>
     <string name="xosp_donate">Doações para o Desenvolvimento</string>
     <string name="xosp_donate_summary">Gostou da ROM? Faça uma pequena doação!</string>
     <string name="app_name">XOSP</string>
@@ -75,10 +74,10 @@ Por favor, forneça o</string>
     <string name="dim_nav_buttons_alpha_title">DIM alfa</string>
     <string name="dim_nav_buttons_alpha_summary">Valor alpha para escurecer botões para</string>
     <string name="dim_nav_buttons_animate_title">Animação ao escurecer</string>
-    <string name="dim_nav_buttons_animate_summary">Animar o alpha fade</string>
+    <string name="dim_nav_buttons_animate_summary">Animar a atenuação alfa</string>
     <string name="dim_nav_buttons_animate_duration_title">Duração da animação</string>
     <string name="dim_nav_buttons_animate_duration_summary">Duração (em milissegundos) da animação alpha</string>
-    <string name="dim_nav_buttons_touch_anywhere_title">Ouvir os toques em todo tela</string>
+    <string name="dim_nav_buttons_touch_anywhere_title">Ouça os toques na tela inteira</string>
     <string name="dim_nav_buttons_touch_anywhere_summary_on">Tocar em qualquer lugar na tela fará com que os botões acendem</string>
     <string name="dim_nav_buttons_touch_anywhere_summary_off">Apenas tocando na barra de navegação os botões acendam</string>
     <!-- General strings -->
@@ -180,7 +179,7 @@ Por favor, forneça o</string>
     <string name="lockscreen_wallpaper_set_title">Definir papel de parede da tela de bloqueio</string>
     <string name="lockscreen_wallpaper_clear_title">Remover fundo da tela de bloqueio</string>
     <!-- On-The-Go -->
-    <string name="power_menu_onthego_title">Modo OTG</string>
+    <string name="power_menu_onthego_title">Modo On-The-Go</string>
     <string name="power_menu_onthego_summary">A opção estará disponível no menu de energia uma vez ativado</string>
     <!-- Double Tap Navbar to Sleep -->
     <string name="double_tap_sleep_nav_bar_title">Toque duplo para dormir</string>
@@ -205,11 +204,49 @@ Por favor, forneça o</string>
     <string name="sizer_message_noselect">Nada selecionado.</string>
     <string name="system_app_remover">"Remover aplicativos do sistema "</string>
     <!-- Notification Drawer -->
+    <string name="notification_drawer_title">Personalizações de notificação de gaveta</string>
+    <string name="header_cat">"Notificação do cabeçalho "</string>
     <!-- Optional Dashboard Switches -->
+    <string name="dashboard_switches_title">Painel de instrumentos interruptores</string>
+    <string name="dashboard_switches_off">"Desligar "</string>
+    <string name="dashboard_switches_on">Interruptores ligados</string>
+    <string name="dashboard_switches_summary">Alterar o posição de o painel de instrumentos interruptores</string>
+    <string name="dashboard_switches_dialog_title">Escolha um estado chave</string>
     <!-- Device info Settings -->
+    <string name="device_info_xosp_category">Informações XOSP</string>
+    <string name="device_info_device_category">"Informações do dispositivo "</string>
+    <string name="device_info_android_category">"Informações do sistema "</string>
+    <string name="device_info_other_category">"Outras informações "</string>
     <!-- Battery icon -->
+    <string name="status_bar_battery_style_xperia_text">Xperia Tx Protótipo de bateria</string>
     <!-- Time Contextual Headers -->
+    <string name="status_bar_custom_header_title">"Tempo Contextual do cabeçalho "</string>
+    <string name="contextual_title">cabeçalhos contextuais</string>
+    <string name="status_bar_custom_header_summary">"Habilitar imagem do cabeçalho do painel de notificação "</string>
+    <string name="status_bar_custom_header_default_summary">Padrão, moderno e poli HD</string>
+    <string name="status_bar_custom_header_default_title">"Selecione as suas imagens "</string>
+    <string name="custom_header_image_0">"Padrão "</string>
+    <string name="custom_header_image_1">"Moderno "</string>
+    <string name="custom_header_image_2">Poli HD</string>
     <!-- Status bar - Clock -->
+    <string name="status_bar_show_clock_second_title">"Segundos do relógio "</string>
+    <string name="clock_font_style_title">"Fonte "</string>
+    <string name="clock_font_normal">"Normal "</string>
+    <string name="clock_font_italic">"Itálico "</string>
+    <string name="clock_font_bold">"Negrito "</string>
+    <string name="clock_font_bold_italic">"Negrito itálico "</string>
+    <string name="clock_font_light">Leve</string>
+    <string name="clock_font_light_italic">Itálico leve</string>
+    <string name="clock_font_thin">Fino</string>
+    <string name="clock_font_thin_italic">"Itálico fino "</string>
+    <string name="clock_font_condensed">Condensado</string>
+    <string name="clock_font_condensed_italic">"Itálico condensado "</string>
+    <string name="clock_font_condensed_light">Condensado leve</string>
+    <string name="clock_font_condensed_light_italic">"Itálico leve condensado "</string>
+    <string name="clock_font_condensed_bold">"Negrito condensado "</string>
+    <string name="clock_font_condensed_bold_italic">"Negrito itálico condensado "</string>
+    <string name="clock_font_medium">"Médio "</string>
+    <string name="clock_font_medium_italic">"Itálico Médio "</string>
     <string name="clock_font_black">Preto</string>
     <string name="clock_font_black_italic">Itálico preto</string>
     <string name="clock_font_dancingscript">Script dança</string>
@@ -219,7 +256,28 @@ Por favor, forneça o</string>
     <string name="clock_font_notoserif_italic">NotoSerif Itálico</string>
     <string name="clock_font_notoserif_bold">NotoSerif Negrito</string>
     <string name="clock_font_notoserif_bold_italic">NotoSerif  Negrito Itálico</string>
+    <string name="status_bar_show_clock_second_title">"Segundos do relógio "</string>
     <string name="clock_font_size_title">Tamanho da fonte</string>
+    <string name="clock_font_size_4">4</string>
+    <string name="clock_font_size_5">5</string>
+    <string name="clock_font_size_6">6</string>
+    <string name="clock_font_size_7">7</string>
+    <string name="clock_font_size_8">8</string>
+    <string name="clock_font_size_9">9</string>
+    <string name="clock_font_size_10">10</string>
+    <string name="clock_font_size_11">11</string>
+    <string name="clock_font_size_12">12</string>
+    <string name="clock_font_size_13">13</string>
+    <string name="clock_font_size_14">14</string>
+    <string name="clock_font_size_15">15</string>
+    <string name="clock_font_size_16">16</string>
+    <string name="clock_font_size_17">17</string>
+    <string name="clock_font_size_18">18</string>
+    <string name="clock_font_size_19">19</string>
+    <string name="clock_font_size_20">20</string>
+    <string name="clock_font_size_21">21</string>
+    <string name="clock_font_size_22">22</string>
+    <string name="clock_font_size_23">23</string>
     <!--Status bar date -->
     <string name="status_bar_clock_category">Relógio</string>
     <string name="status_bar_date_title">Data</string>
@@ -281,12 +339,18 @@ Por favor, forneça o</string>
     <string name="doze_settings_title">Opções avançadas do Doze</string>
     <string name="doze_timeout_title">Doze tempo limite de pulso</string>
     <string name="doze_timeout_summary">Tempo em que a tela permanece acesa por pulso notificação</string>
+    <string name="doze_trigger_pickup_title">Pegar gesto gatilho</string>
+    <string name="doze_trigger_pickup_summary_on">Pulso Doze vai ser desencadeada por pegar eventos do sensor gesto</string>
     <string name="doze_trigger_pickup_summary_off">Sensor de captação gesto não será utilizado como um mecanismo de disparo</string>
-    <!-- FAQ -->
-    <string name="faq_title">F.A.Q</string>
-    <string name="faq_summary">Tem uma pergunta? confira a seção XOSP F.A.Q</string>
-    <!-- RAM bar -->
-    <string name="recents_show_membar_title">"Barra de memória RAM "</string>
-    <string name="recents_show_membar_summary_on">Barra de memória RAM  disponível será exibido no menu recentes</string>
-    <string name="recents_show_membar_summary_off">Alternar para exibir a barra de memória RAM disponível em vista Recentes</string>
+    <string name="doze_trigger_sigmotion_title">Detector de movimento significativo</string>
+    <string name="doze_trigger_sigmotion_summary_on">pulso Doze vai ser desencadeada por eventos de sensores de movimento significativo</string>
+    <string name="doze_trigger_sigmotion_summary_off">Sensor de movimento significativo não será utilizada como um mecanismo de disparo</string>
+    <string name="doze_trigger_notification_title">disparador notificação</string>
+    <string name="doze_trigger_notification_summary_on">pulso Doze serão desencadeadas pelas notificações</string>
+    <string name="doze_trigger_notification_summary_off">As notificações não será utilizada como um gatilho</string>
+    <string name="doze_schedule_title">Programar Doze</string>
+    <string name="doze_schedule_summary_on">intervalos predefinidos doze repetição (normalmente [1s, 10s, 30s, 60s, 120s]) será usado (padrão)</string>
+    <string name="doze_schedule_summary_off">Doze só vai postar uma vez por notificação</string>
+    <string name="doze_brightness_title">Doze nível de brilho</string>
+    <string name="doze_brightness_summary">nível de brilho da tela de pulso doze (% do máximo permitido brilho)</string>
 </resources>

@@ -31,7 +31,6 @@
     <string name="xosp_settings_title">XOSP 설정</string>
     <!-- About XOSP -->
     <string name="about_xosp">XOSP에 대하여</string>
-    <string name="about_xosp_summary">@null</string>
     <string name="xosp_donate">개발자에게 기부하기!</string>
     <string name="xosp_donate_summary">롬이 마음에 드셨나요? 작은 기부를 부탁드립니다!</string>
     <string name="app_name">XOSP</string>
@@ -207,11 +206,4 @@ https://plus.google.com/u/0/communities/117671498272072664538</string>
     <!-- Show carrier label and custom -->
     <!-- Color picker -->
     <!-- Doze options -->
-    <!-- FAQ -->
-    <string name="faq_title">질문과 답변</string>
-    <string name="faq_summary">질뭉이있나요? XOSP 질문과 답변을 확인해보세요</string>
-    <!-- RAM bar -->
-    <string name="recents_show_membar_title">RAM 메모리 바</string>
-    <string name="recents_show_membar_summary_on">최근앱 창에 이용가능 RAM 메모리바가 표시됩니다.</string>
-    <string name="recents_show_membar_summary_off">최근앱 창에 이용가능 RAM 메모리바 토글</string>
 </resources>

@@ -31,7 +31,6 @@
     <string name="xosp_settings_title">XOSP Ayarları</string>
     <!-- About XOSP -->
     <string name="about_xosp">XOSP Hakkında</string>
-    <string name="about_xosp_summary">@null</string>
     <string name="xosp_donate">Geliştirmeye Bağış yap</string>
     <string name="xosp_donate_summary">Romu Sevdin mİ?Küçük bir bağış yap</string>
     <string name="app_name">XOSP</string>
@@ -62,21 +61,21 @@
     <string name="dim_nav_buttons_timeout_title">Karartma Zaman aşımı</string>
     <string name="dim_nav_buttons_timeout_summary">Butonları karartırken beklenecek süre(Milisaniye)</string>
     <string name="dim_nav_buttons_alpha_title">Karartma Animasyonları</string>
-    <string name="dim_nav_buttons_alpha_summary">Dim Butonlarının Alfa degeri</string>
+    <string name="dim_nav_buttons_alpha_summary">Karatma Butonlarının alfa değeri</string>
     <string name="dim_nav_buttons_animate_title">Karartma Animasyonları</string>
     <string name="dim_nav_buttons_animate_summary">Alfa Karartmasını Animasyonlaştır</string>
     <string name="dim_nav_buttons_animate_duration_title">Animasyon Süresi</string>
     <string name="dim_nav_buttons_animate_duration_summary">Alfa animasyonun Süresi(Milisaniye)</string>
-    <string name="dim_nav_buttons_touch_anywhere_title">Tüm Ekrandaki Dokunuslari Dinle</string>
-    <string name="dim_nav_buttons_touch_anywhere_summary_on">Ekranda herhangi bir yere dokunmak kararmaya sebep olacaktir</string>
-    <string name="dim_nav_buttons_touch_anywhere_summary_off">Sadece Navigasyon tuslarina dokunmak kararmaya sebep olacaktir</string>
+    <string name="dim_nav_buttons_touch_anywhere_title">Tüm Ekrandaki Dokunuşları Dinle</string>
+    <string name="dim_nav_buttons_touch_anywhere_summary_on">Ekranda herhangi bir yere dokunmak kararmaya sebep olacaktır</string>
+    <string name="dim_nav_buttons_touch_anywhere_summary_off">Sadece Navigasyon tuşlarına dokunmak kararmaya sebep olacaktir</string>
     <!-- General strings -->
     <string name="ok">Tamam</string>
-    <string name="reset">Eski Haline Dondur</string>
-    <string name="reset_message">Tum ayarlari Varsayilana sifirlamak istiyor musunuz?</string>
+    <string name="reset">Sıfırla</string>
+    <string name="reset_message">Tüm ayarları sıfırlamak istiyor musunuz?</string>
     <!-- Navigation bar -->
-    <string name="nav_bar_title">Navigasyon Tuslari</string>
-    <string name="navbar_enable_bar_title">Navigasyon Tuslarini Ac</string>
+    <string name="nav_bar_title">Navigasyon Çubuğu</string>
+    <string name="navbar_enable_bar_title">Navigasyon tuşlarını aç</string>
     <string name="navbar_enable_bar_summary">Navigasyon Tuslarini Aktiflestir Ve donanim tuslarini devre disi birak</string>
     <string name="navbar_style_dimen_title">Navigasyon Bari Karanligi</string>
     <string name="navbar_dimensions_reset_message">Hepsini varsayılaan dondurmek istiyormusun?</string>
@@ -156,22 +155,22 @@
     <!-- Dashboard tileview double lines -->
     <string name="dashboard_category">Kontrol Paneli Seçenekleri</string>
     <string name="dashboard_tileview_double_lines_title">Kontrol Paneli Butonlarının Gorünüm Başlığı</string>
-    <string name="dashboard_tileview_double_lines_summary_on">Kontrol Panelini Tekli Göster</string>
-    <string name="dashboard_tileview_double_lines_summary_off">Kontrol Paneli İkili Göster</string>
+    <string name="dashboard_tileview_double_lines_summary_on">Kontrol Panelini Tek Satırda Göster</string>
+    <string name="dashboard_tileview_double_lines_summary_off">Kontrol Panelini 2 Satırda Göster</string>
     <!-- Devices and Maintainers -->
     <string name="device_maintainers_title">Cihazlar Ve Rom Yapımcıları</string>
-    <string name="device_maintainers_title_summary">"XOSP Yapımcılari Tarafindan Resmi Olarak Desteklenen Cihazlar "</string>
+    <string name="device_maintainers_title_summary">"XOSP Yapımcıları Tarafından Resmi Olarak Desteklenen Cihazlar "</string>
     <string name="maintainers_note_title">Not</string>
-    <string name="maintainers_note_title_summary">Eger bu romu Cihaziniz icin calisir hale getirdiyseniz ve resmi olarak destek vermek istiyorsaniz \"Calin Neamtu\' ya Xda bulunan Hangouts linki uzerinden ÖM Atin</string>
+    <string name="maintainers_note_title_summary">Eğer bu ROM\'u cihazınız için çalışır hale getirdiyseniz ve resmi olarak destek vermek istiyorsanız \"Calin Neamtu\" ya XDA\'da bulunan Hangouts linki üzerinden ÖM atın</string>
     <!-- Lock screen settings -->
-    <string name="lockscreen_settings_title">Kilitekrani Duvar Kagidi</string>
-    <string name="lockscreen_wallpaper_title">Duvar Kagidi</string>
-    <string name="lockscreen_wallpaper_set_title">Kilit ekrani Duvar Kagidini ayarla</string>
-    <string name="lockscreen_wallpaper_clear_title">Kilit ekrani duvar kagidini temizle</string>
+    <string name="lockscreen_settings_title">Kilit Ekranı Duvar Kağıdı</string>
+    <string name="lockscreen_wallpaper_title">Duvar Kağıdı</string>
+    <string name="lockscreen_wallpaper_set_title">Kilit ekranı duvar kağıdını ayarla</string>
+    <string name="lockscreen_wallpaper_clear_title">Kilit ekranı duvar kağıdını temizle</string>
     <!-- On-The-Go -->
-    <string name="power_menu_onthego_title">OTG</string>
+    <string name="power_menu_onthego_title">OTG Modu</string>
     <!-- Double Tap Navbar to Sleep -->
-    <string name="double_tap_sleep_nav_bar_title">Cift Tikla Uyutma</string>
+    <string name="double_tap_sleep_nav_bar_title">Çift tıklama ile uyut</string>
     <string name="double_tap_sleep_nav_bar_summary">Navigasyon Tuslarina Cift tiklayarak uyut</string>
     <!-- System App Remover  -->
     <string name="listsystem">Liste</string>
@@ -203,7 +202,13 @@
     <!-- Status bar - Clock -->
     <string name="status_bar_show_clock_second_title">Saat saniyesi</string>
     <string name="clock_font_thin">ince</string>
+    <string name="clock_font_black">Siyah</string>
+    <string name="clock_font_black_italic">Siyah Eğik</string>
+    <string name="clock_font_dancingscript">Efekt Komutu</string>
+    <string name="clock_font_dancingscript_bold">Efekt Komutu Kalın</string>
+    <string name="clock_font_comingsoon">Çok Yakında</string>
     <string name="status_bar_show_clock_second_title">Saat saniyesi</string>
+    <string name="clock_font_size_title">Yazı Boyutu</string>
     <!--Status bar date -->
     <string name="status_bar_clock_category">saat</string>
     <string name="status_bar_date_title">tarih</string>
@@ -224,11 +229,4 @@
     <!-- Color picker -->
     <string name="palette_material_title">materyal</string>
     <!-- Doze options -->
-    <!-- FAQ -->
-    <string name="faq_title">S.S.S</string>
-    <string name="faq_summary">Bir sorun mu var?XOSP\'nin S.S.S Yi Kontrol et</string>
-    <!-- RAM bar -->
-    <string name="recents_show_membar_title">Bellek göstergesi</string>
-    <string name="recents_show_membar_summary_on">Son Uygulamalarda Ram Göster</string>
-    <string name="recents_show_membar_summary_off">Son Uygulamalarda ram göstermeyi aç</string>
 </resources>

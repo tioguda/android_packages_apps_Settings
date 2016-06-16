@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--
+     Copyright (C) 2015 The XOSP Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- XOSP Revision -->
+    <string name="xosp_revision">Revisi XOSP</string>
+    <!-- XOSP Release -->
+    <string name="xosp_release">Pengeluaran XOSP</string>
+    <!-- About phone screen, XOSP Mod version -->
+    <string name="mod_version">Versi Mod</string>
+    <string name="mod_version_default">Tidak dikenalpasti</string>
+    <!--XOSP Changelog-->
+    <string name="xosp_changelog_title">Log Pengubahan</string>
+    <string name="xosp_changelog_summary">"Log Pengubahan XOSP "</string>
+    <string name="xosp_changelog_error">Log Pengubahan tidak dapat dimuat !</string>
+    <!-- XOSP extra settings -->
+    <string name="xosp_settings_header">Tetapan Tambahan XOSP</string>
+    <string name="xosp_settings_title">Tetapan XOSP</string>
+    <string name="xosp_settings_statusbar_cat">Pengubahan Bar Status</string>
+    <string name="xosp_settings_buttons_cat">Pengubahan Butang</string>
+    <string name="xosp_settings_misc_cat">Lain-Lain Pengubahan</string>
+    <!-- About XOSP -->
+    <string name="about_xosp">Tentang XOSP</string>
+    <string name="xosp_donate">Sumbang kepada pembuatan projek ini</string>
+    <string name="xosp_donate_summary">Suka ROM ini ? Buat sumbangan kecil !</string>
+    <string name="app_name">XOSP</string>
+    <string name="devs">Ketua Pembangun</string>
+    <string name="github_nilac">https://github.com/nilac8991</string>
+    <string name="github_cm">https://github.com/CyanogenMod</string>
+    <string name="xosp">XOSP</string>
+    <string name="xosp_source_title">Sumber XOSP</string>
+    <string name="xosp_source_summary">Sumber XOSP di Github</string>
+    <string name="xosp_google_plus_title">Google+</string>
+    <string name="xosp_google_plus_summary">Sertai komuniti di Google+</string>
+    <string name="xosp_site_title">Laman Rasmi XOSP</string>
+    <string name="xosp_site_summary">Lawati Laman Rasmi</string>
+    <string name="xosp_devices_source_title">Sumber Peranti XOSP</string>
+    <string name="xosp_devices_source_summary">Sumber Peranti XOSP di Github</string>
+    <string name="xosp_translations_title">Translasi XOSP</string>
+    <string name="xosp_translations_summary">Menyumbang dengan menterjemahkan XOSP kepada bahasa anda !</string>
+    <string name="maincontributors_title">Pembangun</string>
+    <string name="sourcebase_title">Sumber Asas</string>
+    <string name="share_xosp">Kongsi ROM</string>
+    <string name="share_xosp_summary">Beritahu orang lain yang kamu sedang menggunakan XOSP !</string>
+    <string name="share_message">Cuba XOSP ! https://plus.google.com/u/0/communities/117671498272072664538</string>
+    <string name="share_chooser_title">Kongsi XOSP melalui...</string>
+    <!-- Task Manager -->
+    <string name="enable_task_manager_title">Pengurus Tugas</string>
+    <string name="enable_task_manager_summary">Adakan butang pengurus tugas pada bar status yang dikembang</string>
+    <!-- Statusbar XOSP logo -->
+    <string name="status_bar_xosp_logo_title">Logo XOSP</string>
+    <string name="status_bar_xosp_logo_summary">Paparkan XOSP logo pada statusbar</string>
+    <!-- SlimDim -->
+    <string name="dim_nav_buttons_category">SlimDim</string>
+    <string name="dim_nav_buttons_title">Malapkan butang navigasi selepas dibiar</string>
+    <string name="dim_nav_buttons_summary">Malapkan butang bar navigasi selepas tidak diinteraksi dengan bar navigasi dalam masa yang telah ditetapkan</string>
+    <string name="dim_nav_buttons_timeout_title">Masa tamat sebelum menjadi malap</string>
+    <string name="dim_nav_buttons_timeout_summary">Masa (dalam milisaat) untuk tunggu sebelum memalapkan butang navigasi</string>
+    <string name="dim_nav_buttons_alpha_title">Pemalapan alfa</string>
+    <string name="dim_nav_buttons_alpha_summary">Nilai alfa untuk malapkan butang navigasi</string>
+    <string name="dim_nav_buttons_animate_title">Animasi malap</string>
+    <string name="dim_nav_buttons_animate_summary">Animasikan pemudaran alfa</string>
+    <string name="dim_nav_buttons_animate_duration_title">Tempoh animasi</string>
+    <string name="dim_nav_buttons_animate_duration_summary">Tempoh (dalam milisaat) untuk animasi alfa</string>
+    <string name="dim_nav_buttons_touch_anywhere_title">Mengesan sentuhan pada seluruh skrin</string>
+    <string name="dim_nav_buttons_touch_anywhere_summary_on">Menyentuh pada mana-mana bahagian skrin akan membuatkan butang dinyah malap</string>
+    <string name="dim_nav_buttons_touch_anywhere_summary_off">Hanya sentuhan pada bar navigasi akan membuatkan butang untuk dinyah malap</string>
+    <!-- General strings -->
+    <string name="ok">Ok</string>
+    <string name="reset">Tetap semula</string>
+    <string name="reset_message">Tetap semula semua tetapan kepada asal ?</string>
+    <!-- Navigation bar -->
+    <string name="nav_bar_title">Bar navigasi</string>
+    <string name="navbar_enable_bar_title">Adakan bar navigasi pada skrin</string>
+    <string name="navbar_enable_bar_summary">Adakan bar navigasi pada skrin dan nyahaktifkan butang navigasi luaran</string>
+    <string name="navbar_style_dimen_title">Dimensi (saiz) bar navigasi</string>
+    <string name="navbar_dimensions_reset_message">Tetap semula semua dimensi kepada asal ?</string>
+    <string name="navigation_bar_height_title">Tinggi bar navigasi</string>
+    <string name="navigation_bar_height_summary">Tinggi bar navigasi ketika keadaan potret</string>
+    <string name="navigation_bar_width_title">Lebar bar navigasi</string>
+    <string name="navigation_bar_width_summary">Tinggi bar navigasi ketika berada di tepi</string>
+    <string name="navigation_bar_size_42_dp_default">42 dp (tetapan asal)</string>
+    <string name="navigation_bar_size_36_dp">36 dp</string>
+    <string name="navigation_bar_size_30_dp">30 dp</string>
+    <string name="navigation_bar_size_24_dp">24 dp</string>
+    <string name="navigation_bar_size_48_dp_default">48 dp (tetapan asal)</string>
+    <string name="navigation_bar_size_44_dp">44 dp</string>
+    <string name="navigation_bar_size_40_dp">40 dp</string>
+    <string name="navigation_bar_size_42_dp">42 dp</string>
+    <!-- Ability to disable hardware keys via nav bar settings -->
+    <!-- Network traffic -->
+    <!-- Superuser indicator on status bar -->
+    <!-- long press back to kill configurable timeout -->
+    <!-- Toast animations -->
+    <!-- Double tap to sleep on lockscreen -->
+    <!-- Dashboard columns -->
+    <!-- Dashboard tileview double lines -->
+    <!-- Devices and Maintainers -->
+    <!-- Lock screen settings -->
+    <!-- On-The-Go -->
+    <!-- Double Tap Navbar to Sleep -->
+    <!-- System App Remover  -->
+    <!-- Notification Drawer -->
+    <!-- Optional Dashboard Switches -->
+    <!-- Device info Settings -->
+    <!-- Battery icon -->
+    <!-- Time Contextual Headers -->
+    <!-- Status bar - Clock -->
+    <!--Status bar date -->
+    <!-- Date position -->
+    <!-- XOSPApps -->
+    <!-- Clear all -->
+    <!-- Current on Lockscreen -->
+    <!-- Show carrier label and custom -->
+    <!-- Color picker -->
+    <!-- Doze options -->
+</resources>

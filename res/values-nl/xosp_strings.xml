@@ -222,6 +222,4 @@
     <string name="doze_settings_title">Geadvanceerde dommel opties</string>
     <string name="doze_timeout_summary">Tijd dat scherm actief blijft bij notificatie melding</string>
     <string name="doze_trigger_pickup_title">Reageer bij oppakken</string>
-    <!-- RAM bar -->
-    <string name="recents_show_membar_title">Werkgeheugen balk</string>
 </resources>

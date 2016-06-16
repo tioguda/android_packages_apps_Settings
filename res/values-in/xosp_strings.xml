@@ -29,9 +29,11 @@
     <!-- XOSP extra settings -->
     <string name="xosp_settings_header">Setelan tambahan</string>
     <string name="xosp_settings_title">Setelan XOSP</string>
+    <string name="xosp_settings_statusbar_cat">Personalisasi Status Bar</string>
+    <string name="xosp_settings_buttons_cat">Personalisasi Tombol</string>
+    <string name="xosp_settings_misc_cat">Personalisasi Lainnya</string>
     <!-- About XOSP -->
     <string name="about_xosp">Tentang XOSP</string>
-    <string name="about_xosp_summary">@null</string>
     <string name="xosp_donate">Donasikan untuk pengembangan</string>
     <string name="xosp_donate_summary">Suka ROM ini? Berikan donasi!</string>
     <string name="app_name">XOSP</string>
@@ -45,6 +47,8 @@
     <string name="xosp_google_plus_summary">Gabung komunitas di Google+</string>
     <string name="xosp_site_title">Situs resmi XOSP</string>
     <string name="xosp_site_summary">Kunjungi situs resmi</string>
+    <string name="xosp_devices_source_title">Sumber Perangkat XOSP</string>
+    <string name="xosp_devices_source_summary">Sumber Perangkat XOSP di Github</string>
     <string name="maincontributors_title">"Para pengembang "</string>
     <string name="sourcebase_title">Basis sumber</string>
     <string name="share_xosp">Bagikan ROM</string>
@@ -267,11 +271,4 @@ https://plus.google.com/u/0/communities/117671498272072664538</string>
     <string name="palette_rgb_title">RGB</string>
     <!-- Doze options -->
     <string name="doze_settings_title">Opsi lanjutan doze</string>
-    <!-- FAQ -->
-    <string name="faq_title">F.A.Q</string>
-    <string name="faq_summary">Ada pertanyaan? Lihat bagian XOSP F.A.Q</string>
-    <!-- RAM bar -->
-    <string name="recents_show_membar_title">Bar memori RAM</string>
-    <string name="recents_show_membar_summary_on">Bar memori RAM tersedia akan ditampilkan di tampilan terbaru</string>
-    <string name="recents_show_membar_summary_off">Alihkan ke menampilkan bar memori RAM di tampilan terbaru</string>
 </resources>

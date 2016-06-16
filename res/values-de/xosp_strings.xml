@@ -184,11 +184,4 @@
     <!-- Show carrier label and custom -->
     <!-- Color picker -->
     <!-- Doze options -->
-    <!-- FAQ -->
-    <string name="faq_title">häufig gestellte Fragen (FAQ)</string>
-    <string name="faq_summary">Du hast eine Frage? Schau in die FAQ.</string>
-    <!-- RAM bar -->
-    <string name="recents_show_membar_title">RAM Speicher Anzeige</string>
-    <string name="recents_show_membar_summary_on">RAM Speicher Anzeige im Anwendungsverlauf anzeigen</string>
-    <string name="recents_show_membar_summary_off">Auswählen um die Ram Speicher Anzeige im Anwendungsverlauf an zu zeigen</string>
 </resources>

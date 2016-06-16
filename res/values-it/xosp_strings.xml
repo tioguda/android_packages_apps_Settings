@@ -34,7 +34,6 @@
     <string name="xosp_settings_misc_cat">personalizzazioni miste</string>
     <!-- About XOSP -->
     <string name="about_xosp">riguardo XOSP</string>
-    <string name="about_xosp_summary">@null</string>
     <string name="xosp_donate">Dona per lo Sviluppo</string>
     <string name="xosp_donate_summary">Ti piace la ROM? Fai una piccola donazione!</string>
     <string name="app_name">XOSP</string>
@@ -166,7 +165,7 @@
     <string name="dashboard_tileview_double_lines_summary_on">"Mostra il titolo del tile Dashboard nella prima linea "</string>
     <string name="dashboard_tileview_double_lines_summary_off">"Mostra il titolo del tile Dashboard nella due linee "</string>
     <!-- Devices and Maintainers -->
-    <string name="device_maintainers_title">"Dispositivo e maintainers "</string>
+    <string name="device_maintainers_title">"Dispositivi e maintainers "</string>
     <string name="device_maintainers_title_summary">Lista dei dispositivi supportati ufficialmente dai maintainers XOSP</string>
     <string name="maintainers_note_title">"Note "</string>
     <string name="maintainers_note_title_summary">Se hai compilato la ROM e tutto sta quasi o completamente funzionando e vuoi ottenere l\'approvazione ufficiale manda un messaggio privato a \"Calin Neamtu\" su Hangouts, includendo anche il link al thread di XDA</string>
@@ -314,11 +313,4 @@
     <string name="doze_schedule_summary_on">Doze predefinito ripete gli intervalli (normali [1s,10s,30s,60s,120s] è usato come (predefinito)</string>
     <string name="doze_brightness_title">Doze livello luminosità</string>
     <string name="doze_brightness_summary">regola il livello di luminosità di pulse (in % della massima luminosità consentita)</string>
-    <!-- FAQ -->
-    <string name="faq_title">F.A.Q</string>
-    <string name="faq_summary">Hai una domanda? cerca la selezione adatta nella XOSP F.A.Q</string>
-    <!-- RAM bar -->
-    <string name="recents_show_membar_title">Barra della memoria RAM</string>
-    <string name="recents_show_membar_summary_on">la memoria disponibile verrà visualizzata nel pannello recenti</string>
-    <string name="recents_show_membar_summary_off">toggle per visualizzare la ram disponibile nel pannello recenti</string>
 </resources>

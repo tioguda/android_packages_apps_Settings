@@ -246,9 +246,4 @@
     <string name="reset_xosp_title">Domyślne XOSP</string>
     <!-- Doze options -->
     <string name="doze_settings_title">Zaawansowane opcje Doze</string>
-    <string name="faq_summary">Masz pytanie? Sprawdź sekcję XOSP F.A.Q</string>
-    <!-- RAM bar -->
-    <string name="recents_show_membar_title">Pasek RAM</string>
-    <string name="recents_show_membar_summary_on">Pasek pamięci RAM będzie wyświetlany w panelu ostatnich zadań</string>
-    <string name="recents_show_membar_summary_off">Przełącznik wyświetlania dostępnej pamięci RAM w panelu ostatnich zadań</string>
 </resources>

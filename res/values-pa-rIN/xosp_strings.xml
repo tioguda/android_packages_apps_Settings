@@ -128,6 +128,4 @@
     <!-- Show carrier label and custom -->
     <!-- Color picker -->
     <!-- Doze options -->
-    <!-- RAM bar -->
-    <string name="recents_show_membar_title">ਰੈਮ ਮੈਮੋਰੀ ਪੱਟੀ</string>
 </resources>
