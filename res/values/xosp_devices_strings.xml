@@ -76,8 +76,6 @@
     <string name="device_motorola_falcon_summary">falcon \nMaintainer - Vatsal</string>
 
     <!-- OnePlus devices -->
-    <string name="device_oneplus_bacon">OnePlus One </string>
-    <string name="device_oneplus_bacon_summary">bacon \nMaintainer - Mihir M</string>
     <string name="device_oneplus_oneplus2">OnePlus Two </string>
     <string name="device_oneplus_oneplus2_summary">oneplus2 \nMaintainer - Nik</string>
 

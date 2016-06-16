@@ -31,14 +31,14 @@
              android:key="device_category_asus"
              android:title="@string/device_category_asus_title" >
 
-             <Preference
+            <Preference
                  android:key="device_asus_z551ml"
                  android:icon="@drawable/ic_xosp_device_tint"
                  android:title="@string/device_asus_z551ml"
                  android:summary="@string/device_asus_z551ml_summary"
                  android:selectable="false" />
 
-             <Preference
+            <Preference
                  android:key="device_asus_z550ml"
                  android:icon="@drawable/ic_xosp_device_tint"
                  android:title="@string/device_asus_z550ml"
@@ -51,7 +51,7 @@
              android:key="device_category_google"
              android:title="@string/device_category_google_title" >
 
-             <Preference
+            <Preference
                  android:key="device_google_ao4"
                  android:icon="@drawable/ic_xosp_device_tint"
                  android:title="@string/device_google_ao4"
@@ -79,7 +79,7 @@
                  android:summary="@string/device_google_n5_summary"
                  android:selectable="false" />
 
-           <Preference
+            <Preference
                  android:key="device_google_n6p"
                  android:icon="@drawable/ic_xosp_device_tint"
                  android:title="@string/device_google_n6p"
@@ -91,7 +91,7 @@
              android:key="device_category_lg"
              android:title="@string/device_category_lg_title" >
 
-             <Preference
+            <Preference
                  android:key="device_lg_vs985"
                  android:icon="@drawable/ic_xosp_device_tint"
                  android:title="@string/device_lg_vs985"
@@ -139,28 +139,28 @@
                  android:summary="@string/device_motorola_osprey_summary"
                  android:selectable="false" />
 
-	    <Preference
+	        <Preference
                  android:key="device_motorola_lux"
                  android:icon="@drawable/ic_xosp_device_tint"
                  android:title="@string/device_motorola_lux"
                  android:summary="@string/device_motorola_lux_summary"
                  android:selectable="false" />
 
-	    <Preference
+	        <Preference
                  android:key="device_motorola_surnia"
                  android:icon="@drawable/ic_xosp_device_tint"
                  android:title="@string/device_motorola_surnia"
                  android:summary="@string/device_motorola_surnia_summary"
                  android:selectable="false" />
 
-	    <Preference
+	        <Preference
                  android:key="device_motorola_titan"
                  android:icon="@drawable/ic_xosp_device_tint"
                  android:title="@string/device_motorola_titan"
                  android:summary="@string/device_motorola_titan_summary"
                  android:selectable="false" />
 
-        <Preference
+            <Preference
                  android:key="device_motorola_falcon"
                  android:icon="@drawable/ic_xosp_device_tint"
                  android:title="@string/device_motorola_falcon"
@@ -174,14 +174,7 @@
              android:key="device_category_oneplus"
              android:title="@string/device_category_oneplus_title" >
 
-            <Preference
-                 android:key="device_oneplus_bacon"
-                 android:icon="@drawable/ic_xosp_device_tint"
-                 android:title="@string/device_oneplus_bacon"
-                 android:summary="@string/device_oneplus_bacon_summary"
-                 android:selectable="false" />
-
-	    <Preference
+	        <Preference
                  android:key="device_oneplus_oneplus2"
                  android:icon="@drawable/ic_xosp_device_tint"
                  android:title="@string/device_oneplus_oneplus2"
@@ -194,7 +187,7 @@
              android:key="device_category_xiaomi"
              android:title="@string/device_category_xiaomi_title" >
 
-             <Preference
+            <Preference
                  android:key="device_xiaomi_red"
                  android:icon="@drawable/ic_xosp_device_tint"
                  android:title="@string/device_xiaomi_red"
@@ -207,14 +200,14 @@
              android:key="device_category_yu"
              android:title="@string/device_category_yu_title" >
 
-	    <Preference
+	        <Preference
                  android:key="device_yu_lettuce"
                  android:icon="@drawable/ic_xosp_device_tint"
                  android:title="@string/device_yu_lettuce"
                  android:summary="@string/device_yu_lettuce_summary"
                  android:selectable="false" />
 
-	   <Preference
+	        <Preference
                  android:key="device_yu_tomato"
                  android:icon="@drawable/ic_xosp_device_tint"
                  android:title="@string/device_yu_tomato"
