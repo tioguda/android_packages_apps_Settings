@@ -44,6 +44,7 @@ import com.android.settings.xosp.MiscPersonalizations;
 import com.android.settings.xosp.StatusBarPersonalizations;
 import com.android.settings.xosp.NotificationDrawerSettings;
 import com.android.settings.xosp.LockScreenPersonalizations;
+import com.android.settings.xosp.BlurPersonalizations;
 
 
 import com.android.settings.R;
@@ -103,10 +104,11 @@ public class XOSPMain extends SettingsPreferenceFragment {
             super(fm);
             frags[0] = new StatusBarPersonalizations();
             frags[1] = new LockScreenPersonalizations();
-            frags[2] = new ButtonsPersonalizations();
-            frags[3] = new MiscPersonalizations();
-            frags[4] = new NotificationDrawerSettings();
-            frags[5] = new About();
+            frags[2] = new BlurPersonalizations();
+            frags[3] = new ButtonsPersonalizations();
+            frags[4] = new MiscPersonalizations();
+            frags[5] = new NotificationDrawerSettings();
+            frags[6] = new About();
         }
 
         @Override
@@ -130,6 +132,7 @@ public class XOSPMain extends SettingsPreferenceFragment {
         titleString = new String[]{
                     getString(R.string.xosp_settings_statusbar_cat),
                     getString(R.string.xosp_settings_lockscreen_cat),
+                    getString(R.string.xosp_settings_blur_cat),
                     getString(R.string.xosp_settings_buttons_cat),
                     getString(R.string.xosp_settings_misc_cat),
                     getString(R.string.notification_drawer_title),

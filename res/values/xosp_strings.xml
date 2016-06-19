@@ -38,6 +38,7 @@
     <string name="xosp_settings_buttons_cat">Buttons Personalizations</string>
     <string name="xosp_settings_misc_cat">Misc Personalizations</string>
     <string name="xosp_settings_lockscreen_cat">LockScreen Personalizations</string>
+    <string name="xosp_settings_blur_cat">Blur personalizations</string>
     
     
     <!-- About XOSP -->
@@ -396,9 +397,29 @@
     <string name="doze_brightness_title">Doze brightness level</string>
     <string name="doze_brightness_summary">Brightness level of doze pulse screen (% of max allowed brightness)</string>
 
-    <!-- Lockscreen see through -->
-    <string name="lockscreen_see_through_title">Lockscreen blur</string>
+    <!-- Blur Settings -->
+    <string name="lockscreen_see_through_title">Lockscreen Blur</string>
     <string name="lockscreen_see_through_summary">Blurs and displays the content behind your lockscreen.</string>
     <string name="lockscreen_blur_radius">Blur effect intensity</string>
+
+    <string name="blurred_status_bar_expanded_enabled_pref">Blur StatusBar Background</string>
+    <string name="blurred_status_bar_expanded_enabled_pref_summary">Blur the background when you pull down the status bar</string>
+    <string name="translucent_notifications_pref">Translucent Notifications</string>
+    <string name="translucent_notifications_pref_summary">Set the background of notifications translucent</string>
+    <string name="translucent_header_pref">Blurred Status Bar Header </string>
+    <string name="translucent_header_pref_summary">Blur the background of status bar header</string>
+    <string name="translucent_quick_settings_pref">Blurred Expanded StatusBar</string>
+    <string name="translucent_quick_settings_pref_summary">Blur the background of expanded status bar </string>
+    <string name="blurred_recent_app_enabled_pref">Blurred Recents apps background </string>
+    <string name="blurred_recent_app_enabled_pref_summary">Blur the background of recents apps</string>
+
+    <string name="blurred_scale">Blur Scale</string>
+    <string name="blurred_scale_summary">Quailty of blur image</string>
+
+    <string name="blurred_radius">Blur Radius</string>
+    <string name="blurred_radius_summary">Amount of blur</string>
+
+    <string name="blur_cat_notice">Notice</string>
+    <string name="blurred_cat_notice_summary">In order for a change to take effect do not forget to Restart everytime the SystemUI!! Or else you will no notice the difference!</string>
 
 </resources>
