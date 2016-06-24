@@ -38,7 +38,7 @@
     <string name="xosp_settings_buttons_cat">Buttons Personalizations</string>
     <string name="xosp_settings_misc_cat">Misc Personalizations</string>
     <string name="xosp_settings_lockscreen_cat">LockScreen Personalizations</string>
-    <string name="xosp_settings_blur_cat">Blur personalizations</string>
+    <string name="xosp_settings_blur_cat">Blur Personalizations</string>
     
     
     <!-- About XOSP -->
@@ -410,8 +410,12 @@
     <string name="translucent_header_pref_summary">Blur the background of status bar header</string>
     <string name="translucent_quick_settings_pref">Blurred Expanded StatusBar</string>
     <string name="translucent_quick_settings_pref_summary">Blur the background of expanded status bar </string>
-    <string name="blurred_recent_app_enabled_pref">Blurred Recents apps background </string>
-    <string name="blurred_recent_app_enabled_pref_summary">Blur the background of recents apps</string>
+    <string name="transluency_level_universal">Transluency level</string>
+
+    <string name="blur_expstatus_cat">Expanded StatusBar </string>
+    <string name="blur_notifications_cat">Notifications</string>
+    <string name="blur_header_cat">StatusBar Header</string>
+    <string name="blur_qs_cat">Quick Settings</string>
 
     <string name="blurred_scale">Blur Scale</string>
     <string name="blurred_scale_summary">Quailty of blur image</string>
@@ -419,7 +423,5 @@
     <string name="blurred_radius">Blur Radius</string>
     <string name="blurred_radius_summary">Amount of blur</string>
 
-    <string name="blur_cat_notice">Notice</string>
-    <string name="blurred_cat_notice_summary">In order for a change to take effect do not forget to Restart everytime the SystemUI!! Or else you will no notice the difference!</string>
 
 </resources>

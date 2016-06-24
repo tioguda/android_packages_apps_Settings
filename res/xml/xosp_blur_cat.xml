@@ -19,92 +19,89 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/xosp_settings_blur_cat">
 
-    <Preference
-        style="?android:preferenceInformationStyle"
-        android:title="@blur_cat_notice"
-        android:summary="@string/blur_cat_notice_summary"
-        android:selectable="false" />
-
     <PreferenceCategory
-        android:key="blur_statusbar_cat"
-        android:title="StatusBar" >
+        android:key="blur_expstatus_cat"
+        android:title="@string/blur_expstatus_cat" >
 
-      <SwitchPreference
-         android:key="blurred_status_bar_expanded_enabled_pref"
-         android:title="@string/blurred_status_bar_expanded_enabled_pref"
-         android:summary="@string/blurred_status_bar_expanded_enabled_pref_summary"
-         android:defaultValue="false" />
+        <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
+            android:key="blurred_status_bar_expanded_enabled_pref"
+            android:title="@string/blurred_status_bar_expanded_enabled_pref"
+            android:summary="@string/blurred_status_bar_expanded_enabled_pref_summary"
+            android:defaultValue="false" />
 
-      <com.android.settings.xosp.SeekBarPreference
-         android:key="statusbar_blur_scale"
-         android:title="@string/blurred_scale"
-         android:summary="@string/blurred_scale_summary"
-         android:dependency="blurred_status_bar_expanded_enabled_pref"
-         android:persistent="false"
-         android:max="25"
-         settings:min="1"
-         android:defaultValue="10" />
+        <com.android.settings.xosp.SeekBarPreference
+            android:key="statusbar_blur_scale"
+            android:title="@string/blurred_scale"
+            android:summary="@string/blurred_scale_summary"
+            android:max="20"
+            settings:min="0"
+            android:dependency="blurred_status_bar_expanded_enabled_pref"
+            android:defaultValue="10" />
 
-  	  <com.android.settings.xosp.SeekBarPreference
-         android:key="statusbar_blur_radius"
-         android:title="@string/blurred_radius"
-         android:summary="@string/blurred_radius_summary"
-         android:dependency="blurred_status_bar_expanded_enabled_pref"
-         android:persistent="false"
-         android:max="25"
-         settings:min="1"
-         android:defaultValue="5" />
-
-      <SwitchPreference
-         android:key="translucent_notifications_pref"
-         android:title="@string/translucent_notifications_pref"
-         android:summary="@string/translucent_notifications_pref_summary"
-         android:dependency="blurred_status_bar_expanded_enabled_pref"
-         android:defaultValue="false" />
-
-      <SwitchPreference
-         android:key="translucent_header_pref"
-         android:title="@string/translucent_header_pref"
-         android:summary="@string/translucent_header_pref_summary"
-         android:dependency="blurred_status_bar_expanded_enabled_pref"
-         android:defaultValue="false" />
-
-      <SwitchPreference
-         android:key="translucent_quick_settings_pref"
-         android:title="@string/translucent_quick_settings_pref"
-         android:summary="@string/translucent_quick_settings_pref_summary"
-         android:dependency="blurred_status_bar_expanded_enabled_pref"
-         android:defaultValue="false" />
+        <com.android.settings.xosp.SeekBarPreference
+            android:key="statusbar_blur_radius"
+            android:title="@string/blurred_radius"
+            android:summary="@string/blurred_radius_summary"
+            android:max="25"
+            settings:min="0"
+            android:dependency="blurred_status_bar_expanded_enabled_pref"
+            android:defaultValue="5" />
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:key="blur_recents_cat"
-        android:title="Recents" >
+        android:key="blur_notifications_cat"
+        android:title="@string/blur_notifications_cat" >   
 
-      <SwitchPreference
-         android:key="blurred_recent_app_enabled_pref"
-         android:title="@string/blurred_recent_app_enabled_pref"
-         android:summary="@string/blurred_recent_app_enabled_pref_summary"
-         android:defaultValue="false" />
+        <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
+            android:key="translucent_notifications_pref"
+            android:title="@string/translucent_notifications_pref"
+            android:summary="@string/translucent_notifications_pref_summary"
+            android:defaultValue="false" />
 
-      <com.android.settings.xosp.SeekBarPreference
-         android:key="statusbar_blur_scale"
-         android:title="@string/blurred_scale"
-         android:summary="@string/blurred_scale_summary"
-         android:dependency="blurred_recent_app_enabled_pref"
-         android:persistent="false"
-         android:max="25"
-         settings:min="1"
-         android:defaultValue="10" />
+        <com.android.settings.xosp.SeekBarPreference
+            android:key="notifications_transluency"
+            android:title="@string/transluency_level_universal"
+            android:max="100"
+            settings:min="0"
+            android:dependency="translucent_notifications_pref"
+            android:defaultValue="60" />
+    </PreferenceCategory>
 
-      <com.android.settings.xosp.SeekBarPreference
-         android:key="statusbar_blur_radius"
-         android:title="@string/blurred_radius"
-         android:summary="@string/blurred_radius_summary"
-         android:dependency="blurred_recent_app_enabled_pref"
-         android:persistent="false"
-         android:max="25"
-         settings:min="1"
-         android:defaultValue="5" />
+    <PreferenceCategory
+        android:key="blur_header_cat"
+        android:title="@string/blur_header_cat" > 
+
+        <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
+            android:key="translucent_header_pref"
+            android:title="@string/translucent_header_pref"
+            android:summary="@string/translucent_header_pref_summary"
+            android:defaultValue="false" />
+
+        <com.android.settings.xosp.SeekBarPreference
+            android:key="header_transluency"
+            android:title="@string/transluency_level_universal"
+            android:max="100"
+            settings:min="0"
+            android:dependency="translucent_header_pref"
+            android:defaultValue="60" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="blur_qs_cat"
+        android:title="@string/blur_qs_cat" >
+
+        <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
+            android:key="translucent_quick_settings_pref"
+            android:title="@string/translucent_quick_settings_pref"
+            android:summary="@string/translucent_quick_settings_pref_summary"
+            android:defaultValue="false" />
+
+        <com.android.settings.xosp.SeekBarPreference
+            android:key="quick_settings_transluency"
+            android:title="@string/transluency_level_universal"
+            android:max="100"
+            settings:min="0"
+            android:dependency="translucent_quick_settings_pref"
+            android:defaultValue="60" />
     </PreferenceCategory>
 </PreferenceScreen>

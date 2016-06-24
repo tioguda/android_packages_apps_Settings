@@ -22,8 +22,10 @@ import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.preference.ListPreference;
+import android.preference.SwitchPreference;
 import android.preference.TwoStatePreference;
 import android.preference.Preference;
+import android.preference.PreferenceScreen;
 import android.preference.Preference.OnPreferenceChangeListener;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
@@ -48,67 +50,67 @@ import com.android.settings.xosp.SeekBarPreference;
 public class BlurPersonalizations extends SettingsPreferenceFragment
         implements OnPreferenceChangeListener {
 
-    private TwoStatePreference mExpand;
-    private TwoStatePreference mNotiTrans;
-    private TwoStatePreference mHeadSett;
-    private TwoStatePreference mQuickSett;
+    //Switch Preferences
+    private SwitchPreference mExpand;
+    private SwitchPreference mNotiTrans;
+    private SwitchPreference mHeadSett;
+    private SwitchPreference mQuickSett;
     private TwoStatePreference mRecentsSett;
+    
+    //Transluency,Radius and Scale
     private SeekBarPreference mScale;
     private SeekBarPreference mRadius;
+    private SeekBarPreference mQuickSettPerc;
+    private SeekBarPreference mHeaderSettPerc;
+    private SeekBarPreference mNotSettPerc;
 
     @Override
-    public void onCreate(Bundle icicle) {
-        super.onCreate(icicle);
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.xosp_blur_cat);
+        PreferenceScreen prefSet = getPreferenceScreen();
 
         ContentResolver resolver = getActivity().getContentResolver();
 
-        mExpand = (TwoStatePreference) findPreference("blurred_status_bar_expanded_enabled_pref");
-
-        boolean mExpandint = (Settings.System.getInt(resolver,
-                Settings.System.STATUS_BAR_EXPANDED_ENABLED_PREFERENCE_KEY, 1) == 1);
-        mExpand.setChecked(mExpandint);
-        mExpand.setOnPreferenceChangeListener(this);
+        mExpand = (SwitchPreference) prefSet.findPreference("blurred_status_bar_expanded_enabled_pref");
+        mExpand.setChecked((Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.STATUS_BAR_EXPANDED_ENABLED_PREFERENCE_KEY, 0) == 1));
 
         mScale = (SeekBarPreference) findPreference("statusbar_blur_scale");
-        
-        mScale.setValue(CMSettings.System.getInt(resolver, CMSettings.System.STATUSBAR_BLUR_SCALE, 10));
+        mScale.setValue(Settings.System.getInt(resolver, Settings.System.BLUR_SCALE_PREFERENCE_KEY, 10));
         mScale.setOnPreferenceChangeListener(this);
 
         mRadius = (SeekBarPreference) findPreference("statusbar_blur_radius");
-        
-        mRadius.setValue(CMSettings.System.getInt(resolver, CMSettings.System.STATUSBAR_BLUR_RADIUS, 5));
+        mRadius.setValue(Settings.System.getInt(resolver, Settings.System.BLUR_RADIUS_PREFERENCE_KEY, 5));
         mRadius.setOnPreferenceChangeListener(this);
 
-        mNotiTrans = (TwoStatePreference) findPreference("translucent_notifications_pref");
+        mNotiTrans = (SwitchPreference) prefSet.findPreference("translucent_notifications_pref");
+        mNotiTrans.setChecked((Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.TRANSLUCENT_NOTIFICATIONS_PREFERENCE_KEY, 0) == 1));
 
-        boolean mNotiTransint = (Settings.System.getInt(resolver,
-                Settings.System.TRANSLUCENT_NOTIFICATIONS_PREFERENCE_KEY, 1) == 1);
-        mNotiTrans.setChecked(mNotiTransint);
-        mNotiTrans.setOnPreferenceChangeListener(this);
+        mHeadSett = (SwitchPreference) prefSet.findPreference("translucent_header_pref");
+        mHeadSett.setChecked((Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.TRANSLUCENT_HEADER_PREFERENCE_KEY, 0) == 1));
 
-        mHeadSett = (TwoStatePreference) findPreference("translucent_header_pref");
+        mQuickSett = (SwitchPreference) prefSet.findPreference("translucent_quick_settings_pref");
+        mQuickSett.setChecked((Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.TRANSLUCENT_QUICK_SETTINGS_PREFERENCE_KEY, 0) == 1));
 
-        boolean mHeadSettint = (Settings.System.getInt(resolver,
-                Settings.System.TRANSLUCENT_HEADER_PREFERENCE_KEY, 1) == 1);
-        mHeadSett.setChecked(mHeadSettint);
-        mHeadSett.setOnPreferenceChangeListener(this);
+        mQuickSettPerc = (SeekBarPreference) findPreference("quick_settings_transluency");
+        mQuickSettPerc.setValue(Settings.System.getInt(resolver, Settings.System.TRANSLUCENT_QUICK_SETTINGS_PRECENTAGE_PREFERENCE_KEY, 60));
+        mQuickSettPerc.setOnPreferenceChangeListener(this);
 
-        mQuickSett = (TwoStatePreference) findPreference("translucent_quick_settings_pref");
+        mHeaderSettPerc = (SeekBarPreference) findPreference("header_transluency");
+        mHeaderSettPerc.setValue(Settings.System.getInt(resolver, Settings.System.TRANSLUCENT_HEADER_PRECENTAGE_PREFERENCE_KEY, 60));
+        mHeaderSettPerc.setOnPreferenceChangeListener(this);
 
-        boolean mQuickSettint = (Settings.System.getInt(resolver,
-                Settings.System.TRANSLUCENT_QUICK_SETTINGS_PREFERENCE_KEY, 1) == 1);
-        mQuickSett.setChecked(mQuickSettint);
-        mQuickSett.setOnPreferenceChangeListener(this);
-
-        mRecentsSett = (TwoStatePreference) findPreference("blurred_recent_app_enabled_pref");
-
-        boolean mRecentsSettint = (Settings.System.getInt(resolver,
-            Settings.System.RECENT_APPS_ENABLED_PREFERENCE_KEY, 1) == 1);
-        mRecentsSett.setChecked(mRecentsSettint);
-        mRecentsSett.setOnPreferenceChangeListener(this);
+        mNotSettPerc = (SeekBarPreference) findPreference("notifications_transluency");
+        mNotSettPerc.setValue(Settings.System.getInt(resolver, Settings.System.TRANSLUCENT_NOTIFICATIONS_PRECENTAGE_PREFERENCE_KEY, 60));
+        mNotSettPerc.setOnPreferenceChangeListener(this);
 
     }
+
+
 
     @Override
     protected int getMetricsCategory() {
@@ -123,42 +125,54 @@ public class BlurPersonalizations extends SettingsPreferenceFragment
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();
-        if (preference == mExpand) {
+        if (preference == mScale) {
+            int value = ((Integer)newValue).intValue();
             Settings.System.putInt(
-                    resolver, Settings.System.STATUS_BAR_EXPANDED_ENABLED_PREFERENCE_KEY, (((Boolean) newValue) ? 1 : 0));
+                resolver, Settings.System.BLUR_SCALE_PREFERENCE_KEY, value);
             return true;
-        } else if (preference == mScale) {
-            try {
-                CMSettings.System.putInt(
-                    resolver, CMSettings.System.STATUSBAR_BLUR_SCALE, (Integer) newValue);
-                return true;
-            } catch (NumberFormatException e) {
-                return false;
-            }
         } else if (preference == mRadius) {
-            try {
-                CMSettings.System.putInt(
-                    resolver, CMSettings.System.STATUSBAR_BLUR_RADIUS, (Integer) newValue);
-                return true;
-            } catch (NumberFormatException e) {
-                return false;
-            }
-        } else if (preference == mNotiTrans) {
+            int value = ((Integer)newValue).intValue();
             Settings.System.putInt(
-                    resolver, Settings.System.TRANSLUCENT_NOTIFICATIONS_PREFERENCE_KEY, (((Boolean) newValue) ? 1 : 0));
+                resolver, Settings.System.BLUR_RADIUS_PREFERENCE_KEY, value);
             return true;
-        } else if (preference == mHeadSett) {
+        } else if (preference == mQuickSettPerc) {
+            int value = ((Integer)newValue).intValue();
             Settings.System.putInt(
-                    resolver, Settings.System.TRANSLUCENT_HEADER_PREFERENCE_KEY, (((Boolean) newValue) ? 1 : 0));
+                resolver, Settings.System.TRANSLUCENT_QUICK_SETTINGS_PRECENTAGE_PREFERENCE_KEY, value);
             return true;
-        } else if (preference == mQuickSett) {
+        } else if (preference == mHeaderSettPerc) {
+            int value = ((Integer)newValue).intValue();
             Settings.System.putInt(
-                    resolver, Settings.System.TRANSLUCENT_QUICK_SETTINGS_PREFERENCE_KEY, (((Boolean) newValue) ? 1 : 0));
+                resolver, Settings.System.TRANSLUCENT_HEADER_PRECENTAGE_PREFERENCE_KEY, value);
             return true;
-        } else if (preference == mRecentsSett) {
+        } else if (preference == mNotSettPerc) {
+            int value = ((Integer)newValue).intValue();
             Settings.System.putInt(
-                    resolver, Settings.System.RECENT_APPS_ENABLED_PREFERENCE_KEY, (((Boolean) newValue) ? 1 : 0));
+                resolver, Settings.System.TRANSLUCENT_NOTIFICATIONS_PRECENTAGE_PREFERENCE_KEY, value);
+            return true;
         }
         return false;
+    }
+
+    @Override
+    public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
+        if  (preference == mExpand) {
+            boolean enabled = ((SwitchPreference)preference).isChecked();
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.STATUS_BAR_EXPANDED_ENABLED_PREFERENCE_KEY, enabled ? 1:0);
+        } else if (preference == mNotiTrans) {
+            boolean enabled = ((SwitchPreference)preference).isChecked();
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.TRANSLUCENT_NOTIFICATIONS_PREFERENCE_KEY, enabled ? 1:0);
+        } else if (preference == mHeadSett) {
+            boolean enabled = ((SwitchPreference)preference).isChecked();
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.TRANSLUCENT_HEADER_PREFERENCE_KEY, enabled ? 1:0);       
+        } else if (preference == mQuickSett) {
+            boolean enabled = ((SwitchPreference)preference).isChecked();
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.TRANSLUCENT_QUICK_SETTINGS_PREFERENCE_KEY, enabled ? 1:0); 
+        }
+        return super.onPreferenceTreeClick(preferenceScreen, preference);
     }
 }
