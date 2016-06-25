@@ -34,7 +34,7 @@
             android:title="@string/blurred_scale"
             android:summary="@string/blurred_scale_summary"
             android:max="20"
-            settings:min="0"
+            settings:min="1"
             android:dependency="blurred_status_bar_expanded_enabled_pref"
             android:defaultValue="10" />
 
@@ -43,7 +43,7 @@
             android:title="@string/blurred_radius"
             android:summary="@string/blurred_radius_summary"
             android:max="25"
-            settings:min="0"
+            settings:min="1"
             android:dependency="blurred_status_bar_expanded_enabled_pref"
             android:defaultValue="5" />
     </PreferenceCategory>
