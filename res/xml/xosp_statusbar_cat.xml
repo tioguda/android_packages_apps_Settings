@@ -119,7 +119,7 @@
              android:entryValues="@array/show_network_traffic_frequency_values"
              android:persistent="false" />
 
-         <SwitchPreference
+         <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
              android:key="network_traffic_autohide"
              android:title="@string/network_traffic_autohide_title"
              android:summary="@string/network_traffic_autohide_summary"
