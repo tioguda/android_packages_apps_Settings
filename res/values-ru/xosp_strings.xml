@@ -16,43 +16,51 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- XOSP Revision -->
-    <string name="xosp_revision">"XOSP ревизия "</string>
+    <string name="xosp_revision">Ревизия XOSP</string>
     <!-- XOSP Release -->
-    <string name="xosp_release">XOSP релиз</string>
+    <string name="xosp_release">Релиз XOSP</string>
     <!-- About phone screen, XOSP Mod version -->
     <string name="mod_version">Версия мода</string>
     <string name="mod_version_default">"Неизвестно "</string>
     <!--XOSP Changelog-->
-    <string name="xosp_changelog_title">Changelog</string>
-    <string name="xosp_changelog_summary">XOSP Changelog</string>
-    <string name="xosp_changelog_error">Changelog не может быть загружен</string>
+    <string name="xosp_changelog_title">История Изменений</string>
+    <string name="xosp_changelog_summary">История Изменений XOSP</string>
+    <string name="xosp_changelog_error">История Изменений не может быть загружена</string>
     <!-- XOSP extra settings -->
     <string name="xosp_settings_header">Дополнительные настройки</string>
-    <string name="xosp_settings_title">"XOSP настройки "</string>
+    <string name="xosp_settings_title">Настройки XOSP</string>
+    <string name="xosp_settings_statusbar_cat">Персонализация Статус Бара</string>
+    <string name="xosp_settings_buttons_cat">Персонализация Кнопок</string>
     <!-- About XOSP -->
     <string name="about_xosp">О XOSP</string>
     <string name="xosp_donate">Пожертвовать разработчикам</string>
-    <string name="xosp_donate_summary">Нравится Rom?Сделай небольшое пожертвование</string>
-    <string name="app_name">"Xperia Open Source Project "</string>
+    <string name="xosp_donate_summary">Нравится Прошивка? Сделай небольшое пожертвование</string>
+    <string name="app_name">XOSP</string>
     <string name="devs">Лидер разработки</string>
     <string name="github_nilac">https://github.com/nilac8991</string>
     <string name="github_cm">https://github.com/CyanogenMod</string>
     <string name="xosp">XOSP</string>
-    <string name="xosp_source_title">"Двигатель XOSP "</string>
-    <string name="xosp_source_summary">XOSP двигатель на Github</string>
+    <string name="xosp_source_title">"Исходный код XOSP "</string>
+    <string name="xosp_source_summary">Исходные Коды XOSP на Github</string>
     <string name="xosp_google_plus_title">Google+</string>
     <string name="xosp_google_plus_summary">Присоединяйтесь к разработчикам в Google+</string>
+    <string name="xosp_site_title">Официальный сайт XOSP</string>
+    <string name="xosp_site_summary">Посетить Официальный Сайт</string>
+    <string name="xosp_devices_source_title">Исходники поддерживаемых XOSP устройств</string>
+    <string name="xosp_devices_source_summary">Исходники поддерживаемых XOSP устройств на Github</string>
+    <string name="xosp_translations_title">Переводы XOSP</string>
+    <string name="xosp_translations_summary">Сделай вклад в этот проект, переведи прошивку на свой язык!</string>
     <string name="maincontributors_title">Разработчики</string>
     <string name="sourcebase_title">Основа</string>
-    <string name="share_xosp">Рассказать о ROM</string>
+    <string name="share_xosp">Рассказать о Прошивке</string>
     <string name="share_xosp_summary">Пусть люди узнают,что ты пользуешься XOSP</string>
-    <string name="share_message">Спасибо XOSP!https://plus.google.com/u/0/communities/117671498272072664538</string>
+    <string name="share_message">Попробуй XOSP! https://plus.google.com/u/0/communities/117671498272072664538</string>
     <string name="share_chooser_title">Расскажите о XOSP через..</string>
     <!-- Task Manager -->
-    <string name="enable_task_manager_title">Менеджер задач</string>
+    <string name="enable_task_manager_title">Диспетчер задач</string>
     <string name="enable_task_manager_summary">Включение / выключение действия для кнопки диспетчера задач в расширенной области строки состояния</string>
     <!-- Statusbar XOSP logo -->
-    <string name="status_bar_xosp_logo_title">Логотип XOSP</string>
+    <string name="status_bar_xosp_logo_title">Логотип XOSP в Статус баре</string>
     <string name="status_bar_xosp_logo_summary">Включить значок XOSP в статус баре</string>
     <!-- SlimDim -->
     <string name="dim_nav_buttons_category">Slimdim</string>
@@ -169,6 +177,7 @@
     <string name="lockscreen_wallpaper_clear_title">Очистить обои экрана блокировки</string>
     <!-- On-The-Go -->
     <string name="power_menu_onthego_title">Режим \"На Ходу\"</string>
+    <string name="power_menu_onthego_summary">При включении этой опции она будет доступна в меню выключения и перезагрузки</string>
     <!-- Double Tap Navbar to Sleep -->
     <string name="double_tap_sleep_nav_bar_title">Двойное нажатие для сна</string>
     <string name="double_tap_sleep_nav_bar_summary">Дважды нажать  наэкранные кнопки,для погружения в сон</string>
@@ -194,14 +203,24 @@
     <!-- Notification Drawer -->
     <!-- Optional Dashboard Switches -->
     <!-- Device info Settings -->
+    <string name="device_info_xosp_category">Информация про XOSP</string>
+    <string name="device_info_device_category">Информация про устройство</string>
+    <string name="device_info_android_category">Информация о ОС</string>
+    <string name="device_info_other_category">Иная Информация</string>
     <!-- Battery icon -->
     <!-- Time Contextual Headers -->
     <!-- Status bar - Clock -->
     <!--Status bar date -->
     <!-- Date position -->
     <!-- XOSPApps -->
+    <string name="xospapps_default_string">Не установлены</string>
     <!-- Clear all -->
+    <string name="recents_panel_category">Панель \'Недавние\'</string>
+    <string name="show_clear_all_recents_button_title">Кнопка \'Закрыть все\'</string>
+    <string name="show_clear_all_recents_button_summary">Показывать кнопку \'Закрыть все\'</string>
+    <string name="recents_clear_all_location_title">Положение кнопки \'Закрыть все\'</string>
     <!-- Current on Lockscreen -->
+    <string name="lock_screen_show_current">Идет зарядка</string>
     <!-- Show carrier label and custom -->
     <!-- Color picker -->
     <!-- Doze options -->

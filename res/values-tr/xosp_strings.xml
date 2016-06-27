@@ -28,9 +28,9 @@
     <string name="xosp_changelog_error">Değişen Listesi yüklenemedi</string>
     <!-- XOSP extra settings -->
     <string name="xosp_settings_header">Extra Seçenekler</string>
-    <string name="xosp_settings_title">XOSP Ayarları</string>
+    <string name="xosp_settings_title">Xosp Ayarları</string>
     <!-- About XOSP -->
-    <string name="about_xosp">XOSP Hakkında</string>
+    <string name="about_xosp">Xosp Hakkında</string>
     <string name="xosp_donate">Geliştirmeye Bağış yap</string>
     <string name="xosp_donate_summary">Romu Sevdin mİ?Küçük bir bağış yap</string>
     <string name="app_name">XOSP</string>
@@ -38,7 +38,7 @@
     <string name="github_nilac">https://github.com/nilac8991</string>
     <string name="github_cm">https://github.com/CyanogenMod</string>
     <string name="xosp">XOSP</string>
-    <string name="xosp_source_title">XOSP Kaynak Kodları</string>
+    <string name="xosp_source_title">Xosp Kaynak Kodları</string>
     <string name="xosp_source_summary">Githubdaki XOSP Kaynak Kodları</string>
     <string name="xosp_google_plus_title">Google+</string>
     <string name="xosp_google_plus_summary">Google+ da Bulunan Topluluğa katıl</string>
@@ -46,8 +46,8 @@
     <string name="sourcebase_title">Kaynak Kodu Tabanı</string>
     <string name="share_xosp">Romu Paylaş</string>
     <string name="share_xosp_summary">İnsanların senin XOSP kullandığnı bilmesine izin ver</string>
-    <string name="share_message">XOSP Dene https://plus.google.com/u/0/communities/117671498272072664538</string>
-    <string name="share_chooser_title">XOSP yi şunun aracılığıyla paylaş</string>
+    <string name="share_message">Xosp Dene https://plus.google.com/u/0/communities/117671498272072664538</string>
+    <string name="share_chooser_title">Xosp yi şunun aracılığıyla paylaş</string>
     <!-- Task Manager -->
     <string name="enable_task_manager_title">Görev Yöneticisi</string>
     <string name="enable_task_manager_summary">"Durum çubuğundaki görev yöneticisi tuşunu Etkinleştir/Devre dışı bırak "</string>

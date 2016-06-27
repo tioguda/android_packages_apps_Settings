@@ -18,7 +18,7 @@
     <!-- XOSP Revision -->
     <string name="xosp_revision">Revisão XOSP</string>
     <!-- XOSP Release -->
-    <string name="xosp_release">Lacamento XOSP</string>
+    <string name="xosp_release">Lançamento XOSP</string>
     <!-- About phone screen, XOSP Mod version -->
     <string name="mod_version">Versão MOD</string>
     <string name="mod_version_default">Desconhecido</string>
