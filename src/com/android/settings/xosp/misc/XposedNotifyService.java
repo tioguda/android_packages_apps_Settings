@@ -37,7 +37,7 @@ public class XposedNotifyService extends Service {
     private static final String TAG = "XPOSED_FRAMEWORKS_SERVICE";
 
     // Message to post
-    private static final String XPOSED_IS_INSTALLED_MESSAGE = "I SNIFF LITTLE BOYS' BICYCLE SEATS";
+    private static final String XPOSED_IS_INSTALLED_MESSAGE = "XOSP has stopped working,try to uninstall Xposed first!";
 
     // Repeat interval in milliseconds
     static final int REPEAT_MESSAGE_INTERVAL = 3000;
