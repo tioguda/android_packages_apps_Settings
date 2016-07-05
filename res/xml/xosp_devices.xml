@@ -91,6 +91,13 @@
              android:key="device_category_lg"
              android:title="@string/device_category_lg_title" >
 
+             <Preference
+                 android:key="device_lg_d802"
+                 android:icon="@drawable/ic_xosp_device_tint"
+                 android:title="@string/device_lg_d802"
+                 android:summary="@string/device_lg_d802_summary"
+                 android:selectable="false" />
+
             <Preference
                  android:key="device_lg_vs985"
                  android:icon="@drawable/ic_xosp_device_tint"
