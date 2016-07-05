@@ -52,6 +52,8 @@
     <string name="device_google_n6p_summary">Angler \nMaintainer - Nicholas Pace</string>
 
     <!-- LG Devices -->
+    <string name="device_lg_d802">LG G2 D802</string>
+    <string name="device_lg_d802_summary">D802 \nMaintainer - Matteo Lima</string>
     <string name="device_lg_vs985">LG G3 VS985</string>
     <string name="device_lg_vs985_summary">vs985 \nMaintainer - Nitinkumar Chobhe</string>
     <string name="device_lg_d851">LG G3 D851</string>
