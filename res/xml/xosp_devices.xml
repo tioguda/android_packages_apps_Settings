@@ -171,6 +171,19 @@
         </PreferenceCategory>
 
         <PreferenceCategory
+             android:key="device_category_nvidia"
+             android:title="@string/device_category_nvidia_title" >
+
+	        <Preference
+                 android:key="device_nvidia_shieldtablet"
+                 android:icon="@drawable/ic_xosp_device_tint"
+                 android:title="@string/device_nvidia_shieldtablet"
+                 android:summary="@string/device_nvidia_shieldtablet_summary"
+                 android:selectable="false" />
+
+        </PreferenceCategory>
+
+        <PreferenceCategory
              android:key="device_category_oneplus"
              android:title="@string/device_category_oneplus_title" >
 
