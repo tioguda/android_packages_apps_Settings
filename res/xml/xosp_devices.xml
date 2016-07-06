@@ -85,8 +85,15 @@
                  android:title="@string/device_google_n6p"
                  android:summary="@string/device_google_n6p_summary"
                  android:selectable="false" />
-        </PreferenceCategory>
-
+                 
+            <Preference
+                 android:key="device_google_n5x"
+                 android:icon="@drawable/ic_xosp_device_tint"
+                 android:title="@string/device_google_n5x"
+                 android:summary="@string/device_google_n5x_summary"
+                 android:selectable="false" />
+        </PreferenceCategory>    
+             
         <PreferenceCategory
              android:key="device_category_lg"
              android:title="@string/device_category_lg_title" >
