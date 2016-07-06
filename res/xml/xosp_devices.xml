@@ -94,9 +94,6 @@
                  android:selectable="false" />
         </PreferenceCategory>    
              
-                 
-        </PreferenceCategory>
-
         <PreferenceCategory
              android:key="device_category_lg"
              android:title="@string/device_category_lg_title" >
