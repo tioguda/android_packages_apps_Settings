@@ -207,6 +207,13 @@
                  android:title="@string/device_oneplus_oneplus2"
                  android:summary="@string/device_oneplus_oneplus2_summary"
                  android:selectable="false" />
+                 
+                 <Preference
+                 android:key="device_oneplus_onyx"
+                 android:icon="@drawable/ic_xosp_device_tint"
+                 android:title="@string/device_oneplus_onyx"
+                 android:summary="@string/device_oneplus_onyx_summary"
+                 android:selectable="false" />
 
         </PreferenceCategory>
 
