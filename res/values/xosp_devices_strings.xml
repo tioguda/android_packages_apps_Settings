@@ -28,7 +28,7 @@
     <string name="device_category_htc_title">HTC</string>
     <string name="device_category_motorola_title">Motorola</string>
     <string name="device_category_nvidia_title">Nvidia</string>
-    <string name="device_category_oneplus_title">One Plus</string>
+    <string name="device_category_oneplus_title">OnePlus</string>
     <string name="device_category_xiaomi_title">Xiaomi</string>
     <string name="device_category_yu_title">YU</string>
 
@@ -87,6 +87,8 @@
     <!-- OnePlus devices -->
     <string name="device_oneplus_oneplus2">OnePlus Two </string>
     <string name="device_oneplus_oneplus2_summary">oneplus2 \nMaintainer - Nik</string>
+    <string name="device_oneplus_onyx">OnePlus X</string>
+    <string name="device_oneplus_onyx_summary">onyx \nMaintainer - sud.vastav</string>
 
     <!-- Xiaomi Devices -->
     <string name="device_xiaomi_red">Xiaomi Redmi 1S</string>
