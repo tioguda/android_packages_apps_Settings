@@ -23,19 +23,19 @@
     <string name="mod_version">Versi Mod</string>
     <string name="mod_version_default">"Tidak diketahui "</string>
     <!--XOSP Changelog-->
-    <string name="xosp_changelog_title">"Changelog "</string>
-    <string name="xosp_changelog_summary">"XOSP changelog "</string>
-    <string name="xosp_changelog_error">Changelog tidak bisa dimuat</string>
+    <string name="xosp_changelog_title">Catatan perubahan</string>
+    <string name="xosp_changelog_summary">Catatan perubahan XOSP</string>
+    <string name="xosp_changelog_error">Catatan perubahan tidak dapat dimuat!</string>
     <!-- XOSP extra settings -->
-    <string name="xosp_settings_header">Setelan tambahan</string>
-    <string name="xosp_settings_title">Setelan XOSP</string>
+    <string name="xosp_settings_header">Pengaturan tambahan</string>
+    <string name="xosp_settings_title">Pengaturan XOSP</string>
     <string name="xosp_settings_statusbar_cat">Personalisasi Status Bar</string>
-    <string name="xosp_settings_buttons_cat">Personalisasi Tombol</string>
+    <string name="xosp_settings_buttons_cat">Tombol Personalisasi</string>
     <string name="xosp_settings_misc_cat">Personalisasi Lainnya</string>
     <!-- About XOSP -->
     <string name="about_xosp">Tentang XOSP</string>
-    <string name="xosp_donate">Donasikan untuk pengembangan</string>
-    <string name="xosp_donate_summary">Suka ROM ini? Berikan donasi!</string>
+    <string name="xosp_donate">Donasi untuk pengembangan</string>
+    <string name="xosp_donate_summary">Suka ROM ini? Berikan sedikit donasi!</string>
     <string name="app_name">XOSP</string>
     <string name="devs">Pimpinan pengembang</string>
     <string name="github_nilac">https://github.com/nilac8991</string>
@@ -49,27 +49,29 @@
     <string name="xosp_site_summary">Kunjungi situs resmi</string>
     <string name="xosp_devices_source_title">Sumber Perangkat XOSP</string>
     <string name="xosp_devices_source_summary">Sumber Perangkat XOSP di Github</string>
+    <string name="xosp_translations_title">Penterjemahan XOSP</string>
+    <string name="xosp_translations_summary">Berkontribusi dengan menerjemahkan string kami ke dalam bahasa anda!</string>
     <string name="maincontributors_title">"Para pengembang "</string>
     <string name="sourcebase_title">Basis sumber</string>
     <string name="share_xosp">Bagikan ROM</string>
     <string name="share_xosp_summary">Biarkan orang tahu kamu menggunakan XOSP!</string>
     <string name="share_message">Coba XOSP!
 https://plus.google.com/u/0/communities/117671498272072664538</string>
-    <string name="share_chooser_title">Bagikan XOSP via...</string>
+    <string name="share_chooser_title">Bagikan XOSP melalui...</string>
     <!-- Task Manager -->
     <string name="enable_task_manager_title">Manejer tugas</string>
-    <string name="enable_task_manager_summary">Matikan/nyalakan aksi tombol manajer tugas di area bar status</string>
+    <string name="enable_task_manager_summary">Aktifkan/Matikan aksi tombol manager tugas dalam area bar status</string>
     <!-- Statusbar XOSP logo -->
-    <string name="status_bar_xosp_logo_title">"Logo XOSP "</string>
+    <string name="status_bar_xosp_logo_title">Logo XOSP</string>
     <string name="status_bar_xosp_logo_summary">Tampilkan logo XOSP di bar status</string>
     <!-- SlimDim -->
     <string name="dim_nav_buttons_category">SlimDim</string>
     <string name="dim_nav_buttons_title">Redupkan tombol setelah tidak aktif</string>
-    <string name="dim_nav_buttons_summary">Redupkan tombol bar navigasi setelah tidak berinteraksi dg bar nafigasi untuk waktu tertentu</string>
-    <string name="dim_nav_buttons_timeout_title">Jeda waktu sebelum meredupkan</string>
+    <string name="dim_nav_buttons_summary">Redupkan tombol bar navigasi setelah tidak berinteraksi dgn bar navigasi untuk waktu tertentu</string>
+    <string name="dim_nav_buttons_timeout_title">Waktu jeda sebelum meredupkan</string>
     <string name="dim_nav_buttons_timeout_summary">Waktu tunggu (dalam milidetik) sebelum meredupkan tombol</string>
     <string name="dim_nav_buttons_alpha_title">Keredupan alfa</string>
-    <string name="dim_nav_buttons_alpha_summary">Nilai alfa utk meredupkan tombol</string>
+    <string name="dim_nav_buttons_alpha_summary">Nilai alfa untuk meredupkan tombol</string>
     <string name="dim_nav_buttons_animate_title">Animasi redup</string>
     <string name="dim_nav_buttons_animate_summary">Animasikan fading alfa</string>
     <string name="dim_nav_buttons_animate_duration_title">Durasi animasi</string>
@@ -80,17 +82,17 @@ https://plus.google.com/u/0/communities/117671498272072664538</string>
     <!-- General strings -->
     <string name="ok">Ok</string>
     <string name="reset">Atur Ulang</string>
-    <string name="reset_message">Atur ulang semua masukan ke prasetel?</string>
+    <string name="reset_message">Atur ulang semua masukan ke semula?</string>
     <!-- Navigation bar -->
-    <string name="nav_bar_title">Bilah navigasi</string>
-    <string name="navbar_enable_bar_title">Nyalakan bar navigasi di layar</string>
-    <string name="navbar_enable_bar_summary">Nyalakan bilah navigasi dan matikan tombol fisik</string>
-    <string name="navbar_style_dimen_title">Tinggi bilah navigasi</string>
-    <string name="navbar_dimensions_reset_message">Atur ulang semua masukan tinggi ke prasetel?</string>
-    <string name="navigation_bar_height_title">Tinggi Bar Navigasi</string>
-    <string name="navigation_bar_height_summary">Tinggi bat navigasi saat posisi potret</string>
+    <string name="nav_bar_title">Bar navigasi</string>
+    <string name="navbar_enable_bar_title">Aktifkan bar navigasi di layar</string>
+    <string name="navbar_enable_bar_summary">Aktifkan bar navigasi dan matikan tombol fisik</string>
+    <string name="navbar_style_dimen_title">Tinggi bar navigasi</string>
+    <string name="navbar_dimensions_reset_message">Atur ulang semua masukan tinggi ke semula?</string>
+    <string name="navigation_bar_height_title">Tinggi bar Navigasi</string>
+    <string name="navigation_bar_height_summary">Tinggi bar navigasi saat posisi potret</string>
     <string name="navigation_bar_width_title">Lebar bar navigasi</string>
-    <string name="navigation_bar_width_summary">Tinggi bat navigasi jika bar berjejer</string>
+    <string name="navigation_bar_width_summary">Tinggi bar navigasi jika bar berjejer</string>
     <string name="navigation_bar_size_42_dp_default">42 dp (asal)</string>
     <string name="navigation_bar_size_36_dp">36 dp</string>
     <string name="navigation_bar_size_30_dp">30 dp</string>
@@ -101,13 +103,13 @@ https://plus.google.com/u/0/communities/117671498272072664538</string>
     <string name="navigation_bar_size_42_dp">42 dp</string>
     <!-- Ability to disable hardware keys via nav bar settings -->
     <string name="hw_keys_title">Tombol hardware</string>
-    <string name="hw_keys_summary">"Nyalakan tombol hardware "</string>
+    <string name="hw_keys_summary">"Aktifkan tombol hardware "</string>
     <!-- Network traffic -->
-    <string name="network_traffic_title">"Arus jaringan "</string>
+    <string name="network_traffic_title">"Lalu lintas jaringan "</string>
     <string name="show_network_traffic_state">Monitor lalu lintas bar status</string>
     <string name="show_network_traffic_unit">Unit tampilan</string>
     <string name="show_network_traffic_frequency">Selang waktu update</string>
-    <string name="show_network_traffic_disable">Mati</string>
+    <string name="show_network_traffic_disable">Dimatikan</string>
     <string name="show_network_traffic_up">Keluar</string>
     <string name="show_network_traffic_down">Masuk</string>
     <string name="show_network_traffic_all">"Keluar dan masuk "</string>
@@ -161,7 +163,7 @@ https://plus.google.com/u/0/communities/117671498272072664538</string>
     <string name="dashboard_columns_two">Dua</string>
     <string name="dashboard_columns_three">Tiga</string>
     <!-- Dashboard tileview double lines -->
-    <string name="dashboard_category">Dashboard settings</string>
+    <string name="dashboard_category">Setelan Dashboard</string>
     <string name="dashboard_tileview_double_lines_title">Judul tampilan petak dasbor</string>
     <string name="dashboard_tileview_double_lines_summary_on">Tampilkan judul petak dasbor dalam 1 garis</string>
     <string name="dashboard_tileview_double_lines_summary_off">Tampilkan judul petak dasbor dalam 2 garis</string>
@@ -169,7 +171,7 @@ https://plus.google.com/u/0/communities/117671498272072664538</string>
     <string name="device_maintainers_title">Perangkat dan maintener</string>
     <string name="device_maintainers_title_summary">Daftar perangkat yang didukung resmi oleh maintener XOSP</string>
     <string name="maintainers_note_title">Catatan</string>
-    <string name="maintainers_note_title_summary">Jika Anda telah menyusun ROM ini dan sebagian/semua dari hal-hal bekerja, dan ingin mendapatkan status resmi, mohon kirim pesan langsung ke \'Calin Neamtu\' di Hangouts yang berisi pranala ke trit di XDA.</string>
+    <string name="maintainers_note_title_summary">Jika Anda telah menyusun ROM ini dan sebagian/semua dari hal-hal bekerja, dan ingin mendapatkan status resmi, mohon kirim pesan langsung ke \'Calin Neamtu\' di Hangouts yang berisi tautan ke trit di XDA.</string>
     <!-- Lock screen settings -->
     <string name="lockscreen_settings_title">Wallpaper layar kunci</string>
     <string name="lockscreen_wallpaper_title">Latar belakang</string>
@@ -184,7 +186,7 @@ https://plus.google.com/u/0/communities/117671498272072664538</string>
     <string name="listsystem">Daftar</string>
     <string name="sizer_title">Penghapus aplikasi sistem</string>
     <string name="caution">Peringatan!</string>
-    <string name="sizer_message_startup">Alat ini memungkinkan untuk menghapus aplikasi sistem. Gunakan dengan hati-hati dan hanya hapus aplikasi yang kamu yahu aman untuk dihapus</string>
+    <string name="sizer_message_startup">Alat ini memungkinkan untuk menghapus aplikasi sistem. Gunakan dengan hati-hati dan hanya hapus aplikasi yang kamu tahu aman untuk dihapus</string>
     <string name="cancel">Batal</string>
     <string name="sizer_message_delete">Anda yakin ingin menghapus aplikasi ini?</string>
     <string name="btn_delete">Hapus aplikasi terpilih sekarang?</string>
@@ -209,26 +211,58 @@ https://plus.google.com/u/0/communities/117671498272072664538</string>
     <!-- Battery icon -->
     <!-- Time Contextual Headers -->
     <string name="status_bar_custom_header_default_summary">Bawaan, modern dan poly HD</string>
-    <string name="status_bar_custom_header_default_title">Pilih Gambarmu</string>
+    <string name="status_bar_custom_header_default_title">Pilih gambar mu</string>
     <string name="custom_header_image_0">Bawaan</string>
     <string name="custom_header_image_1">Modern</string>
     <string name="custom_header_image_2">Poly HD</string>
     <!-- Status bar - Clock -->
+    <string name="clock_font_style_title">Huruf</string>
     <string name="clock_font_normal">Normal</string>
     <string name="clock_font_italic">Miring</string>
+    <string name="clock_font_bold">Tebal</string>
     <string name="clock_font_bold_italic">Tebal miring</string>
-    <string name="clock_font_light">Cahaya</string>
+    <string name="clock_font_light">Terang</string>
+    <string name="clock_font_light_italic">Miring terang</string>
+    <string name="clock_font_thin">Tipis</string>
+    <string name="clock_font_thin_italic">Miring tipis</string>
+    <string name="clock_font_condensed">Condensed</string>
+    <string name="clock_font_condensed_italic">Condensed Miring</string>
+    <string name="clock_font_condensed_light">Condensed terang</string>
+    <string name="clock_font_condensed_light_italic">Condensed terang miring</string>
+    <string name="clock_font_condensed_bold">Condensed tebal</string>
+    <string name="clock_font_condensed_bold_italic">Condensed tebal miring</string>
     <string name="clock_font_medium">Sedang</string>
+    <string name="clock_font_medium_italic">Sedang miring</string>
     <string name="clock_font_black">Hitam</string>
     <string name="clock_font_black_italic">Hitam miring</string>
-    <string name="clock_font_dancingscript">Skrip menari</string>
-    <string name="clock_font_dancingscript_bold">Skrip menari tebal</string>
+    <string name="clock_font_dancingscript">DancingScript</string>
+    <string name="clock_font_dancingscript_bold">DancingScript tebal</string>
     <string name="clock_font_comingsoon">Akan Datang</string>
-    <string name="clock_font_notoserif">notoserif Normal</string>
+    <string name="clock_font_notoserif">Notoserif Normal</string>
     <string name="clock_font_notoserif_italic">Notoserif miring</string>
     <string name="clock_font_notoserif_bold">"Notoserif tebal "</string>
     <string name="clock_font_notoserif_bold_italic">Notoserif tebal miring</string>
     <string name="clock_font_size_title">Ukuran Huruf</string>
+    <string name="clock_font_size_4">4</string>
+    <string name="clock_font_size_5">5</string>
+    <string name="clock_font_size_6">6</string>
+    <string name="clock_font_size_7">7</string>
+    <string name="clock_font_size_8">8</string>
+    <string name="clock_font_size_9">9</string>
+    <string name="clock_font_size_10">10</string>
+    <string name="clock_font_size_11">11</string>
+    <string name="clock_font_size_12">12</string>
+    <string name="clock_font_size_13">13</string>
+    <string name="clock_font_size_14">14</string>
+    <string name="clock_font_size_15">15</string>
+    <string name="clock_font_size_16">16</string>
+    <string name="clock_font_size_17">17</string>
+    <string name="clock_font_size_18">18</string>
+    <string name="clock_font_size_19">19</string>
+    <string name="clock_font_size_20">20</string>
+    <string name="clock_font_size_21">21</string>
+    <string name="clock_font_size_22">22</string>
+    <string name="clock_font_size_23">23</string>
     <!--Status bar date -->
     <string name="status_bar_clock_category">Jam</string>
     <string name="status_bar_date_title">Tanggal</string>
@@ -241,12 +275,12 @@ https://plus.google.com/u/0/communities/117671498272072664538</string>
     <string name="status_bar_date_style_lowercase">Huruf kecil</string>
     <string name="status_bar_date_style_uppercase">Huruf besar</string>
     <string name="status_bar_date_format_custom">Format java kustom</string>
-    <string name="status_bar_date_string_edittext_title">Harus dalam bentuk tanggal contoh. BB/HH/TT</string>
+    <string name="status_bar_date_string_edittext_title">Harus dalam format tanggal misalnya. MM/dd/yy</string>
     <string name="status_bar_date_string_edittext_summary">Masukkan string</string>
     <!-- Date position -->
     <string name="clock_date_position">Posisi tanggal</string>
-    <string name="clock_date_right">Di kanan waktu</string>
-    <string name="clock_date_left">Di kiri waktu</string>
+    <string name="clock_date_right">Di sebelah kanan jam</string>
+    <string name="clock_date_left">Di sebelah kiri jam</string>
     <!-- XOSPApps -->
     <string name="xospapps_title">Aplikasi XOSP</string>
     <string name="xospapps_default_string">Tidak Terinstall</string>
@@ -262,13 +296,27 @@ https://plus.google.com/u/0/communities/117671498272072664538</string>
     <string name="recents_clear_all_location_bottom_left">Kiri bawah</string>
     <string name="recents_clear_all_location_bottom_center">Tengah bawah</string>
     <string name="recents_clear_all_dismiss_all_title">Hapus semua tugas</string>
+    <string name="recents_clear_all_dismiss_all_summary">Termasuk tugas latar saat membersihkan semua</string>
     <!-- Current on Lockscreen -->
+    <string name="lock_screen_show_current">Arus pengisian</string>
     <string name="lock_screen_show_current_summary">Tampilkan nilai arus pengisian dalam layar terkunci</string>
     <!-- Show carrier label and custom -->
-    <string name="show_carrier_disabled">Dinonaktifkan</string>
+    <string name="carrier_options">Label Operator</string>
+    <string name="custom_carrier_label_title">Label Operator Kustom</string>
+    <string name="custom_carrier_label_explain">Masukkan label baru. Biarkan kosong untuk kembali ke label bawaan.</string>
+    <string name="custom_carrier_label_notset">Kustom label saat ini tidak diatur</string>
+    <string name="status_bar_carrier_color">Warna Label Operator</string>
+    <string name="show_carrier_title">Label operator</string>
+    <string name="show_carrier_disabled">Dimatikan</string>
+    <string name="show_carrier_keyguard">Pengaman tombol operator</string>
+    <string name="show_carrier_statusbar">Bar status operator</string>
     <string name="show_carrier_enabled">Diaktifkan</string>
     <!-- Color picker -->
+    <string name="press_color_to_apply">Tekan pada warna untuk menerapkan</string>
+    <string name="palette_xosp_title">XOSP datar</string>
     <string name="palette_rgb_title">RGB</string>
+    <string name="reset_android_title">Bawaan Android</string>
+    <string name="reset_xosp_title">Bawaan XOSP</string>
     <!-- Doze options -->
     <string name="doze_settings_title">Opsi lanjutan doze</string>
 </resources>

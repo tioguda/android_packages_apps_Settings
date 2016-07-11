@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--
+     Copyright (C) 2015 The XOSP Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- XOSP Revision -->
+    <string name="xosp_revision">XOSP revízió</string>
+    <!-- XOSP Release -->
+    <string name="xosp_release">XOSP kiadás</string>
+    <!-- About phone screen, XOSP Mod version -->
+    <string name="mod_version">Mod verzió</string>
+    <string name="mod_version_default">Ismeretlen</string>
+    <!--XOSP Changelog-->
+    <string name="xosp_changelog_title">ChangeLog</string>
+    <string name="xosp_changelog_summary">XOSP ChangeLog</string>
+    <string name="xosp_changelog_error">ChangeLog-ot nem sikerült betölteni!</string>
+    <!-- XOSP extra settings -->
+    <string name="xosp_settings_header">További beállítások</string>
+    <string name="xosp_settings_title">XOSP beállítások</string>
+    <string name="xosp_settings_statusbar_cat">Állapotsor személyre szabás</string>
+    <string name="xosp_settings_buttons_cat">Gombok személyre szabása</string>
+    <string name="xosp_settings_misc_cat">További személyre szabás</string>
+    <!-- About XOSP -->
+    <string name="about_xosp">Az XOSP-ről</string>
+    <string name="xosp_donate">Támogasd a fejlesztőket</string>
+    <string name="xosp_donate_summary">Tetszik a ROM? Támogass minket!</string>
+    <string name="app_name">XOSP</string>
+    <string name="devs">Vezető fejlesztő</string>
+    <string name="github_nilac">https://github.com/nilac8991</string>
+    <string name="github_cm">https://github.com/CyanogenMod</string>
+    <string name="xosp">XOSP</string>
+    <string name="xosp_source_title">XOSP források</string>
+    <string name="xosp_source_summary">XOSP források a Github-on</string>
+    <string name="xosp_google_plus_title">Google+</string>
+    <string name="xosp_google_plus_summary">Csatlakozz a Google+ közösségünkhöz</string>
+    <string name="xosp_site_title">XOSP hivatalos oldala</string>
+    <string name="xosp_site_summary">Látogasd meg a hivatalos oldalt</string>
+    <string name="xosp_devices_source_title">XOSP fejlesztői eszközök</string>
+    <string name="xosp_devices_source_summary">XOSP fejlesztői eszközök a Github-on</string>
+    <string name="xosp_translations_title">XOSP fordítások</string>
+    <string name="xosp_translations_summary">Segítsd a fejlesztők munkáját a fordításban!</string>
+    <string name="maincontributors_title">Fejlesztők</string>
+    <string name="sourcebase_title">Forrás</string>
+    <string name="share_xosp">Oszd meg a ROM-ot</string>
+    <string name="share_xosp_summary">Oszd meg az emberekkel, hogy XOSP-t használsz!</string>
+    <string name="share_message">Próbáld ki az XOSP-t! https://plus.google.com/u/0/communities/117671498272072664538</string>
+    <string name="share_chooser_title">XOSP megosztása ezzel..</string>
+    <!-- Task Manager -->
+    <string name="enable_task_manager_title">Feladatkezelő</string>
+    <string name="enable_task_manager_summary">Feladatkezeő gomb megjelenítése a lenyitott állapotsoron</string>
+    <!-- Statusbar XOSP logo -->
+    <string name="status_bar_xosp_logo_title">XOSP logó</string>
+    <string name="status_bar_xosp_logo_summary">XOSP logó mindig látszik az állapotsoron</string>
+    <!-- SlimDim -->
+    <string name="dim_nav_buttons_category">SlimDim</string>
+    <string name="dim_nav_buttons_title">Inaktivitás után elhalványuló gombok</string>
+    <string name="dim_nav_buttons_summary">Navigációs gombok elhalványulása, meghatározott idő után, ha nincs használatban</string>
+    <string name="dim_nav_buttons_timeout_title">Elhalványulás előtti időkorlát</string>
+    <string name="dim_nav_buttons_timeout_summary">Idő (milliszekundumban), miután elhalványulnak a gombok</string>
+    <string name="dim_nav_buttons_alpha_title">Alfa elhalványulás</string>
+    <string name="dim_nav_buttons_alpha_summary">Alfa érték a gombok elhalványulásához</string>
+    <string name="dim_nav_buttons_animate_title">Elhalványulási animáció</string>
+    <string name="dim_nav_buttons_animate_summary">Alfa áttűnés animációja</string>
+    <string name="dim_nav_buttons_animate_duration_title">Animáció időtartama</string>
+    <string name="dim_nav_buttons_animate_duration_summary">Alfa animáció időtartama (milliszekundumban)</string>
+    <string name="dim_nav_buttons_touch_anywhere_title">Gombok előtűnése</string>
+    <string name="dim_nav_buttons_touch_anywhere_summary_on">Érintse meg bárhol a képernyőt a gombok előtűnéséhez</string>
+    <string name="dim_nav_buttons_touch_anywhere_summary_off">Érintse meg a navigációs sávot a gombok előtűnéséhez</string>
+    <!-- General strings -->
+    <string name="ok">OK</string>
+    <string name="reset">Visszaállítás</string>
+    <string name="reset_message">Visszaállítja az összes bejegyzést az alapértelmezett értékekre?</string>
+    <!-- Navigation bar -->
+    <string name="nav_bar_title">Navigációs sáv</string>
+    <string name="navbar_enable_bar_title">Navigációs sáv engedélyezése a képernyőn</string>
+    <string name="navbar_enable_bar_summary">Navigációs sáv engedélyezése a képernyőn, és a fizikai gombok kikapcsolása</string>
+    <string name="navbar_style_dimen_title">Navigációs sáv méretei</string>
+    <string name="navbar_dimensions_reset_message">Minden méretérték visszaállítása alapértelmezettre</string>
+    <string name="navigation_bar_height_title">Navigációs sáv magassága</string>
+    <string name="navigation_bar_height_summary">Navigációs sáv magassága álló nézetben</string>
+    <string name="navigation_bar_width_title">Navigációs sáv szélessége</string>
+    <string name="navigation_bar_width_summary">Navigációs sáv magassága, a sáv oldala mentén</string>
+    <string name="navigation_bar_size_42_dp_default">42 dp (alapért.)</string>
+    <string name="navigation_bar_size_36_dp">36 dp</string>
+    <string name="navigation_bar_size_30_dp">30 dp</string>
+    <string name="navigation_bar_size_24_dp">24 dp</string>
+    <string name="navigation_bar_size_48_dp_default">48 dp (alapért.)</string>
+    <string name="navigation_bar_size_44_dp">44 dp</string>
+    <string name="navigation_bar_size_40_dp">40 dp</string>
+    <string name="navigation_bar_size_42_dp">42 dp</string>
+    <!-- Ability to disable hardware keys via nav bar settings -->
+    <string name="hw_keys_title">Fizikai navigációs gombok</string>
+    <string name="hw_keys_summary">Fizikai navigációs gombok engedélyezése</string>
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Adatforgalom</string>
+    <string name="show_network_traffic_state">Adatforgalom megjelenítése az állapotsoron</string>
+    <string name="show_network_traffic_unit">Mértékegység</string>
+    <string name="show_network_traffic_frequency">Frissítés gyakorisága</string>
+    <string name="show_network_traffic_disable">Kikapcsolva</string>
+    <string name="show_network_traffic_up">Csak kimenő adatok</string>
+    <string name="show_network_traffic_down">Csak bejövő adatok</string>
+    <string name="show_network_traffic_all">Kimenő és bejövő adatok</string>
+    <string name="show_network_traffic_bit">Bit/másodperc</string>
+    <string name="show_network_traffic_byte">Byte/másodperc</string>
+    <string name="show_network_traffic_500">500 ms</string>
+    <string name="show_network_traffic_1000">1000 ms</string>
+    <string name="show_network_traffic_1500">1500 ms</string>
+    <string name="show_network_traffic_2000">2000 ms</string>
+    <string name="network_traffic_autohide_title">Automatikus elrejtés</string>
+    <string name="network_traffic_autohide_summary">Adatforgalom elrejtése ha nincs tevékenység</string>
+    <string name="network_traffic_autohide_threshold">Inaktivitási küszöb</string>
+    <!-- Superuser indicator on status bar -->
+    <string name="su_indicator">Superuser indikátor</string>
+    <string name="su_indicator_summary_on">Superuser indikátor megjelenítése ha egy munkamenet aktív</string>
+    <string name="su_indicator_summary_off">Superuser indikátor nem jelenik meg ha egy munkamenet aktív</string>
+    <!-- long press back to kill configurable timeout -->
+    <string name="kill_app_longpress_timeout_title">Visszalépés gomb hosszú megnyomási időkorlátja</string>
+    <string name="timeout_2000">2 másodperc (alapért.)</string>
+    <string name="timeout_1500">1,5 másodperc</string>
+    <string name="timeout_1000">1 másodperc</string>
+    <string name="timeout_500">0,5 másodperc</string>
+    <!-- Toast animations -->
+    <string name="toast_animation_title">Lebegő értesítési animáció</string>
+    <string name="toast_animation_summary">Rendszer lebegő értesítési animáció kiválasztás és előnézet</string>
+    <string name="toast_none_animation">Nincs</string>
+    <string name="toast_default_animation">Alapértelmezett</string>
+    <string name="toast_fade_animation">Áttűnés</string>
+    <string name="toast_SlideRight_animation">Diavetítés jobbra</string>
+    <string name="toast_SlideLeft_animation">Diavetítés balra</string>
+    <string name="toast_Xylon_animation">Xylon animáció</string>
+    <string name="toast_Toko_animation">Toko animáció</string>
+    <string name="toast_Tn_animation">Tn animáció</string>
+    <string name="toast_Honami_animation">Honami animáció</string>
+    <string name="toast_FastFade_animation">Gyors áttűnés</string>
+    <string name="toast_GrowFade_animation">Növekedés</string>
+    <string name="toast_GrowFadeCenter_animation">Növekedés középen</string>
+    <string name="toast_GrowFadeBottom_animation">Növekedés alul</string>
+    <string name="toast_Translucent_animation">Áttetsző</string>
+    <string name="toast_SlideLeftRight_animation">Dia balról jobbra</string>
+    <string name="toast_SlideRightLeft_animation">Dia jobbról balra</string>
+    <string name="screen_and_animations_title">Képernyő és animáció</string>
+    <!-- Double tap to sleep on lockscreen -->
+    <string name="double_tap_sleep_anywhere_title">Dupla koppintás a zárképernyőn</string>
+    <string name="double_tap_sleep_anywhere_summary">Dupla koppintás a zárképernyőn alvó állapotba helyezi a készüléket</string>
+    <!-- Dashboard columns -->
+    <string name="dashboard_columns_title">Rendszerbeállítások oszlopszáma</string>
+    <string name="dashboard_columns_summary">Rendszerbeállításokban megjelenő oszlopok számának megváltoztatása</string>
+    <string name="dashboard_columns_dialog_title">Oszlopszám kiválasztása</string>
+    <string name="dashboard_columns_default">Egy (alapért.)</string>
+    <string name="dashboard_columns_two">Kettő</string>
+    <string name="dashboard_columns_three">Három</string>
+    <!-- Dashboard tileview double lines -->
+    <string name="dashboard_category">Rendszerbeállítások beállításai</string>
+    <string name="dashboard_tileview_double_lines_title">Rendszerbeállítások csempenézet címe</string>
+    <string name="dashboard_tileview_double_lines_summary_on">1 sor mutatása a rendszerbeállításokban, csmpenézetben</string>
+    <string name="dashboard_tileview_double_lines_summary_off">2 sor mutatása a rendszerbeállításokban, csmpenézetben</string>
+    <!-- Devices and Maintainers -->
+    <string name="device_maintainers_title">Eszközök és karbantartók</string>
+    <string name="device_maintainers_title_summary">Az XOSP karbantartói által hivatalosan támogatott eszközök listája</string>
+    <string name="maintainers_note_title">Jegyzet</string>
+    <string name="maintainers_note_title_summary">Ha problémája akoad a ROM-mal, vagy visszajelzést szeretne küldeni, Calin Neamtu-nak küldjön privát üzenetet, amit az XDA-n a hivatalos XOSP ROM link alatt talál</string>
+    <!-- Lock screen settings -->
+    <string name="lockscreen_settings_title">Zárképernyő háttérképe</string>
+    <string name="lockscreen_wallpaper_title">Háttérkép</string>
+    <string name="lockscreen_wallpaper_set_title">Zárképernyő háttérképének beállítása</string>
+    <string name="lockscreen_wallpaper_clear_title">Zárképernyő hátterének eltávolítása</string>
+    <!-- On-The-Go -->
+    <string name="power_menu_onthego_title">\"On-The-Go\" mód</string>
+    <string name="power_menu_onthego_summary">Ez az opció a kikapcsoló menüben jeleik meg</string>
+    <!-- Double Tap Navbar to Sleep -->
+    <string name="double_tap_sleep_nav_bar_title">A készülék alvásához dupla koppintás az állapotsoron</string>
+    <string name="double_tap_sleep_nav_bar_summary">A készülék alvásához dupla koppintás a navigációs sávon</string>
+    <!-- System App Remover  -->
+    <string name="listsystem">Lista</string>
+    <string name="sizer_title">Rendszer-alkalmazás eltávolító</string>
+    <string name="caution">Vigyázat!</string>
+    <string name="sizer_message_startup">Ezzel az eszközzel lehetőség nyílik a rendszer alkalmazásokat eltávolítani. Használja körültekintően és csak saját felelősségre.</string>
+    <string name="cancel">Mégsem</string>
+    <string name="sizer_message_delete">Biztos benne hogy törölni akarja ezt/ezeket az alkalmazásokat?</string>
+    <string name="btn_delete">Kiválasztott alkalmazások törlése most!</string>
+    <string name="delete_progress_title">Törlés</string>
+    <string name="delete_progress">Kiválasztott XOSPAlkalmazások törlése folyamatban...</string>
+    <string name="delete_success">Törölve</string>
+    <string name="delete_fail">Nem törölhető</string>
+    <string name="btn_profile">Profil</string>
+    <string name="sizer_message_sdnowrite">Az SD-kártyára való írás nem lehetséges.</string>
+    <string name="sizer_message_sdnoread">Az SD-kártyáról való olvasás nem lehetséges.</string>
+    <string name="sizer_message_filesuccess">Profil létrehozva.</string>
+    <string name="sizer_message_filefail">Hiba történt a profil létrehozása közben.</string>
+    <string name="sizer_message_noselect">Semmi nincs kiválasztva</string>
+    <string name="system_app_remover">Rendszer-alkalmazás eltávolító</string>
+    <!-- Notification Drawer -->
+    <string name="notification_drawer_title">Értesítési sáv testreszabása</string>
+    <string name="header_cat">Értesítési sáv fejléc</string>
+    <!-- Optional Dashboard Switches -->
+    <string name="dashboard_switches_title">Rendszerbeállítások váltása</string>
+    <string name="dashboard_switches_off">Kikapcsol</string>
+    <string name="dashboard_switches_on">Bekapcsol</string>
+    <string name="dashboard_switches_summary">A rendszerbeállítások kapcsolóinak a helyzetének megváltoztatása</string>
+    <string name="dashboard_switches_dialog_title">Kapcsoló állapota</string>
+    <!-- Device info Settings -->
+    <string name="device_info_xosp_category">XOSP információk</string>
+    <string name="device_info_device_category">Eszköz információk</string>
+    <string name="device_info_android_category">Operációs rendszer információk</string>
+    <string name="device_info_other_category">Egyéb információk</string>
+    <!-- Battery icon -->
+    <string name="status_bar_battery_style_xperia_text">Xperia akku ikon prototípus</string>
+    <!-- Time Contextual Headers -->
+    <string name="status_bar_custom_header_title">Értesítési sáv fejléc kitöltés</string>
+    <string name="contextual_title">Értesítési sáv fejléc</string>
+    <string name="status_bar_custom_header_summary">Kép megjelenítése az értesítési sáv fejlécén</string>
+    <string name="status_bar_custom_header_default_summary">Alapértelmezett, modern és poly HD</string>
+    <string name="status_bar_custom_header_default_title">Válassza ki a képet</string>
+    <string name="custom_header_image_0">Alapértelmezett</string>
+    <string name="custom_header_image_1">Modern</string>
+    <string name="custom_header_image_2">Poly HD</string>
+    <!-- Status bar - Clock -->
+    <string name="status_bar_show_clock_second_title">Másodperc megjelenítése</string>
+    <string name="clock_font_style_title">Betűtípus</string>
+    <string name="clock_font_normal">Normal</string>
+    <string name="clock_font_italic">Dőlt</string>
+    <string name="clock_font_bold">Félkövér</string>
+    <string name="clock_font_bold_italic">Félkövér dőlt</string>
+    <string name="clock_font_light">Karcsú</string>
+    <string name="clock_font_light_italic">Karcsú dőlt</string>
+    <string name="clock_font_thin">Keskeny</string>
+    <string name="clock_font_thin_italic">Keskeny dőlt</string>
+    <string name="clock_font_condensed">Sűrített</string>
+    <string name="clock_font_condensed_italic">Sűrített dőlt</string>
+    <string name="clock_font_condensed_light">Karcsú sűrített</string>
+    <string name="clock_font_condensed_light_italic">Karcsú sűrített dőlt</string>
+    <string name="clock_font_condensed_bold">Sűrített félkövér</string>
+    <string name="clock_font_condensed_bold_italic">Sűrített félkövér dőlt</string>
+    <string name="clock_font_medium">Közepes</string>
+    <string name="clock_font_medium_italic">Közepes dőlt</string>
+    <string name="clock_font_black">Vastag</string>
+    <string name="clock_font_black_italic">Vastag dőlt</string>
+    <string name="clock_font_dancingscript">DancingScript</string>
+    <string name="clock_font_dancingscript_bold">DancingScript félkövér</string>
+    <string name="clock_font_comingsoon">ComingSoon</string>
+    <string name="clock_font_notoserif">NotoSerif normál</string>
+    <string name="clock_font_notoserif_italic">NotoSerif dőlt</string>
+    <string name="clock_font_notoserif_bold">NotoSerif félkövér</string>
+    <string name="clock_font_notoserif_bold_italic">NotoSerif félkövér dőlt</string>
+    <string name="status_bar_show_clock_second_title">Másodperc megjelenítése</string>
+    <string name="clock_font_size_title">Betűméret</string>
+    <string name="clock_font_size_4">4</string>
+    <string name="clock_font_size_5">5</string>
+    <string name="clock_font_size_6">6</string>
+    <string name="clock_font_size_7">7</string>
+    <string name="clock_font_size_8">8</string>
+    <string name="clock_font_size_9">9</string>
+    <string name="clock_font_size_10">10</string>
+    <string name="clock_font_size_11">11</string>
+    <string name="clock_font_size_12">12</string>
+    <string name="clock_font_size_13">13</string>
+    <string name="clock_font_size_14">14</string>
+    <string name="clock_font_size_15">15</string>
+    <string name="clock_font_size_16">16</string>
+    <string name="clock_font_size_17">17</string>
+    <string name="clock_font_size_18">18</string>
+    <string name="clock_font_size_19">19</string>
+    <string name="clock_font_size_20">20</string>
+    <string name="clock_font_size_21">21</string>
+    <string name="clock_font_size_22">22</string>
+    <string name="clock_font_size_23">23</string>
+    <!--Status bar date -->
+    <string name="status_bar_clock_category">Óra</string>
+    <string name="status_bar_date_title">Dátum</string>
+    <string name="status_bar_date_none">Rejtett (alapért.)</string>
+    <string name="status_bar_date_small">Kicsi</string>
+    <string name="status_bar_date_normal">Normál</string>
+    <string name="status_bar_date_format_title">Dátum formátum</string>
+    <string name="status_bar_date_style">Dátum stílus</string>
+    <string name="status_bar_date_style_normal">Normal</string>
+    <string name="status_bar_date_style_lowercase">Kisbetűs</string>
+    <string name="status_bar_date_style_uppercase">Nagybetűs</string>
+    <string name="status_bar_date_format_custom">Egyéni JAVA formátum</string>
+    <string name="status_bar_date_string_edittext_title">Írjon be egyéni dátumformátumot pl. MM/dd/yy</string>
+    <string name="status_bar_date_string_edittext_summary">Felviteli mező</string>
+    <!-- Date position -->
+    <string name="clock_date_position">Dátum pozíciója</string>
+    <string name="clock_date_right">Az órától jobbra</string>
+    <string name="clock_date_left">Az órától balra</string>
+    <!-- XOSPApps -->
+    <string name="xospapps_title">XOSPAlkalmazások</string>
+    <string name="xospapps_default_string">Nincs telepítve</string>
+    <!-- Clear all -->
+    <string name="recents_panel_category">Alkalmazásváltó</string>
+    <string name="show_clear_all_recents_button_title">Memória ürítése gomb</string>
+    <string name="show_clear_all_recents_button_summary">Memória ürítése gomb megjelenítése</string>
+    <string name="recents_clear_all_location_title">Memória ürítése gomb elhelyezkedése</string>
+    <string name="recents_clear_all_location_top_right">Jobb felül</string>
+    <string name="recents_clear_all_location_top_left">Bal felül</string>
+    <string name="recents_clear_all_location_top_center">Felül középen</string>
+    <string name="recents_clear_all_location_bottom_right">Jobb alul</string>
+    <string name="recents_clear_all_location_bottom_left">Jobb felül</string>
+    <string name="recents_clear_all_location_bottom_center">Alul középen</string>
+    <string name="recents_clear_all_dismiss_all_title">Minden folyamatot ürít</string>
+    <string name="recents_clear_all_dismiss_all_summary">Háttérfolyamatok törlése, a  memóriaürítő gomb használatakor</string>
+    <!-- Current on Lockscreen -->
+    <string name="lock_screen_show_current">Pillanatnyi töltés</string>
+    <string name="lock_screen_show_current_summary">Töltés mértékének mutatása a zárképernyőn</string>
+    <!-- Show carrier label and custom -->
+    <string name="carrier_options">Szolgáltató címke</string>
+    <string name="custom_carrier_label_title">Egyéni szolgáltató címke</string>
+    <string name="custom_carrier_label_explain">Kérem írjon be egy új címkét! Hagyja üresen az alapérték visszaállításához.</string>
+    <string name="custom_carrier_label_notset">Egyéni címke pillanatnyilag nem beállítható</string>
+    <string name="status_bar_carrier_color">Szolgáltató kijelzés színe</string>
+    <string name="show_carrier_title">Szolgáltató mutatása</string>
+    <string name="show_carrier_disabled">Kikapcsolva</string>
+    <string name="show_carrier_keyguard">Csak a zárképernyőn mutassa</string>
+    <string name="show_carrier_statusbar">Állapotsoron mutassa</string>
+    <string name="show_carrier_enabled">Bekapcsolva</string>
+    <!-- Color picker -->
+    <string name="dialog_color_picker_title">Színválasztó</string>
+    <string name="press_color_to_apply">Válasszon egy színt az alkalmazáshoz</string>
+    <string name="palette_xosp_title">XOSP Flat</string>
+    <string name="palette_material_title">Material</string>
+    <string name="palette_rgb_title">RGB</string>
+    <string name="reset_android_title">Android alapértelmezett</string>
+    <string name="reset_xosp_title">XOSP alapértelmezett</string>
+    <!-- Doze options -->
+    <string name="display_category_doze_options_title">Alkalmazkodó képernyő</string>
+    <string name="doze_settings_title">Haladó Doze beállítások</string>
+    <string name="doze_timeout_title">Doze időkorlátja</string>
+    <string name="doze_timeout_summary">Az értesítések felvillanása utáni idő, amíg ébren marad a képernyő</string>
+    <string name="doze_trigger_pickup_title">Pick up gesture trigger</string>
+    <string name="doze_trigger_pickup_summary_on">Doze pulse will be triggered by pick up gesture sensor events</string>
+    <string name="doze_trigger_pickup_summary_off">Pick up gesture sensor will not be utilized as a triggering mechanism</string>
+    <string name="doze_trigger_sigmotion_title">Significant motion trigger</string>
+    <string name="doze_trigger_sigmotion_summary_on">Doze pulse will be triggered by significant motion sensor events</string>
+    <string name="doze_trigger_sigmotion_summary_off">Significant motion sensor will not be utilized as a triggering mechanism</string>
+    <string name="doze_trigger_notification_title">Notification trigger</string>
+    <string name="doze_trigger_notification_summary_on">Doze pulse will be triggered by notifications</string>
+    <string name="doze_trigger_notification_summary_off">Notifications will not be utilized as a trigger</string>
+    <string name="doze_schedule_title">Doze ütemterv</string>
+    <string name="doze_schedule_summary_on">Előre meghatározott Doze ismétlési időintervallumok (norm. [1s,10s,30s,60s,120s]) ami használva lesz (alapért.)</string>
+    <string name="doze_schedule_summary_off">Doze will only pulse once per notification</string>
+    <string name="doze_brightness_title">Doze fényerő</string>
+    <string name="doze_brightness_summary">Brightness level of doze pulse screen (% of max allowed brightness)</string>
+</resources>
