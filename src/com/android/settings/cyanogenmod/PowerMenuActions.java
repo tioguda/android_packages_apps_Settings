@@ -48,7 +48,9 @@ import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PowerMenuActions extends SettingsPreferenceFragment {
+public class PowerMenuActions extends SettingsPreferenceFragment
+        implements OnPreferenceChangeListener {
+    
     final static String TAG = "PowerMenuActions";
 
     private static final String SCREENSHOT_DELAY = "screenshot_delay";
@@ -254,12 +256,8 @@ public class PowerMenuActions extends SettingsPreferenceFragment {
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (preference == mOnTheGoAlphaPref) {
-            float val = Float.parseFloat((String) newValue);
-            Settings.System.putFloat(mCr, Settings.System.ON_THE_GO_ALPHA,
-                    val / 100);
-            return true;
-        } else if (preference == mScreenshotDelay) {
+
+        if (preference == mScreenshotDelay) {
             int value = Integer.parseInt(newValue.toString());
             Settings.System.putInt(mCr, Settings.System.SCREENSHOT_DELAY,
                     value);
