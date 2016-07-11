@@ -40,6 +40,16 @@
                     android:key="xosp_site"
                     android:title="@string/xosp_site_title"
                     android:summary="@string/xosp_site_summary" />
+
+            <Preference
+                    android:key="xosp_downloads"
+                    android:title="@string/xosp_downloads_site_title"
+                    android:summary="@string/xosp_downloads_site_summary" />
+
+            <Preference
+                    android:key="xosp_jenkins"
+                    android:title="@string/xosp_jenkins_site_title"
+                    android:summary="@string/xosp_jenkins_site_summary" />
          
             <Preference
                     android:key="xosp_source"

@@ -78,6 +78,8 @@ public static final String TAG = "About";
 private static final String XOSP_ROM_SHARE = "share";
     
     Preference mSiteUrl;
+    Preference mDownloadsSiteUrl;
+    Preference mJenkinsSiteUrl;
     Preference mSourceUrl;
     Preference mDevicesSourceUrl;
     Preference mGoogleUrl;
@@ -92,6 +94,8 @@ private static final String XOSP_ROM_SHARE = "share";
         PreferenceScreen prefSet = getPreferenceScreen();
         ContentResolver resolver = getContentResolver();
         mSiteUrl = findPreference("xosp_site");
+        mDownloadsSiteUrl = findPreference("xosp_downloads");
+        mJenkinsSiteUrl = findPreference("xosp_jenkins");
         mSourceUrl = findPreference("xosp_source");
         mDevicesSourceUrl = findPreference("xosp_devices_source");
         mGoogleUrl = findPreference("xosp_google_plus");
@@ -122,7 +126,11 @@ private static final String XOSP_ROM_SHARE = "share";
     @Override
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
         if (preference == mSiteUrl) {
-            launchUrl("http://xosp-project.github.io/");
+            launchUrl("http://xosp.org");
+        } else if (preference == mDownloadsSiteUrl) {
+            launchUrl("http://downloads.xosp.org");
+        } else if (preference == mJenkinsSiteUrl) {
+            launchUrl("jenkins.xosp.org");
         } else if (preference == mSourceUrl) {
             launchUrl("https://github.com/XOSP-Project");
         } else if (preference == mDevicesSourceUrl) {
