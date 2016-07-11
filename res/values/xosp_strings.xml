@@ -221,7 +221,7 @@
     <string name="sizer_message_delete">Are you sure you want to delete this app?</string>
     <string name="btn_delete">Delete selected APPs now!</string>
     <string name="delete_progress_title">Deleting</string>
-    <string name="delete_progress">Selected XOSPApps are being deleted...</string>
+    <string name="delete_progress">Selected Apps are being deleted...</string>
     <string name="delete_success">Deleted</string>
     <string name="delete_fail">Unable to delete</string>
     <string name="btn_profile">Profile</string>
@@ -335,7 +335,7 @@
     <string name="clock_date_left">Left of time</string>
 
     <!-- XOSPApps -->
-    <string name="xospapps_title">XOSPApps</string>
+    <string name="xospapps_title">XOSPApps status</string>
     <string name="xospapps_default_string">Not installed</string>
 
     <!-- Clear all -->

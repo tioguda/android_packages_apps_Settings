@@ -138,12 +138,12 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         findPreference(KEY_XOSP_REVISION).setEnabled(true);
         setValueSummary(KEY_XOSP_RELEASE, "ro.xosp.release");
         findPreference(KEY_XOSP_RELEASE).setEnabled(true);
-        setValueSummary(KEY_XOSP_APPS, "ro.xosp.apps");
         findPreference(KEY_XOSP_APPS).setEnabled(true);
         setValueSummary(KEY_MOD_BUILD_DATE, "ro.build.date");
         setExplicitValueSummary(KEY_MOD_API_LEVEL, constructApiLevelString());
         findPreference(KEY_MOD_API_LEVEL).setEnabled(true);
         findPreference(KEY_MOD_BUILD_DATE).setEnabled(true);
+        setStringSummary(KEY_XOSP_APPS, "XOSPApps not installed!");
 
         if (!SELinux.isSELinuxEnabled()) {
             String status = getResources().getString(R.string.selinux_status_disabled);
@@ -152,6 +152,14 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
             String status = getResources().getString(R.string.selinux_status_permissive);
             setStringSummary(KEY_SELINUX_STATUS, status);
         }
+
+        //XOSPApps Verification
+        if (SystemProperties.get("ro.xosp.apps").equals("true"))
+            setStringSummary(KEY_XOSP_APPS, "XOSPApps installed!");
+        else if (SystemProperties.get("ro.xosp.apps").equals("dirty"))
+            setStringSummary(KEY_XOSP_APPS, "XOSPApps installed but restored after a dirty flash!");
+        else 
+            setStringSummary(KEY_XOSP_APPS, "XOSPApps not installed!");
 
         setStringSummary(KEY_DEVICE_NAME, Build.PRODUCT);
         removePreferenceIfBoolFalse(KEY_DEVICE_NAME, R.bool.config_displayDeviceName);
