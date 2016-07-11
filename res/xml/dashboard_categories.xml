@@ -121,6 +121,16 @@
 		android:action="android.intent.action.MAIN" 
 		android:targetClass="delta.out386.xosp.MainActivity"/>
         </dashboard-tile>
+
+        <dashboard-tile
+                android:id="@+id/xospota"
+                android:title="XOSPOTA"
+                android:icon="@drawable/ic_xospota"
+                android:key="xospota">
+        <intent android:targetPackage="com.xosp.ota" 
+		android:action="android.intent.action.MAIN" 
+		android:targetClass="com.xosp.ota.MainActivity"/>
+        </dashboard-tile>
         
         </dashboard-category>
         

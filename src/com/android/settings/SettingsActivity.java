@@ -270,6 +270,8 @@ public class SettingsActivity extends Activity
     
     private static final String XOSP_DELTA = "delta.out386.xosp";
 
+    private static final String XOSP_OTA = "com.xosp.ota";
+
     // Show only these settings for restricted users
     private int[] SETTINGS_FOR_RESTRICTED = {
             R.id.wireless_section,
@@ -1321,6 +1323,10 @@ public class SettingsActivity extends Activity
                     boolean hasPrintingSupport = getPackageManager().hasSystemFeature(
                             PackageManager.FEATURE_PRINTING);
                     if (!hasPrintingSupport) {
+                        removeTile = true;
+                    }
+                } else if (id == R.id.xospota) {
+                    if (!Utils.isPackageInstalled(this, XOSP_OTA, false)) {
                         removeTile = true;
                     }
                 } else if (id == R.id.development_settings) {
