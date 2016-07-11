@@ -130,7 +130,7 @@ private static final String XOSP_ROM_SHARE = "share";
         } else if (preference == mDownloadsSiteUrl) {
             launchUrl("http://downloads.xosp.org");
         } else if (preference == mJenkinsSiteUrl) {
-            launchUrl("jenkins.xosp.org");
+            launchUrl("http://jenkins.xosp.org");
         } else if (preference == mSourceUrl) {
             launchUrl("https://github.com/XOSP-Project");
         } else if (preference == mDevicesSourceUrl) {
