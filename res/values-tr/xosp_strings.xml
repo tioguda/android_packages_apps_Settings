@@ -18,7 +18,7 @@
     <!-- XOSP Revision -->
     <string name="xosp_revision">XOSP Düzeltmesi</string>
     <!-- XOSP Release -->
-    <string name="xosp_release">Durum çubuğu özelleştirmleri</string>
+    <string name="xosp_release">XOSP Yayını</string>
     <!-- About phone screen, XOSP Mod version -->
     <string name="mod_version">Mod Sürümü</string>
     <string name="mod_version_default">Bilinmeyen</string>
@@ -29,11 +29,14 @@
     <!-- XOSP extra settings -->
     <string name="xosp_settings_header">Ek ayarlar</string>
     <string name="xosp_settings_title">XOSP Ayarları</string>
-    <string name="xosp_settings_statusbar_cat">Durum çubuğu özelleştirmeleri</string>
-    <string name="xosp_settings_buttons_cat">Buton özelleştirmeleri</string>
-    <string name="xosp_settings_misc_cat">Çeşitli özelleştirmeler</string>
+    <string name="xosp_settings_statusbar_cat">Durum Çubuğu Özelleştirmeleri</string>
+    <string name="xosp_settings_buttons_cat">Buton Özelleştirmeleri</string>
+    <string name="xosp_settings_misc_cat">Çeşitli Özelleştirmeler</string>
+    <string name="xosp_settings_lockscreen_cat">Kilit Ekranı Özelleştirmeleri</string>
+    <string name="xosp_settings_blur_cat">Bulanıklık Özelleştirmeleri</string>
     <!-- About XOSP -->
     <string name="about_xosp">XOSP Hakkında</string>
+    <string name="about_xosp_summary">Bilinmeyen</string>
     <string name="xosp_donate">Geliştirmeye Bağış yap</string>
     <string name="xosp_donate_summary">Romu Sevdin mİ? Küçük bir bağış yap</string>
     <string name="app_name">XOSP</string>
@@ -45,18 +48,24 @@
     <string name="xosp_source_summary">Githubdaki XOSP Kaynak Kodları</string>
     <string name="xosp_google_plus_title">Google+</string>
     <string name="xosp_google_plus_summary">Google+ da Bulunan Topluluğa katıl</string>
+    <string name="xosp_facebook_title">Facebook</string>
+    <string name="xosp_facebook_summary">Facebook resmi sayfamızda da bizi takip edin</string>
+    <string name="xosp_downloads_site_title">XOSP İndirme Sunucusu</string>
+    <string name="xosp_downloads_site_summary">En son XOSP ve XOSPApps Uygulama yapılandırmaları ile güncel kalın!</string>
+    <string name="xosp_jenkins_site_title">XOSP Jenkins (Uygulama kontrol merkezi)</string>
+    <string name="xosp_jenkins_site_summary">Jenkins (Uygulama kontrol merkezi)nde bizi takip edin!</string>
     <string name="xosp_site_title">XOSP Resmi Sitesi</string>
     <string name="xosp_site_summary">Resmi Sitesi ziyaret et</string>
-    <string name="xosp_devices_source_title">XOSP cihaz kaynakları</string>
+    <string name="xosp_devices_source_title">XOSP Cihaz Kaynakları</string>
     <string name="xosp_devices_source_summary">Github üzerinde XOSP cihaz kaynakları</string>
     <string name="xosp_translations_title">XOSP çevirileri</string>
     <string name="xosp_translations_summary">Dizelerimizi kendi dilinize çeviri yaparak katkıda bulunun!</string>
     <string name="maincontributors_title">Geliştiriciler</string>
     <string name="sourcebase_title">Kaynak Kodu Tabanı</string>
     <string name="share_xosp">Romu Paylaş</string>
-    <string name="share_xosp_summary">İnsanların senin XOSP kullandığnı bilmesine izin ver</string>
-    <string name="share_message">Xosp Dene https://plus.google.com/u/0/communities/117671498272072664538</string>
-    <string name="share_chooser_title">Xosp yi şunun aracılığıyla paylaş</string>
+    <string name="share_xosp_summary">İnsanların senin XOSP kullandığını bilmesine izin ver!</string>
+    <string name="share_message">XOSP Dene https://plus.google.com/u/0/communities/117671498272072664538</string>
+    <string name="share_chooser_title">XOSP yi şunun aracılığıyla paylaş..</string>
     <!-- Task Manager -->
     <string name="enable_task_manager_title">Görev Yöneticisi</string>
     <string name="enable_task_manager_summary">"Durum çubuğundaki görev yöneticisi tuşunu Etkinleştir/Devre dışı bırak "</string>
@@ -92,14 +101,14 @@
     <string name="navigation_bar_height_summary">Dikey durumdayken Gezinti Çubuğu Uzunluğu</string>
     <string name="navigation_bar_width_title">"Gezinti Çubuğu Genişliği "</string>
     <string name="navigation_bar_width_summary">Gezinti Çubuğu boyunca tamamını kapadığı zamanki uzunluğu</string>
-    <string name="navigation_bar_size_42_dp_default">42Dp(Varsayılan)</string>
-    <string name="navigation_bar_size_36_dp">36Dp</string>
-    <string name="navigation_bar_size_30_dp">30Dp</string>
-    <string name="navigation_bar_size_24_dp">24Dp</string>
-    <string name="navigation_bar_size_48_dp_default">48Dp(varsayılan)</string>
-    <string name="navigation_bar_size_44_dp">44Dp</string>
-    <string name="navigation_bar_size_40_dp">40Dp</string>
-    <string name="navigation_bar_size_42_dp">42Dp</string>
+    <string name="navigation_bar_size_42_dp_default">42 dp(Varsayılan)</string>
+    <string name="navigation_bar_size_36_dp">36 dp</string>
+    <string name="navigation_bar_size_30_dp">30 dp</string>
+    <string name="navigation_bar_size_24_dp">24 dp</string>
+    <string name="navigation_bar_size_48_dp_default">48 dp(varsayılan)</string>
+    <string name="navigation_bar_size_44_dp">44 dp</string>
+    <string name="navigation_bar_size_40_dp">40 dp</string>
+    <string name="navigation_bar_size_42_dp">42 dp</string>
     <!-- Ability to disable hardware keys via nav bar settings -->
     <string name="hw_keys_title">Donanım Tuşları</string>
     <string name="hw_keys_summary">Donanım Tuşarını Etkinleştir</string>
@@ -110,14 +119,14 @@
     <string name="show_network_traffic_frequency">Aralığı Güncelle</string>
     <string name="show_network_traffic_disable">Devre Dışı Bırakıldı</string>
     <string name="show_network_traffic_up">Giden</string>
-    <string name="show_network_traffic_down">gelen</string>
-    <string name="show_network_traffic_all">gelen ve giden</string>
+    <string name="show_network_traffic_down">Gelen</string>
+    <string name="show_network_traffic_all">Gelen ve Giden</string>
     <string name="show_network_traffic_bit">Saniye başına bit</string>
     <string name="show_network_traffic_byte">Saniye Başına Bayt</string>
-    <string name="show_network_traffic_500">500Ms</string>
-    <string name="show_network_traffic_1000">1000Ms</string>
-    <string name="show_network_traffic_1500">1500ms</string>
-    <string name="show_network_traffic_2000">2000ms</string>
+    <string name="show_network_traffic_500">500 ms</string>
+    <string name="show_network_traffic_1000">1000 ms</string>
+    <string name="show_network_traffic_1500">1500 ms</string>
+    <string name="show_network_traffic_2000">2000 ms</string>
     <string name="network_traffic_autohide_title">Otomatik Gizle</string>
     <string name="network_traffic_autohide_summary">Eğer bir aktivite yoksaTraffic mönitörünü gizle</string>
     <string name="network_traffic_autohide_threshold">Hareketsizlik eşiği</string>
@@ -127,10 +136,10 @@
     <string name="su_indicator_summary_off">Bir oturum aktiften root erişimini göster</string>
     <!-- long press back to kill configurable timeout -->
     <string name="kill_app_longpress_timeout_title">geri tuşuna uzun basma zaman aşımı</string>
-    <string name="timeout_2000">2Sn(varsayılan)</string>
-    <string name="timeout_1500">1.5sn</string>
-    <string name="timeout_1000">1sn</string>
-    <string name="timeout_500">0.5sn</string>
+    <string name="timeout_2000">2 sn(varsayılan)</string>
+    <string name="timeout_1500">1.5 sn</string>
+    <string name="timeout_1000">1 sn</string>
+    <string name="timeout_500">0.5 sn</string>
     <!-- Toast animations -->
     <string name="toast_animation_title">Bildirim Animasyonu</string>
     <string name="toast_animation_summary">Bilidirim animasyonu seç ve göster</string>
@@ -170,7 +179,7 @@
     <string name="device_maintainers_title">Cihazlar Ve Rom Yapımcıları</string>
     <string name="device_maintainers_title_summary">"XOSP Yapımcıları Tarafından Resmi Olarak Desteklenen Cihazlar "</string>
     <string name="maintainers_note_title">Not</string>
-    <string name="maintainers_note_title_summary">Eğer bu ROM\'u cihazınız için çalışır hale getirdiyseniz ve resmi olarak destek vermek istiyorsanız \"Calin Neamtu\" ya XDA\'da bulunan Hangouts linki üzerinden Özel Mesaj atın</string>
+    <string name="maintainers_note_title_summary">Eğer bu ROM\'u cihazınız için çalışır hale getirdiyseniz ve resmi bir statü almak istiyorsanız \"Calin Neamtu\" ya XDA\'da bulunan Hangouts linki üzerinden Özel Mesaj atın</string>
     <!-- Lock screen settings -->
     <string name="lockscreen_settings_title">Kilit Ekranı Duvar Kağıdı</string>
     <string name="lockscreen_wallpaper_title">Duvar Kağıdı</string>
@@ -191,14 +200,14 @@
     <string name="sizer_message_delete">Bu uygulamayı silmek istediğine eminmisin?</string>
     <string name="btn_delete">Seçilen Uygulamaları şimdi sil</string>
     <string name="delete_progress_title">Siliniyor</string>
-    <string name="delete_progress">Seçilen XOSP uygulamaları silinecektir</string>
+    <string name="delete_progress">Seçilen Uygulamalar silinir...</string>
     <string name="delete_success">Silindi</string>
-    <string name="delete_fail">Silinemedi</string>
+    <string name="delete_fail">Silinemiyor</string>
     <string name="btn_profile">Profil</string>
     <string name="sizer_message_sdnowrite">Sd Karta yazılamıyor</string>
     <string name="sizer_message_sdnoread">Sd kart okunamıyor</string>
-    <string name="sizer_message_filesuccess">Oluşturulan Profil</string>
-    <string name="sizer_message_filefail">Profil Oluşturma başarısız</string>
+    <string name="sizer_message_filesuccess">"Profil Oluşturuldu "</string>
+    <string name="sizer_message_filefail">Profil Oluşturma başarısız oldu</string>
     <string name="sizer_message_noselect">Hiçbir şey seçilmedi</string>
     <string name="system_app_remover">Sistem Uygulama Silici</string>
     <!-- Notification Drawer -->
@@ -295,7 +304,7 @@
     <string name="clock_date_right">Sağdaki zaman</string>
     <string name="clock_date_left">Soldaki zaman</string>
     <!-- XOSPApps -->
-    <string name="xospapps_title">XOSP Uygulamaları</string>
+    <string name="xospapps_title">XOSP Uygulamaları durumu</string>
     <string name="xospapps_default_string">Yüklenemedi</string>
     <!-- Clear all -->
     <string name="recents_panel_category">Son Kullanılanlar paneli</string>
@@ -317,7 +326,7 @@
     <string name="carrier_options">Taşıyıcı Etiketi</string>
     <string name="custom_carrier_label_title">Özel Taşıyıcı Etiketi</string>
     <string name="custom_carrier_label_explain">Mevcut etikete dönmek için boşluk bırakın, Lütfen yeni bir etiket girin.</string>
-    <string name="custom_carrier_label_notset">Özel etiket şuanda ayarlanmadı</string>
+    <string name="custom_carrier_label_notset">Özel etiket şuanda ayarlı değil</string>
     <string name="status_bar_carrier_color">Taşıyıcı etiket rengi</string>
     <string name="show_carrier_title">Taşıyıcı etiketi</string>
     <string name="show_carrier_disabled">Etkin değil</string>
@@ -326,7 +335,7 @@
     <string name="show_carrier_enabled">Etkin</string>
     <!-- Color picker -->
     <string name="dialog_color_picker_title">Renk seçici</string>
-    <string name="press_color_to_apply">Aşağıda uygulamak için Renge basın</string>
+    <string name="press_color_to_apply">Uygulamak için aşağıdaki renge basın</string>
     <string name="palette_xosp_title">XOSP Düz</string>
     <string name="palette_material_title">Malzeme</string>
     <string name="palette_rgb_title">RGB</string>
@@ -352,4 +361,32 @@
     <string name="doze_schedule_summary_off">Bildirim başına bir kez darbe olacak doz</string>
     <string name="doze_brightness_title">Parlaklık seviyesi dozu</string>
     <string name="doze_brightness_summary">Ekran darbesi dozu ile Parlaklık seviyesi (en fazla % parlaklık izni verildi)</string>
+    <!-- Blur Settings -->
+    <string name="lockscreen_see_through_title">Kilit Ekranı Bulanıklğı</string>
+    <string name="lockscreen_see_through_summary">Kilit Ekranınızın arkasındaki Bulanıklıklar ve görüntüler</string>
+    <string name="lockscreen_blur_radius">Bulanıklık etkisi yoğunluğu</string>
+    <string name="blurred_status_bar_expanded_enabled_pref">Durum Çubuğu Arka plan Bulanıklığı</string>
+    <string name="blurred_status_bar_expanded_enabled_pref_summary">Durum Çubuğunu aşağıya çektiğinizde arka plan Bulanıklığı</string>
+    <string name="translucent_notifications_pref">Yarı saydam Bildirimleri</string>
+    <string name="translucent_notifications_pref_summary">Yarı saydam Bildirimlerinin arka planlarını ayarla</string>
+    <string name="translucent_header_pref">Bulanık Durum Çubuğu Başlığı</string>
+    <string name="translucent_header_pref_summary">Durum Çubuğu Başlığının arka planını Bulanıklaştır</string>
+    <string name="translucent_quick_settings_pref">Bulanık Genişletilmiş Durum Çubuğu</string>
+    <string name="translucent_quick_settings_pref_summary">Genişletilmiş Durum Çubuğu arka planını Bulanıklaştır</string>
+    <string name="transluency_level_universal">Saydamlık düzeyi</string>
+    <string name="blur_expstatus_cat">Genişletilmiş Durum Çubuğu</string>
+    <string name="blur_notifications_cat">Bildirimler</string>
+    <string name="blur_header_cat">Durum Çubuğu Başlığı</string>
+    <string name="blur_qs_cat">"Hızlı Ayarlar
+"</string>
+    <string name="blurred_scale">Bulanıklık Ölçeği</string>
+    <string name="blurred_scale_summary">bulanıklık görüntüsünün kalitesi</string>
+    <string name="blurred_radius">Bulanıklık Yarıçapı</string>
+    <string name="blurred_radius_summary">Bulanıklaştırma miktarı</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Hızlı kilit açma</string>
+    <string name="unlock_quick_unlock_control_summary">PIN/Şifre doğru girildiyse otomatik olarak kilidi aç</string>
+    <!-- Headphones icon switch -->
+    <string name="show_headset_icon_title">Kulaklık simgesi</string>
+    <string name="show_headset_icon_summary">Kulaklıklar bağlandığında simgeler gösterilir</string>
 </resources>

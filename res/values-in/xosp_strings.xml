@@ -32,6 +32,8 @@
     <string name="xosp_settings_statusbar_cat">Personalisasi Status Bar</string>
     <string name="xosp_settings_buttons_cat">Tombol Personalisasi</string>
     <string name="xosp_settings_misc_cat">Personalisasi Lainnya</string>
+    <string name="xosp_settings_lockscreen_cat">Ubahsuai Layar Kunci</string>
+    <string name="xosp_settings_blur_cat">Ubahsuai Blur</string>
     <!-- About XOSP -->
     <string name="about_xosp">Tentang XOSP</string>
     <string name="xosp_donate">Donasi untuk pengembangan</string>
@@ -45,6 +47,12 @@
     <string name="xosp_source_summary">Sumber XOSP di Github</string>
     <string name="xosp_google_plus_title">Google+</string>
     <string name="xosp_google_plus_summary">Gabung komunitas di Google+</string>
+    <string name="xosp_facebook_title">Facebook</string>
+    <string name="xosp_facebook_summary">Ikuti kami di halaman Facebook resmi kami</string>
+    <string name="xosp_downloads_site_title">Server Unduhan XOSP</string>
+    <string name="xosp_downloads_site_summary">Pastikan build XOSP dan XOSPApps Anda adalah yang terbaru!</string>
+    <string name="xosp_jenkins_site_title">XOSP Jenkins</string>
+    <string name="xosp_jenkins_site_summary">Ikuti kami di Jenkins!</string>
     <string name="xosp_site_title">Situs resmi XOSP</string>
     <string name="xosp_site_summary">Kunjungi situs resmi</string>
     <string name="xosp_devices_source_title">Sumber Perangkat XOSP</string>
@@ -179,6 +187,7 @@ https://plus.google.com/u/0/communities/117671498272072664538</string>
     <string name="lockscreen_wallpaper_clear_title">Hapus latar belakang layar kunci</string>
     <!-- On-The-Go -->
     <string name="power_menu_onthego_title">Modus perjalanan</string>
+    <string name="power_menu_onthego_summary">Pilihan ini akan tersedia di Menu Daya saat diaktifkan</string>
     <!-- Double Tap Navbar to Sleep -->
     <string name="double_tap_sleep_nav_bar_title">Tap dua kali untuk tidur</string>
     <string name="double_tap_sleep_nav_bar_summary">Tap dua kali bar navigasi untuk tidurkan perangkat</string>
@@ -202,6 +211,8 @@ https://plus.google.com/u/0/communities/117671498272072664538</string>
     <string name="sizer_message_noselect">Tidak ada yang dipilih</string>
     <string name="system_app_remover">Penghapus aplikasi sistem</string>
     <!-- Notification Drawer -->
+    <string name="notification_drawer_title">Ubahsuai Bilah Pemberitahuan</string>
+    <string name="header_cat">Atasan Pemberitahuan</string>
     <!-- Optional Dashboard Switches -->
     <!-- Device info Settings -->
     <string name="device_info_xosp_category">informasi XOSP</string>
@@ -319,4 +330,7 @@ https://plus.google.com/u/0/communities/117671498272072664538</string>
     <string name="reset_xosp_title">Bawaan XOSP</string>
     <!-- Doze options -->
     <string name="doze_settings_title">Opsi lanjutan doze</string>
+    <!-- Blur Settings -->
+    <!-- Quick unlock -->
+    <!-- Headphones icon switch -->
 </resources>

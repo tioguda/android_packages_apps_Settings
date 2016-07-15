@@ -23,17 +23,20 @@
     <string name="mod_version">Versione Mod</string>
     <string name="mod_version_default">Sconosciuto</string>
     <!--XOSP Changelog-->
-    <string name="xosp_changelog_title">ChangeLog</string>
-    <string name="xosp_changelog_summary">XOSP ChangeLog</string>
-    <string name="xosp_changelog_error">Il ChangeLog non può essere caricato!</string>
+    <string name="xosp_changelog_title">Cambiamenti</string>
+    <string name="xosp_changelog_summary">XOSP Cambiamenti</string>
+    <string name="xosp_changelog_error">I cambiamenti non possono essere caricati!</string>
     <!-- XOSP extra settings -->
     <string name="xosp_settings_header">Impostazioni aggiuntive</string>
     <string name="xosp_settings_title">Impostazioni XOSP</string>
-    <string name="xosp_settings_statusbar_cat">Personalizzazione della Status Bar</string>
-    <string name="xosp_settings_buttons_cat">Personalizzazione Tasti</string>
-    <string name="xosp_settings_misc_cat">Personalizzazioni miste</string>
+    <string name="xosp_settings_statusbar_cat">Personalizzazioni Barra di stato</string>
+    <string name="xosp_settings_buttons_cat">Personalizzazioni Tasti</string>
+    <string name="xosp_settings_misc_cat">Personalizzazioni Miste</string>
+    <string name="xosp_settings_lockscreen_cat">Personalizzazioni Schermata di blocco</string>
+    <string name="xosp_settings_blur_cat">Personalizzazioni Sfocatura</string>
     <!-- About XOSP -->
     <string name="about_xosp">Riguardo XOSP</string>
+    <string name="about_xosp_summary">@null</string>
     <string name="xosp_donate">Dona per lo Sviluppo</string>
     <string name="xosp_donate_summary">Ti piace la ROM? Fai una piccola donazione!</string>
     <string name="app_name">XOSP</string>
@@ -45,6 +48,12 @@
     <string name="xosp_source_summary">Sorgenti XOSP su Github</string>
     <string name="xosp_google_plus_title">Google+</string>
     <string name="xosp_google_plus_summary">Entra nella community su Google+</string>
+    <string name="xosp_facebook_title">Facebook</string>
+    <string name="xosp_facebook_summary">Seguiteci anche sulla nostra pagina ufficiale FB</string>
+    <string name="xosp_downloads_site_title">XOSP Downloads Server</string>
+    <string name="xosp_downloads_site_summary">Rimani aggiornato con le ultime XOSP e XOSP applicazioni costruiste!</string>
+    <string name="xosp_jenkins_site_title">XOSP Jenkins</string>
+    <string name="xosp_jenkins_site_summary">Seguici su Jenkins!</string>
     <string name="xosp_site_title">Sito Ufficiale XOSP</string>
     <string name="xosp_site_summary">Visita il Sito Ufficiale</string>
     <string name="xosp_devices_source_title">Sorgenti XOSP del Device</string>
@@ -62,19 +71,19 @@
     <string name="enable_task_manager_summary">Attiva/Disattiva l\'azione bottone del task manager nell\'area della statusbar espansa</string>
     <!-- Statusbar XOSP logo -->
     <string name="status_bar_xosp_logo_title">Logo XOSP</string>
-    <string name="status_bar_xosp_logo_summary">Abilita il logo XOSP nella statusbar</string>
+    <string name="status_bar_xosp_logo_summary">Abilita il logo XOSP nella barra di stato</string>
     <!-- SlimDim -->
     <string name="dim_nav_buttons_category">SlimDim</string>
     <string name="dim_nav_buttons_title">Spegni i pulsanti dopo inattività</string>
     <string name="dim_nav_buttons_summary">Spegni i pulsanti della barra di navigazione se non si utilizza per un tempo specifico</string>
     <string name="dim_nav_buttons_timeout_title">Tempo prima dello spegnimento</string>
-    <string name="dim_nav_buttons_timeout_summary">tempo (in millisecondi) da aspettare prima dello spegnimento dei pulsanti</string>
-    <string name="dim_nav_buttons_alpha_title">Dim alpha</string>
-    <string name="dim_nav_buttons_alpha_summary">Valore alpha per spegnere i bottoni</string>
+    <string name="dim_nav_buttons_timeout_summary">Tempo (in millisecondi) da aspettare prima dello spegnimento dei pulsanti</string>
+    <string name="dim_nav_buttons_alpha_title">Valore alfa oscuramento</string>
+    <string name="dim_nav_buttons_alpha_summary">Valore alfa per oscurare bottoni</string>
     <string name="dim_nav_buttons_animate_title">Animazione di spegnimento</string>
     <string name="dim_nav_buttons_animate_summary">"Anima la sfocatura alpha "</string>
     <string name="dim_nav_buttons_animate_duration_title">"Durata animazione "</string>
-    <string name="dim_nav_buttons_animate_duration_summary">"Durata (in millisecondi) dell'animazione alpha "</string>
+    <string name="dim_nav_buttons_animate_duration_summary">"Durata (in millisecondi) dell'animazione alfa "</string>
     <string name="dim_nav_buttons_touch_anywhere_title">"Ascolta i tocchi in tutto lo schermo "</string>
     <string name="dim_nav_buttons_touch_anywhere_summary_on">Toccare in un punto qualsiasi dello schermo causerà il risveglio dei tasti</string>
     <string name="dim_nav_buttons_touch_anywhere_summary_off">Solo i tocchi sulla navbar potranno risvegliare i tasti</string>
@@ -119,7 +128,7 @@
     <string name="show_network_traffic_1500">1500 ms</string>
     <string name="show_network_traffic_2000">2000 ms</string>
     <string name="network_traffic_autohide_title">Nascondi automaticamente</string>
-    <string name="network_traffic_autohide_summary">Nascondi il monitoraggio traffico quando non c\'è scambio di dati</string>
+    <string name="network_traffic_autohide_summary">Nascondi il monitor di traffico quando non c\'è nessuna attività</string>
     <string name="network_traffic_autohide_threshold">Soglia di inattività</string>
     <!-- Superuser indicator on status bar -->
     <string name="su_indicator">Indicatore Superuser</string>
@@ -136,9 +145,9 @@
     <string name="toast_animation_summary">Seleziona e mostra un\'anteprima delle animazioni toast</string>
     <string name="toast_none_animation">Nessuna</string>
     <string name="toast_default_animation">Predefinito</string>
-    <string name="toast_fade_animation">Animazione Sfocata</string>
-    <string name="toast_SlideRight_animation">Scorri a destra</string>
-    <string name="toast_SlideLeft_animation">Scorri a sinistra</string>
+    <string name="toast_fade_animation">Animazione dissolvenza</string>
+    <string name="toast_SlideRight_animation">Scorri da destra</string>
+    <string name="toast_SlideLeft_animation">Scorri da sinistra</string>
     <string name="toast_Xylon_animation">Animazione Xylon</string>
     <string name="toast_Toko_animation">Animazione Toko</string>
     <string name="toast_Tn_animation">Animazione Tn</string>
@@ -153,35 +162,35 @@
     <string name="screen_and_animations_title">Schermo e animazioni</string>
     <!-- Double tap to sleep on lockscreen -->
     <string name="double_tap_sleep_anywhere_title">DT2S nella Lockscreen</string>
-    <string name="double_tap_sleep_anywhere_summary">Doppio tocco nella lockscreen per mandare il dispositivo in standby</string>
+    <string name="double_tap_sleep_anywhere_summary">Doppio tocco nella schermata di blocco per sospendere il dispositivo</string>
     <!-- Dashboard columns -->
     <string name="dashboard_columns_title">Colonne Dashboard</string>
     <string name="dashboard_columns_summary">Cambia il numero di colonne visualizzate nella dashboard</string>
-    <string name="dashboard_columns_dialog_title">seleziona le colonne della dashboard</string>
+    <string name="dashboard_columns_dialog_title">Seleziona le colonne della dashboard</string>
     <string name="dashboard_columns_default">Uno (predefinito)</string>
     <string name="dashboard_columns_two">Due</string>
     <string name="dashboard_columns_three">Tre</string>
     <!-- Dashboard tileview double lines -->
     <string name="dashboard_category">"Impostazioni Dashboard "</string>
-    <string name="dashboard_tileview_double_lines_title">Tile Dashboard vista tile</string>
-    <string name="dashboard_tileview_double_lines_summary_on">"Mostra il titolo del tile Dashboard nella prima linea "</string>
-    <string name="dashboard_tileview_double_lines_summary_off">"Mostra il titolo del tile Dashboard nella due linee "</string>
+    <string name="dashboard_tileview_double_lines_title">Visualizzazione titolo dashboard</string>
+    <string name="dashboard_tileview_double_lines_summary_on">Mostra i titoli dei tile della dashboard in 1 lineea</string>
+    <string name="dashboard_tileview_double_lines_summary_off">Mostra i titoli dei tile della dashboard in 2 linee</string>
     <!-- Devices and Maintainers -->
-    <string name="device_maintainers_title">"Dispositivi e maintainers "</string>
-    <string name="device_maintainers_title_summary">Lista dei dispositivi supportati ufficialmente dai maintainers XOSP</string>
+    <string name="device_maintainers_title">Dispositivi e Manutentori</string>
+    <string name="device_maintainers_title_summary">Lista dei dispositivi supportati ufficialmente dai manutentori di XOSP</string>
     <string name="maintainers_note_title">"Note "</string>
     <string name="maintainers_note_title_summary">Se hai compilato la ROM e tutto sta completamente funzionando, o quasi, e vuoi ottenere l\'approvazione ufficiale manda un messaggio privato a \"Calin Neamtu\" su Hangouts, includendo anche il link al Thread di XDA</string>
     <!-- Lock screen settings -->
-    <string name="lockscreen_settings_title">Sfondo Lockscreen</string>
+    <string name="lockscreen_settings_title">Sfondo schermata di blocco</string>
     <string name="lockscreen_wallpaper_title">Sfondo</string>
-    <string name="lockscreen_wallpaper_set_title">Imposta sfondo lock screen</string>
-    <string name="lockscreen_wallpaper_clear_title">Resetta sfondo lock screen</string>
+    <string name="lockscreen_wallpaper_set_title">Imposta sfondo schermata di blocco</string>
+    <string name="lockscreen_wallpaper_clear_title">Resetta sfondo schermata di blocco</string>
     <!-- On-The-Go -->
     <string name="power_menu_onthego_title">Modalità On-The-Go</string>
     <string name="power_menu_onthego_summary">L\'opzione sarà disponibile nel Menù di Accensione una volta attivata</string>
     <!-- Double Tap Navbar to Sleep -->
-    <string name="double_tap_sleep_nav_bar_title">Doppio-tap per spegnere</string>
-    <string name="double_tap_sleep_nav_bar_summary">Doppio tocco sulla barra di navigazione per mandare in standby il dispositivo</string>
+    <string name="double_tap_sleep_nav_bar_title">Doppio tocco per spegnere</string>
+    <string name="double_tap_sleep_nav_bar_summary">Doppio tocco sulla barra di navigazione per sospendere il dispositivo</string>
     <!-- System App Remover  -->
     <string name="listsystem">Lista</string>
     <string name="sizer_title">Rimuovere applicazioni di sistema</string>
@@ -191,71 +200,71 @@
     <string name="sizer_message_delete">Sicuro di voler eliminare quest\'app?</string>
     <string name="btn_delete">Elimina le APPs selezionate!</string>
     <string name="delete_progress_title">Cancellando</string>
-    <string name="delete_progress">Le XOSPApps selezionate verranno cancellate...</string>
+    <string name="delete_progress">Le applicazioni selezionate verranno eliminate ...</string>
     <string name="delete_success">Cancellato</string>
-    <string name="delete_fail">impossibile cancellare</string>
+    <string name="delete_fail">Impossibile cancellare</string>
     <string name="btn_profile">Profilo</string>
     <string name="sizer_message_sdnowrite">Impossibile scrivere sulla SD Card.</string>
     <string name="sizer_message_sdnoread">Impossibile leggere SD Card.</string>
     <string name="sizer_message_filesuccess">Profilo creato.</string>
     <string name="sizer_message_filefail">Creazione profilo fallita.</string>
-    <string name="sizer_message_noselect">Niente selezionato.</string>
-    <string name="system_app_remover">rimozione app di sistema</string>
+    <string name="sizer_message_noselect">Nessuna selezione.</string>
+    <string name="system_app_remover">Rimozione app di sistema</string>
     <!-- Notification Drawer -->
     <string name="notification_drawer_title">Personalizzazioni Notifiche Drawer</string>
     <string name="header_cat">Intestatore notifiche</string>
     <!-- Optional Dashboard Switches -->
-    <string name="dashboard_switches_title">Scambi Dashboard</string>
-    <string name="dashboard_switches_off">Disattiva</string>
-    <string name="dashboard_switches_on">Attiva</string>
+    <string name="dashboard_switches_title">Interruttori Dashboard</string>
+    <string name="dashboard_switches_off">Disattivati</string>
+    <string name="dashboard_switches_on">Attivati</string>
     <string name="dashboard_switches_summary">Cambia la posizione degli scambi della dashboard</string>
-    <string name="dashboard_switches_dialog_title">Seleziona stato di scambio</string>
+    <string name="dashboard_switches_dialog_title">Seleziona lo stato dell\'interruttore</string>
     <!-- Device info Settings -->
     <string name="device_info_xosp_category">Informazioni XOSP</string>
-    <string name="device_info_device_category">Informazioni Device</string>
+    <string name="device_info_device_category">Informazioni Dispositivo</string>
     <string name="device_info_android_category">Informazioni OS</string>
     <string name="device_info_other_category">Altre informazioni</string>
     <!-- Battery icon -->
     <string name="status_bar_battery_style_xperia_text">Prototipo Testo Batteria Xperia</string>
     <!-- Time Contextual Headers -->
     <string name="status_bar_custom_header_title">Intestatore Orario Contestuale</string>
-    <string name="contextual_title">Intestatori Contestuali</string>
-    <string name="status_bar_custom_header_summary">Attiva immagine nel pannello dell\'intestatore</string>
-    <string name="status_bar_custom_header_default_summary">Default, moderno e poly HD</string>
+    <string name="contextual_title">Intestazioni Contestuali</string>
+    <string name="status_bar_custom_header_summary">Attiva immagine nel pannello dell\'intestazione</string>
+    <string name="status_bar_custom_header_default_summary">Predefinito, moderno e poly HD</string>
     <string name="status_bar_custom_header_default_title">Seleziona le tue immagini</string>
     <string name="custom_header_image_0">Predefinito</string>
     <string name="custom_header_image_1">Moderno</string>
     <string name="custom_header_image_2">Poly HD</string>
     <!-- Status bar - Clock -->
     <string name="status_bar_show_clock_second_title">Secondi orologio</string>
-    <string name="clock_font_style_title">Font</string>
+    <string name="clock_font_style_title">Carattere</string>
     <string name="clock_font_normal">Normale</string>
-    <string name="clock_font_italic">Italic</string>
+    <string name="clock_font_italic">Corsivo</string>
     <string name="clock_font_bold">Grassetto</string>
-    <string name="clock_font_bold_italic">Italic Grassetto</string>
+    <string name="clock_font_bold_italic">Corsivo Grassetto</string>
     <string name="clock_font_light">Leggero</string>
-    <string name="clock_font_light_italic">Italic Leggero</string>
-    <string name="clock_font_thin">Magro</string>
-    <string name="clock_font_thin_italic">Italic Magro</string>
+    <string name="clock_font_light_italic">Corsivo Leggero</string>
+    <string name="clock_font_thin">Sottile</string>
+    <string name="clock_font_thin_italic">Corsivo Sottile</string>
     <string name="clock_font_condensed">Condensato</string>
-    <string name="clock_font_condensed_italic">Italic Condensato</string>
+    <string name="clock_font_condensed_italic">Corsivo Condensato</string>
     <string name="clock_font_condensed_light">Condensato Leggero</string>
-    <string name="clock_font_condensed_light_italic">Italic Condensato Leggero</string>
+    <string name="clock_font_condensed_light_italic">Corsivo Condensato Leggero</string>
     <string name="clock_font_condensed_bold">Condensato Grassetto</string>
-    <string name="clock_font_condensed_bold_italic">Italic Condensato Grassetto</string>
+    <string name="clock_font_condensed_bold_italic">Corsivo Condensato Grassetto</string>
     <string name="clock_font_medium">Medio</string>
-    <string name="clock_font_medium_italic">Italic Medio</string>
+    <string name="clock_font_medium_italic">Corsivo Medio</string>
     <string name="clock_font_black">Nero</string>
-    <string name="clock_font_black_italic">Italic Nero</string>
+    <string name="clock_font_black_italic">Corsivo Nero</string>
     <string name="clock_font_dancingscript">DancingScript</string>
     <string name="clock_font_dancingscript_bold">DancingScript Grassetto</string>
     <string name="clock_font_comingsoon">Prossimamente</string>
     <string name="clock_font_notoserif">NotoSerif Normale</string>
-    <string name="clock_font_notoserif_italic">NotoSerif Italic</string>
+    <string name="clock_font_notoserif_italic">NotoSerif Corsivo</string>
     <string name="clock_font_notoserif_bold">NotoSerif Grassetto</string>
-    <string name="clock_font_notoserif_bold_italic">NotoSerif Grassetto Italic</string>
+    <string name="clock_font_notoserif_bold_italic">NotoSerif Grassetto Corsivo</string>
     <string name="status_bar_show_clock_second_title">Secondi orologio</string>
-    <string name="clock_font_size_title">Grandezza font</string>
+    <string name="clock_font_size_title">Grandezza carattere</string>
     <string name="clock_font_size_4">4</string>
     <string name="clock_font_size_5">5</string>
     <string name="clock_font_size_6">6</string>
@@ -288,41 +297,41 @@
     <string name="status_bar_date_style_lowercase">Lettera minuscola</string>
     <string name="status_bar_date_style_uppercase">Lettera maiuscola</string>
     <string name="status_bar_date_format_custom">Formato java personalizzato</string>
-    <string name="status_bar_date_string_edittext_title">il formato data deve essere in MM/gg/aa</string>
-    <string name="status_bar_date_string_edittext_summary">inserisci codice</string>
+    <string name="status_bar_date_string_edittext_title">Il formato data deve essere in MM/gg/aa</string>
+    <string name="status_bar_date_string_edittext_summary">Immettere una stringa</string>
     <!-- Date position -->
     <string name="clock_date_position">Posizione Data</string>
     <string name="clock_date_right">Destra dell\'orologio</string>
     <string name="clock_date_left">Sinistra dell\'orologio</string>
     <!-- XOSPApps -->
-    <string name="xospapps_title">XOSPApps</string>
+    <string name="xospapps_title">Stato XOSP Applicazioni</string>
     <string name="xospapps_default_string">Non installata</string>
     <!-- Clear all -->
     <string name="recents_panel_category">Pannello recenti</string>
     <string name="show_clear_all_recents_button_title">Bottone cancella tutto</string>
     <string name="show_clear_all_recents_button_summary">Mostra il pulsante cancella tutto</string>
-    <string name="recents_clear_all_location_title">Cancella tutte le impostazioni</string>
+    <string name="recents_clear_all_location_title">Posizione pulsante cancella tutto</string>
     <string name="recents_clear_all_location_top_right">In alto a destra</string>
     <string name="recents_clear_all_location_top_left">In alto a sinistra</string>
     <string name="recents_clear_all_location_top_center">In alto al centro</string>
-    <string name="recents_clear_all_location_bottom_right">Bottone destro</string>
-    <string name="recents_clear_all_location_bottom_left">Bottone sinistro</string>
-    <string name="recents_clear_all_location_bottom_center">Bottone centrale</string>
+    <string name="recents_clear_all_location_bottom_right">In basso a destra</string>
+    <string name="recents_clear_all_location_bottom_left">In basso a sinistra</string>
+    <string name="recents_clear_all_location_bottom_center">In basso centrale</string>
     <string name="recents_clear_all_dismiss_all_title">Chiudi tutte le app</string>
     <string name="recents_clear_all_dismiss_all_summary">Includi le app in esecuzione quando cancelli tutto</string>
     <!-- Current on Lockscreen -->
-    <string name="lock_screen_show_current">Corrente di ricarica</string>
-    <string name="lock_screen_show_current_summary">Mostra nella Lock screen la corrente di ricarica</string>
+    <string name="lock_screen_show_current">Carica corrente</string>
+    <string name="lock_screen_show_current_summary">Mostra nella schermata di blocco la carica corrente</string>
     <!-- Show carrier label and custom -->
-    <string name="carrier_options">Etichetta operatore telefonico</string>
-    <string name="custom_carrier_label_title">Etichetta operatore telefonico personalizzata</string>
-    <string name="custom_carrier_label_explain">Inserisci una nuova etichetta. Lascia in bianco per tornare all\'etichetta originale.</string>
+    <string name="carrier_options">Etichetta operatore</string>
+    <string name="custom_carrier_label_title">Etichetta operatore personalizzata</string>
+    <string name="custom_carrier_label_explain">Inserisci una nuova etichetta. Lasciare vuoto per ripristinare all\'etichetta originale.</string>
     <string name="custom_carrier_label_notset">Etichetta personalizzata non impostata</string>
-    <string name="status_bar_carrier_color">Colore etichetta operatore telefonico</string>
-    <string name="show_carrier_title">Etichetta operatore telefonico</string>
+    <string name="status_bar_carrier_color">Colore etichetta operatore</string>
+    <string name="show_carrier_title">Etichetta operatore</string>
     <string name="show_carrier_disabled">Disabilitato</string>
-    <string name="show_carrier_keyguard">Mostra bloccotastiera</string>
-    <string name="show_carrier_statusbar">Etichetta operatore telefonico nella barra di stato</string>
+    <string name="show_carrier_keyguard">Operatore nella schermata di blocco</string>
+    <string name="show_carrier_statusbar">Operatore nella barra di stato</string>
     <string name="show_carrier_enabled">Abilitato</string>
     <!-- Color picker -->
     <string name="dialog_color_picker_title">Scegli il colore</string>
@@ -337,18 +346,46 @@
     <string name="doze_settings_title">Impostazioni Doze avanzate</string>
     <string name="doze_timeout_title">Regola il tempo di frequenza di Doze</string>
     <string name="doze_timeout_summary">Tempo di attività dello schermo quando arriva una notifica</string>
-    <string name="doze_trigger_pickup_title">Attivata la scelta della gesture</string>
+    <string name="doze_trigger_pickup_title">Attivata la scelta del gesto</string>
     <string name="doze_trigger_pickup_summary_on">La frequenza di Doze verrà attivata dal sensore della scelta degli eventi</string>
-    <string name="doze_trigger_pickup_summary_off">Il sensore della scelta delle gesture non verrà utilizzato come un meccanismo da attivare</string>
+    <string name="doze_trigger_pickup_summary_off">Sensore di movimento non sarà utilizzata come un meccanismo di attivazione</string>
     <string name="doze_trigger_sigmotion_title">Attivatore del movimento significante</string>
     <string name="doze_trigger_sigmotion_summary_on">La frequenza di Doze verrà attivata da dei significanti eventi del movimento del sensore</string>
     <string name="doze_trigger_sigmotion_summary_off">Il sensore di movimento significante non verrà utilizzato come un meccanismo da attivare</string>
     <string name="doze_trigger_notification_title">Selezionatore notifiche</string>
     <string name="doze_trigger_notification_summary_on">La frequenza di Doze verrà selezionata dalle notifiche</string>
     <string name="doze_trigger_notification_summary_off">Le notifiche non verranno utilizzate come un selezionatore</string>
-    <string name="doze_schedule_title">Programmatore Doze</string>
+    <string name="doze_schedule_title">Pianificazione Doze</string>
     <string name="doze_schedule_summary_on">Doze predefinito ripete gli intervalli (normali [1s,10s,30s,60s,120s] è usato come (predefinito)</string>
     <string name="doze_schedule_summary_off">Solo la frequenza di Doze verrà utilizzata  una volta per notifica</string>
     <string name="doze_brightness_title">Livello luminosità Doze</string>
     <string name="doze_brightness_summary">Livello di luminosità della frequenza di Doze (in % della massima luminosità consentita)</string>
+    <!-- Blur Settings -->
+    <string name="lockscreen_see_through_title">Sfocatura schermata di blocco</string>
+    <string name="lockscreen_see_through_summary">Sfoca e visualizza il contenuto dietro la schermata di blocco.</string>
+    <string name="lockscreen_blur_radius">Intensità dell\'effetto di sfocatura</string>
+    <string name="blurred_status_bar_expanded_enabled_pref">Sfoca lo sfondo della barra di stato</string>
+    <string name="blurred_status_bar_expanded_enabled_pref_summary">Sfoca lo sfondo quando si tira verso il basso la barra di stato</string>
+    <string name="translucent_notifications_pref">Notifiche traslucide</string>
+    <string name="translucent_notifications_pref_summary">Imposta lo sfondo delle notifiche traslucido</string>
+    <string name="translucent_header_pref">Sfocatura intestazione barra di stato</string>
+    <string name="translucent_header_pref_summary">Sfoca lo sfondo d\' intestazione della barra di stato</string>
+    <string name="translucent_quick_settings_pref">Sfocatura barra di stato espansa</string>
+    <string name="translucent_quick_settings_pref_summary">Sfoca lo sfondo della barra di stato quando espansa</string>
+    <string name="transluency_level_universal">Livello di traslucenza</string>
+    <string name="blur_expstatus_cat">Espandi la barra di stato</string>
+    <string name="blur_notifications_cat">Notifiche</string>
+    <string name="blur_header_cat">Intestazione Barra di stato</string>
+    <string name="blur_qs_cat">Impostazioni rapide</string>
+    <string name="blurred_scale">Scala di sfocatura</string>
+    <string name="blurred_scale_summary">Qualità immagine di sfocatura</string>
+    <string name="blurred_radius">"Raggio di sfocatura
+"</string>
+    <string name="blurred_radius_summary">Quantità di sfocatura</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Sblocco rapido</string>
+    <string name="unlock_quick_unlock_control_summary">Sblocca automaticamente quando viene inserito il codice PIN/password corretto</string>
+    <!-- Headphones icon switch -->
+    <string name="show_headset_icon_title">Icona cuffie</string>
+    <string name="show_headset_icon_summary">Mostra icona quando le cuffie sono collegate.</string>
 </resources>

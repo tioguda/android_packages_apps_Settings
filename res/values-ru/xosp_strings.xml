@@ -29,8 +29,11 @@
     <!-- XOSP extra settings -->
     <string name="xosp_settings_header">Дополнительные настройки</string>
     <string name="xosp_settings_title">Настройки XOSP</string>
-    <string name="xosp_settings_statusbar_cat">Персонализация Статус Бара</string>
-    <string name="xosp_settings_buttons_cat">Персонализация Кнопок</string>
+    <string name="xosp_settings_statusbar_cat">Настройки Статус Бара</string>
+    <string name="xosp_settings_buttons_cat">Настройки кнопок</string>
+    <string name="xosp_settings_misc_cat">Остальные настройки</string>
+    <string name="xosp_settings_lockscreen_cat">Настройки экрана блокировки</string>
+    <string name="xosp_settings_blur_cat">Настройки размытия</string>
     <!-- About XOSP -->
     <string name="about_xosp">О XOSP</string>
     <string name="xosp_donate">Пожертвовать разработчикам</string>
@@ -44,6 +47,12 @@
     <string name="xosp_source_summary">Исходные Коды XOSP на Github</string>
     <string name="xosp_google_plus_title">Google+</string>
     <string name="xosp_google_plus_summary">Присоединяйтесь к разработчикам в Google+</string>
+    <string name="xosp_facebook_title">Facebook</string>
+    <string name="xosp_facebook_summary">Присоединяйтесь к Нам и нашей странице в Facebook</string>
+    <string name="xosp_downloads_site_title">Сервер загрузок XOSP</string>
+    <string name="xosp_downloads_site_summary">Следите за последними обновлениями XOSP и XOSPApps</string>
+    <string name="xosp_jenkins_site_title">XOSP Jenkins</string>
+    <string name="xosp_jenkins_site_summary">Следуй за Jenkins!</string>
     <string name="xosp_site_title">Официальный сайт XOSP</string>
     <string name="xosp_site_summary">Посетить Официальный Сайт</string>
     <string name="xosp_devices_source_title">Исходники поддерживаемых XOSP устройств</string>
@@ -68,7 +77,7 @@
     <string name="dim_nav_buttons_summary">Затухание навигационой панели кнопок после не взаимодействия с панели навигации в течение определенного времени</string>
     <string name="dim_nav_buttons_timeout_title">Таймаут перед затемнением</string>
     <string name="dim_nav_buttons_timeout_summary">Время ( в миллисекундах ) ожидания перед затемнением кнопок</string>
-    <string name="dim_nav_buttons_alpha_title">Тусклый альфа</string>
+    <string name="dim_nav_buttons_alpha_title">Альфа затемнение</string>
     <string name="dim_nav_buttons_alpha_summary">Значение для затемнения кнопок</string>
     <string name="dim_nav_buttons_animate_title">Анимация затемнения</string>
     <string name="dim_nav_buttons_animate_summary">Анимация альфа замирания</string>
@@ -82,15 +91,15 @@
     <string name="reset">Сброс</string>
     <string name="reset_message">Сбросить всё к настройкам по умолчанию?</string>
     <!-- Navigation bar -->
-    <string name="nav_bar_title">Навигационной панель</string>
-    <string name="navbar_enable_bar_title">Включить наэкранные кнопки</string>
-    <string name="navbar_enable_bar_summary">Включить наэкранные и отключить физические кнопки</string>
-    <string name="navbar_style_dimen_title">Размеры навигационные кнопок</string>
+    <string name="nav_bar_title">Навигационная панель</string>
+    <string name="navbar_enable_bar_title">Включить экранные кнопки</string>
+    <string name="navbar_enable_bar_summary">Включить экранные и отключить физические кнопки</string>
+    <string name="navbar_style_dimen_title">Размеры навигационных кнопок</string>
     <string name="navbar_dimensions_reset_message">"Сбросить все размеры по умолчанию "</string>
-    <string name="navigation_bar_height_title">Высота навигационные кнопок</string>
+    <string name="navigation_bar_height_title">Высота навигационных кнопок</string>
     <string name="navigation_bar_height_summary">Высота панели навигации в портретном режиме</string>
     <string name="navigation_bar_width_title">Ширина навигационной панели</string>
-    <string name="navigation_bar_width_summary">высота панель навигации если панель вдоль стороны</string>
+    <string name="navigation_bar_width_summary">Высота панели навигации, если панель вдоль стороны</string>
     <string name="navigation_bar_size_42_dp_default">"42 dp (по умолчанию) "</string>
     <string name="navigation_bar_size_36_dp">36 dp</string>
     <string name="navigation_bar_size_30_dp">30 dp</string>
@@ -100,7 +109,7 @@
     <string name="navigation_bar_size_40_dp">40 dp</string>
     <string name="navigation_bar_size_42_dp">42 dp</string>
     <!-- Ability to disable hardware keys via nav bar settings -->
-    <string name="hw_keys_title">Навигационные кнопки</string>
+    <string name="hw_keys_title">Аппаратные кнопки</string>
     <string name="hw_keys_summary">Включить аппаратные кнопоки</string>
     <!-- Network traffic -->
     <string name="network_traffic_title">Интернет трафик</string>
@@ -118,12 +127,12 @@
     <string name="show_network_traffic_1500">"1500 миллисекунд "</string>
     <string name="show_network_traffic_2000">"2000 миллисекунд "</string>
     <string name="network_traffic_autohide_title">"Автоматически спрятать "</string>
-    <string name="network_traffic_autohide_summary">Спрятать монитор трафика,когда нет соединения</string>
+    <string name="network_traffic_autohide_summary">Спрятать монитор трафика, когда нет соединения</string>
     <string name="network_traffic_autohide_threshold">Порог неактивности</string>
     <!-- Superuser indicator on status bar -->
     <string name="su_indicator">Индикатор супер-пользователя</string>
-    <string name="su_indicator_summary_on">Суперпользователь индикатор виден , когда сеанс активен</string>
-    <string name="su_indicator_summary_off">Переключение индикатор суперпользователя , когда сеанс активен</string>
+    <string name="su_indicator_summary_on">Индикатор Суперпользователя виден, когда сеанс активен</string>
+    <string name="su_indicator_summary_off">Переключение индикатора суперпользователя, когда сеанс активен</string>
     <!-- long press back to kill configurable timeout -->
     <string name="kill_app_longpress_timeout_title">"Длительное нажатие кнопки назад "</string>
     <string name="timeout_2000">"2 секунды(по умолчанию) "</string>
@@ -131,14 +140,14 @@
     <string name="timeout_1000">1 секунда</string>
     <string name="timeout_500">0,5 секунд</string>
     <!-- Toast animations -->
-    <string name="toast_animation_title">Тосты анимации</string>
-    <string name="toast_animation_summary">Выбор и предварительный просмотр тост анимации</string>
+    <string name="toast_animation_title">Toast анимация</string>
+    <string name="toast_animation_summary">Выбор и просмотр Toast анимации</string>
     <string name="toast_none_animation">Нет</string>
     <string name="toast_default_animation">"По умолчанию "</string>
-    <string name="toast_fade_animation">Исчезание анимации</string>
+    <string name="toast_fade_animation">Анимация исчезания</string>
     <string name="toast_SlideRight_animation">Слайд в право</string>
     <string name="toast_SlideLeft_animation">Слайд в лево</string>
-    <string name="toast_Xylon_animation">Ксилон анимация</string>
+    <string name="toast_Xylon_animation">Xylon анимация</string>
     <string name="toast_Toko_animation">Toko анимация</string>
     <string name="toast_Tn_animation">"TN анимация "</string>
     <string name="toast_Honami_animation">Хоками анимация</string>
@@ -158,10 +167,10 @@
     <string name="dashboard_columns_summary">"Выберите количество колонок в приборной строке "</string>
     <string name="dashboard_columns_dialog_title">Выберите колонки приборной панели</string>
     <string name="dashboard_columns_default">"Один(по умолчанию) "</string>
-    <string name="dashboard_columns_two">Две</string>
+    <string name="dashboard_columns_two">Два</string>
     <string name="dashboard_columns_three">Три</string>
     <!-- Dashboard tileview double lines -->
-    <string name="dashboard_category">Настройки главного меню настроек</string>
+    <string name="dashboard_category">Настройки главного меню</string>
     <string name="dashboard_tileview_double_lines_title">Вид заголовка плиток главных настроек</string>
     <string name="dashboard_tileview_double_lines_summary_on">Плитки в 1 столбец</string>
     <string name="dashboard_tileview_double_lines_summary_off">Плитки в 2 столбца</string>
@@ -177,51 +186,98 @@
     <string name="lockscreen_wallpaper_clear_title">Очистить обои экрана блокировки</string>
     <!-- On-The-Go -->
     <string name="power_menu_onthego_title">Режим \"На Ходу\"</string>
-    <string name="power_menu_onthego_summary">При включении этой опции она будет доступна в меню выключения и перезагрузки</string>
+    <string name="power_menu_onthego_summary">Настройки будут доступны в меню выключения после активации</string>
     <!-- Double Tap Navbar to Sleep -->
     <string name="double_tap_sleep_nav_bar_title">Двойное нажатие для сна</string>
-    <string name="double_tap_sleep_nav_bar_summary">Дважды нажать  наэкранные кнопки,для погружения в сон</string>
+    <string name="double_tap_sleep_nav_bar_summary">Двойное нажатие на экранные кнопки, для сна</string>
     <!-- System App Remover  -->
     <string name="listsystem">Лист</string>
     <string name="sizer_title">Удаление системных приложений</string>
     <string name="caution">Осторожно</string>
-    <string name="sizer_message_startup">Этот инструмент позволяет удалять системные приложения. Следует использовать с осторожностью и только удалять приложения , которые вы знаете , безопасны быть удалены .</string>
+    <string name="sizer_message_startup">Этот инструмент позволяет удалять системные приложения. Используйте с осторожностью , удаляйте приложения которые не нанесут вред устройству</string>
     <string name="cancel">Отмена</string>
-    <string name="sizer_message_delete">"Вы точно хотите удалить данное приложение "</string>
-    <string name="btn_delete">Снова выберете приложение для удаления</string>
+    <string name="sizer_message_delete">Вы уверены в удалении данного приложения?</string>
+    <string name="btn_delete">Удаление выбранного приложения немедленно!</string>
     <string name="delete_progress_title">Удаление</string>
-    <string name="delete_progress">Выбранные XOSPApps удаляются ...</string>
+    <string name="delete_progress">Выбранные XOSPApps удаляются</string>
     <string name="delete_success">Удалено</string>
-    <string name="delete_fail">Включить удаление</string>
+    <string name="delete_fail">Удаление невозможно</string>
     <string name="btn_profile">"Профиль "</string>
-    <string name="sizer_message_sdnowrite">Не удаётся записать на сд-карту</string>
-    <string name="sizer_message_sdnoread">Не удаётся прочитать сд-карту</string>
+    <string name="sizer_message_sdnowrite">Не удаётся записать на SD Card</string>
+    <string name="sizer_message_sdnoread">Не удаётся прочитать SD Card</string>
     <string name="sizer_message_filesuccess">Создать профиль</string>
-    <string name="sizer_message_filefail">Не получилось создать профиль</string>
-    <string name="sizer_message_noselect">"Ничего не выбрано "</string>
+    <string name="sizer_message_filefail">Ошибка создания профиля</string>
+    <string name="sizer_message_noselect">Ничего не выбрано</string>
     <string name="system_app_remover">Удаление системных приложений</string>
     <!-- Notification Drawer -->
+    <string name="notification_drawer_title">Настройка панели уведомлений</string>
+    <string name="header_cat">Панель уведомлений</string>
     <!-- Optional Dashboard Switches -->
+    <string name="dashboard_switches_title">Переключатели панели уведомлений</string>
+    <string name="dashboard_switches_off">Выкл переключателей</string>
+    <string name="dashboard_switches_on">Вкл. переключателей</string>
+    <string name="dashboard_switches_summary">Выбрать и упорядочить переключатели</string>
+    <string name="dashboard_switches_dialog_title">Выбор состояния переключателя</string>
     <!-- Device info Settings -->
-    <string name="device_info_xosp_category">Информация про XOSP</string>
-    <string name="device_info_device_category">Информация про устройство</string>
+    <string name="device_info_xosp_category">Информация о XOSP</string>
+    <string name="device_info_device_category">Информация о устройстве</string>
     <string name="device_info_android_category">Информация о ОС</string>
     <string name="device_info_other_category">Иная Информация</string>
     <!-- Battery icon -->
     <!-- Time Contextual Headers -->
+    <string name="status_bar_custom_header_default_title">Выбрать вашу картинку</string>
+    <string name="custom_header_image_0">Стандарт</string>
+    <string name="custom_header_image_1">Модерн</string>
+    <string name="custom_header_image_2">Poly HD</string>
     <!-- Status bar - Clock -->
+    <string name="status_bar_show_clock_second_title">Время в секундах</string>
+    <string name="clock_font_style_title">Шрифт</string>
+    <string name="clock_font_normal">Стандарт</string>
+    <string name="clock_font_italic">Наклонный</string>
+    <string name="clock_font_bold">Жирный</string>
+    <string name="clock_font_bold_italic">Жирный наклонный</string>
+    <string name="clock_font_light">Легкий</string>
+    <string name="clock_font_light_italic">Легкий наклонный</string>
+    <string name="clock_font_thin">Тонкий</string>
+    <string name="clock_font_thin_italic">Тонкий курсив</string>
+    <string name="clock_font_condensed">Плотный</string>
+    <string name="clock_font_condensed_italic">Плотный курсив</string>
+    <string name="clock_font_condensed_light">Утончённый</string>
+    <string name="clock_font_condensed_light_italic">Утончённый курсив</string>
+    <string name="status_bar_show_clock_second_title">Время в секундах</string>
+    <string name="clock_font_size_title">Размер шрифта</string>
     <!--Status bar date -->
+    <string name="status_bar_clock_category">Часы</string>
+    <string name="status_bar_date_title">Дата</string>
+    <string name="status_bar_date_none">Скрытый (по умолчанию)</string>
+    <string name="status_bar_date_small">Мелкий</string>
+    <string name="status_bar_date_normal">Стандартный</string>
+    <string name="status_bar_date_format_title">Формат даты</string>
+    <string name="status_bar_date_style">Стиль даты</string>
+    <string name="status_bar_date_style_normal">Норм</string>
+    <string name="status_bar_date_style_lowercase">Строчные</string>
+    <string name="status_bar_date_style_uppercase">Заглавные</string>
     <!-- Date position -->
+    <string name="clock_date_position">Позиция даты</string>
+    <string name="clock_date_right">Справа от часов</string>
+    <string name="clock_date_left">Слева от часов</string>
     <!-- XOSPApps -->
-    <string name="xospapps_default_string">Не установлены</string>
+    <string name="xospapps_title">Статус XOSPApps</string>
+    <string name="xospapps_default_string">Не установлено</string>
     <!-- Clear all -->
     <string name="recents_panel_category">Панель \'Недавние\'</string>
-    <string name="show_clear_all_recents_button_title">Кнопка \'Закрыть все\'</string>
-    <string name="show_clear_all_recents_button_summary">Показывать кнопку \'Закрыть все\'</string>
-    <string name="recents_clear_all_location_title">Положение кнопки \'Закрыть все\'</string>
+    <string name="show_clear_all_recents_button_title">Кнопка \'Очистить все\'</string>
+    <string name="show_clear_all_recents_button_summary">Показать кнопку \'Очистить все\'</string>
+    <string name="recents_clear_all_location_title">Положение кнопки \'Очистить все\'</string>
     <!-- Current on Lockscreen -->
     <string name="lock_screen_show_current">Идет зарядка</string>
     <!-- Show carrier label and custom -->
     <!-- Color picker -->
     <!-- Doze options -->
+    <string name="display_category_doze_options_title">Ambient display</string>
+    <!-- Blur Settings -->
+    <string name="lockscreen_see_through_title">Размытие экрана блокировки</string>
+    <string name="blur_notifications_cat">Уведомления</string>
+    <!-- Quick unlock -->
+    <!-- Headphones icon switch -->
 </resources>
