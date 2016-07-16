@@ -33,6 +33,8 @@
     <string name="xosp_settings_statusbar_cat">Personalización de la Barra de Estado</string>
     <string name="xosp_settings_buttons_cat">Personalización de los Botones</string>
     <string name="xosp_settings_misc_cat">Personalizaciones Extra</string>
+    <string name="xosp_settings_lockscreen_cat">Personalización de la pantalla de bloqueo</string>
+    <string name="xosp_settings_blur_cat">Personalización del Blur</string>
     <!-- About XOSP -->
     <string name="about_xosp">Acerca de XOSP</string>
     <string name="xosp_donate">Donar al Desarrolador</string>
@@ -46,6 +48,12 @@
     <string name="xosp_source_summary">Fuentes de XOSP en Github</string>
     <string name="xosp_google_plus_title">Google+</string>
     <string name="xosp_google_plus_summary">Únete a la comunidad en Google+</string>
+    <string name="xosp_facebook_title">Facebook</string>
+    <string name="xosp_facebook_summary">Síguenos también en nuestra página oficial en FB</string>
+    <string name="xosp_downloads_site_title">Servidor de descarga de XOSP</string>
+    <string name="xosp_downloads_site_summary">Manténgase al día con la última build de XOSP y XOSP Apps!</string>
+    <string name="xosp_jenkins_site_title">XOSP Jenkins</string>
+    <string name="xosp_jenkins_site_summary">Síguenos en Jenkins!</string>
     <string name="xosp_site_title">Sitio oficial de XOSP</string>
     <string name="xosp_site_summary">Visita el Sitio Oficial</string>
     <string name="xosp_devices_source_title">Fuentes del Dispositivo de XOSP</string>
@@ -53,7 +61,7 @@
     <string name="xosp_translations_title">Traducciones de XOSP</string>
     <string name="xosp_translations_summary">¡Ayuda a traducir el texto a tu idioma!</string>
     <string name="maincontributors_title">Desarrolladores</string>
-    <string name="sourcebase_title">Base Fuente</string>
+    <string name="sourcebase_title">Fuente Base</string>
     <string name="share_xosp">Compartir la ROM</string>
     <string name="share_xosp_summary">¡Hazle saber a la gente que usas XOSP!</string>
     <string name="share_message">Prueba XOSP!
@@ -353,4 +361,7 @@ https://plus.google.com/u/0/communities/117671498272072664538</string>
     <string name="doze_schedule_summary_off">Doze will only pulse once per notification</string>
     <string name="doze_brightness_title">Doze brightness level</string>
     <string name="doze_brightness_summary">Brightness level of doze pulse screen (% of max allowed brightness)</string>
+    <!-- Blur Settings -->
+    <!-- Quick unlock -->
+    <!-- Headphones icon switch -->
 </resources>

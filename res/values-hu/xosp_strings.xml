@@ -32,6 +32,8 @@
     <string name="xosp_settings_statusbar_cat">Állapotsor személyre szabás</string>
     <string name="xosp_settings_buttons_cat">Gombok személyre szabása</string>
     <string name="xosp_settings_misc_cat">További személyre szabás</string>
+    <string name="xosp_settings_lockscreen_cat">Zárképernyő személyre szabása</string>
+    <string name="xosp_settings_blur_cat">Elmosódottság személyre szabása</string>
     <!-- About XOSP -->
     <string name="about_xosp">Az XOSP-ről</string>
     <string name="xosp_donate">Támogasd a fejlesztőket</string>
@@ -45,6 +47,12 @@
     <string name="xosp_source_summary">XOSP források a Github-on</string>
     <string name="xosp_google_plus_title">Google+</string>
     <string name="xosp_google_plus_summary">Csatlakozz a Google+ közösségünkhöz</string>
+    <string name="xosp_facebook_title">Facebook</string>
+    <string name="xosp_facebook_summary">Kövess minket hivatalos Facebook oldalunkon</string>
+    <string name="xosp_downloads_site_title">XOSP letöltési szerver</string>
+    <string name="xosp_downloads_site_summary">Használd mindig a legfrissebb XOSP-t és XOSPAlkalmazásokat!</string>
+    <string name="xosp_jenkins_site_title">XOSP Jenkins</string>
+    <string name="xosp_jenkins_site_summary">Kövess minket Jenkins-en!</string>
     <string name="xosp_site_title">XOSP hivatalos oldala</string>
     <string name="xosp_site_summary">Látogasd meg a hivatalos oldalt</string>
     <string name="xosp_devices_source_title">XOSP fejlesztői eszközök</string>
@@ -351,4 +359,31 @@
     <string name="doze_schedule_summary_off">Doze will only pulse once per notification</string>
     <string name="doze_brightness_title">Doze fényerő</string>
     <string name="doze_brightness_summary">Brightness level of doze pulse screen (% of max allowed brightness)</string>
+    <!-- Blur Settings -->
+    <string name="lockscreen_see_through_title">Zárképernyő elmosódottsága</string>
+    <string name="lockscreen_see_through_summary">Zárképernyő áttetszésének bekapcsolása</string>
+    <string name="lockscreen_blur_radius">Áttetszés intenzitása</string>
+    <string name="blurred_status_bar_expanded_enabled_pref">Állapotsor hátterének elmosódottsága</string>
+    <string name="blurred_status_bar_expanded_enabled_pref_summary">Háttér elmosása, az állapotsor lehúzásakor</string>
+    <string name="translucent_notifications_pref">Áttetsző értesítések</string>
+    <string name="translucent_notifications_pref_summary">Az értesítési háttér átlátszóságának beállítása</string>
+    <string name="translucent_header_pref">Elmosódott állapotsor fejléc</string>
+    <string name="translucent_header_pref_summary">Elmosódott a háttér az állapotsor fejlécében</string>
+    <string name="translucent_quick_settings_pref">Kiterjesztett állapotsor elmosódottsága</string>
+    <string name="translucent_quick_settings_pref_summary">Kiterjesztett állapotsor hátterének elmosódottsága</string>
+    <string name="transluency_level_universal">Áttetszés mértéke</string>
+    <string name="blur_expstatus_cat">Kiterjesztett állapotsor</string>
+    <string name="blur_notifications_cat">Értesítések</string>
+    <string name="blur_header_cat">Állapotsor fejléc</string>
+    <string name="blur_qs_cat">Gyorsbeállítások</string>
+    <string name="blurred_scale">Elmosódottság mértéke</string>
+    <string name="blurred_scale_summary">Elmosott háttér minősége</string>
+    <string name="blurred_radius">Elmosottság hatóköre</string>
+    <string name="blurred_radius_summary">Elmosottság mennyisége</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Gyors feloldás</string>
+    <string name="unlock_quick_unlock_control_summary">Automatikus feloldás, ha a helyes PIN vagy jelszó bevitelre kerül</string>
+    <!-- Headphones icon switch -->
+    <string name="show_headset_icon_title">Headset ikon</string>
+    <string name="show_headset_icon_summary">Ikon mutatása, ha headset csatlakoztatva van</string>
 </resources>

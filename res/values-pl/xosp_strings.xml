@@ -32,6 +32,8 @@
     <string name="xosp_settings_statusbar_cat">Personalizacja paska statusu</string>
     <string name="xosp_settings_buttons_cat">Personalizacja przycisków</string>
     <string name="xosp_settings_misc_cat">Różne personalizacje</string>
+    <string name="xosp_settings_lockscreen_cat">Personalizacja ekranu blokady</string>
+    <string name="xosp_settings_blur_cat">Personalizacja rozmycia</string>
     <!-- About XOSP -->
     <string name="about_xosp">O XOSP</string>
     <string name="xosp_donate">Darowizna na rzecz rozwoju projektu</string>
@@ -40,6 +42,10 @@
     <string name="xosp_source_title">Źródła XOSP</string>
     <string name="xosp_source_summary">Źródła XOSP na Githubie</string>
     <string name="xosp_google_plus_summary">Dołącz do społeczności na Google+</string>
+    <string name="xosp_facebook_summary">Polub nas także na oficjalnym fanpage`u na FB</string>
+    <string name="xosp_downloads_site_title">Serwer pobrań XOSP</string>
+    <string name="xosp_downloads_site_summary">Bądź na bieżąco z najnowszymi wersjami XOSP i XOSPApps!</string>
+    <string name="xosp_jenkins_site_summary">Śledź nas na Jenkins`ie!</string>
     <string name="xosp_site_title">Oficjalna strona XOSP</string>
     <string name="xosp_site_summary">Odwiedź oficjalną stronę</string>
     <string name="xosp_devices_source_title">Źródła dla urządzeń XOSP</string>
@@ -47,6 +53,7 @@
     <string name="xosp_translations_title">Tłumaczenia XOSP</string>
     <string name="xosp_translations_summary">Przyczyń się do rozwoju przez translację do swojego języka!</string>
     <string name="maincontributors_title">Developerzy</string>
+    <string name="sourcebase_title">Baza źródeł</string>
     <string name="share_xosp">Podziel się ROM-em!</string>
     <string name="share_xosp_summary">Niech inni dowiedzą się, że korzystasz z XOSP!</string>
     <string name="share_message">Wypróbuj XOSP! https://plus.google.com/u/0/communities/117671498272072664538</string>
@@ -246,4 +253,7 @@
     <string name="reset_xosp_title">Domyślne XOSP</string>
     <!-- Doze options -->
     <string name="doze_settings_title">Zaawansowane opcje Doze</string>
+    <!-- Blur Settings -->
+    <!-- Quick unlock -->
+    <!-- Headphones icon switch -->
 </resources>
