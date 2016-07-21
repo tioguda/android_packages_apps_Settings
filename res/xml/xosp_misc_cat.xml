@@ -31,7 +31,7 @@
         android:title="@string/display_label">
 
         <!-- Double tap to wake -->
-        <SwitchPreference
+        <com.android.settings.cyanogenmod.CMSystemSettingSwitchPreference
                 android:key="tap_to_wake"
                 android:title="@string/tap_to_wake"
                 android:summary="@string/tap_to_wake_summary"
