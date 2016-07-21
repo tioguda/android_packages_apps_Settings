@@ -19,6 +19,12 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/xosp_settings_blur_cat">
 
+    <Preference
+        style="?android:preferenceInformationStyle"
+        android:title="@string/blur_cat_notice"
+        android:summary="@string/blur_cat_notice_summary"
+        android:selectable="false" />
+
     <PreferenceCategory
         android:key="blur_expstatus_cat"
         android:title="@string/blur_expstatus_cat" >

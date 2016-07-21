@@ -427,6 +427,9 @@
     <string name="blurred_radius">Blur Radius</string>
     <string name="blurred_radius_summary">Amount of blur</string>
 
+    <string name="blur_cat_notice">Notice</string>
+    <string name="blurred_cat_notice_summary">Blur personlizations are disabled during Keyguard view! Only Translucent Notifications are enabled!</string>
+
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Quick unlock</string>
     <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
