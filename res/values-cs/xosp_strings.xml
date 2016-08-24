@@ -16,36 +16,92 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- XOSP Revision -->
+    <string name="xosp_revision">XOSP revize</string>
     <!-- XOSP Release -->
+    <string name="xosp_release">XOSP vydání</string>
     <!-- About phone screen, XOSP Mod version -->
+    <string name="mod_version">Verze módu</string>
     <string name="mod_version_default">Neznámý</string>
     <!--XOSP Changelog-->
+    <string name="xosp_changelog_title">Seznam změn</string>
+    <string name="xosp_changelog_summary">XOSP Seznam změn</string>
+    <string name="xosp_changelog_error">Seznam změn nelze načíst!</string>
     <!-- XOSP extra settings -->
+    <string name="xosp_settings_header">Další nastavení</string>
     <string name="xosp_settings_title">Nastavení XOSP</string>
+    <string name="xosp_settings_statusbar_cat">Přizpůsobení stavového řádku</string>
+    <string name="xosp_settings_buttons_cat">Přizpůsobení tlačítek</string>
+    <string name="xosp_settings_misc_cat">Různé přizpůsobení</string>
+    <string name="xosp_settings_lockscreen_cat">Přizpůsobení zamykací obrazovky</string>
+    <string name="xosp_settings_blur_cat">Přizpůsobení rozmazání</string>
     <!-- About XOSP -->
     <string name="about_xosp">O XOSP</string>
+    <string name="xosp_donate">Přispěvek vývojářům</string>
+    <string name="xosp_donate_summary">Máte rádi tuto ROM? Můžete přispět malou částkou!</string>
     <string name="app_name">XOSP</string>
+    <string name="devs">Vedoucí vývojář</string>
+    <string name="github_nilac">https://github.com/nilac8991</string>
+    <string name="github_cm">https://github.com/CyanogenMod</string>
     <string name="xosp">XOSP</string>
+    <string name="xosp_source_title">XOSP zdroje</string>
+    <string name="xosp_source_summary">XOSP zdroje na Github</string>
     <string name="xosp_google_plus_title">Google+</string>
+    <string name="xosp_google_plus_summary">Připojte se ke komunitě na Google+</string>
+    <string name="xosp_facebook_title">Facebook</string>
+    <string name="xosp_facebook_summary">Sledujte nás také na našich oficiálních stránkách na FB</string>
+    <string name="xosp_downloads_site_title">XOSP stahovací server</string>
+    <string name="xosp_downloads_site_summary">Zůstaňte aktuální s posledním vydáním XOSP a XOSPApps!</string>
+    <string name="xosp_jenkins_site_title">XOSP Jenkins</string>
+    <string name="xosp_jenkins_site_summary">Sledujte nás na Jenkins!</string>
+    <string name="xosp_site_title">XOSP oficiální stránka</string>
+    <string name="xosp_site_summary">Navštivte oficiální stránku</string>
+    <string name="xosp_devices_source_title">XOSP zdroje zařízení</string>
+    <string name="xosp_devices_source_summary">XOSP zdroje zařízení na Github</string>
+    <string name="xosp_translations_title">XOSP překlady</string>
+    <string name="xosp_translations_summary">Pomozte prosím s překladem do češtiny, děkujeme!</string>
     <string name="maincontributors_title">Vývojáři</string>
     <string name="share_xosp">Sdílejte ROM</string>
+    <string name="share_xosp_summary">Ať lidé vědí, že používáte XOSP!</string>
+    <string name="share_message">Vyzkoušejte XOSP! https://plus.google.com/u/0/communities/117671498272072664538</string>
     <string name="share_chooser_title">Sdílet XOSP přes...</string>
     <!-- Task Manager -->
+    <string name="enable_task_manager_title">Správce úloh</string>
+    <string name="enable_task_manager_summary">Povolit / zakázat tlačítko Správce úloh v rozšířené oblasti stavového řádku</string>
     <!-- Statusbar XOSP logo -->
     <string name="status_bar_xosp_logo_title">XOSP logo</string>
+    <string name="status_bar_xosp_logo_summary">Povolit zobrazení XOSP loga na stavovém řádku</string>
     <!-- SlimDim -->
     <string name="dim_nav_buttons_category">SlimDim</string>
+    <string name="dim_nav_buttons_title">Dim tlačítka po nečinnosti</string>
     <string name="dim_nav_buttons_animate_duration_title">Trvání animace</string>
     <!-- General strings -->
     <string name="ok">Ok</string>
     <string name="reset">Restartovat</string>
     <!-- Navigation bar -->
+    <string name="navigation_bar_size_42_dp_default">42 dp (výchozí)</string>
+    <string name="navigation_bar_size_36_dp">36 dp</string>
+    <string name="navigation_bar_size_30_dp">30 dp</string>
+    <string name="navigation_bar_size_24_dp">24 dp</string>
+    <string name="navigation_bar_size_48_dp_default">48 dp (výchozí)</string>
+    <string name="navigation_bar_size_44_dp">44 dp</string>
+    <string name="navigation_bar_size_40_dp">40 dp</string>
+    <string name="navigation_bar_size_42_dp">42 dp</string>
     <!-- Ability to disable hardware keys via nav bar settings -->
+    <string name="hw_keys_title">Hardwarová tlačítka</string>
+    <string name="hw_keys_summary">Povolení hardwarových tlačítek</string>
     <!-- Network traffic -->
+    <string name="network_traffic_title">Síťový provoz</string>
+    <string name="show_network_traffic_state">Síťový provoz na stavovém řádku</string>
+    <string name="show_network_traffic_disable">Zakazát</string>
+    <string name="show_network_traffic_up">Odchozí</string>
+    <string name="show_network_traffic_down">Příchozí</string>
+    <string name="show_network_traffic_all">Odchozí a příchozí</string>
     <string name="show_network_traffic_500">500 ms</string>
     <string name="show_network_traffic_1000">1000 ms</string>
     <string name="show_network_traffic_1500">1500 ms</string>
     <string name="show_network_traffic_2000">2000 ms</string>
+    <string name="network_traffic_autohide_title">Automaticky skrývat</string>
+    <string name="network_traffic_autohide_summary">Skrýt síťový provoz, když není žádná aktivita</string>
     <!-- Superuser indicator on status bar -->
     <!-- long press back to kill configurable timeout -->
     <string name="timeout_2000">2 sekundy (výchozí)</string>
@@ -53,6 +109,8 @@
     <string name="timeout_1000">1 sekunda</string>
     <string name="timeout_500">0,5 sekundy</string>
     <!-- Toast animations -->
+    <string name="toast_none_animation">Žádný</string>
+    <string name="toast_default_animation">Výchozí</string>
     <!-- Double tap to sleep on lockscreen -->
     <!-- Dashboard columns -->
     <string name="dashboard_columns_default">Jeden (výchozí)</string>
@@ -64,6 +122,8 @@
     <!-- Lock screen settings -->
     <string name="lockscreen_settings_title">Tapeta zamykací obrazovky</string>
     <string name="lockscreen_wallpaper_title">Tapeta</string>
+    <string name="lockscreen_wallpaper_set_title">Nastavit tapetu zamykací obrazovky</string>
+    <string name="lockscreen_wallpaper_clear_title">Zrušit tapetu zamykací obrazovky</string>
     <!-- On-The-Go -->
     <!-- Double Tap Navbar to Sleep -->
     <!-- System App Remover  -->
@@ -85,4 +145,7 @@
     <!-- Show carrier label and custom -->
     <!-- Color picker -->
     <!-- Doze options -->
+    <!-- Blur Settings -->
+    <!-- Quick unlock -->
+    <!-- Headphones icon switch -->
 </resources>

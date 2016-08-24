@@ -200,7 +200,7 @@ https://plus.google.com/u/0/communities/117671498272072664538</string>
     <string name="sizer_message_delete">Anda yakin ingin menghapus aplikasi ini?</string>
     <string name="btn_delete">Hapus aplikasi terpilih sekarang?</string>
     <string name="delete_progress_title">Menghapus</string>
-    <string name="delete_progress">XOSPApps terpilih sedang dihapus</string>
+    <string name="delete_progress">Aplikasi yang dipilih sedang dihapus</string>
     <string name="delete_success">Terhapus</string>
     <string name="delete_fail">"Tidak bisa menghapus "</string>
     <string name="btn_profile">Profil</string>
@@ -293,7 +293,7 @@ https://plus.google.com/u/0/communities/117671498272072664538</string>
     <string name="clock_date_right">Di sebelah kanan jam</string>
     <string name="clock_date_left">Di sebelah kiri jam</string>
     <!-- XOSPApps -->
-    <string name="xospapps_title">Aplikasi XOSP</string>
+    <string name="xospapps_title">Status XOSP</string>
     <string name="xospapps_default_string">Tidak Terinstall</string>
     <!-- Clear all -->
     <string name="recents_panel_category">Panel terakhir</string>
@@ -323,14 +323,24 @@ https://plus.google.com/u/0/communities/117671498272072664538</string>
     <string name="show_carrier_statusbar">Bar status operator</string>
     <string name="show_carrier_enabled">Diaktifkan</string>
     <!-- Color picker -->
+    <string name="dialog_color_picker_title">Pemilih warna</string>
     <string name="press_color_to_apply">Tekan pada warna untuk menerapkan</string>
     <string name="palette_xosp_title">XOSP datar</string>
+    <string name="palette_material_title">Material</string>
     <string name="palette_rgb_title">RGB</string>
     <string name="reset_android_title">Bawaan Android</string>
     <string name="reset_xosp_title">Bawaan XOSP</string>
     <!-- Doze options -->
     <string name="doze_settings_title">Opsi lanjutan doze</string>
+    <string name="doze_trigger_notification_title">Pemberitahuan pemicu</string>
+    <string name="doze_brightness_title">Tingkat kecerahan Doze</string>
     <!-- Blur Settings -->
+    <string name="lockscreen_see_through_summary">Mengaburkan dan menampilkan konten di balik layar kunci.</string>
+    <string name="lockscreen_blur_radius">Intensitas efek blur</string>
+    <string name="transluency_level_universal">Tingkat transparan</string>
+    <string name="blur_expstatus_cat">Status bar diperluas</string>
+    <string name="blur_notifications_cat">Pemberitahuan</string>
+    <string name="blur_qs_cat">Pengaturan cepat</string>
     <!-- Quick unlock -->
     <!-- Headphones icon switch -->
 </resources>

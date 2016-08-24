@@ -36,11 +36,10 @@
     <string name="xosp_settings_blur_cat">Bulanıklık Özelleştirmeleri</string>
     <!-- About XOSP -->
     <string name="about_xosp">XOSP Hakkında</string>
-    <string name="about_xosp_summary">Bilinmeyen</string>
     <string name="xosp_donate">Geliştirmeye Bağış yap</string>
     <string name="xosp_donate_summary">Romu Sevdin mİ? Küçük bir bağış yap</string>
     <string name="app_name">XOSP</string>
-    <string name="devs">Asıl Geliştirici</string>
+    <string name="devs">Baş Geliştirici</string>
     <string name="github_nilac">https://github.com/nilac8991</string>
     <string name="github_cm">https://github.com/CyanogenMod</string>
     <string name="xosp">XOSP</string>
@@ -55,10 +54,10 @@
     <string name="xosp_jenkins_site_title">XOSP Jenkins (Uygulama kontrol merkezi)</string>
     <string name="xosp_jenkins_site_summary">Jenkins (Uygulama kontrol merkezi)nde bizi takip edin!</string>
     <string name="xosp_site_title">XOSP Resmi Sitesi</string>
-    <string name="xosp_site_summary">Resmi Sitesi ziyaret et</string>
+    <string name="xosp_site_summary">Resmi siteyi ziyaret et</string>
     <string name="xosp_devices_source_title">XOSP Cihaz Kaynakları</string>
     <string name="xosp_devices_source_summary">Github üzerinde XOSP cihaz kaynakları</string>
-    <string name="xosp_translations_title">XOSP çevirileri</string>
+    <string name="xosp_translations_title">XOSP Çevirileri</string>
     <string name="xosp_translations_summary">Dizelerimizi kendi dilinize çeviri yaparak katkıda bulunun!</string>
     <string name="maincontributors_title">Geliştiriciler</string>
     <string name="sourcebase_title">Kaynak Kodu Tabanı</string>
@@ -73,7 +72,7 @@
     <string name="status_bar_xosp_logo_title">XOSP Logosu</string>
     <string name="status_bar_xosp_logo_summary">XOSP logosunu durum çubuğunda göstermeye izin ver</string>
     <!-- SlimDim -->
-    <string name="dim_nav_buttons_category">Az karartma</string>
+    <string name="dim_nav_buttons_category">SlimDim</string>
     <string name="dim_nav_buttons_title">Hareketsizlik sonrası karartma butonları</string>
     <string name="dim_nav_buttons_summary">Belirlenen zamanda Gezinti Çubuğu tuşlarıyla etkileşim olmadıysa karart</string>
     <string name="dim_nav_buttons_timeout_title">Karartma Zaman aşımı</string>
