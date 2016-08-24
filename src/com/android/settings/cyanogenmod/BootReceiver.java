@@ -22,7 +22,6 @@ import android.content.Intent;
 import com.android.settings.xosp.ButtonsPersonalizations;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
-
 import com.android.settings.R;
 import com.android.settings.Utils;
 import com.android.settings.DisplaySettings;
@@ -43,7 +42,6 @@ public class BootReceiver extends BroadcastReceiver {
             ButtonsPersonalizations.restoreKeyDisabler(ctx);
             VibratorIntensity.restore(ctx);
             InputMethodAndLanguageSettings.restore(ctx);
-            DisplaySettings.restore(ctx);
             setRestoredTunable(ctx);
         }
 
